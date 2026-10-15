@@ -1,95 +1,38 @@
 {
- "api_statut": 200,
- "api_routes": {
-  "/api": [
-   [
-    "GET"
-   ]
-  ],
-  "/api/employeur": [
-   [
-    "GET"
-   ]
-  ],
-  "/api/employeur/(?P<id>\\d+)": [
-   [
-    "GET"
-   ]
-  ],
-  "/api/offer-list": [
-   [
-    "POST"
-   ]
-  ],
-  "/api/employeurs_elasticsearch": [
-   [
-    "POST"
-   ]
-  ],
-  "/api/employeur-mobile": [
-   [
-    "GET"
-   ]
-  ],
-  "/api/v2/referential/organisation": [
-   [
-    "GET"
-   ]
-  ]
- },
- "api_args": {
-  "/api": [
-   [
-    "namespace",
-    "context"
-   ]
-  ],
-  "/api/employeur": [
-   []
-  ],
-  "/api/employeur/(?P<id>\\d+)": [
-   []
-  ],
-  "/api/offer-list": [
-   []
-  ],
-  "/api/employeurs_elasticsearch": [
-   []
-  ],
-  "/api/employeur-mobile": [
-   []
-  ],
-  "/api/v2/referential/organisation": [
-   [
-    "filter",
-    "mode",
-    "parentCode",
-    "start",
-    "count"
-   ]
-  ]
- },
- "scripts": [
-  "https://tag.aticdn.net/piano-analytics.js",
-  "https://choisirleservicepublic.gouv.fr/wp-content/themes/biep/assets/js/dsfr.module.min.js",
-  "https://choisirleservicepublic.gouv.fr/wp-content/themes/biep/assets/js/app.js?ver=1788338220",
-  "https://maps.googleapis.com/maps/api/js?key=AIzaSyB5JXFpaVW5jSUcupJ2dLfzrJfK2uhmB_o"
+ "js_taille": 985363,
+ "js_extraits": [
+  "() {\n      var btn_loggout = document.querySelector('.fr-header__menu .btn-logout');\n      if (btn_loggout) {\n        btn_loggout.addEventListener('click', function () {\n          var ajaxData = new FormData();\n          var request = new XMLHttpRequest();\n          var url = window.ParamsDataPopin.wp_ajax_url;\n          ajaxData.append('action', 'logout');\n          ajaxData.append('nonce', window.ParamsDataPopin.nonce);\n          request.open('POST', url, true);\n          request.send(ajaxData);\n          request.onload = function () {\n            var response = request.response;\n            if (typeof response === 'string') {\n              response = JSON.parse(response);\n            }\n            switch (response.status) {\n              case 200:\n                window.location.replace(response.u"
  ],
- "ajax": [
-  "\">\n\t<div class=\"fr-container\">\n\t\t\t<div class=\"fr-grid-row fr-grid-row--gutters fr-grid-row--middle\">\n\t\t\t\t\t<div class=\"fr-col-12 actions\">\n\t\t\t\t\t\t\t<p role=\"heading\" aria-level=\"2\" class=\"fr-h4 focus-on-ajax\" tabindex=\"-1\">\n\t\t\t\t\t\t\t\t<span class=\"number\">4911</span> offres d'emploi trouvées\t\t\t\t\t\t\t</p>\n\n\t\t\t\t\t\t\t<a href=\"https://place-ep-recrute.talent-soft.com//offre-de-emploi/tous-les-flux-rss.aspx\" target=\"_blank\" class=\"linkbtn fr-btn fr-btn--tertiary  fr-text--sm fr-mt1w fr-mb-1w js-rss\" title=\"S'abonn",
-  "               </ul>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</dialog>\n<div id='ParamsDataSearch' data-json='{\"wp_ajax_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ecc69c1149\",\"offersListTitle\":\"Liste des offres\",\"maxDisplayedOffers\":25,\"wp_home_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\",\"wp_offers_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\\/\",\"current_url\"",
-  "   </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</dialog>\n<div id='ParamsDataSearch' data-json='{\"wp_ajax_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ecc69c1149\",\"offersListTitle\":\"Liste des offres\",\"maxDisplayedOffers\":25,\"wp_home_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\",\"wp_offers_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\\/\",\"current_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\",\"url_keywords",
-  "\"teletravail\",\"experiences\":\"experience\",\"geoloc\":\"geoloc\",\"regions\":\"regions\",\"date_de_publication\":\"date-de-publication\"},\"is_user_connected\":false}'></div><div id='ParamsDataPopin' data-json='{\"wp_ajax_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ecc69c1149\",\"referenceNonce\":\"a2933a050d\",\"page_apply_thank_you_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/merci\\/\",\"wp_home_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\",\"wp_offers_url\":\"https:\\/\\/choisirlese",
-  "\"regions\",\"date_de_publication\":\"date-de-publication\"},\"is_user_connected\":false}'></div><div id='ParamsDataPopin' data-json='{\"wp_ajax_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ecc69c1149\",\"referenceNonce\":\"a2933a050d\",\"page_apply_thank_you_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/merci\\/\",\"wp_home_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\",\"wp_offers_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\\/\",\"page_account_url\":\"https:\\/\\/choi"
+ "js_actions": [
+  "logout"
  ],
- "tt_converteo": [
-  "\n      <title>Business Developer H/F - Stage / Alternance</title>\n      <description/>\n      <pubDate>Wed, 30 Sep 2026 21:47:19 +0200</pubDate>\n      <link>https://jobs.converteo.com/jobs/8481879-business-developer-h-f-stage-alternance</link>\n      <remoteStatus>hybrid</remoteStatus>\n      <guid>8c9b5fe8-ba64-4e78-9e9f-027a94bcab73</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Paris</tt:name>\n          <tt:address>40 Av. des Terroirs de France</tt:address>\n          <tt:zip>75012</tt:zip>\n          <tt:city>Paris</tt:city>\n          <tt:country>France</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Industry &amp; Strategic Client Development</tt:department>\n      <tt:role/>\n    ",
-  "\n      <title>Consultant Data Engineer Junior H/F - CDI</title>\n      <description/>\n      <pubDate>Wed, 30 Sep 2026 10:08:22 +0200</pubDate>\n      <link>https://jobs.converteo.com/jobs/8477172-consultant-data-engineer-junior-h-f-cdi</link>\n      <remoteStatus>hybrid</remoteStatus>\n      <guid>b49e7f7b-f42a-4dd5-809c-0fcae3aaec14</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Paris</tt:name>\n          <tt:address>40 Av. des Terroirs de France</tt:address>\n          <tt:zip>75012</tt:zip>\n          <tt:city>Paris</tt:city>\n          <tt:country>France</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Hub Tech</tt:department>\n      <tt:role>Senior Data Engineer H/F - CDI</tt:role>\n    ",
-  "\n      <title>Staffing Manager H/F - CDI</title>\n      <description/>\n      <pubDate>Mon, 28 Sep 2026 20:04:34 +0200</pubDate>\n      <link>https://jobs.converteo.com/jobs/8468370-staffing-manager-h-f-cdi</link>\n      <remoteStatus>hybrid</remoteStatus>\n      <guid>bb07a031-6fb4-46cc-a986-6d11c8bc7bf2</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Paris</tt:name>\n          <tt:address>40 Av. des Terroirs de France</tt:address>\n          <tt:zip>75012</tt:zip>\n          <tt:city>Paris</tt:city>\n          <tt:country>France</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Fonctions supports</tt:department>\n      <tt:role/>\n    "
- ],
- "tt_indefi": [
-  "\n      <title>Senior Engagement Manager/Principal - Corporate Strategy - Paris/London</title>\n      <description/>\n      <pubDate>Fri, 09 Oct 2026 14:37:53 +0200</pubDate>\n      <link>https://indefi.teamtailor.com/jobs/8525717-senior-engagement-manager-principal-corporate-strategy-paris-london</link>\n      <remoteStatus>none</remoteStatus>\n      <guid>76d55be1-175d-439f-b3a3-7b2abbf4014e</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Paris</tt:name>\n          <tt:address>17 Rue de Surène</tt:address>\n          <tt:zip>75008</tt:zip>\n          <tt:city>Paris</tt:city>\n          <tt:country>France</tt:country>\n        </tt:location>\n        <tt:location>\n          <tt:name>London</tt:name>\n          <tt:address>131, 151 Great Titchfield St.</tt:address>\n          <tt:zip>W1W 5AS</tt:zip>\n          <tt:city>London</tt:city>\n          <tt:country>United Kingdom</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Corporate Strategy</tt:department>\n      <tt:role>Senior - Corporate Strategy</tt:role>\n    ",
-  "\n      <title>Strategy Consultant Internship - Private Equity - Madrid</title>\n      <description/>\n      <pubDate>Tue, 01 Sep 2026 16:24:14 +0200</pubDate>\n      <link>https://indefi.teamtailor.com/jobs/8303704-strategy-consultant-internship-private-equity-madrid</link>\n      <remoteStatus>none</remoteStatus>\n      <guid>b9260a71-5c2a-4059-8c76-f634e815c203</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Madrid</tt:name>\n          <tt:address>Calle Velázquez, 11</tt:address>\n          <tt:zip>28001</tt:zip>\n          <tt:city>Madrid</tt:city>\n          <tt:country>Spain</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Private Equity</tt:department>\n      <tt:role>Intern - Private Equity</tt:role>\n    ",
-  "\n      <title>Strategy Consultant Internship - Private Equity - Lyon - F/H (March 2027)</title>\n      <description/>\n      <pubDate>Tue, 01 Sep 2026 10:10:19 +0200</pubDate>\n      <link>https://indefi.teamtailor.com/jobs/8296377-strategy-consultant-internship-private-equity-lyon-f-h-march-2027</link>\n      <remoteStatus>none</remoteStatus>\n      <guid>832d1eb6-441d-4008-9323-a5204eddf3e4</guid>\n      <tt:locations>\n        <tt:location>\n          <tt:name>Lyon</tt:name>\n          <tt:address>51 Rue de Sèze</tt:address>\n          <tt:zip>69006</tt:zip>\n          <tt:city>Lyon</tt:city>\n          <tt:country>France</tt:country>\n        </tt:location>\n      </tt:locations>\n      <tt:department>Private Equity</tt:department>\n      <tt:role>Intern - Private Equity</tt:role>\n    "
+ "offer_list": [
+  {
+   "corps": {},
+   "statut": 200,
+   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+  },
+  {
+   "corps": {
+    "keywords": "stratégie"
+   },
+   "statut": 200,
+   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+  },
+  {
+   "corps": {
+    "motsCles": "stratégie",
+    "page": 1
+   },
+   "statut": 200,
+   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+  },
+  {
+   "corps": {
+    "search": "stratégie"
+   },
+   "statut": 200,
+   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+  }
  ]
 }
