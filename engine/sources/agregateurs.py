@@ -346,7 +346,7 @@ def service_public(cfg, retenir):
                 lieu = _champ_carte(bloc, "Localisation")
                 employeur = _champ_carte(bloc, "Employeur")
                 versant = _champ_carte(bloc, "Fonction publique")
-                logo = re.search(r'alt="([^"]+?)(?: - Libert[ée].*?)?"', bloc)
+                logo = re.search(r'alt="([^"]+?)(?: - (?i:libert)[ée].*?)?"', bloc)
                 ministere = html.unescape(logo.group(1)) if logo else ""
                 publiee = _date_fr((re.search(r"En ligne depuis le ([^<]+)", bloc) or [None, ""])[1])
                 desc, nature = "", ""

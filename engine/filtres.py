@@ -65,7 +65,7 @@ VIE_UTILE = re.compile(r"strat|market (?:intelligence|analyst|study|research)|bu
                        r"business operations|performance analyst", re.I)
 COS_EXCLU = re.compile(r"\b(engineer|developer|full stack)\b", re.I)
 TECH_STRAT = re.compile(r"\b(technology|tech|data|ai|digital|it|cloud|numérique)\b[^,|]{0,20}strat[eé]g"
-                        r"|strat[eé]g\w*\s+(?:et\s+|&\s+|de\s+(?:la\s+)?|du\s+)?(?:transformation\s+)?(?:digital\w*|numérique|data|it|tech\w*|cloud|ia|ai)\b", re.I)
+                        r"|strat[eé]g\w*\s+(?:et\s+|&\s+|de\s+(?:la\s+)?|du\s+)?(?:transformation\s+)?(?:digital\w*|num[eé]rique|data|it|tech\w*|cloud|ia|ai)\b", re.I)
 # Consultant « junior » sans strat dans l'intitulé, mais avec un marqueur IT : conseil technique, pas de la strat.
 CONSEIL_TECH = re.compile(r"\b(digital\w*|numérique|data|it|tech\w*|cloud|sap|crm|erp|cyber\w*|salesforce|servicenow)\b", re.I)
 # Missions qui ne sont pas des emplois, ou postes de direction déguisés.

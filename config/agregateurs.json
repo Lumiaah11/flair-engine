@@ -143,8 +143,7 @@
     "actif": true,
     "recherches": [
       "stratégie",
-      "prospective",
-      "chef de cabinet"
+      "prospective"
     ],
     "pages_par_recherche": 2,
     "periode": "7_derniers_jours",
