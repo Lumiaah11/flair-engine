@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T11:56:25+00:00",
+ "maj": "2026-10-15T12:06:29+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -685,15 +685,23 @@
    "titre": "Oliver Wyman – Data & Analytics - Analyst - Italy",
    "entreprise": "Oliver Wyman",
    "lieu": "Milan - Broletto; Italy",
-   "raison": "langue exigée : Italien",
+   "raison": "conseil IT ou digital",
    "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Data---Analytics---Analyst---Italy_R_365007-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Oliver Wyman - Data & Analytics - Analyst - Newcastle 2027",
+   "entreprise": "Oliver Wyman",
+   "lieu": "Newcastle - Bank; United Kingdom",
+   "raison": "conseil IT ou digital",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Newcastle---Bank/Oliver-Wyman---Data---Analytics---Analyst---Newcastle-2027_R_364950-1",
    "source": "workday"
   },
   {
    "titre": "Oliver Wyman - Data & Analytics Consulting - Analyst (m/f/d) - Berlin",
    "entreprise": "Oliver Wyman",
    "lieu": "Berlin - Mittelstrasse; Frankfurt - Friedrich; Munich - Müllerstrasse; Hamburg - Brandstwiete; Düsseldorf - Ko Quartier; Germany",
-   "raison": "langue exigée : Allemand",
+   "raison": "conseil IT ou digital",
    "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Berlin---Mittelstrasse/XMLNAME-2027-Oliver-Wyman---Data---Analytics-Consulting---Analyst--m-f-d----Berlin_R_366629-1",
    "source": "workday"
   },
@@ -711,6 +719,14 @@
    "lieu": "Amsterdam; Netherlands",
    "raison": "langue exigée : Néerlandais",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Consultant---AI-Strategy-Analyst_R00363553",
+   "source": "workday"
+  },
+  {
+   "titre": "Supply Chain Strategy Consulting Analyst (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Dusseldorf, Kaistrasse, Corporate; Stuttgart; Hamburg; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dusseldorf-Kaistrasse-Corporate/Supply-Chain---Operations-Strategy--Junior--Consultant_R00315423",
    "source": "workday"
   },
   {
@@ -981,7 +997,7 @@
    "titre": "Master Data Management Consultant",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Warszawa - Polna 11; Katowice; Wrocław; Poland",
-   "raison": "langue exigée : Polonais",
+   "raison": "conseil IT ou digital",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Warszawa---Polna-11/Data-Governance-Specialist_679918WD",
    "source": "workday"
   },
@@ -1013,7 +1029,7 @@
    "titre": "Technology Modernisation - Management Consultant",
    "entreprise": "AlixPartners",
    "lieu": "Milan",
-   "raison": "4 ans d'expérience demandés",
+   "raison": "conseil IT ou digital",
    "url": "https://www.alixpartners.com/careers/7548133003?gh_jid=7548133003",
    "source": "greenhouse"
   },
@@ -1088,6 +1104,38 @@
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/Devoteam/744000126001909",
    "source": "smartrecruiters"
+  },
+  {
+   "titre": "Consultant junior en Transformation Digitale (H/F)",
+   "entreprise": "Devoteam",
+   "lieu": "Levallois-Perret, Île-de-France, FR",
+   "raison": "conseil IT ou digital",
+   "url": "https://jobs.smartrecruiters.com/Devoteam/744000110315764",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Business Technology Solutions Associate Consultant",
+   "entreprise": "ZS",
+   "lieu": "Indianapolis, IN",
+   "raison": "conseil IT ou digital",
+   "url": "https://www.themuse.com/jobs/zs/business-technology-solutions-associate-consultant-4ac37f",
+   "source": "themuse"
+  },
+  {
+   "titre": "Préfiguratrice / préfigurateur de la sous-direction Stratégie numérique de l'Etat H/F",
+   "entreprise": "Direction Interministérielle du Numérique (DINUM)",
+   "lieu": "Paris (75), France",
+   "raison": "service civique ou poste de direction",
+   "url": "https://choisirleservicepublic.gouv.fr/offre-emploi/prefiguratrice--prefigurateur-de-la-sous-direction-strategie-numerique-de-l-etat-hf-reference-2026-2435290/",
+   "source": "service_public"
+  },
+  {
+   "titre": "VSC - Appui à la stratégie de fréquentation des Espaces Protégés",
+   "entreprise": "bloc-marque",
+   "lieu": "Réunion (974), France",
+   "raison": "service civique ou poste de direction",
+   "url": "https://choisirleservicepublic.gouv.fr/offre-emploi/vsc---appui-a-la-strategie-de-frequentation-des-espaces-proteges-reference-2026-2434033/",
+   "source": "service_public"
   }
  ]
 }

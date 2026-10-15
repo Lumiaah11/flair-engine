@@ -1,33 +1,35 @@
 {
- "maj": "2026-10-15T11:56:25+00:00",
+ "maj": "2026-10-15T12:06:29+00:00",
  "compteurs": {
   "sources_ok": 144,
   "sources_en_erreur": 2,
-  "titres_retenus": 351,
-  "offres_gardees": 235,
-  "nouvelles": 235,
-  "offres_lues": 24085
+  "titres_retenus": 378,
+  "offres_gardees": 234,
+  "nouvelles": 234,
+  "offres_lues": 24086
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 32,
+  "4 ans d'expérience demandés": 31,
   "5 ans d'expérience demandés": 17,
   "8 ans d'expérience demandés": 13,
   "7 ans d'expérience demandés": 12,
+  "annonce rédigée en allemand": 9,
   "10 ans d'expérience demandés": 8,
-  "annonce rédigée en allemand": 8,
-  "langue exigée : Allemand": 6,
+  "conseil IT ou digital": 7,
+  "langue exigée : Allemand": 5,
   "langue exigée : Néerlandais": 5,
   "6 ans d'expérience demandés": 4,
   "12 ans d'expérience demandés": 3,
   "langue exigée : Coréen": 3,
-  "langue exigée : Italien": 3,
-  "langue exigée : Polonais": 2,
   "15 ans d'expérience demandés": 2,
+  "langue exigée : Italien": 2,
   "langue exigée : Grec": 2,
   "langue exigée : Thaï": 2,
   "annonce rédigée en portugais": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
+  "service civique ou poste de direction": 2,
+  "langue exigée : Polonais": 1,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
   "langue exigée : Japonais": 1,
@@ -55,7 +57,7 @@
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 434,
+   "lues": 433,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
@@ -215,7 +217,7 @@
   },
   "GetYourGuide (greenhouse)": {
    "statut": "ok",
-   "lues": 72,
+   "lues": 71,
    "titres_retenus": 0
   },
   "Celonis (greenhouse)": {
@@ -395,7 +397,7 @@
   },
   "Synthesia (ashby)": {
    "statut": "ok",
-   "lues": 50,
+   "lues": 51,
    "titres_retenus": 1
   },
   "Pigment (lever)": {
@@ -500,8 +502,8 @@
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
-   "lues": 248,
-   "titres_retenus": 82
+   "lues": 249,
+   "titres_retenus": 83
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -520,7 +522,7 @@
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 230,
+   "lues": 231,
    "titres_retenus": 0
   },
   "Michelin (workday)": {
@@ -757,7 +759,7 @@
   "jooble": {
    "statut": "ok",
    "lues": 935,
-   "titres_retenus": 27
+   "titres_retenus": 53
   },
   "listes_html": {
    "statut": "ok",
