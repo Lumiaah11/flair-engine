@@ -1,12 +1,12 @@
 {
- "maj": "2026-10-15T12:06:29+00:00",
+ "maj": "2026-10-15T12:15:41+00:00",
  "compteurs": {
   "sources_ok": 144,
   "sources_en_erreur": 2,
-  "titres_retenus": 378,
-  "offres_gardees": 234,
-  "nouvelles": 234,
-  "offres_lues": 24086
+  "titres_retenus": 377,
+  "offres_gardees": 230,
+  "nouvelles": 230,
+  "offres_lues": 24077
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 31,
@@ -122,7 +122,7 @@
   },
   "Dropbox (greenhouse)": {
    "statut": "ok",
-   "lues": 29,
+   "lues": 27,
    "titres_retenus": 0
   },
   "Asana (greenhouse)": {
@@ -297,7 +297,7 @@
   },
   "Palantir (lever)": {
    "statut": "ok",
-   "lues": 315,
+   "lues": 313,
    "titres_retenus": 0
   },
   "Mistral AI (lever)": {
@@ -312,7 +312,7 @@
   },
   "Doctolib (ashby)": {
    "statut": "ok",
-   "lues": 150,
+   "lues": 146,
    "titres_retenus": 0
   },
   "Aircall (lever)": {
@@ -502,7 +502,7 @@
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
-   "lues": 249,
+   "lues": 248,
    "titres_retenus": 83
   },
   "PwC (Strategy&) (workday)": {
@@ -759,7 +759,7 @@
   "jooble": {
    "statut": "ok",
    "lues": 935,
-   "titres_retenus": 53
+   "titres_retenus": 52
   },
   "listes_html": {
    "statut": "ok",
