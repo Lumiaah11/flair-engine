@@ -1,21 +1,21 @@
 {
- "maj": "2026-10-15T10:53:16+00:00",
+ "maj": "2026-10-15T11:00:20+00:00",
  "compteurs": {
   "sources_ok": 94,
   "sources_en_erreur": 2,
-  "titres_retenus": 306,
-  "offres_gardees": 176,
-  "nouvelles": 176,
+  "titres_retenus": 282,
+  "offres_gardees": 153,
+  "nouvelles": 153,
   "offres_lues": 19011
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 31,
+  "4 ans d'expérience demandés": 29,
   "5 ans d'expérience demandés": 18,
   "7 ans d'expérience demandés": 11,
   "8 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 8,
   "annonce rédigée en allemand": 8,
-  "basé en France": 6,
+  "basé en France": 7,
   "langue exigée : Allemand": 5,
   "langue exigée : Néerlandais": 5,
   "12 ans d'expérience demandés": 3,
@@ -37,7 +37,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 727,
+   "lues": 726,
    "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
@@ -142,7 +142,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 401,
+   "lues": 400,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -173,7 +173,7 @@
   "Toast (greenhouse)": {
    "statut": "ok",
    "lues": 313,
-   "titres_retenus": 5
+   "titres_retenus": 4
   },
   "Gusto (greenhouse)": {
    "statut": "ok",
@@ -217,7 +217,7 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 203,
+   "lues": 205,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
@@ -258,7 +258,7 @@
   "Point72 (greenhouse)": {
    "statut": "ok",
    "lues": 222,
-   "titres_retenus": 4
+   "titres_retenus": 2
   },
   "ICONIQ (greenhouse)": {
    "statut": "ok",
@@ -278,7 +278,7 @@
   "ClearView Healthcare Partners (greenhouse)": {
    "statut": "ok",
    "lues": 34,
-   "titres_retenus": 7
+   "titres_retenus": 6
   },
   "Spotify (lever)": {
    "statut": "ok",
@@ -328,7 +328,7 @@
   "OpenAI (ashby)": {
    "statut": "ok",
    "lues": 804,
-   "titres_retenus": 11
+   "titres_retenus": 10
   },
   "Ramp (ashby)": {
    "statut": "ok",
@@ -398,7 +398,7 @@
   "Clay (ashby)": {
    "statut": "ok",
    "lues": 57,
-   "titres_retenus": 6
+   "titres_retenus": 5
   },
   "Visa (smartrecruiters)": {
    "statut": "ok",
@@ -433,7 +433,7 @@
   "Capital One (workday)": {
    "statut": "ok",
    "lues": 197,
-   "titres_retenus": 4
+   "titres_retenus": 3
   },
   "Mastercard (workday)": {
    "statut": "ok",
@@ -463,12 +463,12 @@
   "Oliver Wyman (workday)": {
    "statut": "ok",
    "lues": 180,
-   "titres_retenus": 32
+   "titres_retenus": 25
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 128,
-   "titres_retenus": 71
+   "titres_retenus": 70
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -483,12 +483,12 @@
   "Thales (workday)": {
    "statut": "ok",
    "lues": 180,
-   "titres_retenus": 2
+   "titres_retenus": 3
   },
   "Sanofi (workday)": {
    "statut": "ok",
    "lues": 168,
-   "titres_retenus": 3
+   "titres_retenus": 1
   },
   "Michelin (workday)": {
    "statut": "ok",
@@ -514,10 +514,11 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 13,
+   "titres_retenus": 5,
    "debug": {
-    "bnp_vie": [
-     "https://group.bnpparibas/en/careers/all-job-offers/international-volunteer-program : HTTPError"
+    "iagora": [
+     "fiche sans entreprise, extrait '\\n<br />\\nWhy Join Euro Latina Finance?<br />\\n<br />\\n*\\tGlobal and multicultural team based in three different locations across Latin America and Europe and led by its founder &amp; CEO<br />\\n *\\tGrowing company with a solid pipeline and deal flow perspective<br />\\n *\\tVast array of sectors and mandates <br />\\n *\\tOpportunity to work within a collegial culture that puts people first<br />\\n *\\tPossibility to move to different offices within the firm in the future<br />\\n<br />\\nCompany description<br />\\n '",
+     "pages lues : 2, fiches ouvertes : 5, avec entreprise : 0"
     ]
    }
   }

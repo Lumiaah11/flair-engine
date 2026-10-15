@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T10:53:16+00:00",
+ "maj": "2026-10-15T11:00:20+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -28,17 +28,17 @@
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "Dublin ; Ireland Locations",
+   "lieu": "NYC, SF, Seattle, US",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
+   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
    "source": "greenhouse"
   },
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "NYC, SF, Seattle, US",
+   "lieu": "Dublin ; Ireland Locations",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
+   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
    "source": "greenhouse"
   },
   {
@@ -314,14 +314,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Associate of R&D Strategic Finance (FP&A)",
-   "entreprise": "Toast",
-   "lieu": "Chennai; Chennai, Tamil Nadu, India",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8230746",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Senior Associate, Strategic Finance (International)",
    "entreprise": "Toast",
    "lieu": "Boston; San Francisco, California, United States",
@@ -503,14 +495,6 @@
    "lieu": "New York; United States",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/claylabs/11523b92-635e-4865-8ed0-59ef4c91bd53",
-   "source": "ashby"
-  },
-  {
-   "titre": "Growth Strategy Enablement",
-   "entreprise": "Clay",
-   "lieu": "New York; United States",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/claylabs/234bb7bc-5cb8-4df9-9fdf-6320d01519d4",
    "source": "ashby"
   },
   {
@@ -991,6 +975,14 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
+   "source": "workday"
+  },
+  {
+   "titre": "VIE - PMO Industrial Cooperation & Offsets - Abu Dhabi",
+   "entreprise": "Thales",
+   "lieu": "Meudon; France",
+   "raison": "basé en France",
+   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/VIE---PMO-Industrial-Cooperation---Offsets---Abu-Dhabi_R0340515-1",
    "source": "workday"
   },
   {
