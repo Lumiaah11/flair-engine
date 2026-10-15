@@ -50,6 +50,8 @@ class Filtres(unittest.TestCase):
                   "Assistante de direction stratégie", "stage 6 mois stratégie et transformation digitale",
                   "STAGE 2027 - Veille Concurrentielle", "Confirmed FP&A Analyst", "Contrôleur de gestion stratégique"]:
             self.assertFalse(titre_retenu(t), t)
+        self.assertEqual(analyse(offre("t", 1, "Devoteam", "Consultant junior en Transformation Digitale (H/F)", "Paris, France",
+                                       "https://x/1"), {"niveau": 6})[1], "conseil IT ou digital")
         for t in ["Chargé de mission auprès du DG", "Analyste M&A", "Chargé d'études stratégiques",
                   "Chief of Staff (Early-Stage Startup)", "Chargée de mission Direction Générale"]:
             self.assertTrue(titre_retenu(t), t)
@@ -304,6 +306,8 @@ class ServicePublic(unittest.TestCase):
         self.assertIn("pôle stratégie", o["description"])
         o, r = analyse(o, {"niveau": 5})
         self.assertEqual((o["zone"], o["code"], o["contrat"]), ("France", "PAR", "CDD"))
+        self.assertEqual(o["drapeaux"][0], "Secteur public")
+        self.assertLess(o["score_auto"], 75)
 
     def test_titulaires_seulement(self):
         fiche = self.FICHE.replace("aux titulaires et aux contractuels", "uniquement aux titulaires")

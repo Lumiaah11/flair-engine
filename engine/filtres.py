@@ -64,7 +64,12 @@ VIE_UTILE = re.compile(r"strat|market (?:intelligence|analyst|study|research)|bu
                        r"corporate develop|m&a|merger|chief of staff|transformation|pmo|consult|category develop|insights|"
                        r"business operations|performance analyst", re.I)
 COS_EXCLU = re.compile(r"\b(engineer|developer|full stack)\b", re.I)
-TECH_STRAT = re.compile(r"\b(technology|tech|data|ai|digital|it|cloud)\b[^,|]{0,20}strateg", re.I)
+TECH_STRAT = re.compile(r"\b(technology|tech|data|ai|digital|it|cloud|numérique)\b[^,|]{0,20}strat[eé]g"
+                        r"|strat[eé]g\w*\s+(?:et\s+|&\s+|de\s+(?:la\s+)?|du\s+)?(?:transformation\s+)?(?:digital\w*|numérique|data|it|tech\w*|cloud|ia|ai)\b", re.I)
+# Consultant « junior » sans strat dans l'intitulé, mais avec un marqueur IT : conseil technique, pas de la strat.
+CONSEIL_TECH = re.compile(r"\b(digital\w*|numérique|data|it|tech\w*|cloud|sap|crm|erp|cyber\w*|salesforce|servicenow)\b", re.I)
+# Missions qui ne sont pas des emplois, ou postes de direction déguisés.
+PAS_UN_EMPLOI = re.compile(r"\bVSC\b|service civique|volontariat de service civique|préfigurat\w*", re.I)
 
 
 def famille(titre, est_conseil=False):
@@ -232,6 +237,8 @@ def analyse(offre, entreprise_info=None):
     raison = titre_exclu(titre)
     if raison:
         return None, raison
+    if PAS_UN_EMPLOI.search(titre):
+        return None, "service civique ou poste de direction"
 
     est_vie = bool(offre.get("vie")) or bool(VIE_TITRE.search(titre))
     label, pts_poste = famille(titre, est_conseil)
@@ -242,9 +249,14 @@ def analyse(offre, entreprise_info=None):
             return None, "intitulé hors cible"
     if re.search(r"\b(analyst|associate|junior|graduate|entry|new grad|jeune diplômé)\b", titre, re.I):
         pts_poste = min(35, pts_poste + 2)
+    if label == "Conseil en stratégie" and not re.search(r"strat[eé]g", titre, re.I) and CONSEIL_TECH.search(titre):
+        return None, "conseil IT ou digital"
     strat_tech = bool(TECH_STRAT.search(titre))
     if strat_tech:
         pts_poste -= 8
+    public = offre.get("source") == "service_public"
+    if public:
+        pts_poste -= 6
 
     detectes = geo.pays_detectes(offre.get("lieu", ""))
     structure = offre.get("pays_iso") or ""
@@ -327,6 +339,8 @@ def analyse(offre, entreprise_info=None):
 
     if strat_tech:
         drapeaux.append("Strat tech ou IA")
+    if public:
+        drapeaux.insert(0, "Secteur public")
 
     # Contrat : CDI par défaut, CDD signalé et un peu moins bien noté.
     contrat = "VIE" if est_vie else "CDI"
