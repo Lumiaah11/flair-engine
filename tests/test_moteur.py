@@ -171,3 +171,31 @@ class PassageComplet(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ListesHtml(unittest.TestCase):
+    def test_iagora(self):
+        page1 = ('<a href="/work/en/offer/VIE-netherlands-finance/111">VIE - Market Intelligence Analyst</a>'
+                 '<a href="/work/en/offer/VIE-belgium-finance/112">Financial Controller VIE</a>'
+                 '<a rel="next" href="/work/en/VIE?page=2">Next</a>')
+        page2 = '<a href="/work/en/offer/VIE-united-arab-emirates-management/113">VIE Strategy Analyst</a>'
+        fiche = ('<script type="application/ld+json">{"@type": "JobPosting", "title": "VIE - Market Intelligence Analyst",'
+                 '"hiringOrganization": {"name": "Schneider Electric"}, "jobLocation": {"address": {"addressLocality": "Hoofddorp",'
+                 '"addressCountry": "NL"}}, "description": "<p>Master and first experience</p>", "datePosted": "2026-10-13"}</script>')
+        pages = {"https://www.iagora.com/work/en/VIE": page1, "https://www.iagora.com/work/en/VIE?page=2": page2}
+
+        def faux_get_text(url, **kw):
+            return pages.get(url, fiche)
+
+        cfg = {"sources": [{"nom": "iagora", "base": "https://www.iagora.com", "vie": True, "detail": True,
+                            "pays_depuis_slug": True, "pages": ["https://www.iagora.com/work/en/VIE"],
+                            "motif": r'href="(?P<url>(?:https://www\.iagora\.com)?/work/en/offer/VIE-(?P<slug>[a-z0-9-]+)/(?P<id>\d+))"[^>]*>(?P<titre>.*?)</a>'}]}
+        with mock.patch.object(agregateurs, "get_text", side_effect=faux_get_text):
+            res, lues = agregateurs.listes_html(cfg, titre_retenu)
+        self.assertEqual(lues, 3)
+        titres = {o["titre"] for o in res}
+        self.assertIn("VIE - Market Intelligence Analyst", titres)
+        self.assertNotIn("Financial Controller VIE", titres)
+        mi = [o for o in res if "Market" in o["titre"]][0]
+        self.assertEqual(mi["entreprise"], "Schneider Electric")
+        self.assertEqual(mi["pays_iso"], "NL")

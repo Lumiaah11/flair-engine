@@ -91,7 +91,8 @@
           "https://www.iagora.com/work/en/VIE?page=7",
           "https://www.iagora.com/work/en/VIE?page=8"
         ],
-        "motif": "href=\"(?P<url>(?:https://www\\.iagora\\.com)?/work/en/offer/VIE-(?P<slug>[a-z0-9-]+)/(?P<id>\\d+))\"[^>]*>(?P<titre>.*?)</a>"
+        "motif": "href=\"(?P<url>(?:https://www\\.iagora\\.com)?/work/en/offer/VIE-(?P<slug>[a-z0-9-]+)/(?P<id>\\d+))\"[^>]*>(?P<titre>.*?)</a>",
+        "max_pages": 8
       },
       {
         "nom": "bnp_vie",
@@ -103,7 +104,9 @@
         "pages": [
           "https://group.bnpparibas/en/careers/all-job-offers/international-volunteer-program"
         ],
-        "motif": "href=\"(?P<url>(?:https://group\\.bnpparibas)?/en/careers/job-offer/(?P<id>[a-z0-9-]+))\"[^>]*>(?P<titre>.*?)</a>"
+        "motif": "href=\"(?P<url>(?:https://group\\.bnpparibas)?/en/careers/job-offer/(?P<id>[a-z0-9-]+))\"[^>]*>(?P<titre>.*?)</a>",
+        "actif": false,
+        "note": "page refusée au robot (HTTPError) : lue par Claude le matin"
       }
     ]
   }

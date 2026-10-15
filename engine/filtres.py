@@ -32,7 +32,8 @@ TITRE_EXCLU = re.compile(
     r"\b(senior|sr\.?|lead|principal|director|directeur|directrice|head|vp|vice[- ]president|svp|evp|partner|"
     r"intern|internship|interns|stagiaire|alternan\w*|apprenti\w*|working student|werkstudent|phd|ph\.d|"
     r"postdoc|fellow|fellowship|manager|managing|responsable|summer|event|webinar|competition|challenge|"
-    r"crack the case|hackathon|talent pool|talent community|talent pipeline|spontaneous|spontanée)\b"
+    r"crack the case|hackathon|talent pool|talent community|talent pipeline|spontaneous|spontanée|temporary|"
+    r"contractor|freelance|part[- ]time)\b"
     r"|\bchief\b(?! of staff)"
     r"|(?:^|\(|\s)stage(?:\s*[-–:)]|\s+(?:de|en|d')\b)",
     re.I,
@@ -46,14 +47,20 @@ NON_STRAT = re.compile(
     r"trader|quant\w*|credit|fraud|risk|collections|underwriting|merchandis\w*|buyer|procurement|marketing|"
     r"teacher|instructor|editor|journalist|writer|talent|compliance|actuarial|client executive|workplace|"
     r"facilities|real estate|sap|power bi|power apps|oracle|erp|crm|process consultant|technology consultant|"
-    r"it consultant|data engineer|solutions? architect|architect)\b",
+    r"it consultant|data engineer|solutions? architect|architect|data analyst|data scientist|scientific|statistical|"
+    r"quality|enablement|macro|controller|contrôleur|financial analyst|analyste financier|coverage|r&d|"
+    r"research scientist|predictive|business developer|business developper)\b",
     re.I,
 )
 SENIOR_ASSOCIATE = re.compile(r"senior associate", re.I)
 NATIONAUX_TITRE = re.compile(r"\((?:national|emirati national|saudi national)\)|emirati talent|saudi talent|nationals? only", re.I)
 
 VIE_TITRE = re.compile(r"\bV\.?I\.?E\.?\b|(?i:volontariat international|international volunteer)")
-VIE_UTILE = re.compile(r"strat|analyst|business|market|transformation|chief of staff|development|performance|project", re.I)
+VIE_UTILE = re.compile(r"strat|market (?:intelligence|analyst|study|research)|business analyst|business development (?:analyst|associate)|"
+                       r"corporate develop|m&a|merger|chief of staff|transformation|pmo|consult|category develop|insights|"
+                       r"business operations|performance analyst", re.I)
+COS_EXCLU = re.compile(r"\b(engineer|developer|full stack)\b", re.I)
+TECH_STRAT = re.compile(r"\b(technology|tech|data|ai|digital|it|cloud)\b[^,|]{0,20}strateg", re.I)
 
 
 def famille(titre, est_conseil=False):
@@ -63,6 +70,8 @@ def famille(titre, est_conseil=False):
     for label, pts, motif in FAMILLES:
         if motif.search(titre):
             if label != "Chief of Staff et bras droit" and NON_STRAT.search(titre):
+                return None, 0
+            if label == "Chief of Staff et bras droit" and COS_EXCLU.search(titre):
                 return None, 0
             return label, pts
     if est_conseil and CONSEIL_GENERIQUE.search(titre) and not NON_STRAT.search(titre):
@@ -159,7 +168,7 @@ SANS_SPONSOR = re.compile(
 )
 DEMARRAGE_TOP = re.compile(r"(?:january|janvier|jan\.?)\s+2027|as soon as possible|\basap\b|dès que possible|immediate start|start immediately", re.I)
 DEMARRAGE_PRINTEMPS = re.compile(r"(?:march|mars|april|avril|may|mai|spring|printemps)\s+2027", re.I)
-DEMARRAGE_TARDIF = re.compile(r"(?:september|septembre|fall|autumn|automne|august|août)\s+2027|2027 (?:graduate|grad) (?:program|programme|intake)|class of 2027", re.I)
+DEMARRAGE_TARDIF = re.compile(r"(?:september|septembre|fall|autumn|automne|august|août)\s+2027|2027 (?:graduate|grad) (?:program|programme|intake)|(?:graduate|grad) (?:program|programme|scheme|intake) 2027|class of 2027", re.I)
 
 _MOTS_OUTILS = {
     "Anglais": {"the", "and", "to", "of", "with", "for", "in", "our", "you", "we", "is", "are", "will", "your"},
@@ -218,6 +227,9 @@ def analyse(offre, entreprise_info=None):
             return None, "intitulé hors cible"
     if re.search(r"\b(analyst|associate|junior|graduate|entry|new grad|jeune diplômé)\b", titre, re.I):
         pts_poste = min(35, pts_poste + 2)
+    strat_tech = bool(TECH_STRAT.search(titre))
+    if strat_tech:
+        pts_poste -= 8
 
     detectes = geo.pays_detectes(offre.get("lieu", ""))
     structure = offre.get("pays_iso") or ""
@@ -288,8 +300,14 @@ def analyse(offre, entreprise_info=None):
         if l not in ("Français",) and len(drapeaux) < 6:
             drapeaux.append(f"{l} apprécié")
 
+    if strat_tech:
+        drapeaux.append("Strat tech ou IA")
+
     # Démarrage
-    if DEMARRAGE_TOP.search(texte):
+    if DEMARRAGE_TARDIF.search(titre):
+        pts_demarrage = 2
+        drapeaux.append("Démarrage tardif")
+    elif DEMARRAGE_TOP.search(texte):
         pts_demarrage = 10
     elif DEMARRAGE_TARDIF.search(texte):
         pts_demarrage = 2

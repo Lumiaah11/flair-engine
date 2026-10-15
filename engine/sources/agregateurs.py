@@ -1,4 +1,5 @@
 """Agrégateurs (Adzuna, Jooble, The Muse), VIE Business France et listes HTML (iAgora, BNP Paribas)."""
+import html
 import json
 import os
 import re
@@ -166,14 +167,27 @@ def listes_html(cfg, retenir):
     """Pages de listes d'offres en HTML (iAgora pour les VIE, page VIE de BNP Paribas)."""
     res, total, debug = [], 0, {}
     for src in cfg.get("sources", []):
+        if src.get("actif") is False:
+            continue
         motif = re.compile(src["motif"], re.S | re.I)
-        vus, details = set(), 0
-        for url_page in src.get("pages", []):
+        vus, details, avec_entreprise = set(), 0, 0
+        a_lire = list(src.get("pages", []))[:1]
+        restantes = list(src.get("pages", []))[1:]
+        lues_pages = 0
+        while a_lire and lues_pages < src.get("max_pages", 8):
+            url_page = a_lire.pop(0)
+            lues_pages += 1
             try:
                 page = get_text(url_page)
             except Exception as err:
                 debug.setdefault(src["nom"], []).append(f"{url_page} : {type(err).__name__}")
                 break
+            suivante = re.search(r'<(?:a|link)[^>]*rel="next"[^>]*href="([^"]+)"|<(?:a|link)[^>]*href="([^"]+)"[^>]*rel="next"', page, re.I)
+            if suivante:
+                lien = html.unescape(suivante.group(1) or suivante.group(2))
+                a_lire.append(lien if lien.startswith("http") else src.get("base", "") + lien)
+            elif restantes:
+                a_lire.append(restantes.pop(0))
             trouves = list(motif.finditer(page))
             if not trouves:
                 i = page.lower().find(src.get("indice", "offer"))
@@ -198,10 +212,19 @@ def listes_html(cfg, retenir):
                 if src.get("detail") and details < src.get("max_details", 60):
                     details += 1
                     try:
-                        jp = _jobposting(get_text(url)) or {}
+                        page_offre = get_text(url)
+                        jp = _jobposting(page_offre) or {}
                         titre = titre or jp.get("title", "")
                         org = jp.get("hiringOrganization") or {}
                         entreprise = org.get("name", "") if isinstance(org, dict) else str(org)
+                        if not entreprise:
+                            m_org = re.search(r'"(?:companyName|company_name|employer)"\s*:\s*"([^"]{2,80})"', page_offre)
+                            entreprise = m_org.group(1) if m_org else ""
+                        if entreprise:
+                            avec_entreprise += 1
+                        elif details == 1:
+                            i = page_offre.lower().find("company")
+                            debug.setdefault(src["nom"], []).append(f"fiche sans entreprise, extrait {page_offre[max(0, i - 200):i + 300]!r}")
                         lieu = _lieu_jsonld(jp)
                         desc = html_vers_texte(jp.get("description", ""))
                         publiee = (jp.get("datePosted") or "")[:10]
@@ -215,6 +238,7 @@ def listes_html(cfg, retenir):
                                  pays_iso=pays_iso, vie=src.get("vie", False), contrat="VIE" if src.get("vie") else ""))
             if not nouveaux:
                 break
+        debug.setdefault(src["nom"], []).append(f"pages lues : {lues_pages}, fiches ouvertes : {details}, avec entreprise : {avec_entreprise}")
     cfg["_debug"] = debug
     return res, total
 
