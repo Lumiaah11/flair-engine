@@ -3,6 +3,12 @@ name: Collecte Flair
 on:
   schedule:
     - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "engine/**"
+      - ".github/workflows/**"
   workflow_dispatch:
     inputs:
       seule:
@@ -47,7 +53,7 @@ jobs:
           fi
 
       - name: Enregistrer les résultats
-        if: ${{ github.event.inputs.seule == '' || github.event_name == 'schedule' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.seule == '' }}
         run: |
           git config user.name "flair-bot"
           git config user.email "flair-bot@users.noreply.github.com"
