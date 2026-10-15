@@ -51,42 +51,65 @@ def adzuna(cfg, retenir):
     return res, total
 
 
+# Cabinets de recrutement, plateformes de missions et annonces anonymes : du bruit pour Pierre.
+INTERMEDIAIRES = re.compile(r"staffing|recruit\w*|executive search|search group|\bsearch\b|jobleads|hire\b|hiring|"
+                            r"talent\w*|career launch|mercor|crossing hurdles|teema|confidential|interim|intérim|"
+                            r"randstad|adecco|manpower", re.I)
+
+
 def jooble(cfg, retenir):
-    """API Jooble (clé gratuite). Chaque recherche a son lieu, son pays et ses mots-clés :
-    en français pour Paris et Lyon, en anglais ailleurs."""
+    """API Jooble (clé gratuite). Chaque recherche a son lieu (« Paris, France »), son pays attendu
+    et ses mots-clés : en français pour la France, en anglais ailleurs."""
     cle = os.environ.get("JOOBLE_KEY")
     if not cle:
         raise RuntimeError("clé Jooble absente (JOOBLE_KEY)")
-    url = f"https://jooble.org/api/{cle}"
     recherches = cfg.get("recherches") or [{"lieu": l, "requetes": cfg.get("requetes", [])} for l in cfg.get("lieux", [])]
     extras = {"datecreatedfrom": (date.today() - timedelta(days=cfg.get("jours", 7))).isoformat(),
               "ResultOnPage": cfg.get("par_page", 50)}
-    res, total, vus = [], 0, set()
+    res, total, vus, debug, erreurs = [], 0, set(), [], 0
     for r in recherches:
+        url = f"https://{r.get('hote', 'jooble.org')}/api/{cle}"
         for q in r.get("requetes", []):
             for page in range(1, r.get("pages", 1) + 1):
                 corps = {"keywords": q, "location": r["lieu"], "page": str(page)}
                 try:
-                    data = post_json(url, {**corps, **extras})
-                except requests.HTTPError as err:
-                    if not extras or err.response is None or err.response.status_code != 400:
-                        raise
-                    extras = {}  # paramètres facultatifs refusés : recherche simple
-                    data = post_json(url, corps)
+                    try:
+                        data = post_json(url, {**corps, **extras})
+                    except requests.HTTPError as err:
+                        if not extras or err.response is None or err.response.status_code != 400:
+                            raise
+                        extras = {}  # paramètres facultatifs refusés : recherche simple
+                        data = post_json(url, corps)
+                except Exception as err:  # une recherche en échec ne bloque pas les autres
+                    erreurs += 1
+                    debug.append(f"{r.get('hote', 'jooble.org')} {r['lieu']} / {q} : {type(err).__name__} {str(err)[:80]}")
+                    break
                 items = data.get("jobs", []) or []
                 total += len(items)
+                if page == 1:
+                    debug.append(f"{r.get('hote', 'jooble.org')} {r['lieu']} / {q} : {len(items)} offres, ex. "
+                                 + " ; ".join((it.get("location") or "?") for it in items[:3]))
+                if r.get("diagnostic"):
+                    break
                 for it in items:
                     if it.get("id") in vus:
                         continue
                     vus.add(it.get("id"))
                     titre = html_vers_texte(it.get("title", ""))
-                    if not retenir(titre):
+                    lieu = it.get("location") or r["lieu"]
+                    detectes = geo.pays_detectes(lieu)
+                    if r.get("pays") and detectes and r["pays"] not in detectes:
+                        continue  # homonyme (Paris, TX) ou offre hors du pays visé
+                    if not retenir(titre) or INTERMEDIAIRES.search(it.get("company") or "confidential"):
                         continue
-                    res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, it.get("location") or r["lieu"],
+                    res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, lieu,
                                      it.get("link"), (it.get("updated") or "")[:10], html_vers_texte(it.get("snippet", "")),
                                      pays_iso=r.get("pays", ""), contrat=it.get("type") or ""))
                 if len(items) < extras.get("ResultOnPage", 20):
                     break
+    cfg["_debug"] = debug
+    if erreurs and not total:
+        raise RuntimeError("toutes les recherches Jooble ont échoué : " + " | ".join(debug[:3]))
     return res, total
 
 

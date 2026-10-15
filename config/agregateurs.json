@@ -76,7 +76,7 @@
     "actif": true,
     "recherches": [
       {
-        "lieu": "Paris",
+        "lieu": "Paris, France",
         "pays": "FR",
         "requetes": [
           "stratégie",
@@ -91,7 +91,7 @@
         "pages": 2
       },
       {
-        "lieu": "Lyon",
+        "lieu": "Lyon, France",
         "pays": "FR",
         "requetes": [
           "stratégie",
@@ -100,7 +100,18 @@
         ]
       },
       {
-        "lieu": "Dubai",
+        "lieu": "Paris",
+        "hote": "fr.jooble.org",
+        "pays": "FR",
+        "requetes": [
+          "stratégie",
+          "chief of staff"
+        ],
+        "diagnostic": true
+      },
+      {
+        "lieu": "Dubai, United Arab Emirates",
+        "pays": "AE",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -108,7 +119,8 @@
         ]
       },
       {
-        "lieu": "Abu Dhabi",
+        "lieu": "Abu Dhabi, United Arab Emirates",
+        "pays": "AE",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -116,7 +128,8 @@
         ]
       },
       {
-        "lieu": "Riyadh",
+        "lieu": "Riyadh, Saudi Arabia",
+        "pays": "SA",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -124,7 +137,8 @@
         ]
       },
       {
-        "lieu": "Doha",
+        "lieu": "Doha, Qatar",
+        "pays": "QA",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -133,6 +147,7 @@
       },
       {
         "lieu": "Singapore",
+        "pays": "SG",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -141,6 +156,7 @@
       },
       {
         "lieu": "Hong Kong",
+        "pays": "HK",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -149,6 +165,7 @@
       },
       {
         "lieu": "Luxembourg",
+        "pays": "LU",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -156,7 +173,8 @@
         ]
       },
       {
-        "lieu": "Brussels",
+        "lieu": "Brussels, Belgium",
+        "pays": "BE",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -164,7 +182,8 @@
         ]
       },
       {
-        "lieu": "Geneva",
+        "lieu": "Geneva, Switzerland",
+        "pays": "CH",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -172,7 +191,8 @@
         ]
       },
       {
-        "lieu": "Zurich",
+        "lieu": "Zurich, Switzerland",
+        "pays": "CH",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -180,15 +200,8 @@
         ]
       },
       {
-        "lieu": "Amsterdam",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "New York",
+        "lieu": "Amsterdam, Netherlands",
+        "pays": "NL",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -198,7 +211,8 @@
     ],
     "jours": 7,
     "par_page": 50,
-    "niveau_employeur": 5
+    "niveau_employeur": 5,
+    "note": "Pas de recherche aux États-Unis : déjà très couverts par les pages carrières"
   },
   "listes_html": {
     "actif": true,
