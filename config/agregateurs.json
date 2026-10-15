@@ -73,10 +73,11 @@
     "note": "API devenue payante (oct. 2026) : remplacée par Jooble et France Travail"
   },
   "jooble": {
-    "actif": true,
+    "actif": false,
     "recherches": [
       {
-        "lieu": "Paris, France",
+        "lieu": "Paris",
+        "hote": "fr.jooble.org",
         "pays": "FR",
         "requetes": [
           "stratégie",
@@ -91,73 +92,20 @@
         "pages": 2
       },
       {
-        "lieu": "Lyon, France",
+        "lieu": "Lyon",
+        "hote": "fr.jooble.org",
         "pays": "FR",
         "requetes": [
           "stratégie",
           "consultant stratégie",
           "chief of staff"
         ]
-      },
-      {
-        "lieu": "Dubai, United Arab Emirates",
-        "pays": "AE",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Abu Dhabi, United Arab Emirates",
-        "pays": "AE",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Riyadh, Saudi Arabia",
-        "pays": "SA",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Singapore",
-        "pays": "SG",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Brussels, Belgium",
-        "pays": "BE",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Amsterdam, Netherlands",
-        "pays": "NL",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
       }
     ],
     "jours": 7,
     "par_page": 50,
     "niveau_employeur": 5,
-    "note": "Clé valable sur jooble.org seulement (fr.jooble.org refuse). Pas de recherche aux États-Unis, déjà très couverts ; Suisse, Luxembourg, Hong Kong et Doha retirés faute de résultats."
+    "note": "Désactivé le 15 oct. 2026 : la clé actuelle ne vaut que pour jooble.org (États-Unis). Hors États-Unis, les résultats n'ont rien à voir avec la recherche (UX, restauration), et fr.jooble.org refuse la clé (403). À réactiver avec une clé obtenue sur le site français."
   },
   "listes_html": {
     "actif": true,

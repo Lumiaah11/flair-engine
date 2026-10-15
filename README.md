@@ -19,7 +19,8 @@ Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 Jooble et France Travail demandent une clé gratuite. Sans clé, ces sources sont simplement ignorées.
 Pour les ajouter : Settings, puis Secrets and variables, puis Actions, et créer `JOOBLE_KEY`, `FT_CLIENT_ID` et `FT_CLIENT_SECRET`.
-Adzuna est devenu payant : le connecteur reste dans le code mais il est désactivé dans `config/agregateurs.json`. La France peut être retirée avec `"inclure_france": false` dans `config/reglages.json`.
+Adzuna est devenu payant : le connecteur reste dans le code mais il est désactivé dans `config/agregateurs.json`.
+Jooble est désactivé aussi : sa clé actuelle ne sert que pour les États-Unis. Il suffira de le réactiver avec une clé du site français. La France peut être retirée avec `"inclure_france": false` dans `config/reglages.json`.
 
 ## Lancer une collecte à la main
 
