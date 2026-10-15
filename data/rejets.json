@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T11:00:20+00:00",
+ "maj": "2026-10-15T11:21:22+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -386,14 +386,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Confirmed FP&A Analyst",
-   "entreprise": "BlaBlaCar",
-   "lieu": "Paris, France",
-   "raison": "basé en France",
-   "url": "https://jobs.lever.co/blablacar/c168e160-82e5-4906-a4af-d0af403cb2df",
-   "source": "lever"
-  },
-  {
    "titre": "Strategy & Operations Programs, Support",
    "entreprise": "OpenAI",
    "lieu": "San Francisco; United States",
@@ -559,22 +551,6 @@
    "lieu": "Singapore, SG",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155408289",
-   "source": "smartrecruiters"
-  },
-  {
-   "titre": "Market Strategy Assistant - Stage (6 mois) Janvier 2027 (F/H/NB)",
-   "entreprise": "Ubisoft",
-   "lieu": "Paris, IDF, FR",
-   "raison": "basé en France",
-   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153436361",
-   "source": "smartrecruiters"
-  },
-  {
-   "titre": "Strategic Planning & Trends Assistant - Stage (6 mois) Janvier 2027 (F/H/NB)",
-   "entreprise": "Ubisoft",
-   "lieu": "Paris, IDF, FR",
-   "raison": "basé en France",
-   "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000151551881",
    "source": "smartrecruiters"
   },
   {
@@ -975,38 +951,6 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
-   "source": "workday"
-  },
-  {
-   "titre": "VIE - PMO Industrial Cooperation & Offsets - Abu Dhabi",
-   "entreprise": "Thales",
-   "lieu": "Meudon; France",
-   "raison": "basé en France",
-   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/VIE---PMO-Industrial-Cooperation---Offsets---Abu-Dhabi_R0340515-1",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategic Program Officer (F/H)",
-   "entreprise": "Thales",
-   "lieu": "Rungis; France",
-   "raison": "basé en France",
-   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Rungis/Strategic-Program-Officer--F-H-_R0342453-1",
-   "source": "workday"
-  },
-  {
-   "titre": "stage 6 mois stratégie et transformation digitale",
-   "entreprise": "Sanofi",
-   "lieu": "Gentilly; France",
-   "raison": "basé en France",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Gentilly/stage-6-mois-stratgie-et-transformation-digitale_R2871708",
-   "source": "workday"
-  },
-  {
-   "titre": "Corporate Strategy Associate (F/M)",
-   "entreprise": "Michelin",
-   "lieu": "Clermont-Ferrand; France",
-   "raison": "basé en France",
-   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Strategic-Analyst--F-M-_R-2026011636",
    "source": "workday"
   }
  ]

@@ -1,11 +1,11 @@
 {
- "maj": "2026-10-15T11:00:20+00:00",
+ "maj": "2026-10-15T11:21:22+00:00",
  "compteurs": {
   "sources_ok": 94,
-  "sources_en_erreur": 2,
-  "titres_retenus": 282,
-  "offres_gardees": 153,
-  "nouvelles": 153,
+  "sources_en_erreur": 3,
+  "titres_retenus": 281,
+  "offres_gardees": 159,
+  "nouvelles": 159,
   "offres_lues": 19011
  },
  "rejets_par_raison": {
@@ -15,7 +15,6 @@
   "8 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 8,
   "annonce rédigée en allemand": 8,
-  "basé en France": 7,
   "langue exigée : Allemand": 5,
   "langue exigée : Néerlandais": 5,
   "12 ans d'expérience demandés": 3,
@@ -112,7 +111,7 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 156,
+   "lues": 157,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -182,7 +181,7 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 205,
+   "lues": 204,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -412,7 +411,7 @@
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1268,
+   "lues": 1267,
    "titres_retenus": 7
   },
   "Delivery Hero (smartrecruiters)": {
@@ -423,7 +422,7 @@
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
    "lues": 333,
-   "titres_retenus": 2
+   "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
    "statut": "ok",
@@ -457,7 +456,7 @@
   },
   "NVIDIA (workday)": {
    "statut": "ok",
-   "lues": 183,
+   "lues": 184,
    "titres_retenus": 0
   },
   "Oliver Wyman (workday)": {
@@ -478,7 +477,7 @@
   "Airbus (workday)": {
    "statut": "ok",
    "lues": 285,
-   "titres_retenus": 0
+   "titres_retenus": 1
   },
   "Thales (workday)": {
    "statut": "ok",
@@ -494,6 +493,10 @@
    "statut": "ok",
    "lues": 120,
    "titres_retenus": 1
+  },
+  "france_travail": {
+   "statut": "erreur",
+   "message": "RuntimeError: clés France Travail absentes (FT_CLIENT_ID, FT_CLIENT_SECRET)"
   },
   "vie_bf": {
    "statut": "désactivé"
