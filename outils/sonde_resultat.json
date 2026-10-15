@@ -1,864 +1,197 @@
 {
- "greenhouse": {
-  "doctolib": {
-   "total": 153,
-   "en_france": 76,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "shifttechnology": {
-   "total": 28,
-   "en_france": 12,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "mirakl": {
-   "total": 29,
-   "en_france": 26,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "algolia": {
-   "total": 37,
-   "en_france": 19,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ivalua": {
-   "total": 47,
-   "en_france": 12,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "dashlane": {
-   "total": 15,
-   "en_france": 7,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "artefact": {
-   "total": 137,
-   "en_france": 29,
-   "cibles": 1,
-   "cibles_france": 0,
-   "exemples": [
-    "Junior Strategy and Transformation Consultant - Casablanca | Capital Tower, Boulevard Mly Youssef, Casablanca, Maroc"
-   ]
-  },
-  "alixpartners": {
-   "total": 113,
-   "en_france": 6,
-   "cibles": 3,
-   "cibles_france": 0,
-   "exemples": [
-    "Manufacturing & Operations - Management Consultant | Milan",
-    "Market Intelligence Researcher - Aerospace and Defense, Aviation  | Chicago; Dallas; Detroit; New York",
-    "Technology Modernisation - Management Consultant | Milan"
-   ]
-  },
-  "bearingpoint": {
-   "total": 16,
+ "personio": {},
+ "breezy": {
+  "kea": {
+   "total": 1,
    "en_france": 0,
    "cibles": 0,
-   "cibles_france": 0,
+   "exemples": [
+    "Account Executive, Mid-Market | United States"
+   ]
+  },
+  "ledger": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
    "exemples": []
   }
  },
- "lever": {
-  "qonto": {
-   "total": 55,
-   "en_france": 34,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
+ "teamtailor": {
+  "indefi": {
+   "total": 11,
+   "en_france": 0,
+   "cibles": 1,
+   "exemples": [
+    "Junior Strategy Consultant - Private Equity - Lyon F/H | "
+   ]
+  },
+  "converteo": {
+   "total": 30,
+   "en_france": 0,
+   "cibles": 6,
+   "exemples": [
+    "Consultant en Stratégie et Transformation  - H/F - CDI | ",
+    "Consultant Sénior en Stratégie et Transformation F/H - CDI | ",
+    "Consultant Web Analytics H/F - CDI | ",
+    "Consultant Modélisation &amp; Mesure MMM H/F - CDI | ",
+    "Consultant CRO H/F - CDI | "
+   ]
   },
   "swile": {
-   "total": 31,
-   "en_france": 16,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "agicap": {
-   "total": 26,
-   "en_france": 9,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "malt": {
-   "total": 25,
-   "en_france": 16,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "vestiairecollective": {
-   "total": 9,
-   "en_france": 5,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "brevo": {
-   "total": 26,
-   "en_france": 15,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "didomi": {
-   "total": 7,
-   "en_france": 4,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "contentsquare": {
-   "total": 20,
-   "en_france": 2,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "younited": {
-   "total": 6,
-   "en_france": 6,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "360learning": {
-   "total": 40,
-   "en_france": 16,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "dilitrust": {
-   "total": 29,
-   "en_france": 16,
-   "cibles": 1,
-   "cibles_france": 1,
-   "exemples": [
-    "Chief of Staff | Paris - La Défense",
-    "Chief of Staff | Paris - La Défense"
-   ]
-  },
-  "hexa": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "skello": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "heetch": {
-   "total": 19,
-   "en_france": 5,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "pigment": {
-   "total": 141,
-   "en_france": 48,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "mistral": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "theodo": {
-   "total": 137,
-   "en_france": 123,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  }
- },
- "ashby": {
-  "qonto": {
-   "total": 55,
-   "en_france": 31,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "alan": {
-   "total": 121,
-   "en_france": 87,
-   "cibles": 1,
-   "cibles_france": 0,
-   "exemples": [
-    "Strategy and Operations - Canada 🇨🇦 | Toronto, ON, Canada; Canada"
-   ]
-  },
-  "doctolib": {
-   "total": 150,
-   "en_france": 73,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "backmarket": {
-   "total": 30,
-   "en_france": 25,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "spendesk": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "pennylane": {
-   "total": 142,
-   "en_france": 123,
-   "cibles": 2,
-   "cibles_france": 2,
-   "exemples": [
-    "Chief of Staff to the CTO - Engineering | Paris; France",
-    "Chief of Staff  | Paris; France",
-    "Chief of Staff to the CTO - Engineering | Paris; France",
-    "Chief of Staff  | Paris; France"
-   ]
-  },
-  "photoroom": {
-   "total": 12,
-   "en_france": 11,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "voodoo": {
-   "total": 119,
-   "en_france": 87,
-   "cibles": 1,
-   "cibles_france": 1,
-   "exemples": [
-    "Chief of Staff to the CEO | Paris; France",
-    "Chief of Staff to the CEO | Paris; France"
-   ]
-  },
-  "swan": {
-   "total": 6,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "upflow": {
-   "total": 2,
-   "en_france": 1,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ledger": {
-   "total": 11,
-   "en_france": 11,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "sorare": {
-   "total": 2,
-   "en_france": 2,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ankorstore": {
    "total": 1,
-   "en_france": 1,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "owkin": {
-   "total": 5,
-   "en_france": 3,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "hexa": {
-   "total": 28,
-   "en_france": 23,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "sunday": {
-   "total": 24,
    "en_france": 0,
    "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "nabla": {
-   "total": 10,
-   "en_france": 4,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "poolside": {
-   "total": 2,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "hcompany": {
-   "total": 33,
-   "en_france": 22,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "dust": {
-   "total": 26,
-   "en_france": 16,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "gladia": {
-   "total": 3,
-   "en_france": 3,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  }
- },
- "workable": {
-  "qonto": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "alan": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "doctolib": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "backmarket": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "manomano": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "deezer": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "lydia": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "exotec": {
-   "total": 82,
-   "en_france": 30,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "brevo": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "sendinblue": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "botify": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "yousign": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "voodoo": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ornikar": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "swan": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "upflow": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ovhcloud": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "believe": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "dailymotion": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "contentsquare": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "mirakl": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "criteo": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "algolia": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ledger": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "sorare": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "ankorstore": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "libeo": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "side": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "dashlane": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "withings": {
-   "total": 28,
-   "en_france": 23,
-   "cibles": 1,
-   "cibles_france": 1,
    "exemples": [
-    "Analyste Stratégie et Revenus (H/F) | Issy-les-Moulineaux, France",
-    "Analyste Stratégie et Revenus (H/F) | Issy-les-Moulineaux, France"
+    "Account Manager Travel | "
    ]
-  },
-  "jellysmack": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "adevinta": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "openclassrooms": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "360learning": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "hexa": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "sezane": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "hivebrite": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "skello": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "partoo": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "memobank": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "shine": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "stuart": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "heetch": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "meero": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "deepki": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "electra": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "iziwork": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "alma": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "lucca": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "payplug": {
-   "total": 0,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "huggingface": {
-   "total": 6,
-   "en_france": 3,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
   }
  },
  "recruitee": {
-  "zenchef": {
-   "total": 2,
-   "en_france": 1,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
-  "hiflow": {
-   "total": 4,
-   "en_france": 3,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  },
   "eleven": {
    "total": 1,
    "en_france": 0,
    "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
+   "exemples": [
+    "Consulting Application | Various, Florida, United States"
+   ]
   },
   "advancy": {
    "total": 16,
    "en_france": 3,
-   "cibles": 7,
-   "cibles_france": 1,
+   "cibles": 10,
    "exemples": [
-    "Paris - Junior Strategy Consultant (H/F) | Paris, Île-de-France, France",
+    "Shanghai - Consultant (Experienced) | Shanghai, Shanghai Shi, China",
+    "Singapore - Consultant (Experienced) | Singapore, Central Singapore, Singapore",
     "Singapore - Junior Consultant | Singapore, Central Singapore, Singapore",
     "Shanghai - Junior Consultant | Shanghai, Shanghai Shi, China",
-    "NYC - Strategy Consultant (3+ years experience required) | New York, New York, United States",
-    "NYC - Junior Strategy Consultant (0-3 years experience) | New York, New York, United States",
-    "Frankfurt - Junior Consultant or Consultant (Full-time) | Frankfurt / Main, Hessen, Germany"
+    "Shanghai - Consultant (Chemicals background) | Shanghai, Shanghai Shi, China"
    ]
   },
-  "julhietsterwen": {
-   "total": 12,
-   "en_france": 12,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": []
-  }
- },
- "smartrecruiters": {
-  "Sodexo": {
-   "total": 100,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 161,
-   "total_france_annonce": 0
-  },
-  "Accor": {
-   "total": 161,
-   "en_france": 100,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 576,
-   "total_france_annonce": 218
-  },
-  "Devoteam": {
-   "total": 165,
-   "en_france": 100,
-   "cibles": 2,
-   "cibles_france": 1,
-   "exemples": [
-    "Strategy Analyst - CEO Office (H/F) | Levallois-Perret, fr",
-    "ES- Consultor Microstrategy/Strategy | Madrid, es",
-    "Strategy Analyst - CEO Office (H/F) | Levallois-Perret, fr"
-   ],
-   "total_annonce": 943,
-   "total_france_annonce": 330
-  },
-  "Keyrus": {
-   "total": 6,
-   "en_france": 0,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 6,
-   "total_france_annonce": 0
-  },
-  "Coface": {
-   "total": 142,
-   "en_france": 49,
-   "cibles": 1,
-   "cibles_france": 0,
-   "exemples": [
-    "Koordynator / Koordynatorka Sprzedaży ds. Partnerstw Strategicznych | Warszawa, pl"
-   ],
-   "total_annonce": 248,
-   "total_france_annonce": 49
-  },
-  "SaintGobain": {
-   "total": 18,
-   "en_france": 9,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 18,
-   "total_france_annonce": 9
-  },
-  "LVMH": {
-   "total": 4,
-   "en_france": 4,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 4,
-   "total_france_annonce": 4
-  },
-  "Ubisoft2": {
-   "total": 165,
-   "en_france": 100,
-   "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 327,
-   "total_france_annonce": 120
-  },
-  "Believe": {
-   "total": 27,
+  "emerton": {
+   "total": 8,
    "en_france": 7,
    "cibles": 0,
-   "cibles_france": 0,
-   "exemples": [],
-   "total_annonce": 27,
-   "total_france_annonce": 7
+   "exemples": [
+    "Executive Assistant | PARIS 08, Île-de-France, France",
+    "Strategy Manager role - Paris Office | PARIS 08, Île-de-France, France",
+    "Strategy Consultant Intern - Paris Office | PARIS 08, Île-de-France, France"
+   ]
   }
  },
- "apec": {
-  "robots": "<html lang=\"en\"><head><title>apec.fr</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAIdc_TzolVgsABJobQw==','hsh':'08C47D271059106C508C74B41944A5','t':'bv','qp':'','s':59450,'e':'456785b124c8c5216edc38791096fb7c2bf168ef0f28e230413aeb15f3fd451b04c7fc77c5f729bea9b52bd0859972ef','host':'geo.captcha-delivery.com','cookie':'p8aM6KlfxiYznfnQEKt5Fentat36YyJNS74JfeB09Q7A~_Re5BoneGXPjNomGwm9WI3g223S5rs9ZKTNj4bwA5xahFaoFKP0KN~Ie10_XaYmFBr1LxqQWeArRl~JkIxH'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
-  "recherche_statut": 403,
-  "recherche_extrait": "{\"url\":\"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAIeCK5PKTyiQABJobQw==&cid=XVQCUWHYpEX77TcjAZl4_T3VztFYw71tH1_MK8VtLeBSlDBRpxPfAR4W6_soncQ3YlUp1i83lmPBqaPBx0Ormkcug1XLERB~lXTHvXFSl39o2oWCiHNRKN1Gtli5Sp6y&referer=https%3A%2F%2Fwww.apec.fr%2Fcms%2Fwebservices%2FrechercheOffre&hash=08C47D271059106C508C74B41944A5&t=bv&s=59773&e=e5d1e47db7442311064be67317a60e4babc64e8f5de3a4d2cd3caffea9275074a2424c19be68bbf70b95a5bf7ef2c010&b=1635\"}"
- },
  "choisir_service_public": {
-  "robots_statut": 200,
-  "robots": "User-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-content/uploads/pdf-offers/\nAllow: /wp-admin/admin-ajax.php\nSitemap: https://choisirleservicepublic.gouv.fr/sitemapindex.xml",
-  "liste_statut": 200,
-  "liste_taille": 4556417,
-  "liste_liens_offre": 20,
-  "liste_extrait": "4\">\n    <label class=\"fr-toggle__label\" data-fr-checked-label=\"Activé\" data-fr-unchecked-label=\"Désactivé\" for=\"managements-toggle-6ad0ba69af2fe\">Management</label>\n</div>\n \n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"actions1\">\n                <button type=\"button\" class=\"js-hide-on-empty-search btnlink d-none d-md-flex fr-link fr-link--left  fr-fi-delete-line fr-link--icon-left js-search-reset\">Effacer tous les filtres</button>\n\n                <button id=\"save-search-btn\" data-parcours-focuser=\"login\" aria-haspopup='dialog' type=\"button\" class=\"d-none d-md-flex fr-btn fr-btn--secondary js-search-save fr-icon-alarm-warning-line fr-btn--icon-left\">Créer une alerte</button>\n\n                <button type=\"submit\" class=\"fr-btn fr-fi-search-line  fr-btn--icon-left\">\n                    Rechercher                </button>\n\n                <button type=\"button\" class=\"d-md-none fr-btn fr-btn--secondary js-search-save fr-icon-alarm-warning-line fr-btn--icon-left\">Créer une alerte</button>\n\n                <button type=\"button\" class=\"js-hide-on-empty-search btnlink d-md-none fr-link fr-link--left fr-fi-delete-line fr-link--icon-left js-search-reset\">Effacer tous les filtres</button>\n            </div>\n        </div>\n    </div>\n</div>\n     <div class=\"js-results\">\n        <div class=\"strate-cards-list strate-cards-list--offers bg-color--grey-light fr-pt-6w fr-pt-md-8w\">\n\t<div class=\"fr-container\">\n\t\t\t<div class=\"fr-grid-row fr-grid-row--gutters fr-grid-row--middle\">\n\t\t\t\t\t<div class=\"fr-col-12 actions\">\n\t\t\t\t\t\t\t<p role=\"heading\" aria-level=\"2\" class=\"fr-h4 focus-on-ajax\" tabindex=\"-1\">\n\t\t\t\t\t\t\t\t<span class=\"number\">4911</span> offres d'emploi trouvées\t\t\t\t\t\t\t</p>\n\n\t\t\t\t\t\t\t<a href=\"https://place-ep-recrute.talent-soft.com//offre-de-emploi/tous-les-flux-rss.aspx\" target=\"_blank\" class=\"linkbtn fr-btn fr-btn--tertiary  fr-text--sm fr-mt1w fr-mb-1w js-rss\" title=\"S'abonner au flux RSS - nouvelle fenêtre\" rel=\"noopener\"\n\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\tFlux RSS\t\t\t\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"ic ic--settings ic--right ic--small\">\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<ul class=\"fr-grid-row fr-grid-row--gutters\">\n\t\t\t\t\t\t\t\t\t\t<li class=\"fr-col-12 item\">\n\t\t\t\t\t\t\t\t\n<div class=\"fr-card fr-card--horizontal fr-card--horizontal-tier fr-card--offer\">\n\t<div class=\"fr-card__body\">\n\t\t<div class=\"fr-card__content\">\n\t\t\t\t\t\t\t<h3 class=\"fr-card__title\">\n\n\t\t\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\t\thref=\"https://choisirleservicepublic.gouv.fr/offre-emploi/chargee-de-missions-strategie-immobiliere-reference-MINT_BA075ACA-127394/\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"is-same-domain\n        \t\t\t\t\t\t\t\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\taria-label=\"Chargé(e) de missions stratégie immobilière, nouvelle fenêtre\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n\n\t\t\t\t\t\t\tChargé(e) de missions stratégie immobilière\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h3>\n\t\t\t\n\t\t\t\t\t\t\t<div class=\"fr-card__start\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"fr-tags-group\" role=\"presentation\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t<p\t\t\n\t\tclass=\"fr-tag \"\n\t>\n\t\t\t\t\n\t\tDirection et pilotage des politiques publiques\t</p>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t<ul class=\"fr-card__desc\">\n\t\t\t\t\t<li class=\"fr-icon-map-pin-2-line fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Localisation : </span>\n\t\t\t\t\t\tParis <strong>(75)</strong>\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"fr-icon-file-line fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Fonction publique : </span>\n\t\t\t\t\t\tFonction publique de l'État\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"fr-icon-user-line  fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Employeur : </span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tDirection de l'évaluation, de la performance, de l'achat, des finances et de l'immobilier\t\t\t\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"fr-icon-calendar-line  fr-icon--sm\">\n\t\t\t\t\t\tEn ligne depuis le 08 octobre 2026\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"fr-card__footer\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button id=\"fav-6ad0ba6a162a5\" data-parcours-focuser=\"login\" data-title=\"Chargé(e) de missions stratégie immobilière\" data-module=\"components/favorite-btn\" type=\"button\" class=\"fr-link fr-icon-star-line fr-link--icon-right action-bar-favorite-btn checkbox-favorite-btn fr-link fav tl-color--blue td-none\">\n\t\t\t\t\t\t<span class=\"text fr-m-0\">\n\t\t\t\t\t\t\t<span class=\"fav-default\">Ajouter aux favoris</span>\n\t\t\t\t\t\t\t<span class=\"sr-only access-text\" data-offer=\"Chargé(e) de missions stratégie immobilière\"> : Chargé(e) de missions stratégie immobilière</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"fr-card__header\">\n\t\t\t<div class=\"fr-card__img\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img aria-hidden=\"true\" loading=\"lazy\" class=\"fr-responsive-img is-icon\" src=\"https://choisirleservicepublic.gouv.fr/wp-content/uploads/2022/05/Copie-de-Design-sans-nom.png\" alt=\"Ministère de l'interieur - Liberté Egalité Fraternité\">\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\n</div>\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"fr-col-12 item\">\n\t\t\t\t\t\t\t\t\n<div class=\"fr-card fr-card--horizontal fr-card--horizontal-tier fr-card--offer\">\n\t<div c"
+  "p1_statut": 200,
+  "p1_titres": [
+   "Chargé(e) de missions stratégie immobilière",
+   "Un.e Directeur.trice Stratégie et Transitions - Communauté d'Agglomération de Cergy Pontoise",
+   "DIRECTEUR STRATÉGIE TERRITORIALE (H/F) - MOUILLERON-LE-CAPTIF",
+   "Responsable du Service Stratégie Budgétaire - Commune de Gosier",
+   "Responsable de la commande publique et de la stratégie achats - COMMUNE DE GARDANNE",
+   "Chargé(e) de Mission « stratégie de mise en cohérence et transversalité des politiques de[...]",
+   "Architecte urbaniste des systemes d’information et strategie data (h/f) - Métropole du Grand Paris",
+   "Directeur des Finances et de la Stratégie Budgétaire (h/f) - Commune de Beausoleil",
+   "DOMN / SDAMI : Expert en stratégie règlementation européenne",
+   "Analyste à la section de la stratégie aux frontières",
+   "CHARGE D ETUDES STRATEGIE ACHATS",
+   "Chargé de projet stratégie patrimoniale (H/F) - METROPOLE LYON",
+   "Responsable du service Stratégie et Administration du parc auto - MONTPELLIER MEDITERRANEE METROPOLE",
+   "Chef.fe de projet stratégie digitale - REGION OCCITANIE",
+   "Sage-femme - Stratégie Nationale Prévention et Protection de l'Enfance (H/F) - METROPOLE LYON",
+   "Responsable du service Conseil en organisation et stratégie RH",
+   "Préfiguratrice / préfigurateur de la sous-direction Stratégie numérique de l'Etat H/F",
+   "Directeur de la stratégie organisationnelle et de la modernisation (h/f) - COMMUNE DE SAINT PIERRE",
+   "Directeur général adjoint en charge des projets et de la stratégie financière",
+   "ADJOINT(E) A LA CHEFFE DU BUREAU – STRATEGIE ET COMMUNICATION DIGITALE"
+  ],
+  "p1_tri": [
+   "              </div>\n\n                                                                        <input data-childs-code=\"\" data-count=\"1\" data-desc=\"Consortium Couperin\" class=\"js-search-input\" type=\"checkbox\" data-parent=\"organisations-checkbox-6ad0bd094e1c8\" id=\"organisations-checkbox-6ad0bd094e24e\" name=\"organisations-checkbox-6ad0bd094e24e\" value=\"2402\" data-slug=\"organisations\" data-controls=\"panel-6ad0bd094c8a7\" data-name=\"organisations-checkbox-6ad0bd094e24e\" data-search=\"organisations-search-6",
+   "                                                                     <label class=\"fr-label\" for=\"organisations-checkbox-6ad0bd094e24e\" data-name=\"Consortium Couperin\">Consortium Couperin</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"organisations-checkbox-6ad0bd094e24f\" data-parent=\"",
+   "                                                <label class=\"fr-label\" for=\"organisations-checkbox-6ad0bd094e24e\" data-name=\"Consortium Couperin\">Consortium Couperin</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"organisations-checkbox-6ad0bd094e24f\" data-parent=\"parent-id-organisatio"
+  ],
+  "p1_contractuels": [
+   "                                                            <input data-childs-code=\"\" data-count=\"1\" data-desc=\"Bureau des parcours professionnels - contractuels\" class=\"js-search-input\" type=\"checkbox\" data-parent=\"organisations-checkbox-6ad0bd094e391\" id=\"organisations-checkbox-6ad0bd094e3bb\" name=\"organisations-checkbox-6ad0bd094e3bb\" value=\"10802\" data-slug=\"organisations\" data-controls=\"panel-6ad0bd094c8a7\" data-name=\"organisations-checkbox-6ad0bd094e3bb\" data-search=\"organisations-search-6ad0bd094",
+   "                                   <label class=\"fr-label\" for=\"organisations-checkbox-6ad0bd094e3bb\" data-name=\"Bureau des parcours professionnels - contractuels\">Bureau des parcours professionnels - contractuels</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"organisations-checkbox-6ad0bd0",
+   "-label\" for=\"organisations-checkbox-6ad0bd094e3bb\" data-name=\"Bureau des parcours professionnels - contractuels\">Bureau des parcours professionnels - contractuels</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"organisations-checkbox-6ad0bd094e3be\" data-parent=\"parent-id-organisations-checkb",
+   "                             <input data-childs-code=\"\" data-count=\"1\" data-desc=\"Bureau des personnels administratifs, techniques et scientifiques - contractuels\" class=\"js-search-input\" type=\"checkbox\" data-parent=\"organisations-checkbox-6ad0bd094e391\" id=\"organisations-checkbox-6ad0bd094e3c0\" name=\"organisations-checkbox-6ad0bd094e3c0\" value=\"1051\" data-slug=\"organisations\" data-controls=\"panel-6ad0bd094c8a7\" data-name=\"organisations-checkbox-6ad0bd094e3c0\" data-search=\"organisations-search-6ad0bd094e",
+   "    <label class=\"fr-label\" for=\"organisations-checkbox-6ad0bd094e3c0\" data-name=\"Bureau des personnels administratifs, techniques et scientifiques - contractuels\">Bureau des personnels administratifs, techniques et scientifiques - contractuels</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=",
+   "Bureau des personnels administratifs, techniques et scientifiques - contractuels\">Bureau des personnels administratifs, techniques et scientifiques - contractuels</label>\n                                                                    </div>\n                                                                \n                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"organisations-checkbox-6ad0bd094e3c3\" data-parent=\"parent-id-organisations-checkb"
+  ],
+  "p1_categorie": [
+   "\n                            <input class=\"js-search-input \" type=\"checkbox\" id=\"categories-checkbox-6ad0bd094c883\" data-slug=\"categories\" data-name=\"Catégorie A+\" name=\"categories[]\" value=\"4327-4328\" data-controls=\"panel-6ad0bd094c57e\"  data-has-children  >\n                            <label class=\"\" for=\"categories-checkbox-6ad0bd094c883\">\n                                                                    Catégorie A+                                                            </label>\n                 ",
+   "                         <label class=\"\" for=\"categories-checkbox-6ad0bd094c883\">\n                                                                    Catégorie A+                                                            </label>\n                        </div>\n                                                    <button type=\"button\" class=\"accordion__btn fr-accordion__btn fr-icon--lg fr-icon-add-line\" aria-expanded=\"false\" aria-controls=\"accordion-categories-checkbox-6ad0bd094c883\" data-accordion-id=\"acco",
+   "3\" data-accordion-id=\"accordion-6ad0bd094c881\">\n                                <span class=\"sr-only\">\n                                    Toutes les Catégorie A+                                </span>\n                            </button>\n                        </div>\n                        <div class=\"collapse\" id=\"accordion-categories-checkbox-6ad0bd094c883\">\n                            <div class=\"fr-form-group\">\n                                <fieldset class=\"fr-fieldset fr-m-0\">\n                  ",
+   "                            <legend class=\"sr-only\" id=\"checkboxes-legend-categories-checkbox-6ad0bd094c883\">\n                                        Catégorie A+                                    </legend>\n                                    <div class=\"fr-fieldset__content\">\n                                                                                    <div class=\"fr-checkbox-group\" data-hide-search=\"categories-checkbox-6ad0bd094c888\" data-parent=\"parent-id-categories-checkbox-6ad0bd094c883\" data-s"
+  ],
+  "p1_pagination": [
+   "ports enseignement supérieur recherche\">\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\n</div>\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t</div>\n</div>\n\n\n\n  <div class=\"strate strate-pagination bg-color--grey-light\">\n    <div class=\"fr-container\">\n      <div class=\"fr-grid-row fr-grid-row--center\">\n        <nav role=\"navigation\" class=\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirles",
+   "on bg-color--grey-light\">\n    <div class=\"fr-container\">\n      <div class=\"fr-grid-row fr-grid-row--center\">\n        <nav role=\"navigation\" class=\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/strat%C3%A9gie/\">\n                Première page\n              </a>\n            </li>\n            <li>\n       ",
+   ">\n    <div class=\"fr-container\">\n      <div class=\"fr-grid-row fr-grid-row--center\">\n        <nav role=\"navigation\" class=\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/strat%C3%A9gie/\">\n                Première page\n              </a>\n            </li>\n            <li>\n              <a class=\"fr-pagi",
+   "  <div class=\"fr-grid-row fr-grid-row--center\">\n        <nav role=\"navigation\" class=\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/strat%C3%A9gie/\">\n                Première page\n              </a>\n            </li>\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--pre",
+   "=\"navigation\" class=\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/strat%C3%A9gie/\">\n                Première page\n              </a>\n            </li>\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--prev fr-pagination__link--lg-label fr-text--sm\" aria-disabled=\"true\"",
+   "\"fr-pagination\" aria-label=\"Pagination\">\n          <ul class=\"fr-pagination__list\">\n\n\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--first d-none\" href=\"https://choisirleservicepublic.gouv.fr/nos-offres/filtres/mot-cles/strat%C3%A9gie/\">\n                Première page\n              </a>\n            </li>\n            <li>\n              <a class=\"fr-pagination__link fr-pagination__link--prev fr-pagination__link--lg-label fr-text--sm\" aria-disabled=\"true\">\n                Pr"
+  ],
+  "p1_formulaire": [
+   "          </div>\n\n            </div>\n</header>\n\n\n <form method=\"get\" action=\"https://choisirleservicepublic.gouv.fr/nos-offres\">\n\n\n <main role=\"main\" class=\"dsfr\">\n\n     <span id=\"main-content\" tabindex=\"-1\"></span>\n\n     <div class=\"stage-wrapper\">\n         \n<div class=\"strate strate-breadcrumb\">\n    <div class=\"fr-container\">\n        <div class=\"fr-grid-row fr-grid-row--center\">\n            <div class=\"fr-col-12\">\n\n                <nav role=\"navigation\" class=\"fr-breadcrumb fr-mb-1w fr-mt-2w\" aria-label=\"vous êtes ici :\">\n                    <button class=\"fr-breadcrumb__button fr-mb-1w\" aria-expanded=\"false\" aria-controls=\"breadcrumb-6ad0bd094b5a7\">Voir le fil d’Ariane</button>\n                    <div class=\"fr-collapse\" id=\"breadcrumb-6ad0bd094b5a7\">\n                        <ol class=\"fr-breadcrumb__list\">\n\n                                                            <li>\n                                    <a class=\"fr-breadcrumb__link fr-text--sm\" href=\"https://choisirleservicepublic.gouv.fr\">Accueil</a>\n                                </li>\n\n                                \n                                                                            <li><a class=\"fr-breadcrumb__link fr-text--sm active\" aria-current=\"page\" >Offres",
+   "          </div>\n\n                                <form method=\"post\" class=\"block-form block-form-login\" data-module=\"formLogin\" data-action=\"login\" novalidate>\n                                    <div class=\"block-form-login__inputs\">\n                                        <div class=\"fr-input-group form-input-container\">\n                                            <label class=\"fr-label\" for=\"form-login-email\">Votre adresse email*\n                                                <span class=\"fr-hint-text fr-mb-0\">Exemple : nom.prenom@exemple.com</span>\n                                            </label>\n                                            <input type=\"email\" id=\"form-login-email\" class=\"fr-input email\" aria-describedby=\"form-login-email-error\" data-message=\"Veuillez saisir une adresse email valide. Par exemple : jean.dupont@choisirleservicepublic.gouv.fr\" autocomplete=\"email\" pattern=\"[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$\" required>\n                                            <span id=\"form-login-email-error\" class=\"fr-error-text\"></span>\n                                        </div>\n\n                                        <div class=\"fr-input-group form-input-container fr-mb-2w\">\n                                       ",
+   "          </div>\n\n                                <form method=\"post\" class=\"block-form block-form-login\" data-module=\"formLoginRecruteurs\" data-action=\"login_wp\" novalidate>\n                                <!--     <div class=\"form-input-container\"> -->\n                                        <div class=\"fr-input-group form-input-container\">\n                                            <label class=\"fr-label\" for=\"form-login-recruteurs-email\">Votre email*\n                                                <span class=\"fr-hint-text fr-mb-0\">Exemple : nom.prenom@exemple.com</span>\n                                            </label>\n                                            <!-- <div class=\"fr-input-wrap\"> -->\n                                                <input type=\"email\" id=\"form-login-recruteurs-email\" class=\"fr-input\" aria-describedby=\"form-login-recruteurs-email-error\" data-message=\"Vérifiez que l’adresse email est complète, sans oublier le @ et le domaine. Exemple : nom.prenom@exemple.com\" autocomplete=\"email\" pattern=\"[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$\" required>\n                                                <span id=\"form-login-recruteurs-email-error\" class=\"fr-error-text\"></span>\n                                       "
+  ],
+  "p2_chemin": {
+   "statut": 200,
+   "titres": [
+    "Assistant/e Technique Finance et stratégie clientèle -SMGEAG",
+    "chargé de mission Stratégie immobilière et schémas directeurs immobiliers et énergétiques (H/F)",
+    "Chargé(e) de mission stratégie de communication (F/H)",
+    "AFIPA - Responsable de la division Stratégie, contrôle de gestion et qualité de service H/F",
+    "Chargé de mission stratégie climatique mobilisation"
+   ]
+  },
+  "p2_param": {
+   "statut": 200,
+   "titres": [
+    "Assistant/e Technique Finance et stratégie clientèle -SMGEAG",
+    "chargé de mission Stratégie immobilière et schémas directeurs immobiliers et énergétiques (H/F)",
+    "Chargé(e) de mission stratégie de communication (F/H)",
+    "AFIPA - Responsable de la division Stratégie, contrôle de gestion et qualité de service H/F",
+    "Chargé de mission stratégie climatique mobilisation"
+   ]
+  },
+  "fiche_url": "https://choisirleservicepublic.gouv.fr/offre-emploi/chargee-de-missions-strategie-immobiliere-reference-MINT_BA075ACA-127394/",
+  "fiche_statut": 200,
+  "fiche_jsonld": [
+   "\n    {\"@context\":\"https:\\/\\/schema.org\\/\",\"@type\":\"JobPosting\",\"title\":\"Charg\\u00e9(e) de missions strat\\u00e9gie immobili\\u00e8re\",\"addressLocality\":\"Paris (75), France\",\"jobLocation\":{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Paris (75), France\",\"addressLocality\":\"Paris (75), France\",\"addressRegion\":\"\\u00cele-de-France\",\"addressCountry\":\"France\",\"postalCode\":\"Paris (75)\"}},\"hiringOrganization\":\"Direction de l'\\u00e9valuation, de la performance, de l'achat, des finances et de l'immobilier\",\"baseSalary\":\"Non renseign\\u00e9\",\"experienceRequirements\":\"Non renseign\\u00e9\",\"Description\":\"\\nGroupe RIFSEEP\\u00a0: 3Vous \\u00eates affect\\u00e9(e) au p\\u00f4le strat\\u00e9gie du BSPS qui a en charge la d\\u00e9finition et le suivi de la strat\\u00e9gie immobili\\u00e8re du Minist\\u00e8re de l\\u2019int\\u00e9rieur (sch\\u00e9ma pluriannuel de strat\\u00e9gie immobili\\u00e8re \\u2013 SPSI) de l\\u2019administration centrale et des op\\u00e9rateurs.A ce titre, vous secondez le chef du p\\u00f4le strat\\u00e9gie dans le pilotage et la coordination des projets immobiliers des directions du Minist\\u00e8re de l\\u2019int\\u00e9rieur, qu\\u2019elles soient administratives ou op\\u00e9rationnelles.Vous assurez la conduite des op\\u00e9rations li\\u00e9es \\u00e0 la mise en \\u0153uvre du SPSI \\u00e0 savoir, le lancement des recherches de site, le suivi des projets immobiliers en administration centrale, l'animation des comit\\u00e9s de pilotage des projets immobiliers ainsi que le pilotage des diff\\u00e9rents acteurs au projet.Vous \\u00eates en charge :- du pilotage des projets immobiliers du p\\u00f4le strat\\u00e9gie ainsi que du suivi du SPSI,- de l\\u2019analyse de l\\u2019expression de besoins des services demandeurs et de l\\u2019appui \\u00e0 la d\\u00e9finition de cette expression si n\\u00e9cessaire,- de la pr\\u00e9paration et du suivi administratif des comit\\u00e9s de pilotage, en relation avec les services de la direction de l\\u2019immobilier de l\\u2019\\u00c9tat (Service local des Domaines), les services techniques (BGSAC, DTNUM) et les directions occupantes du minist\\u00e8re de l\\u2019int\\u00e9rieur ;- de la gestion des projets immobiliers (installation ou relocalisation de services, densification et optimisation des surfaces), en liaison notamment avec les dessinateurs du p\\u00f4le strat\\u00e9gie et le p\\u00f4le domanialit\\u00e9 du BSPS, ainsi que le bureau de la gestion des sites de l\\u2019administration centrale (BGSAC).- de la tutelle exerc\\u00e9e aupr\\u00e8s des op\\u00e9rateurs du MI dans la mise en \\u0153uvre de leur politique immobili\\u00e8re ( ex\\u00a0: OFII, OFPRA, ANTAI\\u2026)- de la r\\u00e9flexion sur la mise en \\u0153uvre de la politique d\\u00e9finie par la direction de l\\u2019immobilier de l\\u2019Etat (DIE) et de l\\u2019information des op\\u00e9rateurs du Minist\\u00e8re sur cette politique,Vous conduirez ainsi, sous l\\u2019autorit\\u00e9 de votre hi\\u00e9rarchie, l\\u2019avancement des dossiers ainsi que les op\\u00e9rations sp\\u00e9cifiques qui vous serez confi\\u00e9es en partenariat avec les autres charg\\u00e9s de mission du p\\u00f4le strat\\u00e9gie selon une logique de portefeuille en fonction des sites de l\\u2019administration centrale du minist\\u00e8re de l\\u2019int\\u00e9rieur (Beauvau, Lumi\\u00e8re, Oudinot , Garance, Nanterre, Asni\\u00e8res-sur-Seine, Lognes\\u2026).Vous assurez en outre l\\u2019\\u00e9laboration de dossiers particuliers d\\u2019\\u00e9tude et de synth\\u00e8se au profit du bureau ou de la sous-direction, ainsi que l\\u2019analyse et la r\\u00e9flexion sur les nouvelles modalit\\u00e9s de travail, en lien avec les services du SLD et de la DIE.\\n\",\"skills\":\"\",\"datePosted\":\"08\\/10\\/2026\",\"industry\":\"Direction et pilotage des politiques publiques\",\"educationRequirements\":\"\"}"
+  ],
+  "fiche_texte": " Voir le fil d’Ariane Accueil Offres d'emploi Chargé(e) de missions stratégie immobilière Télécharger PDF – 27.85Ko Ajouter aux favoris : Chargé(e) de missions stratégie immobilière Chargé(e) de missions stratégie immobilière Partager la page Veuillez autoriser le dépôt de cookies pour partager sur Facebook, Twitter et LinkedIn. Partager sur Facebook Partager sur X (anciennement Twitter) - nouvelle fenêtre Partager sur LinkedIn Partager par email --> Copier dans le presse-papier Réf. Référence : MINT_BA075ACA-127394 Fonction publique : Fonction publique de l'État Employeur : Direction de l'évaluation, de la performance, de l'achat, des finances et de l'immobilier Localisation : Site Lumière Domaine : Direction et pilotage des politiques publiques Postuler sur le site employeur Date limite de candidature : 06/10/2027 Télécharger PDF – 27.85Ko Ajouter aux favoris : Chargé(e) de missions stratégie immobilière Partager la page Veuillez autoriser le dépôt de cookies pour partager sur Facebook, Twitter et LinkedIn. Partager sur Facebook Partager sur X (anciennement Twitter) - nouvelle fenêtre Partager sur LinkedIn Partager par email --> Copier dans le presse-papier Nature de l’emploi Emploi ouvert aux titulaires et aux contractuels Expérience souhaitée Non renseigné Rémunération Fourchette indicative pour les contractuels Non renseignée Fourchette indicative pour les fonctionnaires Non renseignée Catégorie Catégorie A (cadre) Management Non Télétravail possible Oui Vos missions en quelques mots Groupe RIFSEEP : 3 Vous êtes affecté(e) au pôle stratégie du BSPS qui a en charge la définition et le suivi de la stratégie immobilière du Ministère de l’intérieur (schéma pluriannuel de stratégie immobilière – SPSI) de l’administration centrale et des opérateurs. A ce titre, vous secondez le chef du pôle stratégie dans le pilotage et la coordination des projets immobiliers des directions du Ministère de l’intérieur, qu’elles soient administratives ou opérationnelles. Vous assurez la conduite des opérations liées à la mise en œuvre du SPSI à savoir, le lancement des recherches de site, le suivi des projets immobiliers en administration centrale, l'animation des comités de pilotage des projets immobiliers ainsi que le pilotage des différents acteurs au projet. Vous êtes en charge : - du pilotage des projets immobiliers du pôle stratégie ainsi que du suivi du SPSI, - de l’analyse de l’expression de besoins des services demandeurs et de l’appui à la définition de cette expression si nécessaire, - de la préparation et du suivi administratif des comités de pilotage, en relation avec les services de la direction de l’immobilier de l’État (Service local des Domaines), les services techniques (BGSAC, DTNUM) et les directions occupantes du ministère de l’intérieur ; - de la gestion des projets immobiliers (installation ou relocalisation de services, densification et optimisation des surfaces), en liaison notamment avec les dessinateurs du pôle stratégie et le pôle domanialité du BSPS, ainsi que le bureau de la gestion des sites de l’administration centrale (BGSAC). - de la tutelle exercée auprès des opérateurs du MI dans la mise en œuvre de leur politique immobilière ( ex : OFII, OFPRA, ANTAI…) - de la réflexion sur la mise en œuvre de la politique définie par la direction de l’immobilier de l’Etat (DIE) et de l’information des opérateurs du Ministère sur cette politique, Vous conduirez ainsi, sous l’autorité de votre hiérarchie, l’avancement des dossiers ainsi que les opérations spécifiques qui vous serez confiées en partenariat avec les autres chargés de mission du pôle stratégie selon une logique de portefeuille en fonction des sites de l’administration centrale du ministère de l’intérieur (Beauvau, Lumière, Oudinot , Garance, Nanterre, Asnières-sur-Seine, Lognes…). Vous assurez en outre l’élaboration de dossiers particuliers d’étude et de synthèse au profit du bureau ou de la sous-direction, ainsi que l’analyse et la réflexion sur les nouvelles modalités de travail, en lien avec les services du SLD et de la DIE. Profil recherché Vous êtes doté(e) d’une grande capacité d’analyse, de rigueur et d’organisation. Vous avez un bon sens relationnel et d’une bonne capacité d’adaptation. Vous disposez d’une première expérience dans le domaine du droit immobilier et/ou public. Activités du service Au sein du secrétariat général (SG), la DEPAFI prépare, négocie et suit l'exécution du budget de l'ensemble des services du ministère. Elle assure une prestation de service, d'expertise et de conseil en matière budgétaire et comptable, conçoit la politique immobilière du ministère et exécute les programmes d'investissement associés. Elle est responsable, par délégation du secrétaire général, du programme budgétaire 216 \"Conduite et pilotage des politiques de l'Intérieur - CPPI\". La SDAI assure la mise en œuvre de la politique immobilière du ministère et inscrit son action dans le cadre d'une modernisation de celle-ci au travers notamment d'un schéma pluriannuel de la stratégie immobilière (SPSI). Elle gère le patrimoine immobilier et les moyens logistiques pour tous les sites de l'administration centrale du ministère. La SDAI est composée d'un bureau de la synthèse, du patrimoine et de la stratégie (BSPS), un bureau des affaires immobilières des préfectures, de la police et de sécurité civile (BIPPSC), un bureau de la gestion des sites de l'administration centrale (BGSAC) et d'un bureau des affaires immobilières de la gendarmerie nationale (BAIGN). Vous rejoindrez la SDAI et plus précisément, le bureau de la synthèse, du patrimoine et de la stratégie (BSPS) en son pôle stratégie. Le BSPS est en charge de la dimension transversale de la politique immobilière ministérielle et de la conduite des projets structurants en administration centrale. Le bureau est composé de 3 pôles, placés sous l’autorité du chef de bureau et de son adjointe : Stratégie, Synthèse budgétaire et nouvelle politique immobilière de l’Etat, Domanialité. Co",
+  "pep_rss_statut": 200,
+  "pep_rss_liens": [
+   "/handlers/offerRss.ashx?LCID=1036",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2623",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=10710",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=11418",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=10674",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=1178",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=417",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=10675",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12003",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=10676",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=10711",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13775",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=421",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=15023",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13783",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13784",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13787",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13786",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=11974",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=1253",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12810",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12813",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12816",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12815",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12819",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12811",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12822",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12823",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14752",
+   "/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12262"
+  ]
  }
 }
