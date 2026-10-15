@@ -1,0 +1,864 @@
+{
+ "greenhouse": {
+  "doctolib": {
+   "total": 153,
+   "en_france": 76,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "shifttechnology": {
+   "total": 28,
+   "en_france": 12,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "mirakl": {
+   "total": 29,
+   "en_france": 26,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "algolia": {
+   "total": 37,
+   "en_france": 19,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ivalua": {
+   "total": 47,
+   "en_france": 12,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "dashlane": {
+   "total": 15,
+   "en_france": 7,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "artefact": {
+   "total": 137,
+   "en_france": 29,
+   "cibles": 1,
+   "cibles_france": 0,
+   "exemples": [
+    "Junior Strategy and Transformation Consultant - Casablanca | Capital Tower, Boulevard Mly Youssef, Casablanca, Maroc"
+   ]
+  },
+  "alixpartners": {
+   "total": 113,
+   "en_france": 6,
+   "cibles": 3,
+   "cibles_france": 0,
+   "exemples": [
+    "Manufacturing & Operations - Management Consultant | Milan",
+    "Market Intelligence Researcher - Aerospace and Defense, Aviation  | Chicago; Dallas; Detroit; New York",
+    "Technology Modernisation - Management Consultant | Milan"
+   ]
+  },
+  "bearingpoint": {
+   "total": 16,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  }
+ },
+ "lever": {
+  "qonto": {
+   "total": 55,
+   "en_france": 34,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "swile": {
+   "total": 31,
+   "en_france": 16,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "agicap": {
+   "total": 26,
+   "en_france": 9,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "malt": {
+   "total": 25,
+   "en_france": 16,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "vestiairecollective": {
+   "total": 9,
+   "en_france": 5,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "brevo": {
+   "total": 26,
+   "en_france": 15,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "didomi": {
+   "total": 7,
+   "en_france": 4,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "contentsquare": {
+   "total": 20,
+   "en_france": 2,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "younited": {
+   "total": 6,
+   "en_france": 6,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "360learning": {
+   "total": 40,
+   "en_france": 16,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "dilitrust": {
+   "total": 29,
+   "en_france": 16,
+   "cibles": 1,
+   "cibles_france": 1,
+   "exemples": [
+    "Chief of Staff | Paris - La Défense",
+    "Chief of Staff | Paris - La Défense"
+   ]
+  },
+  "hexa": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "skello": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "heetch": {
+   "total": 19,
+   "en_france": 5,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "pigment": {
+   "total": 141,
+   "en_france": 48,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "mistral": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "theodo": {
+   "total": 137,
+   "en_france": 123,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  }
+ },
+ "ashby": {
+  "qonto": {
+   "total": 55,
+   "en_france": 31,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "alan": {
+   "total": 121,
+   "en_france": 87,
+   "cibles": 1,
+   "cibles_france": 0,
+   "exemples": [
+    "Strategy and Operations - Canada 🇨🇦 | Toronto, ON, Canada; Canada"
+   ]
+  },
+  "doctolib": {
+   "total": 150,
+   "en_france": 73,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "backmarket": {
+   "total": 30,
+   "en_france": 25,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "spendesk": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "pennylane": {
+   "total": 142,
+   "en_france": 123,
+   "cibles": 2,
+   "cibles_france": 2,
+   "exemples": [
+    "Chief of Staff to the CTO - Engineering | Paris; France",
+    "Chief of Staff  | Paris; France",
+    "Chief of Staff to the CTO - Engineering | Paris; France",
+    "Chief of Staff  | Paris; France"
+   ]
+  },
+  "photoroom": {
+   "total": 12,
+   "en_france": 11,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "voodoo": {
+   "total": 119,
+   "en_france": 87,
+   "cibles": 1,
+   "cibles_france": 1,
+   "exemples": [
+    "Chief of Staff to the CEO | Paris; France",
+    "Chief of Staff to the CEO | Paris; France"
+   ]
+  },
+  "swan": {
+   "total": 6,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "upflow": {
+   "total": 2,
+   "en_france": 1,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ledger": {
+   "total": 11,
+   "en_france": 11,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "sorare": {
+   "total": 2,
+   "en_france": 2,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ankorstore": {
+   "total": 1,
+   "en_france": 1,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "owkin": {
+   "total": 5,
+   "en_france": 3,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "hexa": {
+   "total": 28,
+   "en_france": 23,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "sunday": {
+   "total": 24,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "nabla": {
+   "total": 10,
+   "en_france": 4,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "poolside": {
+   "total": 2,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "hcompany": {
+   "total": 33,
+   "en_france": 22,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "dust": {
+   "total": 26,
+   "en_france": 16,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "gladia": {
+   "total": 3,
+   "en_france": 3,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  }
+ },
+ "workable": {
+  "qonto": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "alan": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "doctolib": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "backmarket": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "manomano": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "deezer": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "lydia": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "exotec": {
+   "total": 82,
+   "en_france": 30,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "brevo": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "sendinblue": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "botify": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "yousign": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "voodoo": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ornikar": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "swan": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "upflow": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ovhcloud": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "believe": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "dailymotion": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "contentsquare": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "mirakl": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "criteo": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "algolia": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ledger": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "sorare": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "ankorstore": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "libeo": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "side": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "dashlane": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "withings": {
+   "total": 28,
+   "en_france": 23,
+   "cibles": 1,
+   "cibles_france": 1,
+   "exemples": [
+    "Analyste Stratégie et Revenus (H/F) | Issy-les-Moulineaux, France",
+    "Analyste Stratégie et Revenus (H/F) | Issy-les-Moulineaux, France"
+   ]
+  },
+  "jellysmack": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "adevinta": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "openclassrooms": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "360learning": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "hexa": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "sezane": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "hivebrite": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "skello": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "partoo": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "memobank": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "shine": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "stuart": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "heetch": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "meero": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "deepki": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "electra": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "iziwork": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "alma": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "lucca": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "payplug": {
+   "total": 0,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "huggingface": {
+   "total": 6,
+   "en_france": 3,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  }
+ },
+ "recruitee": {
+  "zenchef": {
+   "total": 2,
+   "en_france": 1,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "hiflow": {
+   "total": 4,
+   "en_france": 3,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "eleven": {
+   "total": 1,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  },
+  "advancy": {
+   "total": 16,
+   "en_france": 3,
+   "cibles": 7,
+   "cibles_france": 1,
+   "exemples": [
+    "Paris - Junior Strategy Consultant (H/F) | Paris, Île-de-France, France",
+    "Singapore - Junior Consultant | Singapore, Central Singapore, Singapore",
+    "Shanghai - Junior Consultant | Shanghai, Shanghai Shi, China",
+    "NYC - Strategy Consultant (3+ years experience required) | New York, New York, United States",
+    "NYC - Junior Strategy Consultant (0-3 years experience) | New York, New York, United States",
+    "Frankfurt - Junior Consultant or Consultant (Full-time) | Frankfurt / Main, Hessen, Germany"
+   ]
+  },
+  "julhietsterwen": {
+   "total": 12,
+   "en_france": 12,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": []
+  }
+ },
+ "smartrecruiters": {
+  "Sodexo": {
+   "total": 100,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 161,
+   "total_france_annonce": 0
+  },
+  "Accor": {
+   "total": 161,
+   "en_france": 100,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 576,
+   "total_france_annonce": 218
+  },
+  "Devoteam": {
+   "total": 165,
+   "en_france": 100,
+   "cibles": 2,
+   "cibles_france": 1,
+   "exemples": [
+    "Strategy Analyst - CEO Office (H/F) | Levallois-Perret, fr",
+    "ES- Consultor Microstrategy/Strategy | Madrid, es",
+    "Strategy Analyst - CEO Office (H/F) | Levallois-Perret, fr"
+   ],
+   "total_annonce": 943,
+   "total_france_annonce": 330
+  },
+  "Keyrus": {
+   "total": 6,
+   "en_france": 0,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 6,
+   "total_france_annonce": 0
+  },
+  "Coface": {
+   "total": 142,
+   "en_france": 49,
+   "cibles": 1,
+   "cibles_france": 0,
+   "exemples": [
+    "Koordynator / Koordynatorka Sprzedaży ds. Partnerstw Strategicznych | Warszawa, pl"
+   ],
+   "total_annonce": 248,
+   "total_france_annonce": 49
+  },
+  "SaintGobain": {
+   "total": 18,
+   "en_france": 9,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 18,
+   "total_france_annonce": 9
+  },
+  "LVMH": {
+   "total": 4,
+   "en_france": 4,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 4,
+   "total_france_annonce": 4
+  },
+  "Ubisoft2": {
+   "total": 165,
+   "en_france": 100,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 327,
+   "total_france_annonce": 120
+  },
+  "Believe": {
+   "total": 27,
+   "en_france": 7,
+   "cibles": 0,
+   "cibles_france": 0,
+   "exemples": [],
+   "total_annonce": 27,
+   "total_france_annonce": 7
+  }
+ },
+ "apec": {
+  "robots": "<html lang=\"en\"><head><title>apec.fr</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'c','cid':'AHrlqAAAAAMAIdc_TzolVgsABJobQw==','hsh':'08C47D271059106C508C74B41944A5','t':'bv','qp':'','s':59450,'e':'456785b124c8c5216edc38791096fb7c2bf168ef0f28e230413aeb15f3fd451b04c7fc77c5f729bea9b52bd0859972ef','host':'geo.captcha-delivery.com','cookie':'p8aM6KlfxiYznfnQEKt5Fentat36YyJNS74JfeB09Q7A~_Re5BoneGXPjNomGwm9WI3g223S5rs9ZKTNj4bwA5xahFaoFKP0KN~Ie10_XaYmFBr1LxqQWeArRl~JkIxH'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>",
+  "recherche_statut": 403,
+  "recherche_extrait": "{\"url\":\"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAIeCK5PKTyiQABJobQw==&cid=XVQCUWHYpEX77TcjAZl4_T3VztFYw71tH1_MK8VtLeBSlDBRpxPfAR4W6_soncQ3YlUp1i83lmPBqaPBx0Ormkcug1XLERB~lXTHvXFSl39o2oWCiHNRKN1Gtli5Sp6y&referer=https%3A%2F%2Fwww.apec.fr%2Fcms%2Fwebservices%2FrechercheOffre&hash=08C47D271059106C508C74B41944A5&t=bv&s=59773&e=e5d1e47db7442311064be67317a60e4babc64e8f5de3a4d2cd3caffea9275074a2424c19be68bbf70b95a5bf7ef2c010&b=1635\"}"
+ },
+ "choisir_service_public": {
+  "robots_statut": 200,
+  "robots": "User-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-content/uploads/pdf-offers/\nAllow: /wp-admin/admin-ajax.php\nSitemap: https://choisirleservicepublic.gouv.fr/sitemapindex.xml",
+  "liste_statut": 200,
+  "liste_taille": 4556417,
+  "liste_liens_offre": 20,
+  "liste_extrait": "4\">\n    <label class=\"fr-toggle__label\" data-fr-checked-label=\"Activé\" data-fr-unchecked-label=\"Désactivé\" for=\"managements-toggle-6ad0ba69af2fe\">Management</label>\n</div>\n \n                        </div>\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"actions1\">\n                <button type=\"button\" class=\"js-hide-on-empty-search btnlink d-none d-md-flex fr-link fr-link--left  fr-fi-delete-line fr-link--icon-left js-search-reset\">Effacer tous les filtres</button>\n\n                <button id=\"save-search-btn\" data-parcours-focuser=\"login\" aria-haspopup='dialog' type=\"button\" class=\"d-none d-md-flex fr-btn fr-btn--secondary js-search-save fr-icon-alarm-warning-line fr-btn--icon-left\">Créer une alerte</button>\n\n                <button type=\"submit\" class=\"fr-btn fr-fi-search-line  fr-btn--icon-left\">\n                    Rechercher                </button>\n\n                <button type=\"button\" class=\"d-md-none fr-btn fr-btn--secondary js-search-save fr-icon-alarm-warning-line fr-btn--icon-left\">Créer une alerte</button>\n\n                <button type=\"button\" class=\"js-hide-on-empty-search btnlink d-md-none fr-link fr-link--left fr-fi-delete-line fr-link--icon-left js-search-reset\">Effacer tous les filtres</button>\n            </div>\n        </div>\n    </div>\n</div>\n     <div class=\"js-results\">\n        <div class=\"strate-cards-list strate-cards-list--offers bg-color--grey-light fr-pt-6w fr-pt-md-8w\">\n\t<div class=\"fr-container\">\n\t\t\t<div class=\"fr-grid-row fr-grid-row--gutters fr-grid-row--middle\">\n\t\t\t\t\t<div class=\"fr-col-12 actions\">\n\t\t\t\t\t\t\t<p role=\"heading\" aria-level=\"2\" class=\"fr-h4 focus-on-ajax\" tabindex=\"-1\">\n\t\t\t\t\t\t\t\t<span class=\"number\">4911</span> offres d'emploi trouvées\t\t\t\t\t\t\t</p>\n\n\t\t\t\t\t\t\t<a href=\"https://place-ep-recrute.talent-soft.com//offre-de-emploi/tous-les-flux-rss.aspx\" target=\"_blank\" class=\"linkbtn fr-btn fr-btn--tertiary  fr-text--sm fr-mt1w fr-mb-1w js-rss\" title=\"S'abonner au flux RSS - nouvelle fenêtre\" rel=\"noopener\"\n\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\tFlux RSS\t\t\t\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"ic ic--settings ic--right ic--small\">\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<ul class=\"fr-grid-row fr-grid-row--gutters\">\n\t\t\t\t\t\t\t\t\t\t<li class=\"fr-col-12 item\">\n\t\t\t\t\t\t\t\t\n<div class=\"fr-card fr-card--horizontal fr-card--horizontal-tier fr-card--offer\">\n\t<div class=\"fr-card__body\">\n\t\t<div class=\"fr-card__content\">\n\t\t\t\t\t\t\t<h3 class=\"fr-card__title\">\n\n\t\t\t\t\t\t\t\t\t\t\t<a\n\t\t\t\t\t\t\thref=\"https://choisirleservicepublic.gouv.fr/offre-emploi/chargee-de-missions-strategie-immobiliere-reference-MINT_BA075ACA-127394/\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"is-same-domain\n        \t\t\t\t\t\t\t\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\taria-label=\"Chargé(e) de missions stratégie immobilière, nouvelle fenêtre\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n\n\t\t\t\t\t\t\tChargé(e) de missions stratégie immobilière\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h3>\n\t\t\t\n\t\t\t\t\t\t\t<div class=\"fr-card__start\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"fr-tags-group\" role=\"presentation\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\n\t<p\t\t\n\t\tclass=\"fr-tag \"\n\t>\n\t\t\t\t\n\t\tDirection et pilotage des politiques publiques\t</p>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t<ul class=\"fr-card__desc\">\n\t\t\t\t\t<li class=\"fr-icon-map-pin-2-line fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Localisation : </span>\n\t\t\t\t\t\tParis <strong>(75)</strong>\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"fr-icon-file-line fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Fonction publique : </span>\n\t\t\t\t\t\tFonction publique de l'État\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"fr-icon-user-line  fr-icon--sm\">\n\t\t\t\t\t\t<span class=\"sr-only\">Employeur : </span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tDirection de l'évaluation, de la performance, de l'achat, des finances et de l'immobilier\t\t\t\t\t\t\t\t\t\t\t</li>\n\n\t\t\t\t\t<li class=\"fr-icon-calendar-line  fr-icon--sm\">\n\t\t\t\t\t\tEn ligne depuis le 08 octobre 2026\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"fr-card__footer\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<button id=\"fav-6ad0ba6a162a5\" data-parcours-focuser=\"login\" data-title=\"Chargé(e) de missions stratégie immobilière\" data-module=\"components/favorite-btn\" type=\"button\" class=\"fr-link fr-icon-star-line fr-link--icon-right action-bar-favorite-btn checkbox-favorite-btn fr-link fav tl-color--blue td-none\">\n\t\t\t\t\t\t<span class=\"text fr-m-0\">\n\t\t\t\t\t\t\t<span class=\"fav-default\">Ajouter aux favoris</span>\n\t\t\t\t\t\t\t<span class=\"sr-only access-text\" data-offer=\"Chargé(e) de missions stratégie immobilière\"> : Chargé(e) de missions stratégie immobilière</span>\n\t\t\t\t\t\t</span>\n\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"fr-card__header\">\n\t\t\t<div class=\"fr-card__img\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img aria-hidden=\"true\" loading=\"lazy\" class=\"fr-responsive-img is-icon\" src=\"https://choisirleservicepublic.gouv.fr/wp-content/uploads/2022/05/Copie-de-Design-sans-nom.png\" alt=\"Ministère de l'interieur - Liberté Egalité Fraternité\">\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t</div>\n\t\n</div>\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li class=\"fr-col-12 item\">\n\t\t\t\t\t\t\t\t\n<div class=\"fr-card fr-card--horizontal fr-card--horizontal-tier fr-card--offer\">\n\t<div c"
+ }
+}
