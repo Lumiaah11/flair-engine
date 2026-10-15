@@ -45,6 +45,8 @@ jobs:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
+          FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
+          FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
         run: |
           if [ -n "${{ github.event.inputs.seule }}" ]; then
             python -m engine.main --seule "${{ github.event.inputs.seule }}"

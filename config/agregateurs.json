@@ -1,4 +1,20 @@
 {
+  "france_travail": {
+    "actif": true,
+    "requetes": [
+      "stratégie",
+      "strategy",
+      "chief of staff",
+      "chargé de mission stratégie",
+      "consultant stratégie",
+      "analyste stratégie",
+      "bras droit",
+      "chef de cabinet",
+      "études de marché"
+    ],
+    "publiee_depuis": 3,
+    "niveau_employeur": 6
+  },
   "vie_bf": {
     "actif": false,
     "url": "https://civiweb-api-prd.azurewebsites.net/api/Offers/search",
@@ -23,6 +39,7 @@
   "adzuna": {
     "actif": true,
     "pays": [
+      "fr",
       "us",
       "gb",
       "de",
@@ -44,11 +61,21 @@
       "business operations"
     ],
     "max_days_old": 3,
-    "niveau_employeur": 5
+    "niveau_employeur": 5,
+    "requetes_par_pays": {
+      "fr": [
+        "stratégie",
+        "strategy",
+        "chief of staff",
+        "chargé de mission"
+      ]
+    }
   },
   "jooble": {
     "actif": true,
     "lieux": [
+      "Paris",
+      "Lyon",
       "Dubai",
       "Abu Dhabi",
       "Riyadh",
@@ -65,7 +92,9 @@
     "requetes": [
       "strategy analyst",
       "chief of staff",
-      "market intelligence analyst"
+      "market intelligence analyst",
+      "chargé de mission stratégie",
+      "consultant stratégie"
     ],
     "niveau_employeur": 5
   },

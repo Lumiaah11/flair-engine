@@ -12,13 +12,13 @@ from .texte import sans_accents
 # --- Intitulés --------------------------------------------------------------
 
 FAMILLES = [
-    ("Chief of Staff et bras droit", 30, re.compile(r"chief of staff|founder'?s associate|founders associate|office of the ceo|ceo office|bras droit|executive associate to the ceo", re.I)),
-    ("Corp dev junior", 20, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst", re.I)),
+    ("Chief of Staff et bras droit", 30, re.compile(r"chief of staff|founder'?s associate|founders associate|office of the ceo|ceo office|bras droit|executive associate to the ceo|chef de cabinet|chargée? de mission auprès d[ue] (?:la |l')?(?:pdg|ceo|direct)", re.I)),
+    ("Corp dev junior", 20, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst|fusions?[- ](?:et )?acquisitions|développement corporate", re.I)),
     ("Finance stratégique", 16, re.compile(r"strategic finance|finance (?:&|and) strategy|strategy (?:&|and) finance|fp&a|financial planning", re.I)),
-    ("Market analyst", 26, re.compile(r"market (?:intelligence|analyst|insights?|research analyst)|competitive intelligence|insights (?:&|and) strategy|business insights", re.I)),
+    ("Market analyst", 26, re.compile(r"market (?:intelligence|analyst|insights?|research analyst)|competitive intelligence|insights (?:&|and) strategy|business insights|chargée? d'études? (?:de )?march|analyste (?:de )?march|veille concurrentielle|intelligence économique", re.I)),
     ("Strategy & Operations", 22, re.compile(r"strategy ?(?:&|and|/) ?operations|biz ?ops|business operations|strategic operations|\bs&o\b", re.I)),
-    ("Conseil en stratégie", 32, re.compile(r"(?:strategy|strategic|management) consult|junior consultant|associate consultant|consultant.{0,25}strat|strategy consultant|strategy&", re.I)),
-    ("Stratégie corporate", 32, re.compile(r"strategy (?:analyst|associate|specialist)|corporate strategy|strategic planning|growth strategy|strategy (?:&|and) planning|business strategy|stratégie|strategie|transformation (?:analyst|associate|officer)", re.I)),
+    ("Conseil en stratégie", 32, re.compile(r"(?:strategy|strategic|management) consult|junior consultant|associate consultant|consultant.{0,25}strat|strategy consultant|strategy&|consultante? junior|consultante? (?:en )?stratégie", re.I)),
+    ("Stratégie corporate", 32, re.compile(r"strategy (?:analyst|associate|specialist)|corporate strategy|strategic planning|growth strategy|strategy (?:&|and) planning|business strategy|stratégie|strategie|transformation (?:analyst|associate|officer)|chargée? de mission strat|analyste strat|plan stratégique", re.I)),
     ("Stratégie corporate", 20, re.compile(r"strateg", re.I)),
 ]
 # « Strategist » désigne surtout des métiers techniques ou de recrutement, sauf exceptions.
@@ -49,7 +49,9 @@ NON_STRAT = re.compile(
     r"facilities|real estate|sap|power bi|power apps|oracle|erp|crm|process consultant|technology consultant|"
     r"it consultant|data engineer|solutions? architect|architect|data analyst|data scientist|scientific|statistical|"
     r"quality|enablement|macro|controller|contrôleur|financial analyst|analyste financier|coverage|r&d|"
-    r"research scientist|predictive|business developer|business developper)\b",
+    r"research scientist|predictive|business developer|business developper|vente|ingénieure?|développeu\w*|"
+    r"comptab\w*|juriste|ressources humaines|achats|acheteu\w*|communication|recrutement|contrôle de gestion|auditeur|"
+    r"chef de produit|technicien\w*|assistante?)\b",
     re.I,
 )
 SENIOR_ASSOCIATE = re.compile(r"senior associate", re.I)
@@ -191,7 +193,12 @@ def langue_annonce(texte):
     return langue if scores[langue] >= 0.06 else None
 
 
+INCLURE_FRANCE = True  # réglé par main.py depuis config/reglages.json
+
+PERMIS = re.compile(r"permis (?:b|de conduire)[^.\n]{0,40}(?:exig|obligatoire|indispensable|requis)|(?:exig|obligatoire|indispensable|requis)\w*[^.\n]{0,30}permis (?:b|de conduire)|driver'?s licen[cs]e (?:is )?(?:required|mandatory)|valid driving licen[cs]e", re.I)
+
 AUTORISATION = {  # zone -> (points, libellé)
+    "France": (15, "OK · France"),
     "États-Unis": (15, "OK · citoyen US"),
     "Europe": (15, "OK · UE"),
     "Suisse": (15, "OK · UE"),
@@ -236,8 +243,11 @@ def analyse(offre, entreprise_info=None):
     lieux = ([structure] + [p for p in detectes if p != structure]) if structure else detectes
     hors_france = [p for p in lieux if p != "FR"]
     if lieux and not hors_france:
-        return None, "basé en France"
-    iso = hors_france[0] if hors_france else (offre.get("pays_iso") or "")
+        if not INCLURE_FRANCE:
+            return None, "basé en France"
+        iso = "FR"
+    else:
+        iso = hors_france[0] if hors_france else (offre.get("pays_iso") or "")
     z = geo.zone(iso) if iso else "Autre"
 
     if NATIONALITE.search(texte):
@@ -285,6 +295,8 @@ def analyse(offre, entreprise_info=None):
             autorisation = "Sponsor requis"
     if HABILITATION.search(texte):
         drapeaux.append("Habilitation sécurité")
+    if PERMIS.search(texte):
+        drapeaux.append("Permis demandé")
 
     # Langues
     pts_langues = 10

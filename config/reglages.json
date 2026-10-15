@@ -1,4 +1,5 @@
 {
   "seuil_score": 45,
-  "jours_agregateurs": 14
+  "jours_agregateurs": 14,
+  "inclure_france": true
 }

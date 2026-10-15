@@ -46,6 +46,13 @@ def get_text(url, params=None, headers=None, timeout=25):
     return r.text
 
 
+def post_form(url, champs, timeout=25):
+    _attendre()
+    r = SESSION.post(url, data=champs, headers={"Content-Type": "application/x-www-form-urlencoded"}, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
+
+
 def post_json(url, corps, headers=None, timeout=25):
     _attendre()
     h = {"Content-Type": "application/json"}

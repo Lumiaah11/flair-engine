@@ -10,6 +10,7 @@ import traceback
 from collections import Counter
 from datetime import date, datetime, timezone
 
+from . import filtres
 from .filtres import analyse, cle_doublon, titre_retenu
 from .sources.agregateurs import AGREGATEURS
 from .sources.ats import CONNECTEURS
@@ -87,6 +88,7 @@ def main(argv=None):
     agregateurs = lire_json(os.path.join(CONFIG, "agregateurs.json"), {})
     reglages = lire_json(os.path.join(CONFIG, "reglages.json"), {})
     seuil = reglages.get("seuil_score", 45)
+    filtres.INCLURE_FRANCE = reglages.get("inclure_france", True)
 
     brutes, stats = collecter(entreprises, agregateurs, seule)
 

@@ -1,7 +1,7 @@
 # Flair, moteur de collecte
 
 Chaque nuit, ce dépôt lit les offres publiées par une centaine d'entreprises et quelques agrégateurs,
-garde les postes de stratégie hors France (et les VIE), leur donne un score automatique, puis enregistre le résultat dans `data/`.
+garde les postes de stratégie en France et à l'international (et les VIE), leur donne un score automatique, puis enregistre le résultat dans `data/`.
 Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 ## Ce que contient le dépôt
@@ -17,8 +17,9 @@ Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 ## Clés facultatives
 
-Adzuna et Jooble demandent une clé gratuite. Sans clé, ces deux sources sont simplement ignorées.
-Pour les ajouter : Settings, puis Secrets and variables, puis Actions, et créer `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` et `JOOBLE_KEY`.
+Adzuna, Jooble et France Travail demandent une clé gratuite. Sans clé, ces sources sont simplement ignorées.
+Pour les ajouter : Settings, puis Secrets and variables, puis Actions, et créer `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_KEY`,
+`FT_CLIENT_ID` et `FT_CLIENT_SECRET`. La France peut être retirée avec `"inclure_france": false` dans `config/reglages.json`.
 
 ## Lancer une collecte à la main
 

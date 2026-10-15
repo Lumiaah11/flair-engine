@@ -8,7 +8,7 @@ from datetime import date
 import requests
 
 from .. import geo
-from ..http import get_json, get_text, post_json
+from ..http import SESSION, get_json, get_text, post_form, post_json
 from ..texte import html_vers_texte
 from . import offre
 
@@ -20,7 +20,7 @@ def adzuna(cfg, retenir):
     res, total = [], 0
     mode_titre = True
     for pays in cfg.get("pays", []):
-        for q in cfg.get("requetes", []):
+        for q in (cfg.get("requetes_par_pays") or {}).get(pays, cfg.get("requetes", [])):
             params = {"app_id": app_id, "app_key": app_key, "results_per_page": 50,
                       "max_days_old": cfg.get("max_days_old", 3), "content-type": "application/json"}
             params["title_only" if mode_titre else "what"] = q
@@ -256,7 +256,46 @@ def listes_html(cfg, retenir):
     return res, total
 
 
+def france_travail(cfg, retenir):
+    """API officielle Offres d'emploi v2 de France Travail (clés gratuites sur francetravail.io)."""
+    cid, secret = os.environ.get("FT_CLIENT_ID"), os.environ.get("FT_CLIENT_SECRET")
+    if not (cid and secret):
+        raise RuntimeError("clés France Travail absentes (FT_CLIENT_ID, FT_CLIENT_SECRET)")
+    jeton = post_form("https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire",
+                      {"grant_type": "client_credentials", "client_id": cid, "client_secret": secret,
+                       "scope": "api_offresdemploiv2 o2dsoffre"}).get("access_token")
+    entetes = {"Authorization": f"Bearer {jeton}", "Accept": "application/json"}
+    res, total, vus = [], 0, set()
+    for q in cfg.get("requetes", []):
+        r = SESSION.get("https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search",
+                        params={"motsCles": q, "range": "0-149", "publieeDepuis": cfg.get("publiee_depuis", 3)},
+                        headers=entetes, timeout=25)
+        if r.status_code == 204:
+            continue
+        r.raise_for_status()
+        items = (r.json() or {}).get("resultats", []) or []
+        total += len(items)
+        for it in items:
+            if it.get("id") in vus:
+                continue
+            vus.add(it.get("id"))
+            titre = it.get("intitule", "")
+            if not retenir(titre) or it.get("typeContrat") in ("MIS", "SAI"):
+                continue
+            permis = "; ".join(f"Permis {p.get('libelle', '')} {'exigé' if p.get('exigence') == 'E' else 'souhaité'}"
+                               for p in it.get("permis") or [])
+            desc = "\n".join(x for x in [it.get("description", ""), it.get("experienceLibelle", ""), permis] if x)
+            url = ((it.get("origineOffre") or {}).get("urlOrigine")
+                   or f"https://candidat.francetravail.fr/offres/recherche/detail/{it.get('id')}")
+            res.append(offre("france_travail", it.get("id"), (it.get("entreprise") or {}).get("nom", ""), titre,
+                             ((it.get("lieuTravail") or {}).get("libelle", "") + ", France"), url,
+                             (it.get("dateCreation") or "")[:10], desc, pays_iso="FR",
+                             contrat=it.get("typeContrat") or ""))
+    return res, total
+
+
 AGREGATEURS = {
+    "france_travail": france_travail,
     "adzuna": adzuna,
     "jooble": jooble,
     "themuse": themuse,

@@ -157,6 +157,12 @@ CODES_VILLES = {
     "shanghai": "SHA", "beijing": "BJS", "tokyo": "TYO", "seoul": "SEL", "mumbai": "BOM", "bangalore": "BLR",
     "bengaluru": "BLR", "delhi": "DEL", "kuala lumpur": "KUL", "bangkok": "BKK", "jakarta": "JKT",
     "sydney": "SYD", "melbourne": "MEL", "casablanca": "CAS", "mexico city": "MEX", "sao paulo": "SAO",
+    "paris": "PAR", "la defense": "PAR", "boulogne-billancourt": "PAR", "issy-les-moulineaux": "PAR",
+    "levallois-perret": "PAR", "neuilly-sur-seine": "PAR", "courbevoie": "PAR", "puteaux": "PAR", "massy": "PAR",
+    "rueil-malmaison": "PAR", "saint-denis": "PAR", "nanterre": "PAR", "ile-de-france": "PAR", "lyon": "LYS",
+    "marseille": "MRS", "toulouse": "TLS", "bordeaux": "BOD", "lille": "LIL", "nantes": "NTE", "nice": "NCE",
+    "grenoble": "GNB", "montpellier": "MPL", "strasbourg": "SXB", "rennes": "RNS", "clermont-ferrand": "CFE",
+    "sophia antipolis": "NCE",
 }
 
 _PAYS_ALIASES = sorted(((alias, iso) for iso, (_, aliases) in PAYS.items() for alias in aliases), key=lambda x: -len(x[0]))

@@ -43,6 +43,12 @@ class Filtres(unittest.TestCase):
                   "Associate Strategic Client Executive, Rx Solutions"]:
             self.assertFalse(titre_retenu(t, est_conseil=True), t)
         self.assertTrue(titre_retenu("Business Strategist"))
+        for t in ["Chargé de mission stratégie", "Consultant junior en stratégie", "Chef de cabinet du Président",
+                  "Chargée d'études de marché", "Analyste stratégie et développement"]:
+            self.assertTrue(titre_retenu(t), t)
+        for t in ["Stage - Chargé de mission stratégie", "Alternance - Analyste stratégie", "Ingénieur stratégie produit",
+                  "Assistante de direction stratégie"]:
+            self.assertFalse(titre_retenu(t), t)
         self.assertTrue(titre_retenu("Consultant", est_conseil=True))
         self.assertFalse(titre_retenu("Consultant"))
         self.assertEqual(titre_exclu("Strategy Analyst (National)"), "réservé aux nationaux")
@@ -73,7 +79,14 @@ class Filtres(unittest.TestCase):
         self.assertIn("Pas de sponsor : ton passeport US passe", o["drapeaux"])
         self.assertGreaterEqual(o["score_auto"], 80)
 
-        self.assertEqual(self._offre("Strategy Analyst", "Paris, France", "")[1], "basé en France")
+        o, r = self._offre("Chargé de mission stratégie", "75 - Paris 8e Arrondissement, France", "Permis B exigé pour les déplacements.")
+        self.assertIsNone(r)
+        self.assertEqual(o["zone"], "France")
+        self.assertEqual(o["autorisation"], "OK · France")
+        self.assertIn("Permis demandé", o["drapeaux"])
+        from engine import filtres
+        with mock.patch.object(filtres, "INCLURE_FRANCE", False):
+            self.assertEqual(self._offre("Strategy Analyst", "Paris, France", "")[1], "basé en France")
         self.assertTrue(self._offre("Strategy Analyst", "Zurich, Switzerland", "Fluent German is essential.")[1].startswith("langue exigée"))
         self.assertEqual(self._offre("Strategy Analyst", "Abu Dhabi, UAE", "Open to UAE Nationals only.")[1], "réservé aux nationaux")
         self.assertEqual(self._offre("Strategy Associate", "Berlin, Germany", "6+ years of experience")[1], "6 ans d'expérience demandés")
@@ -164,9 +177,9 @@ class PassageComplet(unittest.TestCase):
                     sortie = json.load(f)
                 with open(os.path.join(data, "stats.json")) as f:
                     stats = json.load(f)
-        self.assertEqual(sortie["total"], 1)
-        self.assertEqual(sortie["offres"][0]["pays"], "Belgique")
-        self.assertEqual(stats["rejets_par_raison"].get("basé en France"), 1)
+        self.assertEqual(sortie["total"], 2)
+        self.assertEqual({o["zone"] for o in sortie["offres"]}, {"Europe", "France"})
+        self.assertIsNone(stats["rejets_par_raison"].get("basé en France"))
 
 
 if __name__ == "__main__":
@@ -199,3 +212,26 @@ class ListesHtml(unittest.TestCase):
         mi = [o for o in res if "Market" in o["titre"]][0]
         self.assertEqual(mi["entreprise"], "Schneider Electric")
         self.assertEqual(mi["pays_iso"], "NL")
+
+
+class FranceTravail(unittest.TestCase):
+    def test_connecteur(self):
+        reponse = mock.Mock(status_code=200)
+        reponse.json.return_value = {"resultats": [
+            {"id": "201ABC", "intitule": "Chargé de mission stratégie (H/F)", "description": "Rattaché au directeur général.",
+             "lieuTravail": {"libelle": "69 - Lyon 3e Arrondissement"}, "entreprise": {"nom": "Groupe Exemple"},
+             "typeContrat": "CDI", "dateCreation": "2026-10-14T10:00:00.000Z", "experienceLibelle": "Débutant accepté",
+             "permis": [{"libelle": "B - Véhicule léger", "exigence": "E"}],
+             "origineOffre": {"urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/201ABC"}},
+            {"id": "201ABD", "intitule": "Commercial terrain", "typeContrat": "CDI"}]}
+        reponse.raise_for_status.return_value = None
+        with mock.patch.dict(os.environ, {"FT_CLIENT_ID": "x", "FT_CLIENT_SECRET": "y"}), \
+                mock.patch.object(agregateurs, "post_form", return_value={"access_token": "t"}), \
+                mock.patch.object(agregateurs.SESSION, "get", return_value=reponse):
+            res, lues = agregateurs.france_travail({"requetes": ["stratégie"]}, titre_retenu)
+        self.assertEqual(lues, 2)
+        self.assertEqual(len(res), 1)
+        o, r = analyse(res[0], {"niveau": 6})
+        self.assertIsNone(r)
+        self.assertEqual(o["code"], "LYS")
+        self.assertIn("Permis demandé", o["drapeaux"])
