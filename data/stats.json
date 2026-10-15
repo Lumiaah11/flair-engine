@@ -1,18 +1,18 @@
 {
- "maj": "2026-10-15T11:21:22+00:00",
+ "maj": "2026-10-15T11:35:06+00:00",
  "compteurs": {
-  "sources_ok": 94,
-  "sources_en_erreur": 3,
-  "titres_retenus": 281,
-  "offres_gardees": 159,
-  "nouvelles": 159,
-  "offres_lues": 19011
+  "sources_ok": 95,
+  "sources_en_erreur": 2,
+  "titres_retenus": 345,
+  "offres_gardees": 209,
+  "nouvelles": 209,
+  "offres_lues": 20717
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 29,
+  "4 ans d'expérience demandés": 31,
   "5 ans d'expérience demandés": 18,
+  "8 ans d'expérience demandés": 12,
   "7 ans d'expérience demandés": 11,
-  "8 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 8,
   "annonce rédigée en allemand": 8,
   "langue exigée : Allemand": 5,
@@ -20,11 +20,12 @@
   "12 ans d'expérience demandés": 3,
   "langue exigée : Coréen": 3,
   "6 ans d'expérience demandés": 3,
+  "langue exigée : Polonais": 2,
+  "15 ans d'expérience demandés": 2,
   "langue exigée : Italien": 2,
   "langue exigée : Grec": 2,
   "langue exigée : Thaï": 2,
-  "langue exigée : Polonais": 1,
-  "15 ans d'expérience demandés": 1,
+  "annonce rédigée en portugais": 2,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
   "langue exigée : Japonais": 1,
@@ -52,11 +53,11 @@
   "Datadog (greenhouse)": {
    "statut": "ok",
    "lues": 434,
-   "titres_retenus": 4
+   "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 896,
+   "lues": 895,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -126,7 +127,7 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 216,
+   "lues": 217,
    "titres_retenus": 1
   },
   "Twilio (greenhouse)": {
@@ -141,7 +142,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 400,
+   "lues": 402,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -256,13 +257,13 @@
   },
   "Point72 (greenhouse)": {
    "statut": "ok",
-   "lues": 222,
+   "lues": 221,
    "titres_retenus": 2
   },
   "ICONIQ (greenhouse)": {
    "statut": "ok",
    "lues": 16,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "NYC Economic Development Corporation (greenhouse)": {
    "statut": "ok",
@@ -281,7 +282,7 @@
   },
   "Spotify (lever)": {
    "statut": "ok",
-   "lues": 82,
+   "lues": 83,
    "titres_retenus": 0
   },
   "Palantir (lever)": {
@@ -312,7 +313,7 @@
   "BlaBlaCar (lever)": {
    "statut": "ok",
    "lues": 11,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "Kraken (lever)": {
    "statut": "ok",
@@ -417,7 +418,7 @@
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
    "lues": 1243,
-   "titres_retenus": 6
+   "titres_retenus": 5
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
@@ -452,11 +453,11 @@
   "Adobe (workday)": {
    "statut": "ok",
    "lues": 159,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "NVIDIA (workday)": {
    "statut": "ok",
-   "lues": 184,
+   "lues": 183,
    "titres_retenus": 0
   },
   "Oliver Wyman (workday)": {
@@ -466,32 +467,32 @@
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
-   "lues": 128,
-   "titres_retenus": 70
+   "lues": 248,
+   "titres_retenus": 83
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
-   "lues": 180,
-   "titres_retenus": 7
+   "lues": 300,
+   "titres_retenus": 11
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 285,
-   "titres_retenus": 1
+   "lues": 483,
+   "titres_retenus": 2
   },
   "Thales (workday)": {
    "statut": "ok",
-   "lues": 180,
+   "lues": 361,
    "titres_retenus": 3
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 168,
-   "titres_retenus": 1
+   "lues": 230,
+   "titres_retenus": 0
   },
   "Michelin (workday)": {
    "statut": "ok",
-   "lues": 120,
+   "lues": 209,
    "titres_retenus": 1
   },
   "france_travail": {
@@ -511,8 +512,9 @@
    "message": "RuntimeError: clés Adzuna absentes (ADZUNA_APP_ID, ADZUNA_APP_KEY)"
   },
   "jooble": {
-   "statut": "erreur",
-   "message": "RuntimeError: clé Jooble absente (JOOBLE_KEY)"
+   "statut": "ok",
+   "lues": 935,
+   "titres_retenus": 52
   },
   "listes_html": {
    "statut": "ok",

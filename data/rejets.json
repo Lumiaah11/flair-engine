@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T11:21:22+00:00",
+ "maj": "2026-10-15T11:35:06+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -92,25 +92,17 @@
   {
    "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Singapore; Tokyo Prefecture, Japan",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Finance & Strategy, Deal Strategy - APAC",
-   "entreprise": "Anthropic",
    "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
    "raison": "5 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
    "source": "greenhouse"
   },
   {
-   "titre": "Finance & Strategy GTM, EMEA",
+   "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Dublin, IE",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
+   "lieu": "Singapore; Tokyo Prefecture, Japan",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
    "source": "greenhouse"
   },
   {
@@ -119,6 +111,14 @@
    "lieu": "London, UK; Dublin, IE",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy GTM, EMEA",
+   "entreprise": "Anthropic",
+   "lieu": "Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
    "source": "greenhouse"
   },
   {
@@ -140,17 +140,17 @@
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Singapore",
+   "lieu": "Seoul, South Korea",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
    "source": "greenhouse"
   },
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Seoul, South Korea",
+   "lieu": "Singapore",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
    "source": "greenhouse"
   },
   {
@@ -276,25 +276,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
@@ -303,6 +295,14 @@
    "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
@@ -324,6 +324,14 @@
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
+   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
+   "raison": "langue exigée : Coréen",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategic Cuisines - Korean AE (Central)",
+   "entreprise": "Toast",
    "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
@@ -335,14 +343,6 @@
    "lieu": "Chicago, IL; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
@@ -842,6 +842,14 @@
    "source": "workday"
   },
   {
+   "titre": "Banco de Talentos: Analista de Estratégia (Trainee) - 2026",
+   "entreprise": "Accenture Strategy",
+   "lieu": "São Paulo - Sao Paulo; Minas Gerais - Belo Horizonte; Rio de Janeiro, Rio Metropolitan Center; Brazil",
+   "raison": "annonce rédigée en portugais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---Sao-Paulo/Banco-de-Talentos--Analista-de-Estratgia--Trainee----2026_R00306857",
+   "source": "workday"
+  },
+  {
    "titre": "Junior Consultant Technology Strategy & Advisory (all genders)",
    "entreprise": "Accenture Strategy",
    "lieu": "Kronberg, Campus Kronberg 1; Germany",
@@ -930,6 +938,30 @@
    "source": "workday"
   },
   {
+   "titre": "S&C GN - TS&T – Strategic Technology Effectiveness - Tech M&A - Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Bengaluru; India",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/S-C-GN---TS-T---Strategic-Technology-Effectiveness---Tech-M-A---Consultant_R00340129",
+   "source": "workday"
+  },
+  {
+   "titre": "Consultor(a) de Estratégia",
+   "entreprise": "Accenture Strategy",
+   "lieu": "São Paulo - São Paulo; Brazil",
+   "raison": "annonce rédigée en portugais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
+   "source": "workday"
+  },
+  {
+   "titre": "Corporate Strategy Specialist",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Bengaluru; India",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Corporate-Strategy-Specialist_14681244-1",
+   "source": "workday"
+  },
+  {
    "titre": "IN_Senior Manager_FS Strategy_Financial Services _Advisory_Mumbai",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Mumbai Shivaji Park; India",
@@ -951,6 +983,30 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
+   "source": "workday"
+  },
+  {
+   "titre": "Master Data Management Consultant",
+   "entreprise": "PwC (Strategy&)",
+   "lieu": "Warszawa - Polna 11; Katowice; Wrocław; Poland",
+   "raison": "langue exigée : Polonais",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Warszawa---Polna-11/Data-Governance-Specialist_679918WD",
+   "source": "workday"
+  },
+  {
+   "titre": "Consultant Stratégie et Transformation des SI F/H – Paris / Toulouse",
+   "entreprise": "PwC (Strategy&)",
+   "lieu": "Neuilly-sur-Seine; France",
+   "raison": "15 ans d'expérience demandés",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Neuilly-sur-Seine/Consultant-Stratgie---Transformation-des-SI---Paris---Sophia-Antipolis---Toulouse---CDI---H-F_669231WD-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Chief of Staff",
+   "entreprise": "Airbus",
+   "lieu": "Kinston, NC; United States of America",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Kinston-NC/Chief-of-Staff_JR10433384",
    "source": "workday"
   }
  ]
