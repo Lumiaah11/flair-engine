@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T16:17:11+00:00",
+ "maj": "2026-10-15T16:25:51+00:00",
  "compteurs": {
   "sources_ok": 144,
   "sources_en_erreur": 1,
@@ -47,7 +47,7 @@
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 165,
+   "lues": 164,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
@@ -77,7 +77,7 @@
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 441,
+   "lues": 442,
    "titres_retenus": 0
   },
   "Scale AI (greenhouse)": {
@@ -132,7 +132,7 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 216,
+   "lues": 215,
    "titres_retenus": 1
   },
   "Twilio (greenhouse)": {
@@ -142,7 +142,7 @@
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 376,
+   "lues": 377,
    "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
@@ -502,7 +502,7 @@
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
-   "lues": 249,
+   "lues": 248,
    "titres_retenus": 84
   },
   "PwC (Strategy&) (workday)": {
@@ -757,38 +757,39 @@
   },
   "jooble": {
    "statut": "ok",
-   "lues": 256,
+   "lues": 257,
    "titres_retenus": 0,
    "debug": [
-    "jooble.org Paris, France / stratégie : 7 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / chargé de mission stratégie : 32 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / consultant stratégie : 25 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / analyste stratégie : 10 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / chief of staff : 1 offres, ex. France",
-    "jooble.org Paris, France / strategy analyst : 16 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / corporate development : 9 offres, ex. France ; France ; France",
-    "jooble.org Paris, France / bras droit : 1 offres, ex. France",
-    "jooble.org Lyon, France / stratégie : 7 offres, ex. France ; France ; France",
-    "jooble.org Lyon, France / consultant stratégie : 25 offres, ex. France ; France ; France",
-    "jooble.org Lyon, France / chief of staff : 1 offres, ex. France",
-    "jooble.org Dubai, United Arab Emirates / strategy analyst : 20 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
-    "jooble.org Dubai, United Arab Emirates / chief of staff : 1 offres, ex. United Arab Emirates",
-    "jooble.org Dubai, United Arab Emirates / market intelligence analyst : 5 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
-    "jooble.org Abu Dhabi, United Arab Emirates / strategy analyst : 20 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
-    "jooble.org Abu Dhabi, United Arab Emirates / chief of staff : 1 offres, ex. United Arab Emirates",
-    "jooble.org Abu Dhabi, United Arab Emirates / market intelligence analyst : 5 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
-    "jooble.org Riyadh, Saudi Arabia / strategy analyst : 5 offres, ex. Saudi Arabia ; Saudi Arabia ; Saudi Arabia",
-    "jooble.org Riyadh, Saudi Arabia / chief of staff : 0 offres, ex. ",
-    "jooble.org Riyadh, Saudi Arabia / market intelligence analyst : 0 offres, ex. ",
-    "jooble.org Singapore / strategy analyst : 50 offres, ex. Singapore ; Singapore ; Singapore",
-    "jooble.org Singapore / chief of staff : 3 offres, ex. Singapore ; Singapore ; Singapore",
-    "jooble.org Singapore / market intelligence analyst : 3 offres, ex. Singapore ; Singapore ; Singapore",
-    "jooble.org Brussels, Belgium / strategy analyst : 3 offres, ex. Belgium ; Belgium ; Belgium",
-    "jooble.org Brussels, Belgium / chief of staff : 0 offres, ex. ",
-    "jooble.org Brussels, Belgium / market intelligence analyst : 0 offres, ex. ",
-    "jooble.org Amsterdam, Netherlands / strategy analyst : 5 offres, ex. Netherlands ; Netherlands ; Netherlands",
-    "jooble.org Amsterdam, Netherlands / chief of staff : 0 offres, ex. ",
-    "jooble.org Amsterdam, Netherlands / market intelligence analyst : 1 offres, ex. Netherlands"
+    "écartées : intitulé 152, intermédiaire 0, lieu 0",
+    "Paris, France / stratégie : 7 offres, ex. Lead UX H/F | NEXTON | France ; UX DESIGNER APP H/F | NEXTON | France",
+    "Paris, France / chargé de mission stratégie : 32 offres, ex. Chef.fe de partie F/H/NB - CDI | Disneyland Paris | France ; UX Designer Senior H/F | Inetum | France",
+    "Paris, France / consultant stratégie : 25 offres, ex. Solution Architect (Managing Consultant, | Mastercard | France ; Lead UX H/F | NEXTON | France",
+    "Paris, France / analyste stratégie : 10 offres, ex. Lead UX H/F | NEXTON | France ; UX Designer Senior H/F | Inetum | France",
+    "Paris, France / chief of staff : 1 offres, ex. Compliance Specialist | Merge | France",
+    "Paris, France / strategy analyst : 16 offres, ex. Compliance Specialist | Merge | France ; Sales Manager | Greystar | France",
+    "Paris, France / corporate development : 9 offres, ex. Manager, Product Excellence & Innovation | Mastercard | France ; Director, Services Business Development  | Mastercard | France",
+    "Paris, France / bras droit : 1 offres, ex. Lead UX Researcher - H/F/X | Accor | France",
+    "Lyon, France / stratégie : 7 offres, ex. Lead UX H/F | NEXTON | France ; UX DESIGNER APP H/F | NEXTON | France",
+    "Lyon, France / consultant stratégie : 25 offres, ex. Solution Architect (Managing Consultant, | Mastercard | France ; Lead UX H/F | NEXTON | France",
+    "Lyon, France / chief of staff : 1 offres, ex. Compliance Specialist | Merge | France",
+    "Dubai, United Arab Emirates / strategy analyst : 20 offres, ex. Senior P2P Risk Strategy Analyst | Bybit | United Arab Emirates ; Senior Data Analyst | Bybit | United Arab Emirates",
+    "Dubai, United Arab Emirates / chief of staff : 1 offres, ex. Lead Marketing Compliance Specialist | Bybit | United Arab Emirates",
+    "Dubai, United Arab Emirates / market intelligence analyst : 5 offres, ex. Client Service Analyst - Livechat (Seych | Bybit | United Arab Emirates ; Senior Growth Product Manager - User Act | Bybit | United Arab Emirates",
+    "Abu Dhabi, United Arab Emirates / strategy analyst : 20 offres, ex. Senior P2P Risk Strategy Analyst | Bybit | United Arab Emirates ; Senior Data Analyst | Bybit | United Arab Emirates",
+    "Abu Dhabi, United Arab Emirates / chief of staff : 1 offres, ex. Lead Marketing Compliance Specialist | Bybit | United Arab Emirates",
+    "Abu Dhabi, United Arab Emirates / market intelligence analyst : 5 offres, ex. Client Service Analyst - Livechat (Seych | Bybit | United Arab Emirates ; Senior Growth Product Manager - User Act | Bybit | United Arab Emirates",
+    "Riyadh, Saudi Arabia / strategy analyst : 5 offres, ex. Associate Analyst, Business Development, | Mastercard | Saudi Arabia ; Analyst KYC | MUFG Bank, Ltd. | Saudi Arabia",
+    "Riyadh, Saudi Arabia / chief of staff : 0 offres, ex. ",
+    "Riyadh, Saudi Arabia / market intelligence analyst : 0 offres, ex. ",
+    "Singapore / strategy analyst : 50 offres, ex. Analyst, Business Development (Retail &  | Mastercard | Singapore ; Analyst FI Business Management | MUFG Bank, Ltd. | Singapore",
+    "Singapore / chief of staff : 3 offres, ex. Senior Executive, Data Excellence | Sephora | Singapore ; Senior Associate, Change Management Exec | DBS Bank Ltd | Singapore",
+    "Singapore / market intelligence analyst : 4 offres, ex. Ad Creative Strategist (Creative Produce | OKX | Singapore ; Growth Manager (APAC) | Starknet | Singapore",
+    "Brussels, Belgium / strategy analyst : 3 offres, ex. Head of Sales - Belgium | Alan | Belgium ; Fleetsales Manager - Belux | XPENG | Belgium",
+    "Brussels, Belgium / chief of staff : 0 offres, ex. ",
+    "Brussels, Belgium / market intelligence analyst : 0 offres, ex. ",
+    "Amsterdam, Netherlands / strategy analyst : 5 offres, ex. (Senior) Data Engineer | ABB E-mobility | Netherlands ; Sales Director - Payments | Breeze | Netherlands",
+    "Amsterdam, Netherlands / chief of staff : 0 offres, ex. ",
+    "Amsterdam, Netherlands / market intelligence analyst : 1 offres, ex. Growth Manager - Campaigns | OKX | Netherlands"
    ]
   },
   "listes_html": {
