@@ -1,44 +1,44 @@
 {
- "maj": "2026-10-15T10:44:01+00:00",
+ "maj": "2026-10-15T10:53:16+00:00",
  "compteurs": {
-  "sources_ok": 93,
-  "sources_en_erreur": 27,
-  "titres_retenus": 388,
-  "offres_gardees": 230,
-  "nouvelles": 230,
-  "offres_lues": 18962
+  "sources_ok": 94,
+  "sources_en_erreur": 2,
+  "titres_retenus": 306,
+  "offres_gardees": 176,
+  "nouvelles": 176,
+  "offres_lues": 19011
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 31,
-  "5 ans d'expérience demandés": 22,
-  "7 ans d'expérience demandés": 14,
-  "10 ans d'expérience demandés": 13,
-  "8 ans d'expérience demandés": 12,
-  "basé en France": 9,
-  "langue exigée : Coréen": 6,
-  "6 ans d'expérience demandés": 5,
+  "5 ans d'expérience demandés": 18,
+  "7 ans d'expérience demandés": 11,
+  "8 ans d'expérience demandés": 11,
+  "10 ans d'expérience demandés": 8,
+  "annonce rédigée en allemand": 8,
+  "basé en France": 6,
   "langue exigée : Allemand": 5,
+  "langue exigée : Néerlandais": 5,
   "12 ans d'expérience demandés": 3,
-  "langue exigée : Japonais": 3,
-  "langue exigée : Néerlandais": 3,
-  "15 ans d'expérience demandés": 2,
-  "langue exigée : Suédois": 2,
+  "langue exigée : Coréen": 3,
+  "6 ans d'expérience demandés": 3,
   "langue exigée : Italien": 2,
   "langue exigée : Grec": 2,
   "langue exigée : Thaï": 2,
   "langue exigée : Polonais": 1,
-  "langue exigée : Norvégien": 1,
-  "langue exigée : Mandarin": 1,
-  "langue exigée : Portugais": 1,
+  "15 ans d'expérience demandés": 1,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
-  "langue exigée : Suédois, Danois, Norvégien, Finnois": 1
+  "langue exigée : Japonais": 1,
+  "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
+  "langue exigée : Suédois": 1,
+  "langue exigée : Mandarin, Cantonais": 1,
+  "annonce rédigée en italien": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
    "lues": 727,
-   "titres_retenus": 15
+   "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
@@ -48,22 +48,22 @@
   "Anthropic (greenhouse)": {
    "statut": "ok",
    "lues": 647,
-   "titres_retenus": 19
+   "titres_retenus": 18
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 435,
-   "titres_retenus": 3
+   "lues": 434,
+   "titres_retenus": 4
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
    "lues": 896,
-   "titres_retenus": 5
+   "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
    "lues": 142,
-   "titres_retenus": 3
+   "titres_retenus": 2
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
@@ -78,7 +78,7 @@
   "Scale AI (greenhouse)": {
    "statut": "ok",
    "lues": 181,
-   "titres_retenus": 6
+   "titres_retenus": 2
   },
   "Duolingo (greenhouse)": {
    "statut": "ok",
@@ -128,7 +128,7 @@
   "GitLab (greenhouse)": {
    "statut": "ok",
    "lues": 216,
-   "titres_retenus": 2
+   "titres_retenus": 1
   },
   "Twilio (greenhouse)": {
    "statut": "ok",
@@ -212,26 +212,18 @@
   },
   "GetYourGuide (greenhouse)": {
    "statut": "ok",
-   "lues": 71,
+   "lues": 72,
    "titres_retenus": 0
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 204,
+   "lues": 203,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
    "statut": "ok",
    "lues": 14,
    "titres_retenus": 0
-  },
-  "Contentsquare (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/contentsquare/jobs?content=true"
-  },
-  "Mollie (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mollie/jobs?content=true"
   },
   "Contentful (greenhouse)": {
    "statut": "ok",
@@ -251,7 +243,7 @@
   "Bridgewater Associates (greenhouse)": {
    "statut": "ok",
    "lues": 18,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "General Atlantic (greenhouse)": {
    "statut": "ok",
@@ -266,12 +258,12 @@
   "Point72 (greenhouse)": {
    "statut": "ok",
    "lues": 222,
-   "titres_retenus": 7
+   "titres_retenus": 4
   },
   "ICONIQ (greenhouse)": {
    "statut": "ok",
    "lues": 16,
-   "titres_retenus": 0
+   "titres_retenus": 1
   },
   "NYC Economic Development Corporation (greenhouse)": {
    "statut": "ok",
@@ -283,50 +275,10 @@
    "lues": 12,
    "titres_retenus": 2
   },
-  "Simon-Kucher (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/simonkucher/jobs?content=true"
-  },
-  "L.E.K. Consulting (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/lekconsulting/jobs?content=true"
-  },
-  "Kearney (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kearney/jobs?content=true"
-  },
-  "OC&C Strategy Consultants (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/occstrategy/jobs?content=true"
-  },
-  "Altman Solon (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/altmansolon/jobs?content=true"
-  },
-  "Kepler Cannon (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/keplercannon/jobs?content=true"
-  },
-  "Cornerstone Research (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cornerstoneresearch/jobs?content=true"
-  },
-  "Analysis Group (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/analysisgroup/jobs?content=true"
-  },
-  "Putnam (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/putnamassociates/jobs?content=true"
-  },
   "ClearView Healthcare Partners (greenhouse)": {
    "statut": "ok",
    "lues": 34,
    "titres_retenus": 7
-  },
-  "West Monroe (greenhouse)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/westmonroe/jobs?content=true"
   },
   "Spotify (lever)": {
    "statut": "ok",
@@ -336,25 +288,17 @@
   "Palantir (lever)": {
    "statut": "ok",
    "lues": 315,
-   "titres_retenus": 35
+   "titres_retenus": 0
   },
   "Mistral AI (lever)": {
    "statut": "ok",
    "lues": 0,
    "titres_retenus": 0
   },
-  "Plaid (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
-  },
   "Zoox (lever)": {
    "statut": "ok",
    "lues": 239,
    "titres_retenus": 0
-  },
-  "Doctolib (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
   },
   "Aircall (lever)": {
    "statut": "ok",
@@ -366,35 +310,15 @@
    "lues": 55,
    "titres_retenus": 0
   },
-  "Alan (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
-  },
-  "Back Market (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
-  },
-  "Ledger (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
-  },
-  "PayFit (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
-  },
   "BlaBlaCar (lever)": {
    "statut": "ok",
    "lues": 11,
-   "titres_retenus": 0
+   "titres_retenus": 1
   },
   "Kraken (lever)": {
    "statut": "ok",
    "lues": 0,
    "titres_retenus": 0
-  },
-  "Hopper (lever)": {
-   "statut": "erreur",
-   "message": "RuntimeError: introuvable sur Lever (US et UE)"
   },
   "Coins.ph (lever)": {
    "statut": "ok",
@@ -404,12 +328,12 @@
   "OpenAI (ashby)": {
    "statut": "ok",
    "lues": 804,
-   "titres_retenus": 13
+   "titres_retenus": 11
   },
   "Ramp (ashby)": {
    "statut": "ok",
    "lues": 162,
-   "titres_retenus": 4
+   "titres_retenus": 2
   },
   "Notion (ashby)": {
    "statut": "ok",
@@ -419,16 +343,12 @@
   "Perplexity (ashby)": {
    "statut": "ok",
    "lues": 130,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
    "lues": 152,
-   "titres_retenus": 13
-  },
-  "Anysphere (Cursor) (ashby)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/anysphere?includeCompensation=true"
+   "titres_retenus": 1
   },
   "Deel (ashby)": {
    "statut": "ok",
@@ -450,10 +370,6 @@
    "lues": 50,
    "titres_retenus": 1
   },
-  "Pigment (ashby)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/pigment?includeCompensation=true"
-  },
   "Harvey (ashby)": {
    "statut": "ok",
    "lues": 343,
@@ -469,23 +385,15 @@
    "lues": 0,
    "titres_retenus": 0
   },
-  "Glean (ashby)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/glean?includeCompensation=true"
-  },
-  "Retool (ashby)": {
-   "statut": "erreur",
-   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/retool?includeCompensation=true"
-  },
   "Sierra (ashby)": {
    "statut": "ok",
    "lues": 187,
-   "titres_retenus": 29
+   "titres_retenus": 3
   },
   "EliseAI (ashby)": {
    "statut": "ok",
    "lues": 130,
-   "titres_retenus": 11
+   "titres_retenus": 10
   },
   "Clay (ashby)": {
    "statut": "ok",
@@ -500,7 +408,7 @@
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
    "lues": 1382,
-   "titres_retenus": 2
+   "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
@@ -510,7 +418,7 @@
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
    "lues": 1243,
-   "titres_retenus": 5
+   "titres_retenus": 6
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
@@ -540,7 +448,7 @@
   "Salesforce (workday)": {
    "statut": "ok",
    "lues": 183,
-   "titres_retenus": 7
+   "titres_retenus": 3
   },
   "Adobe (workday)": {
    "statut": "ok",
@@ -555,22 +463,22 @@
   "Oliver Wyman (workday)": {
    "statut": "ok",
    "lues": 180,
-   "titres_retenus": 52
+   "titres_retenus": 32
   },
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 128,
-   "titres_retenus": 41
+   "titres_retenus": 71
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
    "lues": 180,
-   "titres_retenus": 9
+   "titres_retenus": 7
   },
   "Airbus (workday)": {
    "statut": "ok",
    "lues": 285,
-   "titres_retenus": 3
+   "titres_retenus": 0
   },
   "Thales (workday)": {
    "statut": "ok",
@@ -582,18 +490,13 @@
    "lues": 168,
    "titres_retenus": 3
   },
-  "Danone (workday)": {
-   "statut": "erreur",
-   "message": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://danone.wd3.myworkdayjobs.com/wday/cxs/danone/Danone/jobs"
-  },
   "Michelin (workday)": {
    "statut": "ok",
    "lues": 120,
    "titres_retenus": 1
   },
   "vie_bf": {
-   "statut": "erreur",
-   "message": "HTTPError: 401 Client Error: Unauthorized for url: https://civiweb-api-prd.azurewebsites.net/api/Offers/search"
+   "statut": "désactivé"
   },
   "themuse": {
    "statut": "ok",
@@ -607,6 +510,16 @@
   "jooble": {
    "statut": "erreur",
    "message": "RuntimeError: clé Jooble absente (JOOBLE_KEY)"
+  },
+  "listes_html": {
+   "statut": "ok",
+   "lues": 50,
+   "titres_retenus": 13,
+   "debug": {
+    "bnp_vie": [
+     "https://group.bnpparibas/en/careers/all-job-offers/international-volunteer-program : HTTPError"
+    ]
+   }
   }
  }
 }

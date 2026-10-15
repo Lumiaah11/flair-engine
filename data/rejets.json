@@ -1,14 +1,6 @@
 {
- "maj": "2026-10-15T10:44:01+00:00",
+ "maj": "2026-10-15T10:53:16+00:00",
  "rejets": [
-  {
-   "titre": "Deal Strategist",
-   "entreprise": "Stripe",
-   "lieu": "US-Remote",
-   "raison": "6 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=7958150",
-   "source": "greenhouse"
-  },
   {
    "titre": "Finance and Strategy Specialist",
    "entreprise": "Stripe",
@@ -36,33 +28,17 @@
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "NYC, SF, Seattle, US",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "GTM Strategy & Operations Analyst",
-   "entreprise": "Stripe",
    "lieu": "Dublin ; Ireland Locations",
    "raison": "7 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8195483",
    "source": "greenhouse"
   },
   {
-   "titre": "Payments Performance Strategist, LATAM",
+   "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "CDMX; Mexico Locations",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8155386",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Portfolio Pricing Strategist",
-   "entreprise": "Stripe",
-   "lieu": "US-Remote",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=7858811",
+   "lieu": "NYC, SF, Seattle, US",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
    "source": "greenhouse"
   },
   {
@@ -87,14 +63,6 @@
    "lieu": "San Francisco or Seattle; US",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8139711",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Applied AI Architect, Strategic Enterprise Tech",
-   "entreprise": "Anthropic",
-   "lieu": "San Francisco, CA | New York City, NY | Seattle, WA; San Francisco, California, United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409008008",
    "source": "greenhouse"
   },
   {
@@ -124,25 +92,17 @@
   {
    "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Finance & Strategy, Deal Strategy - APAC",
-   "entreprise": "Anthropic",
    "lieu": "Singapore; Tokyo Prefecture, Japan",
    "raison": "5 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
    "source": "greenhouse"
   },
   {
-   "titre": "Finance & Strategy GTM, EMEA",
+   "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "London, UK; Dublin, IE",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
+   "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
    "source": "greenhouse"
   },
   {
@@ -151,6 +111,14 @@
    "lieu": "Dublin, IE",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy GTM, EMEA",
+   "entreprise": "Anthropic",
+   "lieu": "London, UK; Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
    "source": "greenhouse"
   },
   {
@@ -172,17 +140,17 @@
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Seoul, South Korea",
+   "lieu": "Singapore",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
    "source": "greenhouse"
   },
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Singapore",
+   "lieu": "Seoul, South Korea",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
    "source": "greenhouse"
   },
   {
@@ -199,22 +167,6 @@
    "lieu": "San Francisco, California",
    "raison": "10 ans d'expérience demandés",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8788190002",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Deployment Strategist",
-   "entreprise": "Databricks",
-   "lieu": "India; Bengaluru, India",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8630011002",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Deployment Strategist",
-   "entreprise": "Databricks",
-   "lieu": "Remote - India",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637736002",
    "source": "greenhouse"
   },
   {
@@ -250,35 +202,11 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Deployment Strategist - DHS/DOJ",
-   "entreprise": "Scale AI",
-   "lieu": "Washington, DC; Washington, District of Columbia, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727671005",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Deployment Strategist, Space Systems Command",
-   "entreprise": "Scale AI",
-   "lieu": "Los Angeles, CA",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713532005",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Product Leadership, Forward Deployed & Strategy",
    "entreprise": "Scale AI",
    "lieu": "London, UK; London, England, United Kingdom",
    "raison": "4 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702890005",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategist, Qatar",
-   "entreprise": "Scale AI",
-   "lieu": "Doha, Qatar ; Middle East",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4607930005",
    "source": "greenhouse"
   },
   {
@@ -348,25 +276,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -375,6 +295,14 @@
    "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -404,14 +332,6 @@
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
    "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
@@ -423,6 +343,14 @@
    "lieu": "Chicago, IL; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategic Cuisines - Korean AE (Central)",
+   "entreprise": "Toast",
+   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
+   "raison": "langue exigée : Coréen",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
@@ -458,14 +386,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Product Strategist, Fundamental Equities",
-   "entreprise": "Point72",
-   "lieu": "London; England, United Kingdom",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://boards.greenhouse.io/point72/jobs/8530258002?gh_jid=8530258002",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Consultant - Insights COE",
    "entreprise": "ClearView Healthcare Partners",
    "lieu": "Gurugram, Haryana, India",
@@ -474,43 +394,11 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Deployment Strategist",
-   "entreprise": "Palantir",
-   "lieu": "Seoul, South Korea",
-   "raison": "langue exigée : Coréen",
-   "url": "https://jobs.lever.co/palantir/2e193bdf-e668-49c1-ba32-66cc1aa131a4",
-   "source": "lever"
-  },
-  {
-   "titre": "Deployment Strategist",
-   "entreprise": "Palantir",
-   "lieu": "Oslo, Norway",
-   "raison": "langue exigée : Norvégien",
-   "url": "https://jobs.lever.co/palantir/b81be534-e1d6-4946-8121-1e1360d4d030",
-   "source": "lever"
-  },
-  {
-   "titre": "Deployment Strategist - Japan Commercial",
-   "entreprise": "Palantir",
-   "lieu": "Tokyo, Japan",
-   "raison": "langue exigée : Japonais",
-   "url": "https://jobs.lever.co/palantir/ba8fdce3-7f60-45f6-8323-d74cc18c4320",
-   "source": "lever"
-  },
-  {
-   "titre": "Deployment Strategist - Japan Government",
-   "entreprise": "Palantir",
-   "lieu": "Tokyo, Japan",
-   "raison": "langue exigée : Japonais",
-   "url": "https://jobs.lever.co/palantir/2bfdcb53-7abd-42a4-9eaf-ebe07450f798",
-   "source": "lever"
-  },
-  {
-   "titre": "Deployment Strategist, New Grad - Commercial",
-   "entreprise": "Palantir",
-   "lieu": "Seoul, South Korea",
-   "raison": "langue exigée : Coréen",
-   "url": "https://jobs.lever.co/palantir/d5f11334-3a73-4094-b7e0-d05b54e475b8",
+   "titre": "Confirmed FP&A Analyst",
+   "entreprise": "BlaBlaCar",
+   "lieu": "Paris, France",
+   "raison": "basé en France",
+   "url": "https://jobs.lever.co/blablacar/c168e160-82e5-4906-a4af-d0af403cb2df",
    "source": "lever"
   },
   {
@@ -562,14 +450,6 @@
    "source": "ashby"
   },
   {
-   "titre": "AI Solutions Strategist",
-   "entreprise": "Ramp",
-   "lieu": "New York, NY (HQ); USA",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/ramp/cbdf2857-1675-4b68-8cb5-2f92a20faa75",
-   "source": "ashby"
-  },
-  {
    "titre": "Chief of Staff, Sales",
    "entreprise": "Notion",
    "lieu": "San Francisco, California; United States",
@@ -578,59 +458,11 @@
    "source": "ashby"
   },
   {
-   "titre": "Adoption Strategist - APAC",
-   "entreprise": "ElevenLabs",
-   "lieu": "Singapore",
-   "raison": "langue exigée : Mandarin",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/8d25dd85-5b50-4dfa-b410-273b1ddd437c",
-   "source": "ashby"
-  },
-  {
-   "titre": "Adoption Strategist - LATAM",
-   "entreprise": "ElevenLabs",
-   "lieu": "Argentina; Brazil",
-   "raison": "langue exigée : Portugais",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/d7df0937-d88a-4cd1-8d7a-a38f176910d6",
-   "source": "ashby"
-  },
-  {
-   "titre": "Deployment Strategist - Sweden",
-   "entreprise": "ElevenLabs",
-   "lieu": "Sweden",
-   "raison": "langue exigée : Suédois",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/e66bf8b7-45a0-4cbf-bc37-43d20a388ff8",
-   "source": "ashby"
-  },
-  {
-   "titre": "Deployment Strategist - South Korea",
-   "entreprise": "ElevenLabs",
-   "lieu": "Korea",
-   "raison": "langue exigée : Coréen",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/cfcb55a7-17ce-43b5-ad4e-2111adff393a",
-   "source": "ashby"
-  },
-  {
-   "titre": "Value Strategist",
-   "entreprise": "ElevenLabs",
-   "lieu": "Remote; San Francisco",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/elevenlabs/ede30aef-bc40-48b3-ae75-59cdc5d075b9",
-   "source": "ashby"
-  },
-  {
    "titre": "Chief of Staff",
    "entreprise": "Cohere",
    "lieu": "Toronto; Montreal; Canada",
    "raison": "12 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/cohere/81450c5f-8495-439b-a1b3-ce7ef9739437",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategist, Agent Development (French speaking)",
-   "entreprise": "Sierra",
-   "lieu": "Paris; France",
-   "raison": "basé en France",
-   "url": "https://jobs.ashbyhq.com/sierra/b1fc320b-d0d2-4ca5-9ce3-2ce8f51cf70e",
    "source": "ashby"
   },
   {
@@ -647,14 +479,6 @@
    "lieu": "London; United Kingdom",
    "raison": "4 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/sierra/3935e2a4-eb85-44dd-8e50-1443402bc2b4",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategist, Agent Development - Flagship Deployment",
-   "entreprise": "Sierra",
-   "lieu": "San Francisco, CA; New York, NY; United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/sierra/15f81581-ad9c-4b03-8ed7-097fbbce0469",
    "source": "ashby"
   },
   {
@@ -698,19 +522,43 @@
    "source": "smartrecruiters"
   },
   {
-   "titre": "Solution Architect, Strategic Portfolio & Enterprise Architecture",
-   "entreprise": "ServiceNow",
-   "lieu": "Dallas, Texas, US",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000148528056",
-   "source": "smartrecruiters"
-  },
-  {
    "titre": "Strategic component management_ EM",
    "entreprise": "Bosch Group",
    "lieu": "Suzhou, Jiangsu, CN",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155658549",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR, Business und Strategy",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153184710",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "PreMaster Programm - Gap Year - Strategy und Produktmanagement-Shopfloor Solutions",
+   "entreprise": "Bosch Group",
+   "lieu": "Bietigheim-Bissingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150310340",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Praktikum Business Operations Connected Parking",
+   "entreprise": "Bosch Group",
+   "lieu": "Frankfurt am Main, HE, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154346489",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Pflichtpraktikum im Projektmanagement – Markenstrategie, Wissensmanagement und Digitalisierung",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154089011",
    "source": "smartrecruiters"
   },
   {
@@ -762,14 +610,6 @@
    "source": "workday"
   },
   {
-   "titre": "Deployment Strategist",
-   "entreprise": "Salesforce",
-   "lieu": "Israel - Tel Aviv",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Israel---Tel-Aviv/Deployment-Strategist_JR348976",
-   "source": "workday"
-  },
-  {
    "titre": "Chief of Staff, CRO",
    "entreprise": "Salesforce",
    "lieu": "Washington - Seattle Metro - Remote; United States of America",
@@ -786,30 +626,6 @@
    "source": "workday"
   },
   {
-   "titre": "Technical Product Strategist - Product Strategy & Innovation",
-   "entreprise": "Salesforce",
-   "lieu": "United Kingdom - London",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/United-Kingdom---London/Product-Strategy---Office-of-the-CEO_JR360049",
-   "source": "workday"
-  },
-  {
-   "titre": "Technical Product Strategist - Product Strategy & Innovation",
-   "entreprise": "Salesforce",
-   "lieu": "France - Paris",
-   "raison": "basé en France",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/France---Paris/Director-of-Product-Strategy---Office-of-the-CEO_JR360050-1",
-   "source": "workday"
-  },
-  {
-   "titre": "Technical Product Strategist - Product Strategy & Innovation",
-   "entreprise": "Salesforce",
-   "lieu": "California - San Francisco; California - Palo Alto; Illinois - Chicago; New York - New York; Washington - Seattle; Washington - Bellevue; United States of America",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Sr-Director-Enterprise-Architect---Product-Strategy_JR359240",
-   "source": "workday"
-  },
-  {
    "titre": "Oliver Wyman - Consultant - Shanghai",
    "entreprise": "Oliver Wyman",
    "lieu": "Shanghai - Changle; China",
@@ -823,14 +639,6 @@
    "lieu": "Tokyo - Akasaka; Japan",
    "raison": "langue exigée : Japonais",
    "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Consultant---Tokyo_R_348497",
-   "source": "workday"
-  },
-  {
-   "titre": "Oliver Wyman – Consultant– Actuarial Consultant – Life",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Bengaluru - Galaxy; India",
-   "raison": "6 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Bengaluru---Galaxy/Oliver-Wyman---Consultant--Actuarial-Consultant---Life_R_304383",
    "source": "workday"
   },
   {
@@ -879,14 +687,6 @@
    "lieu": "Copenhagen - Tromsogade; Denmark",
    "raison": "langue exigée : Suédois, Danois, Norvégien, Finnois",
    "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Student-Worker--m-f-d--2027---Copenhagen_R_365765-1",
-   "source": "workday"
-  },
-  {
-   "titre": "Oliver Wyman - Actuarial - Consultant - Mexico City",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Mexico City - Paseo",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Mexico-City---Paseo/Oliver-Wyman---Actuarial---Consultant---Mexico-City_R_280613-1",
    "source": "workday"
   },
   {
@@ -946,30 +746,6 @@
    "source": "workday"
   },
   {
-   "titre": "Digital Transformation Strategy Leader",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Mumbai - One World Center; India",
-   "raison": "15 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Mumbai---One-World-Center/Senior-Manager---Digital-Transformation-Strategy_R_333794-2",
-   "source": "workday"
-  },
-  {
-   "titre": "Associate Strategic Client Executive, Rx Solutions",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Tampa - Mabry; United States of America",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tampa---Mabry/Assoc-Strategic-Client-Executive--Rx-Solutions-_R_351968",
-   "source": "workday"
-  },
-  {
-   "titre": "People Strategy Consultant (18  months contract with option to extend)",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Warsaw - Jerozolimskie; Poland",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Warsaw---Jerozolimskie/People-Strategy-Consultant--18--months-contract-with-option-to-extend-_R_352402",
-   "source": "workday"
-  },
-  {
    "titre": "Strategy Analyst (Commodity Markets)",
    "entreprise": "Accenture Strategy",
    "lieu": "Bangkok; Thailand",
@@ -999,6 +775,30 @@
    "lieu": "Stockholm; Malmö; Gothenburg; Sweden",
    "raison": "langue exigée : Suédois",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Stockholm/Graduate---Junior-Strategy-Professionals---Industry---Process-Strategy_R00358096-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Junior Strategy Consultant Public Sector (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Junior-Strategy-Consultant-Public-Sector--all-genders-_R00322293",
+   "source": "workday"
+  },
+  {
+   "titre": "Junior Strategy Consultant Chemicals & Natural Resources ( all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Stuttgart; Hamburg; Dusseldorf; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Junior-Strategy-Consultant-Chemicals---Natural-Resources---all-genders-_R00329842-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Junior Strategy Consultant Insurance  (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Hamburg; Dusseldorf; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Strategy-Analyst-Insurance---all-genders-_R00261983",
    "source": "workday"
   },
   {
@@ -1082,11 +882,91 @@
    "source": "workday"
   },
   {
+   "titre": "Junior Consultant Technology Strategy & Advisory (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg, Campus Kronberg 1; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Junior-Consultant-Technology-Strategy---Advisory_R00297297",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Brussels; Belgium",
+   "raison": "langue exigée : Néerlandais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Strategy-Consultant_R00343571",
+   "source": "workday"
+  },
+  {
+   "titre": "Consulting-Business Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Shanghai; China/Mainland",
+   "raison": "langue exigée : Mandarin, Cantonais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Shanghai/Consulting-Business-Strategy-Consultant_13648012",
+   "source": "workday"
+  },
+  {
+   "titre": "IMU-SONG Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "New Delhi; India",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/New-Delhi/IMU-SONG-Strategy-Consultant_R00333483",
+   "source": "workday"
+  },
+  {
    "titre": "Strategy Consultant - Commodity Markets",
    "entreprise": "Accenture Strategy",
    "lieu": "Bangkok; Thailand",
    "raison": "langue exigée : Thaï",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bangkok/Strategy-Consultant---Commodity-Markets_R00352972",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant – Life Sciences",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Gdansk; Poland",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant--GN----Life-Sciences--LS-_R00291375",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant (GN) – Pricing",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Gdansk; Poland",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant--GN----Pricing_R00291361",
+   "source": "workday"
+  },
+  {
+   "titre": "Data & AI Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Brussels; Belgium",
+   "raison": "langue exigée : Néerlandais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Data---AI-Value-Strategy-Consultant_R00345444",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy & Consulting | Management Consultant - Industrial",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Buenos Aires; Argentina",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Management-Consultant---Industrial_R00357904-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Energy Consultants in Strategy & Consulting",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Athens; Greece",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy & Consulting | Consumer Goods & Retail Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Buenos Aires; Argentina",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Consumer-Goods---Retail-Consultant_R00361398",
    "source": "workday"
   },
   {
@@ -1106,19 +986,11 @@
    "source": "workday"
   },
   {
-   "titre": "STAGE 2027 - Pilotage de la Performance & Gouvernance Stratégique PMO (h/f)",
-   "entreprise": "Airbus",
-   "lieu": "Toulouse Area; France",
-   "raison": "basé en France",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/STAGE-2027---Pilotage-de-la-Performance---Gouvernance-Stratgique-PMO--h-f-_JR10442196",
-   "source": "workday"
-  },
-  {
-   "titre": "Stage 2027 - Création d’un cockpit digital de pilotage stratégique (All Gender)",
-   "entreprise": "Airbus",
-   "lieu": "Marseille Area; France",
-   "raison": "basé en France",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Stage-2027---Cration-d-un-cockpit-digital-de-pilotage-stratgique--All-Gender-_JR10446880",
+   "titre": "Strategy&- Insurance Strategy Consultant - Associate - Milano",
+   "entreprise": "PwC (Strategy&)",
+   "lieu": "Milan; Italy",
+   "raison": "annonce rédigée en italien",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
    "source": "workday"
   },
   {
