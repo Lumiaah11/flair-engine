@@ -37,7 +37,7 @@
     "niveau_employeur": 7
   },
   "adzuna": {
-    "actif": true,
+    "actif": false,
     "pays": [
       "fr",
       "us",
@@ -69,33 +69,135 @@
         "chief of staff",
         "chargé de mission"
       ]
-    }
+    },
+    "note": "API devenue payante (oct. 2026) : remplacée par Jooble et France Travail"
   },
   "jooble": {
     "actif": true,
-    "lieux": [
-      "Paris",
-      "Lyon",
-      "Dubai",
-      "Abu Dhabi",
-      "Riyadh",
-      "Doha",
-      "Singapore",
-      "Hong Kong",
-      "Luxembourg",
-      "Brussels",
-      "Geneva",
-      "Zurich",
-      "Amsterdam",
-      "New York"
+    "recherches": [
+      {
+        "lieu": "Paris",
+        "pays": "FR",
+        "requetes": [
+          "stratégie",
+          "chargé de mission stratégie",
+          "consultant stratégie",
+          "analyste stratégie",
+          "chief of staff",
+          "strategy analyst",
+          "corporate development",
+          "bras droit"
+        ],
+        "pages": 2
+      },
+      {
+        "lieu": "Lyon",
+        "pays": "FR",
+        "requetes": [
+          "stratégie",
+          "consultant stratégie",
+          "chief of staff"
+        ]
+      },
+      {
+        "lieu": "Dubai",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Abu Dhabi",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Riyadh",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Doha",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Singapore",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Hong Kong",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Luxembourg",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Brussels",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Geneva",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Zurich",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "Amsterdam",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      },
+      {
+        "lieu": "New York",
+        "requetes": [
+          "strategy analyst",
+          "chief of staff",
+          "market intelligence analyst"
+        ]
+      }
     ],
-    "requetes": [
-      "strategy analyst",
-      "chief of staff",
-      "market intelligence analyst",
-      "chargé de mission stratégie",
-      "consultant stratégie"
-    ],
+    "jours": 7,
+    "par_page": 50,
     "niveau_employeur": 5
   },
   "listes_html": {

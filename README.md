@@ -8,7 +8,7 @@ Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 - `engine/` : le code de collecte et de tri.
 - `config/entreprises.json` : les entreprises suivies et leur logiciel de recrutement. Ajouter une ligne suffit pour suivre une nouvelle entreprise.
-- `config/agregateurs.json` : France Travail, Choisir le service public, The Muse, Adzuna, Jooble, listes VIE.
+- `config/agregateurs.json` : France Travail, Jooble, Choisir le service public, The Muse, listes VIE (Adzuna désactivé).
 - `config/reglages.json` : seuil de score et durée de conservation.
 - `data/offres.json` : toutes les offres retenues et encore ouvertes.
 - `data/nouvelles.json` : les offres vues pour la première fois lors de la dernière collecte.
@@ -17,9 +17,9 @@ Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 ## Clés facultatives
 
-Adzuna, Jooble et France Travail demandent une clé gratuite. Sans clé, ces sources sont simplement ignorées.
-Pour les ajouter : Settings, puis Secrets and variables, puis Actions, et créer `ADZUNA_APP_ID`, `ADZUNA_APP_KEY`, `JOOBLE_KEY`,
-`FT_CLIENT_ID` et `FT_CLIENT_SECRET`. La France peut être retirée avec `"inclure_france": false` dans `config/reglages.json`.
+Jooble et France Travail demandent une clé gratuite. Sans clé, ces sources sont simplement ignorées.
+Pour les ajouter : Settings, puis Secrets and variables, puis Actions, et créer `JOOBLE_KEY`, `FT_CLIENT_ID` et `FT_CLIENT_SECRET`.
+Adzuna est devenu payant : le connecteur reste dans le code mais il est désactivé dans `config/agregateurs.json`. La France peut être retirée avec `"inclure_france": false` dans `config/reglages.json`.
 
 ## Lancer une collecte à la main
 

@@ -4,7 +4,7 @@ import html
 import json
 import os
 import re
-from datetime import date
+from datetime import date, timedelta
 from urllib.parse import quote
 
 import requests
@@ -52,21 +52,41 @@ def adzuna(cfg, retenir):
 
 
 def jooble(cfg, retenir):
+    """API Jooble (clé gratuite). Chaque recherche a son lieu, son pays et ses mots-clés :
+    en français pour Paris et Lyon, en anglais ailleurs."""
     cle = os.environ.get("JOOBLE_KEY")
     if not cle:
         raise RuntimeError("clé Jooble absente (JOOBLE_KEY)")
-    res, total = [], 0
-    for lieu_q in cfg.get("lieux", []):
-        for q in cfg.get("requetes", []):
-            data = post_json(f"https://jooble.org/api/{cle}", {"keywords": q, "location": lieu_q, "page": "1"})
-            items = data.get("jobs", []) or []
-            total += len(items)
-            for it in items:
-                titre = html_vers_texte(it.get("title", ""))
-                if not retenir(titre):
-                    continue
-                res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, it.get("location") or lieu_q,
-                                 it.get("link"), (it.get("updated") or "")[:10], html_vers_texte(it.get("snippet", ""))))
+    url = f"https://jooble.org/api/{cle}"
+    recherches = cfg.get("recherches") or [{"lieu": l, "requetes": cfg.get("requetes", [])} for l in cfg.get("lieux", [])]
+    extras = {"datecreatedfrom": (date.today() - timedelta(days=cfg.get("jours", 7))).isoformat(),
+              "ResultOnPage": cfg.get("par_page", 50)}
+    res, total, vus = [], 0, set()
+    for r in recherches:
+        for q in r.get("requetes", []):
+            for page in range(1, r.get("pages", 1) + 1):
+                corps = {"keywords": q, "location": r["lieu"], "page": str(page)}
+                try:
+                    data = post_json(url, {**corps, **extras})
+                except requests.HTTPError as err:
+                    if not extras or err.response is None or err.response.status_code != 400:
+                        raise
+                    extras = {}  # paramètres facultatifs refusés : recherche simple
+                    data = post_json(url, corps)
+                items = data.get("jobs", []) or []
+                total += len(items)
+                for it in items:
+                    if it.get("id") in vus:
+                        continue
+                    vus.add(it.get("id"))
+                    titre = html_vers_texte(it.get("title", ""))
+                    if not retenir(titre):
+                        continue
+                    res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, it.get("location") or r["lieu"],
+                                     it.get("link"), (it.get("updated") or "")[:10], html_vers_texte(it.get("snippet", "")),
+                                     pays_iso=r.get("pays", ""), contrat=it.get("type") or ""))
+                if len(items) < extras.get("ResultOnPage", 20):
+                    break
     return res, total
 
 
