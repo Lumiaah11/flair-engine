@@ -1,9 +1,12 @@
 """Connecteurs des logiciels de recrutement (pages carrières des entreprises)."""
+import html
+import re
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 import requests
 
-from ..http import get_json, post_json
+from ..http import get_json, get_text, post_json
 from ..texte import html_vers_texte
 from . import offre
 
@@ -137,6 +140,53 @@ def workable(e, retenir):
     return res, len(jobs)
 
 
+def recruitee(e, retenir):
+    data = get_json(f"https://{e['id']}.recruitee.com/api/offers/")
+    annonces = data.get("offers", []) or []
+    res = []
+    for j in annonces:
+        titre = j.get("title", "")
+        if not retenir(titre) or "intern" in (j.get("employment_type_code") or ""):
+            continue
+        lieu = j.get("location") or ", ".join(x for x in [j.get("city"), j.get("country")] if x)
+        desc = html_vers_texte((j.get("description") or "") + "<br>" + (j.get("requirements") or ""))
+        res.append(offre("recruitee", j.get("id"), e["nom"], titre, lieu, j.get("careers_url") or j.get("careers_apply_url"),
+                         (j.get("published_at") or j.get("created_at") or "")[:10], desc,
+                         pays_iso=(j.get("country_code") or "").upper(), contrat=j.get("employment_type_code") or "",
+                         teletravail=bool(j.get("remote"))))
+    return res, len(annonces)
+
+
+def _balise(bloc, nom):
+    m = re.search(r"<" + nom + r">(.*?)</" + nom + r">", bloc, re.S)
+    return re.sub(r"<!\[CDATA\[|\]\]>", "", m.group(1)).strip() if m else ""
+
+
+def teamtailor(e, retenir):
+    """Flux RSS public des pages carrières Teamtailor (Converteo, Indefi...)."""
+    flux = get_text(f"https://{e['id']}.teamtailor.com/jobs.rss", headers={"Accept": "application/rss+xml, application/xml"})
+    items = re.findall(r"<item>(.*?)</item>", flux, re.S)
+    res = []
+    for it in items:
+        titre = html.unescape(_balise(it, "title"))
+        if not retenir(titre):
+            continue
+        lieux = []
+        for loc in re.findall(r"<tt:location>(.*?)</tt:location>", it, re.S):
+            ville, pays = html.unescape(_balise(loc, "tt:city")), html.unescape(_balise(loc, "tt:country"))
+            lieux.append(", ".join(x for x in [ville, pays] if x) or html.unescape(_balise(loc, "tt:name")))
+        lieu = "; ".join(dict.fromkeys(l for l in lieux if l))
+        try:
+            publiee = parsedate_to_datetime(_balise(it, "pubDate")).date().isoformat()
+        except (TypeError, ValueError):
+            publiee = ""
+        lien = html.unescape(_balise(it, "link"))
+        res.append(offre("teamtailor", _balise(it, "guid") or lien, e["nom"], titre, lieu, lien, publiee,
+                         html_vers_texte(_balise(it, "description")), pays_iso="" if lieu else e.get("pays", ""),
+                         teletravail=_balise(it, "remoteStatus") == "fully"))
+    return res, len(items)
+
+
 def workday(e, retenir):
     hote, tenant, site = e["host"], e["tenant"], e["site"]
     base = f"https://{hote}/wday/cxs/{tenant}/{site}"
@@ -181,5 +231,7 @@ CONNECTEURS = {
     "ashby": ashby,
     "smartrecruiters": smartrecruiters,
     "workable": workable,
+    "recruitee": recruitee,
+    "teamtailor": teamtailor,
     "workday": workday,
 }

@@ -29,10 +29,11 @@ STRATEGIST_OK = re.compile(r"\b(business|corporate|growth|commercial|market|mana
 CONSEIL_GENERIQUE = re.compile(r"\b(consultant|business analyst|associate|analyst|research analyst)\b", re.I)
 
 TITRE_EXCLU = re.compile(
-    r"\b(senior|sr\.?|lead|principal|director|directeur|directrice|head|vp|vice[- ]president|svp|evp|partner|"
+    r"\b(senior|sénior|sr\.?|lead|principal|expert|director|directeur|directrice|head|vp|vice[- ]president|svp|evp|partner|"
     r"intern|internship|interns|stagiaire|alternan\w*|apprenti\w*|working student|werkstudent|phd|ph\.d|"
     r"postdoc|fellow|fellowship|manager|managing|responsable|summer|event|webinar|competition|challenge|"
     r"crack the case|hackathon|talent pool|talent community|talent pipeline|spontaneous|spontanée|temporary|"
+    r"experienced|expérimentée?|confirmed|confirmée?|"
     r"contractor|freelance|part[- ]time)\b"
     r"|\bchief\b(?! of staff)"
     r"|(?<!early )(?<!early-)(?<!late )(?<!late-)(?<!growth )(?<!growth-)(?<!multi-)\bstage\b",
@@ -51,7 +52,8 @@ NON_STRAT = re.compile(
     r"quality|enablement|macro|controller|contrôleur|financial analyst|analyste financier|coverage|r&d|"
     r"research scientist|predictive|business developer|business developper|vente|ingénieure?|développeu\w*|"
     r"comptab\w*|juriste|ressources humaines|achats|acheteu\w*|communication|recrutement|contrôle de gestion|auditeur|"
-    r"chef de produit|technicien\w*|assistante?)\b",
+    r"chef de produit|technicien\w*|assistante?|sourc(?:er|ing)|microstrategy|architecte?s?|sage-femme|infirmi\w*|"
+    r"médecin|psycholog\w*)\b",
     re.I,
 )
 SENIOR_ASSOCIATE = re.compile(r"senior associate", re.I)
@@ -199,7 +201,7 @@ def langue_annonce(texte):
 
 INCLURE_FRANCE = True  # réglé par main.py depuis config/reglages.json
 
-CDD = re.compile(r"\bCDD\b|fixed[- ]term|temporar|\bcontract\b|contrat à durée déterminée", re.I)
+CDD = re.compile(r"\bCDD\b|fixed[-_ ]term|temporar|\bcontract\b|contrat à durée déterminée", re.I)
 
 PERMIS = re.compile(r"permis (?:b|de conduire)[^.\n]{0,40}(?:exig|obligatoire|indispensable|requis)|(?:exig|obligatoire|indispensable|requis)\w*[^.\n]{0,30}permis (?:b|de conduire)|driver'?s licen[cs]e (?:is )?(?:required|mandatory)|valid driving licen[cs]e", re.I)
 
@@ -331,7 +333,6 @@ def analyse(offre, entreprise_info=None):
     if not est_vie and (CDD.search(titre) or CDD.search(offre.get("contrat") or "")):
         contrat = "CDD"
         pts_poste -= 5
-        drapeaux.insert(0, "CDD")
 
     # Démarrage
     if DEMARRAGE_TARDIF.search(titre):

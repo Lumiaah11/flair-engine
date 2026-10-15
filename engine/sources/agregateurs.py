@@ -1,9 +1,11 @@
-"""Agrégateurs (Adzuna, Jooble, The Muse), VIE Business France et listes HTML (iAgora, BNP Paribas)."""
+"""Agrégateurs (France Travail, Adzuna, Jooble, The Muse), Choisir le service public, VIE Business France
+et listes HTML (iAgora, BNP Paribas)."""
 import html
 import json
 import os
 import re
 from datetime import date
+from urllib.parse import quote
 
 import requests
 
@@ -294,6 +296,84 @@ def france_travail(cfg, retenir):
     return res, total
 
 
+CSP = "https://choisirleservicepublic.gouv.fr"
+MOIS = {"janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6, "juillet": 7,
+        "août": 8, "aout": 8, "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12, "decembre": 12}
+_CARTE_TITRE = re.compile(r'href="(?P<url>https://choisirleservicepublic\.gouv\.fr/offre-emploi/[^"]+?-reference-(?P<ref>[^/"]+)/)"'
+                          r'[^>]*>(?P<titre>.*?)</a>', re.S)
+
+
+def _champ_carte(bloc, libelle):
+    m = re.search(libelle + r"\s*:\s*</span>(.*?)</li>", bloc, re.S)
+    return html_vers_texte(m.group(1)) if m else ""
+
+
+def _date_fr(texte):
+    m = re.search(r"(\d{1,2})\s+([a-zéûè]+)\s+(\d{4})", texte or "", re.I)
+    if not m or m.group(2).lower() not in MOIS:
+        return ""
+    return date(int(m.group(3)), MOIS[m.group(2).lower()], int(m.group(1))).isoformat()
+
+
+def service_public(cfg, retenir):
+    """Choisir le service public (site officiel de l'emploi public) : pages de recherche par mot-clé,
+    limitées aux offres récentes, puis fiche détaillée des intitulés retenus."""
+    res, total, vus, fiches = [], 0, set(), 0
+    periode = cfg.get("periode", "7_derniers_jours")
+    for mot in cfg.get("recherches", ["stratégie"]):
+        base = f"{CSP}/nos-offres/filtres/mot-cles/{quote(mot)}/date-de-publication/{periode}/"
+        for n in range(1, cfg.get("pages_par_recherche", 2) + 1):
+            try:
+                page = get_text(base if n == 1 else f"{base}page/{n}/")
+            except requests.HTTPError as err:
+                if n == 1 and err.response is not None and err.response.status_code == 404:
+                    base = f"{CSP}/nos-offres/filtres/mot-cles/{quote(mot)}/"  # filtre de date refusé : liste simple
+                    page = get_text(base)
+                else:
+                    break
+            cartes = page.split('fr-card--offer')[1:]
+            if not cartes:
+                break
+            for bloc in cartes:
+                m = _CARTE_TITRE.search(bloc)
+                if not m or m.group("ref") in vus:
+                    continue
+                vus.add(m.group("ref"))
+                total += 1
+                titre = html_vers_texte(m.group("titre"))
+                if not retenir(titre):
+                    continue
+                lieu = _champ_carte(bloc, "Localisation")
+                employeur = _champ_carte(bloc, "Employeur")
+                versant = _champ_carte(bloc, "Fonction publique")
+                logo = re.search(r'alt="([^"]+?)(?: - Libert[ée].*?)?"', bloc)
+                ministere = html.unescape(logo.group(1)) if logo else ""
+                publiee = _date_fr((re.search(r"En ligne depuis le ([^<]+)", bloc) or [None, ""])[1])
+                desc, nature = "", ""
+                if fiches < cfg.get("max_fiches", 15):
+                    fiches += 1
+                    try:
+                        fiche = get_text(m.group("url"))
+                        jp = _jobposting(fiche) or {}
+                        corps = html_vers_texte(fiche[max(0, fiche.find("<main")):])
+                        nature = (re.search(r"Nature de l.emploi\s*(.{0,90}?)(?:\s+Expérience|\n)", corps, re.S) or [None, ""])[1]
+                        if re.search(r"ouvert(?:e)? (?:uniquement |exclusivement )?aux (?:seuls )?(?:fonctionnaires|titulaires)(?! et)", nature, re.I):
+                            continue  # réservé aux fonctionnaires
+                        categorie = re.search(r"Catégorie\s+Catégorie\s+([ABC])", corps)
+                        if categorie and categorie.group(1) in "BC":
+                            continue  # postes de catégorie B ou C : hors cible cadre
+                        desc = "\n".join(x for x in [f"Employeur : {employeur}" if employeur else "",
+                                                     html_vers_texte(jp.get("Description") or jp.get("description") or ""),
+                                                     nature, (re.search(r"Expérience souhaitée\s*([^\n]{0,60})", corps) or [None, ""])[1]] if x)
+                    except Exception:
+                        desc = ""
+                res.append(offre("service_public", m.group("ref"), ministere or employeur or versant, titre, f"{lieu}, France", m.group("url"),
+                                 publiee, desc, pays_iso="FR", contrat="CDD" if "contractuel" in nature.lower() else ""))
+            if len(cartes) < 20:
+                break
+    return res, total
+
+
 AGREGATEURS = {
     "france_travail": france_travail,
     "adzuna": adzuna,
@@ -301,4 +381,5 @@ AGREGATEURS = {
     "themuse": themuse,
     "vie_bf": vie_business_france,
     "listes_html": listes_html,
+    "service_public": service_public,
 }

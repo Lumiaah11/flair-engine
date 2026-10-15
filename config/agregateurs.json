@@ -138,5 +138,18 @@
         "note": "page refusée au robot (HTTPError) : lue par Claude le matin"
       }
     ]
+  },
+  "service_public": {
+    "actif": true,
+    "recherches": [
+      "stratégie",
+      "prospective",
+      "chef de cabinet"
+    ],
+    "pages_par_recherche": 2,
+    "periode": "7_derniers_jours",
+    "max_fiches": 15,
+    "niveau_employeur": 5,
+    "note": "Site officiel de l'emploi public : postes de cadre (catégorie A) ouverts aux contractuels"
   }
 }

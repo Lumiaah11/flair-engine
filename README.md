@@ -1,6 +1,6 @@
 # Flair, moteur de collecte
 
-Chaque nuit, ce dépôt lit les offres publiées par une centaine d'entreprises et quelques agrégateurs,
+Chaque nuit, ce dépôt lit les offres publiées par environ 140 entreprises (dont une cinquantaine en France) et quelques agrégateurs,
 garde les postes de stratégie en France et à l'international (et les VIE), leur donne un score automatique, puis enregistre le résultat dans `data/`.
 Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
@@ -8,7 +8,7 @@ Le matin, Claude note ces offres plus finement et remplit la page privée Flair.
 
 - `engine/` : le code de collecte et de tri.
 - `config/entreprises.json` : les entreprises suivies et leur logiciel de recrutement. Ajouter une ligne suffit pour suivre une nouvelle entreprise.
-- `config/agregateurs.json` : VIE Business France, The Muse, Adzuna, Jooble.
+- `config/agregateurs.json` : France Travail, Choisir le service public, The Muse, Adzuna, Jooble, listes VIE.
 - `config/reglages.json` : seuil de score et durée de conservation.
 - `data/offres.json` : toutes les offres retenues et encore ouvertes.
 - `data/nouvelles.json` : les offres vues pour la première fois lors de la dernière collecte.

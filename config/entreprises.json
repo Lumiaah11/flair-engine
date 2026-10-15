@@ -267,12 +267,10 @@
  },
  {
   "nom": "Contentsquare",
-  "ats": "greenhouse",
+  "ats": "lever",
   "id": "contentsquare",
   "type": "tech",
-  "niveau": 8,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 8
  },
  {
   "nom": "Mollie",
@@ -489,12 +487,10 @@
  },
  {
   "nom": "Doctolib",
-  "ats": "lever",
+  "ats": "ashby",
   "id": "doctolib",
   "type": "tech",
-  "niveau": 8,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 8
  },
  {
   "nom": "Aircall",
@@ -512,30 +508,24 @@
  },
  {
   "nom": "Alan",
-  "ats": "lever",
+  "ats": "ashby",
   "id": "alan",
   "type": "tech",
-  "niveau": 7,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 7
  },
  {
   "nom": "Back Market",
-  "ats": "lever",
+  "ats": "ashby",
   "id": "backmarket",
   "type": "tech",
-  "niveau": 7,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 7
  },
  {
   "nom": "Ledger",
-  "ats": "lever",
+  "ats": "ashby",
   "id": "ledger",
   "type": "tech",
-  "niveau": 7,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 7
  },
  {
   "nom": "PayFit",
@@ -650,12 +640,10 @@
  },
  {
   "nom": "Pigment",
-  "ats": "ashby",
+  "ats": "lever",
   "id": "pigment",
   "type": "tech",
-  "niveau": 8,
-  "actif": false,
-  "note": "identifiant introuvable au 15 oct. 2026, à rebrancher"
+  "niveau": 8
  },
  {
   "nom": "Harvey",
@@ -750,7 +738,14 @@
   "ats": "smartrecruiters",
   "id": "Ubisoft2",
   "type": "tech",
-  "niveau": 8
+  "niveau": 8,
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "market intelligence",
+   "business operations"
+  ]
  },
  {
   "nom": "OneTrack.AI",
@@ -946,5 +941,389 @@
    "chief of staff",
    "strategy analyst"
   ]
+ },
+ {
+  "nom": "Mirakl",
+  "ats": "greenhouse",
+  "id": "mirakl",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Algolia",
+  "ats": "greenhouse",
+  "id": "algolia",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Artefact",
+  "ats": "greenhouse",
+  "id": "artefact",
+  "type": "corporate",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Shift Technology",
+  "ats": "greenhouse",
+  "id": "shifttechnology",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Ivalua",
+  "ats": "greenhouse",
+  "id": "ivalua",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Dashlane",
+  "ats": "greenhouse",
+  "id": "dashlane",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "AlixPartners",
+  "ats": "greenhouse",
+  "id": "alixpartners",
+  "type": "corporate",
+  "niveau": 8,
+  "pays": "FR"
+ },
+ {
+  "nom": "DiliTrust",
+  "ats": "lever",
+  "id": "dilitrust",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Swile",
+  "ats": "lever",
+  "id": "swile",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Malt",
+  "ats": "lever",
+  "id": "malt",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "360Learning",
+  "ats": "lever",
+  "id": "360learning",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Brevo",
+  "ats": "lever",
+  "id": "brevo",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Agicap",
+  "ats": "lever",
+  "id": "agicap",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Younited",
+  "ats": "lever",
+  "id": "younited",
+  "type": "finance",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Vestiaire Collective",
+  "ats": "lever",
+  "id": "vestiairecollective",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Heetch",
+  "ats": "lever",
+  "id": "heetch",
+  "type": "tech",
+  "niveau": 5,
+  "pays": "FR"
+ },
+ {
+  "nom": "Didomi",
+  "ats": "lever",
+  "id": "didomi",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Theodo",
+  "ats": "lever",
+  "id": "theodo",
+  "type": "tech",
+  "niveau": 5,
+  "pays": "FR"
+ },
+ {
+  "nom": "Pennylane",
+  "ats": "ashby",
+  "id": "pennylane",
+  "type": "tech",
+  "niveau": 8,
+  "pays": "FR"
+ },
+ {
+  "nom": "Voodoo",
+  "ats": "ashby",
+  "id": "voodoo",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Hexa",
+  "ats": "ashby",
+  "id": "hexa",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "H Company",
+  "ats": "ashby",
+  "id": "hcompany",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Dust",
+  "ats": "ashby",
+  "id": "dust",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Photoroom",
+  "ats": "ashby",
+  "id": "photoroom",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Nabla",
+  "ats": "ashby",
+  "id": "nabla",
+  "type": "tech",
+  "niveau": 5,
+  "pays": "FR"
+ },
+ {
+  "nom": "Owkin",
+  "ats": "ashby",
+  "id": "owkin",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Sorare",
+  "ats": "ashby",
+  "id": "sorare",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Ankorstore",
+  "ats": "ashby",
+  "id": "ankorstore",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Exotec",
+  "ats": "workable",
+  "id": "exotec",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Withings",
+  "ats": "workable",
+  "id": "withings",
+  "type": "tech",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Hugging Face",
+  "ats": "workable",
+  "id": "huggingface",
+  "type": "tech",
+  "niveau": 8,
+  "pays": "FR"
+ },
+ {
+  "nom": "Advancy",
+  "ats": "recruitee",
+  "id": "advancy",
+  "type": "conseil",
+  "niveau": 9,
+  "pays": "FR"
+ },
+ {
+  "nom": "Julhiet Sterwen",
+  "ats": "recruitee",
+  "id": "julhietsterwen",
+  "type": "corporate",
+  "niveau": 6,
+  "pays": "FR"
+ },
+ {
+  "nom": "Accor",
+  "ats": "smartrecruiters",
+  "id": "Accor",
+  "type": "corporate",
+  "niveau": 8,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "Devoteam",
+  "ats": "smartrecruiters",
+  "id": "Devoteam",
+  "type": "corporate",
+  "niveau": 6,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "Coface",
+  "ats": "smartrecruiters",
+  "id": "Coface",
+  "type": "finance",
+  "niveau": 6,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "Saint-Gobain",
+  "ats": "smartrecruiters",
+  "id": "SaintGobain",
+  "type": "corporate",
+  "niveau": 8,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "Believe",
+  "ats": "smartrecruiters",
+  "id": "Believe",
+  "type": "tech",
+  "niveau": 6,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "LVMH",
+  "ats": "smartrecruiters",
+  "id": "LVMH",
+  "type": "corporate",
+  "niveau": 9,
+  "pays": "FR",
+  "recherches": [
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "chargé de mission",
+   "market intelligence",
+   "corporate development"
+  ]
+ },
+ {
+  "nom": "Emerton",
+  "ats": "recruitee",
+  "id": "emerton",
+  "type": "conseil",
+  "niveau": 8,
+  "pays": "FR"
+ },
+ {
+  "nom": "Converteo",
+  "ats": "teamtailor",
+  "id": "converteo",
+  "type": "corporate",
+  "niveau": 7,
+  "pays": "FR"
+ },
+ {
+  "nom": "Indefi",
+  "ats": "teamtailor",
+  "id": "indefi",
+  "type": "conseil",
+  "niveau": 8,
+  "pays": "FR"
  }
 ]

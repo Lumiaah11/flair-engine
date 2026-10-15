@@ -118,7 +118,7 @@ class Filtres(unittest.TestCase):
         self.assertEqual((o["pays_iso"], o["contrat"]), ("AE", "VIE"))
         o, r = self._offre("Chargé de mission stratégie (CDD 12 mois)", "Paris, France", "Jeune diplômée, première expérience.")
         self.assertEqual(o["contrat"], "CDD")
-        self.assertEqual(o["drapeaux"][0], "CDD")
+        self.assertEqual(o["detail_score"]["poste"], 27)
         self.assertEqual(o["detail_score"]["seniorite"], 20)
 
 
@@ -149,6 +149,35 @@ class Connecteurs(unittest.TestCase):
         with mock.patch.object(ats, "get_json", return_value=faux):
             res, _ = ats.ashby({"nom": "Ramp", "id": "ramp"}, titre_retenu)
         self.assertEqual(res[0]["titre"], "Chief of Staff")
+
+    def test_recruitee(self):
+        faux = {"offers": [
+            {"id": 7, "title": "Paris - Junior Strategy Consultant (H/F)", "location": "Paris, Île-de-France, France",
+             "country_code": "FR", "careers_url": "https://advancy.recruitee.com/o/junior", "published_at": "2026-10-01 09:00:00 UTC",
+             "description": "<p>Cabinet de conseil en stratégie</p>", "requirements": "<p>0-2 ans d'expérience</p>",
+             "employment_type_code": "fulltime_permanent"},
+            {"id": 8, "title": "Strategy Intern", "location": "Paris", "employment_type_code": "internship"}]}
+        with mock.patch.object(ats, "get_json", return_value=faux):
+            res, lues = ats.recruitee({"nom": "Advancy", "id": "advancy"}, titre_retenu)
+        self.assertEqual((lues, len(res)), (2, 1))
+        o, r = analyse(res[0], {"niveau": 9, "type": "conseil"})
+        self.assertEqual((o["zone"], o["contrat"], o["code"]), ("France", "CDI", "PAR"))
+
+    def test_teamtailor(self):
+        flux = """<?xml version="1.0"?><rss version="2.0" xmlns:tt="https://teamtailor.com/locations"><channel>
+        <item><title>Consultant en Stratégie et Transformation  - H/F - CDI</title>
+        <description>&lt;p&gt;0 à 2 ans d&amp;#39;expérience en conseil&lt;/p&gt;</description>
+        <pubDate>Wed, 30 Sep 2026 10:08:22 +0200</pubDate><link>https://jobs.converteo.com/jobs/1-consultant</link>
+        <remoteStatus>hybrid</remoteStatus><guid>abc</guid>
+        <tt:locations><tt:location><tt:name>Paris</tt:name><tt:city>Paris</tt:city><tt:country>France</tt:country></tt:location></tt:locations>
+        </item>
+        <item><title>Business Developer H/F - Stage / Alternance</title><link>https://x/2</link><guid>def</guid></item>
+        </channel></rss>"""
+        with mock.patch.object(ats, "get_text", return_value=flux):
+            res, lues = ats.teamtailor({"nom": "Converteo", "id": "converteo", "pays": "FR"}, titre_retenu)
+        self.assertEqual((lues, len(res)), (2, 1))
+        self.assertEqual((res[0]["lieu"], res[0]["publiee"]), ("Paris, France", "2026-09-30"))
+        self.assertIn("0 à 2 ans", res[0]["description"])
 
     def test_workday(self):
         liste = {"total": 1, "jobPostings": [{"title": "VIE - Strategy Analyst", "externalPath": "/job/Singapore/VIE_R1", "locationsText": "Singapore"}]}
@@ -245,6 +274,42 @@ class FranceTravail(unittest.TestCase):
         self.assertIsNone(r)
         self.assertEqual(o["code"], "LYS")
         self.assertIn("Permis demandé", o["drapeaux"])
+
+
+
+class ServicePublic(unittest.TestCase):
+    CARTE = ('''<div class="fr-card fr-card--horizontal fr-card--offer"><h3 class="fr-card__title">
+        <a href="https://choisirleservicepublic.gouv.fr/offre-emploi/chargee-de-missions-strategie-immobiliere-reference-MINT_1/"
+           class="is-same-domain" target="_blank">
+           Chargé(e) de missions stratégie immobilière </a></h3>
+        <ul class="fr-card__desc"><li><span class="sr-only">Localisation : </span> Paris <strong>(75)</strong></li>
+        <li><span class="sr-only">Fonction publique : </span> Fonction publique de l'État</li>
+        <li><span class="sr-only">Employeur : </span> Direction de l'immobilier</li>
+        <li class="fr-icon-calendar-line"> En ligne depuis le 08 octobre 2026</li></ul>
+        <div class="fr-card__img"><img src="x.png" alt="Ministère de l'interieur - Liberté Egalité Fraternité"></div></div>''')
+    FICHE = ('''<html><main><script type="application/ld+json">{"@type": "JobPosting", "title": "Chargé(e) de missions",
+        "Description": "Vous secondez le chef du pôle stratégie."}</script>
+        <h2>Nature de l’emploi</h2><p>Emploi ouvert aux titulaires et aux contractuels</p>
+        <h2>Expérience souhaitée</h2><p>Non renseigné</p><h2>Catégorie</h2><p>Catégorie A (cadre)</p></main></html>''')
+
+    def test_connecteur(self):
+        def faux_get_text(url, **kw):
+            return self.FICHE if "/offre-emploi/" in url else self.CARTE + self.CARTE.replace("MINT_1", "MINT_2").replace(
+                "Chargé(e) de missions stratégie immobilière", "Gestionnaire paie")
+        with mock.patch.object(agregateurs, "get_text", side_effect=faux_get_text):
+            res, lues = agregateurs.service_public({"recherches": ["stratégie"], "pages_par_recherche": 1}, titre_retenu)
+        self.assertEqual((lues, len(res)), (2, 1))
+        o = res[0]
+        self.assertEqual((o["entreprise"], o["publiee"], o["contrat"]), ("Ministère de l'interieur", "2026-10-08", "CDD"))
+        self.assertIn("pôle stratégie", o["description"])
+        o, r = analyse(o, {"niveau": 5})
+        self.assertEqual((o["zone"], o["code"], o["contrat"]), ("France", "PAR", "CDD"))
+
+    def test_titulaires_seulement(self):
+        fiche = self.FICHE.replace("aux titulaires et aux contractuels", "uniquement aux titulaires")
+        with mock.patch.object(agregateurs, "get_text", side_effect=lambda url, **kw: fiche if "/offre-emploi/" in url else self.CARTE):
+            res, _ = agregateurs.service_public({"recherches": ["stratégie"], "pages_par_recherche": 1}, titre_retenu)
+        self.assertEqual(res, [])
 
 
 if __name__ == "__main__":

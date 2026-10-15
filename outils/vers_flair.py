@@ -19,7 +19,8 @@ SOURCES = {
     "smartrecruiters": "Page carrière (SmartRecruiters)", "workable": "Page carrière (Workable)",
     "workday": "Page carrière (Workday)", "themuse": "The Muse", "adzuna": "Adzuna", "jooble": "Jooble",
     "iagora": "Liste VIE iAgora", "bnp_vie": "Page VIE BNP Paribas", "vie_bf": "Site VIE Business France",
-    "france_travail": "France Travail",
+    "france_travail": "France Travail", "recruitee": "Page carrière (Recruitee)",
+    "teamtailor": "Page carrière (Teamtailor)", "service_public": "Choisir le service public",
 }
 
 
