@@ -1,0 +1,612 @@
+{
+ "maj": "2026-10-15T10:44:01+00:00",
+ "compteurs": {
+  "sources_ok": 93,
+  "sources_en_erreur": 27,
+  "titres_retenus": 388,
+  "offres_gardees": 230,
+  "nouvelles": 230,
+  "offres_lues": 18962
+ },
+ "rejets_par_raison": {
+  "4 ans d'expérience demandés": 31,
+  "5 ans d'expérience demandés": 22,
+  "7 ans d'expérience demandés": 14,
+  "10 ans d'expérience demandés": 13,
+  "8 ans d'expérience demandés": 12,
+  "basé en France": 9,
+  "langue exigée : Coréen": 6,
+  "6 ans d'expérience demandés": 5,
+  "langue exigée : Allemand": 5,
+  "12 ans d'expérience demandés": 3,
+  "langue exigée : Japonais": 3,
+  "langue exigée : Néerlandais": 3,
+  "15 ans d'expérience demandés": 2,
+  "langue exigée : Suédois": 2,
+  "langue exigée : Italien": 2,
+  "langue exigée : Grec": 2,
+  "langue exigée : Thaï": 2,
+  "langue exigée : Polonais": 1,
+  "langue exigée : Norvégien": 1,
+  "langue exigée : Mandarin": 1,
+  "langue exigée : Portugais": 1,
+  "langue exigée : Roumain": 1,
+  "langue exigée : Mandarin, Chinois": 1,
+  "langue exigée : Suédois, Danois, Norvégien, Finnois": 1
+ },
+ "sources": {
+  "Stripe (greenhouse)": {
+   "statut": "ok",
+   "lues": 727,
+   "titres_retenus": 15
+  },
+  "Airbnb (greenhouse)": {
+   "statut": "ok",
+   "lues": 163,
+   "titres_retenus": 0
+  },
+  "Anthropic (greenhouse)": {
+   "statut": "ok",
+   "lues": 647,
+   "titres_retenus": 19
+  },
+  "Datadog (greenhouse)": {
+   "statut": "ok",
+   "lues": 435,
+   "titres_retenus": 3
+  },
+  "Databricks (greenhouse)": {
+   "statut": "ok",
+   "lues": 896,
+   "titres_retenus": 5
+  },
+  "Figma (greenhouse)": {
+   "statut": "ok",
+   "lues": 142,
+   "titres_retenus": 3
+  },
+  "Coinbase (greenhouse)": {
+   "statut": "ok",
+   "lues": 225,
+   "titres_retenus": 3
+  },
+  "Cloudflare (greenhouse)": {
+   "statut": "ok",
+   "lues": 441,
+   "titres_retenus": 0
+  },
+  "Scale AI (greenhouse)": {
+   "statut": "ok",
+   "lues": 181,
+   "titres_retenus": 6
+  },
+  "Duolingo (greenhouse)": {
+   "statut": "ok",
+   "lues": 59,
+   "titres_retenus": 0
+  },
+  "DoorDash (greenhouse)": {
+   "statut": "ok",
+   "lues": 458,
+   "titres_retenus": 24
+  },
+  "Adyen (greenhouse)": {
+   "statut": "ok",
+   "lues": 237,
+   "titres_retenus": 1
+  },
+  "Robinhood (greenhouse)": {
+   "statut": "ok",
+   "lues": 151,
+   "titres_retenus": 0
+  },
+  "Brex (greenhouse)": {
+   "statut": "ok",
+   "lues": 261,
+   "titres_retenus": 0
+  },
+  "Lyft (greenhouse)": {
+   "statut": "ok",
+   "lues": 177,
+   "titres_retenus": 0
+  },
+  "Pinterest (greenhouse)": {
+   "statut": "ok",
+   "lues": 156,
+   "titres_retenus": 1
+  },
+  "Dropbox (greenhouse)": {
+   "statut": "ok",
+   "lues": 29,
+   "titres_retenus": 0
+  },
+  "Asana (greenhouse)": {
+   "statut": "ok",
+   "lues": 105,
+   "titres_retenus": 0
+  },
+  "GitLab (greenhouse)": {
+   "statut": "ok",
+   "lues": 216,
+   "titres_retenus": 2
+  },
+  "Twilio (greenhouse)": {
+   "statut": "ok",
+   "lues": 140,
+   "titres_retenus": 1
+  },
+  "Okta (greenhouse)": {
+   "statut": "ok",
+   "lues": 374,
+   "titres_retenus": 0
+  },
+  "MongoDB (greenhouse)": {
+   "statut": "ok",
+   "lues": 401,
+   "titres_retenus": 2
+  },
+  "Discord (greenhouse)": {
+   "statut": "ok",
+   "lues": 48,
+   "titres_retenus": 1
+  },
+  "Reddit (greenhouse)": {
+   "statut": "ok",
+   "lues": 147,
+   "titres_retenus": 2
+  },
+  "Instacart (greenhouse)": {
+   "statut": "ok",
+   "lues": 124,
+   "titres_retenus": 2
+  },
+  "Chime (greenhouse)": {
+   "statut": "ok",
+   "lues": 69,
+   "titres_retenus": 1
+  },
+  "Affirm (greenhouse)": {
+   "statut": "ok",
+   "lues": 204,
+   "titres_retenus": 0
+  },
+  "Toast (greenhouse)": {
+   "statut": "ok",
+   "lues": 313,
+   "titres_retenus": 5
+  },
+  "Gusto (greenhouse)": {
+   "statut": "ok",
+   "lues": 101,
+   "titres_retenus": 0
+  },
+  "Flexport (greenhouse)": {
+   "statut": "ok",
+   "lues": 205,
+   "titres_retenus": 1
+  },
+  "Faire (greenhouse)": {
+   "statut": "ok",
+   "lues": 79,
+   "titres_retenus": 2
+  },
+  "Airtable (greenhouse)": {
+   "statut": "ok",
+   "lues": 5,
+   "titres_retenus": 0
+  },
+  "Samsara (greenhouse)": {
+   "statut": "ok",
+   "lues": 255,
+   "titres_retenus": 1
+  },
+  "Monzo (greenhouse)": {
+   "statut": "ok",
+   "lues": 68,
+   "titres_retenus": 0
+  },
+  "N26 (greenhouse)": {
+   "statut": "ok",
+   "lues": 34,
+   "titres_retenus": 0
+  },
+  "GetYourGuide (greenhouse)": {
+   "statut": "ok",
+   "lues": 71,
+   "titres_retenus": 0
+  },
+  "Celonis (greenhouse)": {
+   "statut": "ok",
+   "lues": 204,
+   "titres_retenus": 1
+  },
+  "Dataiku (greenhouse)": {
+   "statut": "ok",
+   "lues": 14,
+   "titres_retenus": 0
+  },
+  "Contentsquare (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/contentsquare/jobs?content=true"
+  },
+  "Mollie (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mollie/jobs?content=true"
+  },
+  "Contentful (greenhouse)": {
+   "statut": "ok",
+   "lues": 21,
+   "titres_retenus": 0
+  },
+  "Squarespace (greenhouse)": {
+   "statut": "ok",
+   "lues": 34,
+   "titres_retenus": 0
+  },
+  "SoFi (greenhouse)": {
+   "statut": "ok",
+   "lues": 51,
+   "titres_retenus": 1
+  },
+  "Bridgewater Associates (greenhouse)": {
+   "statut": "ok",
+   "lues": 18,
+   "titres_retenus": 1
+  },
+  "General Atlantic (greenhouse)": {
+   "statut": "ok",
+   "lues": 12,
+   "titres_retenus": 0
+  },
+  "Andreessen Horowitz (greenhouse)": {
+   "statut": "ok",
+   "lues": 19,
+   "titres_retenus": 0
+  },
+  "Point72 (greenhouse)": {
+   "statut": "ok",
+   "lues": 222,
+   "titres_retenus": 7
+  },
+  "ICONIQ (greenhouse)": {
+   "statut": "ok",
+   "lues": 16,
+   "titres_retenus": 0
+  },
+  "NYC Economic Development Corporation (greenhouse)": {
+   "statut": "ok",
+   "lues": 36,
+   "titres_retenus": 1
+  },
+  "Prophet (greenhouse)": {
+   "statut": "ok",
+   "lues": 12,
+   "titres_retenus": 2
+  },
+  "Simon-Kucher (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/simonkucher/jobs?content=true"
+  },
+  "L.E.K. Consulting (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/lekconsulting/jobs?content=true"
+  },
+  "Kearney (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/kearney/jobs?content=true"
+  },
+  "OC&C Strategy Consultants (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/occstrategy/jobs?content=true"
+  },
+  "Altman Solon (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/altmansolon/jobs?content=true"
+  },
+  "Kepler Cannon (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/keplercannon/jobs?content=true"
+  },
+  "Cornerstone Research (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/cornerstoneresearch/jobs?content=true"
+  },
+  "Analysis Group (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/analysisgroup/jobs?content=true"
+  },
+  "Putnam (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/putnamassociates/jobs?content=true"
+  },
+  "ClearView Healthcare Partners (greenhouse)": {
+   "statut": "ok",
+   "lues": 34,
+   "titres_retenus": 7
+  },
+  "West Monroe (greenhouse)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/westmonroe/jobs?content=true"
+  },
+  "Spotify (lever)": {
+   "statut": "ok",
+   "lues": 82,
+   "titres_retenus": 0
+  },
+  "Palantir (lever)": {
+   "statut": "ok",
+   "lues": 315,
+   "titres_retenus": 35
+  },
+  "Mistral AI (lever)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Plaid (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "Zoox (lever)": {
+   "statut": "ok",
+   "lues": 239,
+   "titres_retenus": 0
+  },
+  "Doctolib (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "Aircall (lever)": {
+   "statut": "ok",
+   "lues": 77,
+   "titres_retenus": 0
+  },
+  "Qonto (lever)": {
+   "statut": "ok",
+   "lues": 55,
+   "titres_retenus": 0
+  },
+  "Alan (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "Back Market (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "Ledger (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "PayFit (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "BlaBlaCar (lever)": {
+   "statut": "ok",
+   "lues": 11,
+   "titres_retenus": 0
+  },
+  "Kraken (lever)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Hopper (lever)": {
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
+  },
+  "Coins.ph (lever)": {
+   "statut": "ok",
+   "lues": 88,
+   "titres_retenus": 0
+  },
+  "OpenAI (ashby)": {
+   "statut": "ok",
+   "lues": 804,
+   "titres_retenus": 13
+  },
+  "Ramp (ashby)": {
+   "statut": "ok",
+   "lues": 162,
+   "titres_retenus": 4
+  },
+  "Notion (ashby)": {
+   "statut": "ok",
+   "lues": 129,
+   "titres_retenus": 4
+  },
+  "Perplexity (ashby)": {
+   "statut": "ok",
+   "lues": 130,
+   "titres_retenus": 1
+  },
+  "ElevenLabs (ashby)": {
+   "statut": "ok",
+   "lues": 152,
+   "titres_retenus": 13
+  },
+  "Anysphere (Cursor) (ashby)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/anysphere?includeCompensation=true"
+  },
+  "Deel (ashby)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Linear (ashby)": {
+   "statut": "ok",
+   "lues": 30,
+   "titres_retenus": 0
+  },
+  "Vercel (ashby)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Synthesia (ashby)": {
+   "statut": "ok",
+   "lues": 50,
+   "titres_retenus": 1
+  },
+  "Pigment (ashby)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/pigment?includeCompensation=true"
+  },
+  "Harvey (ashby)": {
+   "statut": "ok",
+   "lues": 343,
+   "titres_retenus": 2
+  },
+  "Cohere (ashby)": {
+   "statut": "ok",
+   "lues": 116,
+   "titres_retenus": 1
+  },
+  "Mercury (ashby)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Glean (ashby)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/glean?includeCompensation=true"
+  },
+  "Retool (ashby)": {
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/retool?includeCompensation=true"
+  },
+  "Sierra (ashby)": {
+   "statut": "ok",
+   "lues": 187,
+   "titres_retenus": 29
+  },
+  "EliseAI (ashby)": {
+   "statut": "ok",
+   "lues": 130,
+   "titres_retenus": 11
+  },
+  "Clay (ashby)": {
+   "statut": "ok",
+   "lues": 57,
+   "titres_retenus": 6
+  },
+  "Visa (smartrecruiters)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "ServiceNow (smartrecruiters)": {
+   "statut": "ok",
+   "lues": 1382,
+   "titres_retenus": 2
+  },
+  "Bosch (smartrecruiters)": {
+   "statut": "ok",
+   "lues": 1268,
+   "titres_retenus": 7
+  },
+  "Delivery Hero (smartrecruiters)": {
+   "statut": "ok",
+   "lues": 1243,
+   "titres_retenus": 5
+  },
+  "Ubisoft (smartrecruiters)": {
+   "statut": "ok",
+   "lues": 333,
+   "titres_retenus": 2
+  },
+  "OneTrack.AI (workable)": {
+   "statut": "ok",
+   "lues": 0,
+   "titres_retenus": 0
+  },
+  "Capital One (workday)": {
+   "statut": "ok",
+   "lues": 197,
+   "titres_retenus": 4
+  },
+  "Mastercard (workday)": {
+   "statut": "ok",
+   "lues": 182,
+   "titres_retenus": 3
+  },
+  "Blackstone (workday)": {
+   "statut": "ok",
+   "lues": 97,
+   "titres_retenus": 3
+  },
+  "Salesforce (workday)": {
+   "statut": "ok",
+   "lues": 183,
+   "titres_retenus": 7
+  },
+  "Adobe (workday)": {
+   "statut": "ok",
+   "lues": 159,
+   "titres_retenus": 1
+  },
+  "NVIDIA (workday)": {
+   "statut": "ok",
+   "lues": 183,
+   "titres_retenus": 0
+  },
+  "Oliver Wyman (workday)": {
+   "statut": "ok",
+   "lues": 180,
+   "titres_retenus": 52
+  },
+  "Accenture Strategy (workday)": {
+   "statut": "ok",
+   "lues": 128,
+   "titres_retenus": 41
+  },
+  "PwC (Strategy&) (workday)": {
+   "statut": "ok",
+   "lues": 180,
+   "titres_retenus": 9
+  },
+  "Airbus (workday)": {
+   "statut": "ok",
+   "lues": 285,
+   "titres_retenus": 3
+  },
+  "Thales (workday)": {
+   "statut": "ok",
+   "lues": 180,
+   "titres_retenus": 2
+  },
+  "Sanofi (workday)": {
+   "statut": "ok",
+   "lues": 168,
+   "titres_retenus": 3
+  },
+  "Danone (workday)": {
+   "statut": "erreur",
+   "message": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://danone.wd3.myworkdayjobs.com/wday/cxs/danone/Danone/jobs"
+  },
+  "Michelin (workday)": {
+   "statut": "ok",
+   "lues": 120,
+   "titres_retenus": 1
+  },
+  "vie_bf": {
+   "statut": "erreur",
+   "message": "HTTPError: 401 Client Error: Unauthorized for url: https://civiweb-api-prd.azurewebsites.net/api/Offers/search"
+  },
+  "themuse": {
+   "statut": "ok",
+   "lues": 300,
+   "titres_retenus": 3
+  },
+  "adzuna": {
+   "statut": "erreur",
+   "message": "RuntimeError: clés Adzuna absentes (ADZUNA_APP_ID, ADZUNA_APP_KEY)"
+  },
+  "jooble": {
+   "statut": "erreur",
+   "message": "RuntimeError: clé Jooble absente (JOOBLE_KEY)"
+  }
+ }
+}
