@@ -5,6 +5,8 @@ import os
 import re
 from datetime import date
 
+import requests
+
 from .. import geo
 from ..http import get_json, get_text, post_json
 from ..texte import html_vers_texte
@@ -16,11 +18,22 @@ def adzuna(cfg, retenir):
     if not (app_id and app_key):
         raise RuntimeError("clés Adzuna absentes (ADZUNA_APP_ID, ADZUNA_APP_KEY)")
     res, total = [], 0
+    mode_titre = True
     for pays in cfg.get("pays", []):
         for q in cfg.get("requetes", []):
-            data = get_json(f"https://api.adzuna.com/v1/api/jobs/{pays}/search/1", params={
-                "app_id": app_id, "app_key": app_key, "results_per_page": 50, "title_only": q,
-                "max_days_old": cfg.get("max_days_old", 3), "content-type": "application/json"})
+            params = {"app_id": app_id, "app_key": app_key, "results_per_page": 50,
+                      "max_days_old": cfg.get("max_days_old", 3), "content-type": "application/json"}
+            params["title_only" if mode_titre else "what"] = q
+            try:
+                data = get_json(f"https://api.adzuna.com/v1/api/jobs/{pays}/search/1", params=params)
+            except requests.HTTPError as err:
+                if mode_titre and err.response is not None and err.response.status_code == 400:
+                    mode_titre = False  # paramètre refusé : recherche plein texte, le tri des intitulés fait le reste
+                    params.pop("title_only", None)
+                    params["what"] = q
+                    data = get_json(f"https://api.adzuna.com/v1/api/jobs/{pays}/search/1", params=params)
+                else:
+                    raise
             items = data.get("results", []) or []
             total += len(items)
             for it in items:
