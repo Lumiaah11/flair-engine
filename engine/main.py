@@ -91,6 +91,7 @@ def main(argv=None):
     filtres.INCLURE_FRANCE = reglages.get("inclure_france", True)
 
     brutes, stats = collecter(entreprises, agregateurs, seule)
+    revues_ce_soir = {o["id"] for o in brutes}  # offres relues cette nuit, gardées ou non
 
     gardees, rejets, raisons = {}, [], Counter()
     for o in brutes:
@@ -124,8 +125,8 @@ def main(argv=None):
         o["derniere_vue"] = aujourd_hui
         finales[o["id"]] = o
     for a in ancien:
-        if a["id"] in finales:
-            continue
+        if a["id"] in finales or a["id"] in revues_ce_soir:
+            continue  # déjà à jour, ou relue cette nuit et écartée par le tri
         age = (date.fromisoformat(aujourd_hui) - date.fromisoformat(a.get("premiere_vue", aujourd_hui))).days
         if a.get("source") in AGREGATEURS and age <= jours_max:
             finales[a["id"]] = a

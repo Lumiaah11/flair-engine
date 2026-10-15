@@ -225,6 +225,27 @@ class PassageComplet(unittest.TestCase):
         self.assertEqual({o["zone"] for o in sortie["offres"]}, {"Europe", "France"})
         self.assertIsNone(stats["rejets_par_raison"].get("basé en France"))
 
+    def test_offre_agregateur_ecartee_puis_relue(self):
+        """Une offre d'agrégateur gardée hier mais écartée par le tri ce soir disparaît, sans attendre 14 jours."""
+        with tempfile.TemporaryDirectory() as tmp:
+            cfg, data = os.path.join(tmp, "config"), os.path.join(tmp, "data")
+            os.makedirs(cfg)
+            os.makedirs(data)
+            o = offre("themuse", 9, "Acme", "VSC - Appui à la stratégie", "Paris, France", "https://x/9", "2026-10-14", "")
+            ancien = dict(o, score_auto=76, zone="France", premiere_vue="2026-10-14", derniere_vue="2026-10-14")
+            with open(os.path.join(data, "offres.json"), "w") as f:
+                json.dump({"offres": [ancien]}, f)
+            with open(os.path.join(cfg, "entreprises.json"), "w") as f:
+                json.dump([], f)
+            with open(os.path.join(cfg, "agregateurs.json"), "w") as f:
+                json.dump({"themuse": {"actif": True}}, f)
+            with mock.patch.object(main, "CONFIG", cfg), mock.patch.object(main, "DATA", data), \
+                    mock.patch.dict(main.AGREGATEURS, {"themuse": lambda c, r: ([dict(o)], 1)}):
+                main.main([])
+                with open(os.path.join(data, "offres.json")) as f:
+                    sortie = json.load(f)
+        self.assertEqual(sortie["total"], 0)
+
 
 
 class ListesHtml(unittest.TestCase):
