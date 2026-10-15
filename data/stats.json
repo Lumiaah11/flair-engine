@@ -1,17 +1,17 @@
 {
- "maj": "2026-10-15T15:58:28+00:00",
+ "maj": "2026-10-15T16:07:52+00:00",
  "compteurs": {
   "sources_ok": 144,
   "sources_en_erreur": 1,
-  "titres_retenus": 414,
+  "titres_retenus": 325,
   "offres_gardees": 282,
   "nouvelles": 282,
-  "offres_lues": 23983
+  "offres_lues": 23405
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 32,
   "5 ans d'expérience demandés": 17,
-  "8 ans d'expérience demandés": 14,
+  "8 ans d'expérience demandés": 13,
   "7 ans d'expérience demandés": 12,
   "annonce rédigée en allemand": 9,
   "10 ans d'expérience demandés": 8,
@@ -37,8 +37,7 @@
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
   "langue exigée : Suédois": 1,
   "langue exigée : Mandarin, Cantonais": 1,
-  "13 ans d'expérience demandés": 1,
-  "langue exigée : Portugais": 1
+  "13 ans d'expérience demandés": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
@@ -58,7 +57,7 @@
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 438,
+   "lues": 439,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
@@ -178,7 +177,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 313,
+   "lues": 312,
    "titres_retenus": 4
   },
   "Gusto (greenhouse)": {
@@ -263,7 +262,7 @@
   },
   "Andreessen Horowitz (greenhouse)": {
    "statut": "ok",
-   "lues": 19,
+   "lues": 18,
    "titres_retenus": 0
   },
   "Point72 (greenhouse)": {
@@ -278,7 +277,7 @@
   },
   "NYC Economic Development Corporation (greenhouse)": {
    "statut": "ok",
-   "lues": 35,
+   "lues": 34,
    "titres_retenus": 1
   },
   "Prophet (greenhouse)": {
@@ -288,7 +287,7 @@
   },
   "ClearView Healthcare Partners (greenhouse)": {
    "statut": "ok",
-   "lues": 34,
+   "lues": 33,
    "titres_retenus": 6
   },
   "Spotify (lever)": {
@@ -443,7 +442,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1386,
+   "lues": 1389,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
@@ -758,8 +757,56 @@
   },
   "jooble": {
    "statut": "ok",
-   "lues": 882,
-   "titres_retenus": 89
+   "lues": 304,
+   "titres_retenus": 0,
+   "debug": [
+    "jooble.org Paris, France / stratégie : 7 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / chargé de mission stratégie : 32 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / consultant stratégie : 25 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / analyste stratégie : 10 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / chief of staff : 1 offres, ex. France",
+    "jooble.org Paris, France / strategy analyst : 16 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / corporate development : 9 offres, ex. France ; France ; France",
+    "jooble.org Paris, France / bras droit : 1 offres, ex. France",
+    "jooble.org Lyon, France / stratégie : 7 offres, ex. France ; France ; France",
+    "jooble.org Lyon, France / consultant stratégie : 25 offres, ex. France ; France ; France",
+    "jooble.org Lyon, France / chief of staff : 1 offres, ex. France",
+    "fr.jooble.org Paris / stratégie : HTTPError 403 Client Error: Forbidden for url: https://fr.jooble.org/api/d26197cf-39ff-422",
+    "fr.jooble.org Paris / chief of staff : HTTPError 403 Client Error: Forbidden for url: https://fr.jooble.org/api/d26197cf-39ff-422",
+    "jooble.org Dubai, United Arab Emirates / strategy analyst : 20 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
+    "jooble.org Dubai, United Arab Emirates / chief of staff : 1 offres, ex. United Arab Emirates",
+    "jooble.org Dubai, United Arab Emirates / market intelligence analyst : 5 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
+    "jooble.org Abu Dhabi, United Arab Emirates / strategy analyst : 20 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
+    "jooble.org Abu Dhabi, United Arab Emirates / chief of staff : 1 offres, ex. United Arab Emirates",
+    "jooble.org Abu Dhabi, United Arab Emirates / market intelligence analyst : 5 offres, ex. United Arab Emirates ; United Arab Emirates ; United Arab Emirates",
+    "jooble.org Riyadh, Saudi Arabia / strategy analyst : 5 offres, ex. Saudi Arabia ; Saudi Arabia ; Saudi Arabia",
+    "jooble.org Riyadh, Saudi Arabia / chief of staff : 0 offres, ex. ",
+    "jooble.org Riyadh, Saudi Arabia / market intelligence analyst : 0 offres, ex. ",
+    "jooble.org Doha, Qatar / strategy analyst : 0 offres, ex. ",
+    "jooble.org Doha, Qatar / chief of staff : 0 offres, ex. ",
+    "jooble.org Doha, Qatar / market intelligence analyst : 0 offres, ex. ",
+    "jooble.org Singapore / strategy analyst : 50 offres, ex. Singapore ; Singapore ; Singapore",
+    "jooble.org Singapore / chief of staff : 3 offres, ex. Singapore ; Singapore ; Singapore",
+    "jooble.org Singapore / market intelligence analyst : 3 offres, ex. Singapore ; Singapore ; Singapore",
+    "jooble.org Hong Kong / strategy analyst : 0 offres, ex. ",
+    "jooble.org Hong Kong / chief of staff : 0 offres, ex. ",
+    "jooble.org Hong Kong / market intelligence analyst : 0 offres, ex. ",
+    "jooble.org Luxembourg / strategy analyst : 0 offres, ex. ",
+    "jooble.org Luxembourg / chief of staff : 0 offres, ex. ",
+    "jooble.org Luxembourg / market intelligence analyst : 0 offres, ex. ",
+    "jooble.org Brussels, Belgium / strategy analyst : 3 offres, ex. Belgium ; Belgium ; Belgium",
+    "jooble.org Brussels, Belgium / chief of staff : 0 offres, ex. ",
+    "jooble.org Brussels, Belgium / market intelligence analyst : 0 offres, ex. ",
+    "jooble.org Geneva, Switzerland / strategy analyst : 23 offres, ex. Warsaw, KY ; Florence, IN ; Ghent, KY",
+    "jooble.org Geneva, Switzerland / chief of staff : 0 offres, ex. ",
+    "jooble.org Geneva, Switzerland / market intelligence analyst : 1 offres, ex. Warsaw, KY",
+    "jooble.org Zurich, Switzerland / strategy analyst : 23 offres, ex. Warsaw, KY ; Florence, IN ; Ghent, KY",
+    "jooble.org Zurich, Switzerland / chief of staff : 0 offres, ex. ",
+    "jooble.org Zurich, Switzerland / market intelligence analyst : 1 offres, ex. Warsaw, KY",
+    "jooble.org Amsterdam, Netherlands / strategy analyst : 5 offres, ex. Netherlands ; Netherlands ; Netherlands",
+    "jooble.org Amsterdam, Netherlands / chief of staff : 0 offres, ex. ",
+    "jooble.org Amsterdam, Netherlands / market intelligence analyst : 1 offres, ex. Netherlands"
+   ]
   },
   "listes_html": {
    "statut": "ok",
