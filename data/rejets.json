@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T11:35:06+00:00",
+ "maj": "2026-10-15T11:56:25+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -92,25 +92,17 @@
   {
    "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Finance & Strategy, Deal Strategy - APAC",
-   "entreprise": "Anthropic",
    "lieu": "Singapore; Tokyo Prefecture, Japan",
    "raison": "5 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
    "source": "greenhouse"
   },
   {
-   "titre": "Finance & Strategy GTM, EMEA",
+   "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "London, UK; Dublin, IE",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
+   "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
    "source": "greenhouse"
   },
   {
@@ -119,6 +111,14 @@
    "lieu": "Dublin, IE",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy GTM, EMEA",
+   "entreprise": "Anthropic",
+   "lieu": "London, UK; Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
    "source": "greenhouse"
   },
   {
@@ -140,17 +140,17 @@
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Seoul, South Korea",
+   "lieu": "Singapore",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
    "source": "greenhouse"
   },
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Singapore",
+   "lieu": "Seoul, South Korea",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
    "source": "greenhouse"
   },
   {
@@ -276,25 +276,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -303,6 +295,14 @@
    "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -324,14 +324,6 @@
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
    "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
@@ -343,6 +335,14 @@
    "lieu": "Chicago, IL; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategic Cuisines - Korean AE (Central)",
+   "entreprise": "Toast",
+   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
+   "raison": "langue exigée : Coréen",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
@@ -423,14 +423,6 @@
    "lieu": "San Francisco; United States",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/openai/08e8d03a-df94-46af-8664-cd9aab1af445",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategic Sourcing Leader, Professional Services",
-   "entreprise": "OpenAI",
-   "lieu": "San Francisco; United States",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/openai/5b334d54-fc7f-4de7-a37f-5c759c79beb6",
    "source": "ashby"
   },
   {
@@ -1008,6 +1000,94 @@
    "raison": "8 ans d'expérience demandés",
    "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Kinston-NC/Chief-of-Staff_JR10433384",
    "source": "workday"
+  },
+  {
+   "titre": "Manufacturing & Operations - Management Consultant",
+   "entreprise": "AlixPartners",
+   "lieu": "Milan",
+   "raison": "langue exigée : Italien",
+   "url": "https://www.alixpartners.com/careers/7548114003?gh_jid=7548114003",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Technology Modernisation - Management Consultant",
+   "entreprise": "AlixPartners",
+   "lieu": "Milan",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://www.alixpartners.com/careers/7548133003?gh_jid=7548133003",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff to the CTO - Engineering",
+   "entreprise": "Pennylane",
+   "lieu": "Paris; France",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/pennylane/bd676d1a-78c7-4928-bae9-a33de00bae6a",
+   "source": "ashby"
+  },
+  {
+   "titre": "Chief of Staff to the CEO",
+   "entreprise": "Voodoo",
+   "lieu": "Paris; France",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/voodoo/045d86cf-73ec-4188-9e16-b611f71e5642",
+   "source": "ashby"
+  },
+  {
+   "titre": "Shanghai - Junior Consultant",
+   "entreprise": "Advancy",
+   "lieu": "Shanghai, Shanghai Shi, China",
+   "raison": "langue exigée : Mandarin",
+   "url": "https://advancy.recruitee.com/o/shanghai-junior-consultant-1",
+   "source": "recruitee"
+  },
+  {
+   "titre": "Shanghai - Consultant (Chemicals background)",
+   "entreprise": "Advancy",
+   "lieu": "Shanghai, Shanghai Shi, China",
+   "raison": "langue exigée : Mandarin",
+   "url": "https://advancy.recruitee.com/o/shanghai-consultant-chemicals-background",
+   "source": "recruitee"
+  },
+  {
+   "titre": "Frankfurt - Junior Consultant or Consultant (Full-time)",
+   "entreprise": "Advancy",
+   "lieu": "Frankfurt / Main, Hessen, Germany",
+   "raison": "langue exigée : Allemand",
+   "url": "https://advancy.recruitee.com/o/frankfurt-junior-consultant-consultant-or-senior-consultant-fulltime",
+   "source": "recruitee"
+  },
+  {
+   "titre": "Data & AI Strategy",
+   "entreprise": "Devoteam",
+   "lieu": "Riyadh, SA",
+   "raison": "13 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/Devoteam/744000149304734",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Business Continuity Management Consultant",
+   "entreprise": "Devoteam",
+   "lieu": "Tunis, Tunis, TN",
+   "raison": "langue exigée : Arabe",
+   "url": "https://jobs.smartrecruiters.com/Devoteam/744000030745985",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Crisis Management Consultant",
+   "entreprise": "Devoteam",
+   "lieu": "Tunis, Tunis, TN",
+   "raison": "langue exigée : Arabe",
+   "url": "https://jobs.smartrecruiters.com/Devoteam/744000030175703",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Consultant Transformation Digitale & Stratégie Plateforme ServiceNow H/F",
+   "entreprise": "Devoteam",
+   "lieu": "Levallois-Perret, IDF, FR",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/Devoteam/744000126001909",
+   "source": "smartrecruiters"
   }
  ]
 }
