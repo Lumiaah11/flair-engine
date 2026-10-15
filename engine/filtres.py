@@ -13,12 +13,17 @@ from .texte import sans_accents
 
 FAMILLES = [
     ("Chief of Staff et bras droit", 30, re.compile(r"chief of staff|founder'?s associate|founders associate|office of the ceo|ceo office|bras droit|executive associate to the ceo", re.I)),
-    ("Corp dev junior", 22, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst", re.I)),
-    ("Market analyst", 28, re.compile(r"market (?:intelligence|analyst|insights?|research analyst)|competitive intelligence|insights (?:&|and) strategy|business insights", re.I)),
-    ("Strategy & Operations", 24, re.compile(r"strategy ?(?:&|and|/) ?operations|biz ?ops|business operations|strategic operations|\bs&o\b", re.I)),
-    ("Conseil en stratégie", 32, re.compile(r"(?:strategy|strategic|management) consult|junior consultant|associate consultant|consultant.{0,25}strat|strategy consultant", re.I)),
-    ("Stratégie corporate", 32, re.compile(r"strateg|stratég|transformation (?:analyst|associate|officer)|strategic planning|growth strategy", re.I)),
+    ("Corp dev junior", 20, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst", re.I)),
+    ("Finance stratégique", 16, re.compile(r"strategic finance|finance (?:&|and) strategy|strategy (?:&|and) finance|fp&a|financial planning", re.I)),
+    ("Market analyst", 26, re.compile(r"market (?:intelligence|analyst|insights?|research analyst)|competitive intelligence|insights (?:&|and) strategy|business insights", re.I)),
+    ("Strategy & Operations", 22, re.compile(r"strategy ?(?:&|and|/) ?operations|biz ?ops|business operations|strategic operations|\bs&o\b", re.I)),
+    ("Conseil en stratégie", 32, re.compile(r"(?:strategy|strategic|management) consult|junior consultant|associate consultant|consultant.{0,25}strat|strategy consultant|strategy&", re.I)),
+    ("Stratégie corporate", 32, re.compile(r"strategy (?:analyst|associate|specialist)|corporate strategy|strategic planning|growth strategy|strategy (?:&|and) planning|business strategy|stratégie|strategie|transformation (?:analyst|associate|officer)", re.I)),
+    ("Stratégie corporate", 20, re.compile(r"strateg", re.I)),
 ]
+# « Strategist » désigne surtout des métiers techniques ou de recrutement, sauf exceptions.
+STRATEGIST = re.compile(r"\bstrategist\b", re.I)
+STRATEGIST_OK = re.compile(r"\b(business|corporate|growth|commercial|market|management)\s+strategist\b", re.I)
 
 # Intitulés généralistes acceptés seulement chez les cabinets de conseil en stratégie.
 CONSEIL_GENERIQUE = re.compile(r"\b(consultant|business analyst|associate|analyst|research analyst)\b", re.I)
@@ -39,7 +44,9 @@ NON_STRAT = re.compile(
     r"communications|copywrit\w*|tax|audit\w*|accountant|accounting|software|ux|it strategy|cloud|security|"
     r"cyber\w*|infrastructure|devops|network|clinical|medical|nurse|pharmac\w*|investment strateg\w*|trading|"
     r"trader|quant\w*|credit|fraud|risk|collections|underwriting|merchandis\w*|buyer|procurement|marketing|"
-    r"teacher|instructor|editor|journalist|writer)\b",
+    r"teacher|instructor|editor|journalist|writer|talent|compliance|actuarial|client executive|workplace|"
+    r"facilities|real estate|sap|power bi|power apps|oracle|erp|crm|process consultant|technology consultant|"
+    r"it consultant|data engineer|solutions? architect|architect)\b",
     re.I,
 )
 SENIOR_ASSOCIATE = re.compile(r"senior associate", re.I)
@@ -51,6 +58,8 @@ VIE_UTILE = re.compile(r"strat|analyst|business|market|transformation|chief of s
 
 def famille(titre, est_conseil=False):
     """Renvoie (label, points) ou (None, 0)."""
+    if STRATEGIST.search(titre or "") and not STRATEGIST_OK.search(titre or ""):
+        return None, 0
     for label, pts, motif in FAMILLES:
         if motif.search(titre):
             if label != "Chief of Staff et bras droit" and NON_STRAT.search(titre):
@@ -152,6 +161,27 @@ DEMARRAGE_TOP = re.compile(r"(?:january|janvier|jan\.?)\s+2027|as soon as possib
 DEMARRAGE_PRINTEMPS = re.compile(r"(?:march|mars|april|avril|may|mai|spring|printemps)\s+2027", re.I)
 DEMARRAGE_TARDIF = re.compile(r"(?:september|septembre|fall|autumn|automne|august|août)\s+2027|2027 (?:graduate|grad) (?:program|programme|intake)|class of 2027", re.I)
 
+_MOTS_OUTILS = {
+    "Anglais": {"the", "and", "to", "of", "with", "for", "in", "our", "you", "we", "is", "are", "will", "your"},
+    "Allemand": {"und", "der", "die", "das", "wir", "mit", "für", "sie", "ist", "ein", "eine", "auf", "von", "zu", "bei", "den", "dich", "deine", "werden", "sowie", "im"},
+    "Italien": {"il", "della", "delle", "degli", "con", "per", "che", "una", "sono", "nel", "nella", "alla", "dei", "gli", "lavoro", "esperienza"},
+    "Néerlandais": {"het", "een", "wij", "zijn", "voor", "met", "van", "jouw", "je", "bij", "naar", "ervaring", "werk", "ook"},
+    "Espagnol": {"el", "los", "las", "con", "para", "una", "que", "del", "por", "experiencia", "trabajo", "nuestro", "nuestra", "y"},
+    "Portugais": {"os", "com", "para", "uma", "que", "do", "da", "dos", "não", "experiência", "trabalho", "nosso", "você"},
+    "Français": {"le", "la", "les", "des", "et", "pour", "avec", "une", "dans", "vous", "nous", "est", "sur", "du"},
+}
+
+
+def langue_annonce(texte):
+    """Langue principale d'une annonce, d'après ses mots outils."""
+    mots = re.findall(r"[a-zäöüßàâçéèêëîïôûùœ]+", (texte or "").lower())[:600]
+    if len(mots) < 25:
+        return None
+    scores = {lang: sum(1 for m in mots if m in outils) / len(mots) for lang, outils in _MOTS_OUTILS.items()}
+    langue = max(scores, key=scores.get)
+    return langue if scores[langue] >= 0.06 else None
+
+
 AUTORISATION = {  # zone -> (points, libellé)
     "États-Unis": (15, "OK · citoyen US"),
     "Europe": (15, "OK · UE"),
@@ -189,9 +219,9 @@ def analyse(offre, entreprise_info=None):
     if re.search(r"\b(analyst|associate|junior|graduate|entry|new grad|jeune diplômé)\b", titre, re.I):
         pts_poste = min(35, pts_poste + 2)
 
-    lieux = geo.pays_detectes(offre.get("lieu", ""))
-    if not lieux and offre.get("pays_iso"):
-        lieux = [offre["pays_iso"]]
+    detectes = geo.pays_detectes(offre.get("lieu", ""))
+    structure = offre.get("pays_iso") or ""
+    lieux = ([structure] + [p for p in detectes if p != structure]) if structure else detectes
     hors_france = [p for p in lieux if p != "FR"]
     if lieux and not hors_france:
         return None, "basé en France"
@@ -209,19 +239,22 @@ def analyse(offre, entreprise_info=None):
     bloquantes = [l for l in exigees if l not in ("Français", "Espagnol")]
     if bloquantes:
         return None, "langue exigée : " + ", ".join(bloquantes)
+    redigee = langue_annonce(titre + ". " + texte)
+    if redigee in ("Allemand", "Italien", "Néerlandais", "Portugais"):
+        return None, f"annonce rédigée en {redigee.lower()}"
 
     drapeaux = []
     # Séniorité
     if re.search(r"\b(junior|graduate|entry[- ]level|new grad|jeune diplômé|early career)\b", titre + " " + texte[:600], re.I) and (annees is None or annees <= 1):
         pts_senior = 20
     elif annees is None:
-        pts_senior = 15
+        pts_senior = 12
     elif annees <= 1:
         pts_senior = 20
     elif annees == 2:
-        pts_senior = 15
+        pts_senior = 14
     else:
-        pts_senior = 8
+        pts_senior = 7
     if annees:
         drapeaux.append(f"{annees} ans demandés" if annees > 1 else f"{annees} an demandé")
 
@@ -246,6 +279,9 @@ def analyse(offre, entreprise_info=None):
     if "Espagnol" in exigees:
         pts_langues = 5
         drapeaux.append("Espagnol courant demandé")
+    elif redigee == "Espagnol":
+        pts_langues = 3
+        drapeaux.append("Annonce en espagnol")
     if "Français" in exigees or "Français" in appreciees:
         drapeaux.append("Français apprécié")
     for l in appreciees:

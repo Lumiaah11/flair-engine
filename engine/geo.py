@@ -186,12 +186,17 @@ def pays_detectes(lieu):
         m = _cherche(ville, t)
         if m:
             ajoute(m.start(), iso)
-    for m in re.finditer(r",\s*([A-Z]{2})\b", brut):
-        code = m.group(1)
-        if code in ETATS_US:
-            ajoute(m.start(), "US")
-        elif code in PROVINCES_CA:
-            ajoute(m.start(), "CA")
+    # « Gerlingen, BW, DE » : le dernier code est un pays, pas l'État américain du Delaware.
+    paire = re.search(r",\s*([A-Z]{2}),\s*([A-Z]{2})\s*$", brut)
+    if paire and paire.group(2) in PAYS and paire.group(1) not in ETATS_US:
+        ajoute(paire.start(2), paire.group(2))
+    else:
+        for m in re.finditer(r",\s*([A-Z]{2})\b", brut):
+            code = m.group(1)
+            if code in ETATS_US:
+                ajoute(m.start(), "US")
+            elif code in PROVINCES_CA:
+                ajoute(m.start(), "CA")
     for nom in NOMS_ETATS_US:
         m = _cherche(nom, t)
         if m:

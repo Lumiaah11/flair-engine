@@ -39,12 +39,15 @@ def collecter(entreprises, agregateurs, seule=None):
     for e in entreprises:
         if seule and e["nom"] != seule:
             continue
+        if e.get("actif") is False:
+            continue
         fn = CONNECTEURS.get(e.get("ats"))
         nom = f"{e['nom']} ({e.get('ats')})"
         if not fn:
             stats[nom] = {"statut": "erreur", "message": "connecteur inconnu"}
             continue
-        retenir = (lambda t, c=(e.get("type") == "conseil"): titre_retenu(t, c))
+        doit = (e.get("titre_doit_contenir") or "").lower()
+        retenir = (lambda t, c=(e.get("type") == "conseil"), d=doit: (not d or d in (t or "").lower()) and titre_retenu(t, c))
         try:
             offres, lues = fn(e, retenir)
             for o in offres:
@@ -67,6 +70,8 @@ def collecter(entreprises, agregateurs, seule=None):
                 o["_info"] = info
             brutes.extend(offres)
             stats[cle] = {"statut": "ok", "lues": lues, "titres_retenus": len(offres)}
+            if cfg.get("_debug"):
+                stats[cle]["debug"] = cfg.pop("_debug")
         except Exception as err:
             stats[cle] = {"statut": "erreur", "message": f"{type(err).__name__}: {str(err)[:180]}"}
     return brutes, stats

@@ -1,28 +1,110 @@
 {
   "vie_bf": {
-    "actif": true,
+    "actif": false,
     "url": "https://civiweb-api-prd.azurewebsites.net/api/Offers/search",
     "maximum": 3000,
-    "niveau_employeur": 8
+    "niveau_employeur": 8,
+    "note": "API du site VIE fermée (401 depuis oct. 2026) : VIE couverts par iAgora, BNP Paribas et les pages carrières"
   },
   "themuse": {
     "actif": true,
-    "categories": ["Business Operations", "Project Management", "Data and Analytics"],
-    "niveaux": ["Entry Level", "Mid Level"],
+    "categories": [
+      "Business Operations",
+      "Project Management",
+      "Data and Analytics"
+    ],
+    "niveaux": [
+      "Entry Level",
+      "Mid Level"
+    ],
     "pages": 5,
     "niveau_employeur": 7
   },
   "adzuna": {
     "actif": true,
-    "pays": ["us", "gb", "de", "nl", "be", "ch", "at", "es", "it", "pl", "sg", "au", "ca"],
-    "requetes": ["strategy", "chief of staff", "market intelligence", "business operations"],
+    "pays": [
+      "us",
+      "gb",
+      "de",
+      "nl",
+      "be",
+      "ch",
+      "at",
+      "es",
+      "it",
+      "pl",
+      "sg",
+      "au",
+      "ca"
+    ],
+    "requetes": [
+      "strategy",
+      "chief of staff",
+      "market intelligence",
+      "business operations"
+    ],
     "max_days_old": 3,
     "niveau_employeur": 5
   },
   "jooble": {
     "actif": true,
-    "lieux": ["Dubai", "Abu Dhabi", "Riyadh", "Doha", "Singapore", "Hong Kong", "Luxembourg", "Brussels", "Geneva", "Zurich", "Amsterdam", "New York"],
-    "requetes": ["strategy analyst", "chief of staff", "market intelligence analyst"],
+    "lieux": [
+      "Dubai",
+      "Abu Dhabi",
+      "Riyadh",
+      "Doha",
+      "Singapore",
+      "Hong Kong",
+      "Luxembourg",
+      "Brussels",
+      "Geneva",
+      "Zurich",
+      "Amsterdam",
+      "New York"
+    ],
+    "requetes": [
+      "strategy analyst",
+      "chief of staff",
+      "market intelligence analyst"
+    ],
     "niveau_employeur": 5
+  },
+  "listes_html": {
+    "actif": true,
+    "niveau_employeur": 8,
+    "sources": [
+      {
+        "nom": "iagora",
+        "base": "https://www.iagora.com",
+        "vie": true,
+        "detail": true,
+        "max_details": 80,
+        "pays_depuis_slug": true,
+        "indice": "offer",
+        "pages": [
+          "https://www.iagora.com/work/en/VIE",
+          "https://www.iagora.com/work/en/VIE?page=2",
+          "https://www.iagora.com/work/en/VIE?page=3",
+          "https://www.iagora.com/work/en/VIE?page=4",
+          "https://www.iagora.com/work/en/VIE?page=5",
+          "https://www.iagora.com/work/en/VIE?page=6",
+          "https://www.iagora.com/work/en/VIE?page=7",
+          "https://www.iagora.com/work/en/VIE?page=8"
+        ],
+        "motif": "href=\"(?P<url>(?:https://www\\.iagora\\.com)?/work/en/offer/VIE-(?P<slug>[a-z0-9-]+)/(?P<id>\\d+))\"[^>]*>(?P<titre>.*?)</a>"
+      },
+      {
+        "nom": "bnp_vie",
+        "base": "https://group.bnpparibas",
+        "vie": true,
+        "detail": true,
+        "max_details": 30,
+        "indice": "job-offer",
+        "pages": [
+          "https://group.bnpparibas/en/careers/all-job-offers/international-volunteer-program"
+        ],
+        "motif": "href=\"(?P<url>(?:https://group\\.bnpparibas)?/en/careers/job-offer/(?P<id>[a-z0-9-]+))\"[^>]*>(?P<titre>.*?)</a>"
+      }
+    ]
   }
 }

@@ -36,6 +36,16 @@ def get_json(url, params=None, headers=None, timeout=25):
     return r.json()
 
 
+def get_text(url, params=None, headers=None, timeout=25):
+    _attendre()
+    h = {"Accept": "text/html,application/xhtml+xml"}
+    if headers:
+        h.update(headers)
+    r = SESSION.get(url, params=params, headers=h, timeout=timeout)
+    r.raise_for_status()
+    return r.text
+
+
 def post_json(url, corps, headers=None, timeout=25):
     _attendre()
     h = {"Content-Type": "application/json"}

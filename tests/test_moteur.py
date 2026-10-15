@@ -20,6 +20,8 @@ class Geo(unittest.TestCase):
         self.assertEqual(geo.pays_detectes("Remote - US"), ["US"])
         self.assertIn("GB", geo.pays_detectes("London; Paris"))
         self.assertEqual(geo.pays_detectes("Woman's health, Oman"), ["OM"])
+        self.assertEqual(geo.pays_detectes("Gerlingen, BW, DE"), ["DE"])
+        self.assertEqual(geo.pays_detectes("Wilmington, DE"), ["US"])
         self.assertEqual(geo.zone("LU"), "Europe")
         self.assertEqual(geo.zone("CH"), "Suisse")
         self.assertEqual(geo.code_ville("Lisbon, Portugal", "PT"), "LIS")
@@ -36,6 +38,11 @@ class Filtres(unittest.TestCase):
                   "Stage - Strategy Analyst", "Chief Strategy Officer", "Summer Analyst 2027",
                   "Credit Strategy Analyst", "Marketing Strategy Analyst"]:
             self.assertFalse(titre_retenu(t), t)
+        for t in ["Deployment Strategist", "Talent Strategist", "Financial Crimes Compliance Strategist",
+                  "SAP Group Reporting Junior Consultant", "Oliver Wyman – P&C Practice – Actuarial Consultant",
+                  "Associate Strategic Client Executive, Rx Solutions"]:
+            self.assertFalse(titre_retenu(t, est_conseil=True), t)
+        self.assertTrue(titre_retenu("Business Strategist"))
         self.assertTrue(titre_retenu("Consultant", est_conseil=True))
         self.assertFalse(titre_retenu("Consultant"))
         self.assertEqual(titre_exclu("Strategy Analyst (National)"), "réservé aux nationaux")
@@ -79,6 +86,14 @@ class Filtres(unittest.TestCase):
 
         o, r = self._offre("Strategy Analyst", "London, United Kingdom", "")
         self.assertEqual(o["autorisation"], "Sponsor requis")
+
+        allemand = ("Wir suchen für unser Team in Stuttgart eine engagierte Person, die mit uns die Strategie "
+                    "weiterentwickelt. Du bist kommunikativ und hast Freude an der Arbeit mit den Kollegen und "
+                    "verfügst über erste Erfahrungen im Bereich der Beratung oder in einem Unternehmen.")
+        self.assertEqual(self._offre("Junior Strategy Consultant", "Stuttgart, Germany", allemand)[1], "annonce rédigée en allemand")
+
+        o, r = self._offre("Strategic Finance Analyst", "New York, NY", "")
+        self.assertEqual(o["famille"], "Finance stratégique")
 
 
 class Connecteurs(unittest.TestCase):

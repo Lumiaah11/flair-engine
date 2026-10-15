@@ -1,7 +1,11 @@
-"""Agrégateurs (Adzuna, Jooble, The Muse) et VIE Business France."""
+"""Agrégateurs (Adzuna, Jooble, The Muse), VIE Business France et listes HTML (iAgora, BNP Paribas)."""
+import json
 import os
+import re
+from datetime import date
 
-from ..http import get_json, post_json
+from .. import geo
+from ..http import get_json, get_text, post_json
 from ..texte import html_vers_texte
 from . import offre
 
@@ -119,9 +123,106 @@ def vie_business_france(cfg, retenir):
     return res, total
 
 
+def _jobposting(page_html):
+    """Extrait le bloc JSON-LD JobPosting d'une page d'offre (format utilisé pour Google Jobs)."""
+    for bloc in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', page_html, re.S | re.I):
+        try:
+            data = json.loads(bloc.strip())
+        except ValueError:
+            continue
+        candidats = data if isinstance(data, list) else data.get("@graph", [data]) if isinstance(data, dict) else []
+        for c in candidats:
+            if isinstance(c, dict) and "JobPosting" in str(c.get("@type", "")):
+                return c
+    return None
+
+
+def _lieu_jsonld(jp):
+    lieux = jp.get("jobLocation") or []
+    if isinstance(lieux, dict):
+        lieux = [lieux]
+    morceaux = []
+    for l in lieux:
+        adr = (l or {}).get("address") or {}
+        if isinstance(adr, str):
+            morceaux.append(adr)
+            continue
+        pays = adr.get("addressCountry")
+        if isinstance(pays, dict):
+            pays = pays.get("name")
+        morceaux.append(", ".join(x for x in [adr.get("addressLocality"), adr.get("addressRegion"), pays] if x))
+    return "; ".join(m for m in morceaux if m)
+
+
+def _pays_slug(slug):
+    s = (slug or "").replace("-", " ")
+    for alias, iso in sorted(((a, i) for i, (_, al) in geo.PAYS.items() for a in al), key=lambda x: -len(x[0])):
+        if re.search(r"(^|\s)" + re.escape(alias) + r"(\s|$)", s):
+            return iso
+    return ""
+
+
+def listes_html(cfg, retenir):
+    """Pages de listes d'offres en HTML (iAgora pour les VIE, page VIE de BNP Paribas)."""
+    res, total, debug = [], 0, {}
+    for src in cfg.get("sources", []):
+        motif = re.compile(src["motif"], re.S | re.I)
+        vus, details = set(), 0
+        for url_page in src.get("pages", []):
+            try:
+                page = get_text(url_page)
+            except Exception as err:
+                debug.setdefault(src["nom"], []).append(f"{url_page} : {type(err).__name__}")
+                break
+            trouves = list(motif.finditer(page))
+            if not trouves:
+                i = page.lower().find(src.get("indice", "offer"))
+                debug.setdefault(src["nom"], []).append(f"{url_page} : 0 lien, extrait {page[max(0, i - 150):i + 350]!r}")
+                break
+            nouveaux = 0
+            for m in trouves:
+                oid = m.group("id")
+                if oid in vus:
+                    continue
+                vus.add(oid)
+                nouveaux += 1
+                total += 1
+                url = m.group("url")
+                if url.startswith("/"):
+                    url = src.get("base", "") + url
+                titre = html_vers_texte(m.group("titre") or "")
+                if titre and not (retenir(titre) or retenir("VIE " + titre)):
+                    continue
+                entreprise, lieu, desc, publiee = "", "", "", ""
+                pays_iso = _pays_slug(m.groupdict().get("slug")) if src.get("pays_depuis_slug") else ""
+                if src.get("detail") and details < src.get("max_details", 60):
+                    details += 1
+                    try:
+                        jp = _jobposting(get_text(url)) or {}
+                        titre = titre or jp.get("title", "")
+                        org = jp.get("hiringOrganization") or {}
+                        entreprise = org.get("name", "") if isinstance(org, dict) else str(org)
+                        lieu = _lieu_jsonld(jp)
+                        desc = html_vers_texte(jp.get("description", ""))
+                        publiee = (jp.get("datePosted") or "")[:10]
+                        if jp.get("validThrough") and jp["validThrough"][:10] < date.today().isoformat():
+                            continue
+                    except Exception:
+                        pass
+                if not titre or not (retenir(titre) or retenir("VIE " + titre)):
+                    continue
+                res.append(offre(src["nom"], oid, entreprise, titre, lieu or geo.nom_pays(pays_iso), url, publiee, desc,
+                                 pays_iso=pays_iso, vie=src.get("vie", False), contrat="VIE" if src.get("vie") else ""))
+            if not nouveaux:
+                break
+    cfg["_debug"] = debug
+    return res, total
+
+
 AGREGATEURS = {
     "adzuna": adzuna,
     "jooble": jooble,
     "themuse": themuse,
     "vie_bf": vie_business_france,
+    "listes_html": listes_html,
 }
