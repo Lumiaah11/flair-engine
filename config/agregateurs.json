@@ -1,0 +1,28 @@
+{
+  "vie_bf": {
+    "actif": true,
+    "url": "https://civiweb-api-prd.azurewebsites.net/api/Offers/search",
+    "maximum": 3000,
+    "niveau_employeur": 8
+  },
+  "themuse": {
+    "actif": true,
+    "categories": ["Business Operations", "Project Management", "Data and Analytics"],
+    "niveaux": ["Entry Level", "Mid Level"],
+    "pages": 5,
+    "niveau_employeur": 7
+  },
+  "adzuna": {
+    "actif": true,
+    "pays": ["us", "gb", "de", "nl", "be", "ch", "at", "es", "it", "pl", "sg", "au", "ca"],
+    "requetes": ["strategy", "chief of staff", "market intelligence", "business operations"],
+    "max_days_old": 3,
+    "niveau_employeur": 5
+  },
+  "jooble": {
+    "actif": true,
+    "lieux": ["Dubai", "Abu Dhabi", "Riyadh", "Doha", "Singapore", "Hong Kong", "Luxembourg", "Brussels", "Geneva", "Zurich", "Amsterdam", "New York"],
+    "requetes": ["strategy analyst", "chief of staff", "market intelligence analyst"],
+    "niveau_employeur": 5
+  }
+}
