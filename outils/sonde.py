@@ -1,5 +1,5 @@
-"""Sonde ponctuelle (4e passage) : routes de l'API « api » de Choisir le service public
-et balises de lieu des flux RSS Teamtailor.
+"""Sonde ponctuelle (5e passage) : comment la page de recherche de Choisir le service public
+récupère ses résultats (script du thème), et réponse de la route /wp-json/api/offer-list.
 
 Lancée par .github/workflows/sonde.yml, elle écrit outils/sonde_resultat.json.
 """
@@ -15,28 +15,26 @@ AGENT = {"User-Agent": "FlairBot/1.0 (veille d'offres personnelle; contact via G
 CSP = "https://choisirleservicepublic.gouv.fr"
 
 
-def appel(url, **kw):
-    time.sleep(0.4)
-    return requests.get(url, headers=AGENT, timeout=30, **kw)
-
-
 def main():
     res = {}
-    r = appel(CSP + "/wp-json/api")
-    res["api_statut"] = r.status_code
-    try:
-        routes = r.json().get("routes", {})
-        res["api_routes"] = {k: [e.get("methods") for e in v.get("endpoints", [])] for k, v in routes.items()}
-        res["api_args"] = {k: [list((e.get("args") or {}).keys()) for e in v.get("endpoints", [])] for k, v in routes.items()}
-    except ValueError:
-        res["api_extrait"] = r.text[:3000]
-    page = appel(CSP + "/nos-offres/filtres/mot-cles/strat%C3%A9gie/").text
-    res["scripts"] = re.findall(r'<script[^>]+src="([^"]+)"', page)[:40]
-    res["ajax"] = [page[max(0, m.start() - 200): m.end() + 300] for m in re.finditer(r"ajax|wp-json|data-url|data-endpoint", page)][:12]
-    for slug in ("converteo", "indefi"):
-        t = appel(f"https://{slug}.teamtailor.com/jobs.rss").text
-        items = re.findall(r"<item>(.*?)</item>", t, re.S)
-        res["tt_" + slug] = [re.sub(r"<description>.*?</description>", "<description/>", i, flags=re.S)[:1500] for i in items[:3]]
+    js = requests.get(CSP + "/wp-content/themes/biep/assets/js/app.js", headers=AGENT, timeout=30).text
+    res["js_taille"] = len(js)
+    extraits = []
+    for m in re.finditer(r"offer-list|admin-ajax|wp_ajax_url|action\s*[:=]\s*['\"][a-z_]+|wp-json|fetch\(|\.post\(|ajax\(", js):
+        extraits.append(js[max(0, m.start() - 300): m.end() + 500])
+        if len(extraits) >= 25:
+            break
+    res["js_extraits"] = extraits
+    res["js_actions"] = sorted(set(re.findall(r"action['\"]?\s*[:=,]\s*['\"]([a-zA-Z_]+)['\"]", js)))[:60]
+    essais = []
+    for corps in ({}, {"keywords": "stratégie"}, {"motsCles": "stratégie", "page": 1}, {"search": "stratégie"}):
+        time.sleep(0.5)
+        try:
+            r = requests.post(CSP + "/wp-json/api/offer-list", json=corps, headers={**AGENT, "Accept": "application/json"}, timeout=30)
+            essais.append({"corps": corps, "statut": r.status_code, "extrait": r.text[:1500]})
+        except Exception as err:  # noqa: BLE001
+            essais.append({"corps": corps, "erreur": str(err)})
+    res["offer_list"] = essais
     with open(os.path.join(RACINE, "outils", "sonde_resultat.json"), "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=1)
 
