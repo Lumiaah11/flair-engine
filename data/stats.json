@@ -1,12 +1,12 @@
 {
- "maj": "2026-10-15T12:15:41+00:00",
+ "maj": "2026-10-15T12:27:18+00:00",
  "compteurs": {
   "sources_ok": 144,
   "sources_en_erreur": 2,
-  "titres_retenus": 377,
+  "titres_retenus": 375,
   "offres_gardees": 230,
   "nouvelles": 230,
-  "offres_lues": 24077
+  "offres_lues": 24040
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 31,
@@ -42,7 +42,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 726,
+   "lues": 727,
    "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
@@ -117,7 +117,7 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 157,
+   "lues": 158,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -252,7 +252,7 @@
   },
   "Bridgewater Associates (greenhouse)": {
    "statut": "ok",
-   "lues": 18,
+   "lues": 17,
    "titres_retenus": 0
   },
   "General Atlantic (greenhouse)": {
@@ -442,7 +442,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1382,
+   "lues": 1383,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
@@ -522,7 +522,7 @@
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 231,
+   "lues": 232,
    "titres_retenus": 0
   },
   "Michelin (workday)": {
@@ -774,8 +774,8 @@
   },
   "service_public": {
    "statut": "ok",
-   "lues": 118,
-   "titres_retenus": 7
+   "lues": 78,
+   "titres_retenus": 5
   }
  }
 }

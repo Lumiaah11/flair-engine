@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-15T12:15:41+00:00",
+ "maj": "2026-10-15T12:27:18+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -28,17 +28,17 @@
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "NYC, SF, Seattle, US",
+   "lieu": "Dublin ; Ireland Locations",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
+   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
    "source": "greenhouse"
   },
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "Dublin ; Ireland Locations",
+   "lieu": "NYC, SF, Seattle, US",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
+   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
    "source": "greenhouse"
   },
   {
@@ -92,25 +92,17 @@
   {
    "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Singapore; Tokyo Prefecture, Japan",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Finance & Strategy, Deal Strategy - APAC",
-   "entreprise": "Anthropic",
    "lieu": "Tokyo, Japan; Tokyo Prefecture, Japan",
    "raison": "5 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5431578008",
    "source": "greenhouse"
   },
   {
-   "titre": "Finance & Strategy GTM, EMEA",
+   "titre": "Finance & Strategy, Deal Strategy - APAC",
    "entreprise": "Anthropic",
-   "lieu": "Dublin, IE",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
+   "lieu": "Singapore; Tokyo Prefecture, Japan",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
    "source": "greenhouse"
   },
   {
@@ -119,6 +111,14 @@
    "lieu": "London, UK; Dublin, IE",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409108008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy GTM, EMEA",
+   "entreprise": "Anthropic",
+   "lieu": "Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393268008",
    "source": "greenhouse"
   },
   {
@@ -140,17 +140,17 @@
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Singapore",
+   "lieu": "Seoul, South Korea",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
    "source": "greenhouse"
   },
   {
    "titre": "Revenue Strategy & Operations",
    "entreprise": "Anthropic",
-   "lieu": "Seoul, South Korea",
+   "lieu": "Singapore",
    "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439844008",
    "source": "greenhouse"
   },
   {
@@ -276,25 +276,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
@@ -303,6 +295,14 @@
    "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
@@ -316,9 +316,17 @@
   {
    "titre": "Senior Associate, Strategic Finance (International)",
    "entreprise": "Toast",
-   "lieu": "Boston; San Francisco, California, United States",
+   "lieu": "Boston; Remote - USA",
    "raison": "4 ans d'expérience demandés",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategic Cuisines - Korean AE (Central)",
+   "entreprise": "Toast",
+   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
+   "raison": "langue exigée : Coréen",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
@@ -335,14 +343,6 @@
    "lieu": "Chicago, IL; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
