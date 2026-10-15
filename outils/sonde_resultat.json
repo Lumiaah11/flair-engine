@@ -1,38 +1,407 @@
 {
- "js_taille": 985363,
- "js_extraits": [
-  "() {\n      var btn_loggout = document.querySelector('.fr-header__menu .btn-logout');\n      if (btn_loggout) {\n        btn_loggout.addEventListener('click', function () {\n          var ajaxData = new FormData();\n          var request = new XMLHttpRequest();\n          var url = window.ParamsDataPopin.wp_ajax_url;\n          ajaxData.append('action', 'logout');\n          ajaxData.append('nonce', window.ParamsDataPopin.nonce);\n          request.open('POST', url, true);\n          request.send(ajaxData);\n          request.onload = function () {\n            var response = request.response;\n            if (typeof response === 'string') {\n              response = JSON.parse(response);\n            }\n            switch (response.status) {\n              case 200:\n                window.location.replace(response.u"
+ "params_data_search": "{\"wp_ajax_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ecc69c1149\",\"offersListTitle\":\"Liste des offres\",\"maxDisplayedOffers\":25,\"wp_home_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\",\"wp_offers_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\\/\",\"current_url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/nos-offres\",\"url_keywords\":{\"date\":\"date\",\"contenu\":\"contenu\",\"thematique\":\"thematique\",\"keywords\":\"mot-cles\",\"locations\":\"localisation\",\"domains\":\"domaine\",\"versants\":\"versant\",\"categories\":\"categorie\",\"organisations\":\"organisme\",\"jobs\":\"type\",\"managements\":\"management\",\"remotes\":\"teletravail\",\"experiences\":\"experience\",\"geoloc\":\"geoloc\",\"regions\":\"regions\",\"date_de_publication\":\"date-de-publication\"},\"is_user_connected\":false}",
+ "date_publication": [
+  "            </p>\n\n                                                    <div class=\"search-fieldset\" data-module=\"components/accordions\">\n            \n        \n        <fieldset class=\"fr-fieldset fr-m-0\">\n\n            <legend class=\"sr-only\">\n                Date de publication            </legend>\n\n            \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f6f\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f6f\" data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n     ",
+  "nts/accordions\">\n            \n        \n        <fieldset class=\"fr-fieldset fr-m-0\">\n\n            <legend class=\"sr-only\">\n                Date de publication            </legend>\n\n            \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f6f\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f6f\" data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f",
+  "dset class=\"fr-fieldset fr-m-0\">\n\n            <legend class=\"sr-only\">\n                Date de publication            </legend>\n\n            \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f6f\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f6f\" data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f78\">\n                            <input class=\"js-se",
+  "ss=\"sr-only\">\n                Date de publication            </legend>\n\n            \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f6f\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f6f\" data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f78\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6",
+  "    <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f6f\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f6f\" data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f78\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f78\" data-slug=\"date_de_publication\" data-name=\"Dernières 48 heures\" name=\"date_de_publication[]\" value=\"derniere",
+  "                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f6f\">\n                                                                    Date indifférente                                                            </label>\n                        </div>\n                                    \n                \n                        <div class=\"fr-radio-group\" data-hide-search=\"date_de_publication-radio-6ad0bed994f78\">\n                            <input class=\"js-search-input \" type=\"radio\" id=\"date_de_publication-radio-6ad0bed994f78\" data-slug=\"date_de_publication\" data-name=\"Dernières 48 heures\" name=\"date_de_publication[]\" value=\"dernieres_48_heures\" data-controls=\"panel-6ad0bed994ec2\"    >\n                            <label class=\"\" for=\"date_de_publication-radio-6ad0bed994f78\">\n                                                                    Dernières 48 heures                                                            </label>\n                        </div>\n                   "
  ],
- "js_actions": [
-  "logout"
+ "checkbox_dates": [
+  "data-slug=\"date_de_publication\" data-name=\"Date indifférente\" name=\"date_de_publication[]\" value=\"\" data-controls=\"panel-6ad0bed994ec2\"    ",
+  "data-slug=\"date_de_publication\" data-name=\"Dernières 48 heures\" name=\"date_de_publication[]\" value=\"dernieres_48_heures\" data-controls=\"panel-6ad0bed994ec2\"    ",
+  "data-slug=\"date_de_publication\" data-name=\"7 derniers jours\" name=\"date_de_publication[]\" value=\"7_derniers_jours\" data-controls=\"panel-6ad0bed994ec2\"    ",
+  "data-slug=\"date_de_publication\" data-name=\"14 derniers jours\" name=\"date_de_publication[]\" value=\"14_derniers_jours\" data-controls=\"panel-6ad0bed994ec2\"    "
  ],
  "offer_list": [
   {
-   "corps": {},
+   "corps": {
+    "page": 2
+   },
    "statut": 200,
-   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
   },
   {
    "corps": {
-    "keywords": "stratégie"
+    "paged": 2
    },
    "statut": 200,
-   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
   },
   {
    "corps": {
-    "motsCles": "stratégie",
-    "page": 1
+    "mot-cles": "stratégie"
    },
    "statut": 200,
-   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
   },
   {
    "corps": {
-    "search": "stratégie"
+    "mots-cles": "stratégie"
    },
    "statut": 200,
-   "extrait": "{\"title\":\"54059 offres d'emploi trouv\\u00e9es\",\"items\":[{\"title\":\"CADRE DE SANTE EHPAD\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/cadre-de-sante-ehpad-reference-2026-2441036\\/\",\"localisation\":\"Pas de Calais <strong>(62)<\\/strong>\",\"fonction_public\":\"Fonction publique Hospitali\\u00e8re\",\"employeur\":\"Centre Hospitalier de Calais\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/medical-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"M\\u00e9dical et param\\u00e9dical\",\"reference\":\"2026-2441036\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2021\\/11\\/hospitalie\\u0300re-1.svg\",\"logo_alt\":\"Fonction publique Hospitali\\u00e8re\"},{\"title\":\"Professeur(e) contractuel(le) en Maths Sciences Physiques\",\"url\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/offre-emploi\\/professeure-contractuelle-en-maths-sciences-physiques-reference-MENJ-04-2026-49118\\/\",\"localisation\":\"Gironde <strong>(33)<\\/strong>\",\"fonction_public\":\"Fonction publique de l'\\u00c9tat\",\"employeur\":\"Rectorat de Bordeaux\",\"publication_date\":\"15 octobre 2026\",\"image_domain_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2022\\/01\\/defense1-1.svg\",\"image_domain_alt\":\"\",\"domain\":\"Enseignement et formation\",\"reference\":\"MENJ-04-2026-49118\",\"logo_src\":\"https:\\/\\/choisirleservicepublic.gouv.fr\\/wp-content\\/uploads\\/2025\\/10\\/logo-MEN-2025-605x605.png\",\"logo_alt\":\"Minist\\u00e8re de l'\\u00c9ducation"
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "keyword": "stratégie"
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "q": "stratégie"
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "query": "stratégie"
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "s": "stratégie"
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "filters": {
+     "mot-cles": [
+      "stratégie"
+     ]
+    }
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "motCles": "stratégie"
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "corps": {
+    "keywords": [
+     "stratégie"
+    ]
+   },
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "qs": "mot-cles=strat%C3%A9gie",
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "qs": "keywords=strat%C3%A9gie",
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "qs": "s=strat%C3%A9gie",
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
+  },
+  {
+   "qs": "page=2",
+   "statut": 200,
+   "titre": "54059 offres d'emploi trouvées",
+   "n": 20,
+   "premiers": [
+    [
+     "CADRE DE SANTE EHPAD",
+     "15 octobre 2026"
+    ],
+    [
+     "Professeur(e) contractuel(le) en Maths Sciences Physiques",
+     "15 octobre 2026"
+    ],
+    [
+     "Assistant.e de direction",
+     "15 octobre 2026"
+    ]
+   ],
+   "cles": [
+    "title",
+    "pagination"
+   ]
   }
  ]
 }
