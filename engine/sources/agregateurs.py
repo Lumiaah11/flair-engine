@@ -67,6 +67,7 @@ def jooble(cfg, retenir):
     extras = {"datecreatedfrom": (date.today() - timedelta(days=cfg.get("jours", 7))).isoformat(),
               "ResultOnPage": cfg.get("par_page", 50)}
     res, total, vus, debug, erreurs = [], 0, set(), [], 0
+    ecartees = {"intitulé": 0, "intermédiaire": 0, "lieu": 0}
     for r in recherches:
         url = f"https://{r.get('hote', 'jooble.org')}/api/{cle}"
         for q in r.get("requetes", []):
@@ -87,8 +88,9 @@ def jooble(cfg, retenir):
                 items = data.get("jobs", []) or []
                 total += len(items)
                 if page == 1:
-                    debug.append(f"{r.get('hote', 'jooble.org')} {r['lieu']} / {q} : {len(items)} offres, ex. "
-                                 + " ; ".join((it.get("location") or "?") for it in items[:3]))
+                    debug.append(f"{r['lieu']} / {q} : {len(items)} offres, ex. "
+                                 + " ; ".join(f"{it.get('title', '')[:40]} | {it.get('company') or '-'} | {it.get('location') or '?'}"
+                                              for it in items[:2]))
                 if r.get("diagnostic"):
                     break
                 for it in items:
@@ -102,14 +104,20 @@ def jooble(cfg, retenir):
                         lieu = r["lieu"]  # Jooble ne donne que le pays : on garde la ville cherchée
                     detectes = geo.pays_detectes(lieu)
                     if r.get("pays") and detectes and (r["pays"] not in detectes or (r["pays"] != "US" and "US" in detectes)):
+                        ecartees["lieu"] += 1
                         continue  # homonyme américain (Paris, TX) ou offre hors du pays visé
-                    if not retenir(titre) or INTERMEDIAIRES.search(it.get("company") or "confidential"):
+                    if not retenir(titre):
+                        ecartees["intitulé"] += 1
+                        continue
+                    if INTERMEDIAIRES.search(it.get("company") or ""):
+                        ecartees["intermédiaire"] += 1
                         continue
                     res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, lieu,
                                      it.get("link"), (it.get("updated") or "")[:10], html_vers_texte(it.get("snippet", "")),
                                      pays_iso=r.get("pays", ""), contrat=it.get("type") or ""))
                 if len(items) < extras.get("ResultOnPage", 20):
                     break
+    debug.insert(0, "écartées : " + ", ".join(f"{k} {v}" for k, v in ecartees.items()))
     cfg["_debug"] = debug
     if erreurs and not total:
         raise RuntimeError("toutes les recherches Jooble ont échoué : " + " | ".join(debug[:3]))
