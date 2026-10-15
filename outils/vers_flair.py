@@ -19,6 +19,7 @@ SOURCES = {
     "smartrecruiters": "Page carrière (SmartRecruiters)", "workable": "Page carrière (Workable)",
     "workday": "Page carrière (Workday)", "themuse": "The Muse", "adzuna": "Adzuna", "jooble": "Jooble",
     "iagora": "Liste VIE iAgora", "bnp_vie": "Page VIE BNP Paribas", "vie_bf": "Site VIE Business France",
+    "france_travail": "France Travail",
 }
 
 
@@ -82,7 +83,7 @@ def vers_document(o):
         "extrait": tronque(o.get("extrait", ""), 1200),
         "drapeaux": (o.get("drapeaux") or [])[:4],
         "autorisation": o.get("autorisation", ""),
-        "acces": "",
+        "acces": "Contact ou alumni d'abord : en France, le tri sur l'école est fréquent." if o.get("zone") == "France" else "",
         "experience": (f"{annees} an demandé" if annees == 1 else f"{annees} ans demandés") if annees else "",
         "salaire": "",
         "statut": "nouveau",

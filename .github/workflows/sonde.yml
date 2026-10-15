@@ -1,0 +1,46 @@
+name: Sonde des sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "outils/sonde.py"
+      - ".github/workflows/sonde.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sonde
+  cancel-in-progress: true
+
+jobs:
+  sonde:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer
+        run: pip install -r requirements.txt
+
+      - name: Sonder
+        run: python outils/sonde.py
+
+      - name: Enregistrer
+        run: |
+          git config user.name "flair-bot"
+          git config user.email "flair-bot@users.noreply.github.com"
+          git add outils/sonde_resultat.json
+          git diff --staged --quiet && exit 0
+          git commit -m "Sonde des sources du $(date -u +%F)"
+          for essai in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep $((essai * 5))
+          done
+          exit 1

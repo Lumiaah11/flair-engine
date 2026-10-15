@@ -12,14 +12,14 @@ from .texte import sans_accents
 # --- Intitulés --------------------------------------------------------------
 
 FAMILLES = [
-    ("Chief of Staff et bras droit", 30, re.compile(r"chief of staff|founder'?s associate|founders associate|office of the ceo|ceo office|bras droit|executive associate to the ceo|chef de cabinet|chargée? de mission auprès d[ue] (?:la |l')?(?:pdg|ceo|direct)", re.I)),
-    ("Corp dev junior", 20, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst|fusions?[- ](?:et )?acquisitions|développement corporate", re.I)),
-    ("Finance stratégique", 16, re.compile(r"strategic finance|finance (?:&|and) strategy|strategy (?:&|and) finance|fp&a|financial planning", re.I)),
+    ("Chief of Staff et bras droit", 30, re.compile(r"chief of staff|founder'?s associate|founders associate|office of the ceo|ceo office|bras droit|executive associate to the ceo|chef de cabinet|chargée? de mission auprès d[ue] (?:la |l')?(?:pdg|ceo|dg\b|direct|présiden|secrétaire général)|chargée? de mission (?:[-–] )?(?:direction générale|présidence|comex)", re.I)),
+    ("Corp dev junior", 20, re.compile(r"corporate development|corp\.? ?dev|m&a analyst|strategy (?:&|and) m&a|mergers (?:&|and) acquisitions analyst|fusions?[- ](?:et )?acquisitions|développement corporate|analyste (?:m&a|fusions)", re.I)),
+    ("Finance stratégique", 16, re.compile(r"strategic finance|finance (?:&|and) strategy|strategy (?:&|and) finance", re.I)),
     ("Market analyst", 26, re.compile(r"market (?:intelligence|analyst|insights?|research analyst)|competitive intelligence|insights (?:&|and) strategy|business insights|chargée? d'études? (?:de )?march|analyste (?:de )?march|veille concurrentielle|intelligence économique", re.I)),
     ("Strategy & Operations", 22, re.compile(r"strategy ?(?:&|and|/) ?operations|biz ?ops|business operations|strategic operations|\bs&o\b", re.I)),
     ("Conseil en stratégie", 32, re.compile(r"(?:strategy|strategic|management) consult|junior consultant|associate consultant|consultant.{0,25}strat|strategy consultant|strategy&|consultante? junior|consultante? (?:en )?stratégie", re.I)),
     ("Stratégie corporate", 32, re.compile(r"strategy (?:analyst|associate|specialist)|corporate strategy|strategic planning|growth strategy|strategy (?:&|and) planning|business strategy|stratégie|strategie|transformation (?:analyst|associate|officer)|chargée? de mission strat|analyste strat|plan stratégique", re.I)),
-    ("Stratégie corporate", 20, re.compile(r"strateg", re.I)),
+    ("Stratégie corporate", 20, re.compile(r"strat[eé]g", re.I)),
 ]
 # « Strategist » désigne surtout des métiers techniques ou de recrutement, sauf exceptions.
 STRATEGIST = re.compile(r"\bstrategist\b", re.I)
@@ -35,7 +35,7 @@ TITRE_EXCLU = re.compile(
     r"crack the case|hackathon|talent pool|talent community|talent pipeline|spontaneous|spontanée|temporary|"
     r"contractor|freelance|part[- ]time)\b"
     r"|\bchief\b(?! of staff)"
-    r"|(?:^|\(|\s)stage(?:\s*[-–:)]|\s+(?:de|en|d')\b)",
+    r"|(?<!early )(?<!early-)(?<!late )(?<!late-)(?<!growth )(?<!growth-)(?<!multi-)\bstage\b",
     re.I,
 )
 # Fonctions qui contiennent « strategy » sans être de la strat (vente, marketing, tech, risque...).
@@ -133,9 +133,13 @@ LANGUES = {
     "russian": "Russe", "greek": "Grec", "hungarian": "Hongrois", "romanian": "Roumain",
     "thai": "Thaï", "vietnamese": "Vietnamien", "bahasa": "Bahasa", "luxembourgish": "Luxembourgeois",
     "spanish": "Espagnol", "french": "Français",
+    # Annonces rédigées en français
+    "allemand": "Allemand", "néerlandais": "Néerlandais", "arabe": "Arabe", "chinois": "Chinois",
+    "japonais": "Japonais", "coréen": "Coréen", "portugais": "Portugais", "italien": "Italien",
+    "polonais": "Polonais", "suédois": "Suédois", "russe": "Russe", "turc": "Turc", "espagnol": "Espagnol",
 }
-_PLUS = re.compile(r"\b(plus|advantage\w*|nice to have|bonus|preferred|asset|desirable|beneficial|ideally|appreciated|would be|atout|apprécié|souhaité)\b", re.I)
-_EXIGE = re.compile(r"\b(fluent|fluency|native|proficien\w*|business[- ]level|required|essential|mandatory|must|c1|c2|excellent command|full professional|courant|exigé|obligatoire|indispensable)\b", re.I)
+_PLUS = re.compile(r"\b(plus|advantage\w*|nice to have|bonus|preferred|asset|desirable|beneficial|ideally|appreciated|would be|atout|appréciée?s?|souhaitée?s?|souhaitable|serait)\b", re.I)
+_EXIGE = re.compile(r"\b(fluent|fluency|native|proficien\w*|business[- ]level|required|essential|mandatory|must|c1|c2|excellent command|full professional|courante?|exigée?s?|requise?s?|obligatoire|indispensable|impérati\w*|bilingue|maîtrise|parfaite)\b", re.I)
 _PHRASES = re.compile(r"(?<=[.!?;\n•])\s+|\n")
 
 
@@ -195,6 +199,8 @@ def langue_annonce(texte):
 
 INCLURE_FRANCE = True  # réglé par main.py depuis config/reglages.json
 
+CDD = re.compile(r"\bCDD\b|fixed[- ]term|temporar|\bcontract\b|contrat à durée déterminée", re.I)
+
 PERMIS = re.compile(r"permis (?:b|de conduire)[^.\n]{0,40}(?:exig|obligatoire|indispensable|requis)|(?:exig|obligatoire|indispensable|requis)\w*[^.\n]{0,30}permis (?:b|de conduire)|driver'?s licen[cs]e (?:is )?(?:required|mandatory)|valid driving licen[cs]e", re.I)
 
 AUTORISATION = {  # zone -> (points, libellé)
@@ -241,6 +247,11 @@ def analyse(offre, entreprise_info=None):
     detectes = geo.pays_detectes(offre.get("lieu", ""))
     structure = offre.get("pays_iso") or ""
     lieux = ([structure] + [p for p in detectes if p != structure]) if structure else detectes
+    if est_vie and not [p for p in lieux if p != "FR"]:
+        # VIE publié au siège en France : la destination est souvent dans l'intitulé (« VIE - ... - Abu Dhabi »).
+        destination = [p for p in geo.pays_detectes(titre) if p != "FR"]
+        if destination:
+            lieux = destination
     hors_france = [p for p in lieux if p != "FR"]
     if lieux and not hors_france:
         if not INCLURE_FRANCE:
@@ -267,7 +278,7 @@ def analyse(offre, entreprise_info=None):
 
     drapeaux = []
     # Séniorité
-    if re.search(r"\b(junior|graduate|entry[- ]level|new grad|jeune diplômé|early career)\b", titre + " " + texte[:600], re.I) and (annees is None or annees <= 1):
+    if re.search(r"\b(junior|graduate|entry[- ]level|new grad|jeunes? diplômée?s?|débutante?s?|premières? expériences?|1ère expérience|sortie d'école|early career)\b", titre + " " + texte[:600], re.I) and (annees is None or annees <= 1):
         pts_senior = 20
     elif annees is None:
         pts_senior = 12
@@ -315,6 +326,13 @@ def analyse(offre, entreprise_info=None):
     if strat_tech:
         drapeaux.append("Strat tech ou IA")
 
+    # Contrat : CDI par défaut, CDD signalé et un peu moins bien noté.
+    contrat = "VIE" if est_vie else "CDI"
+    if not est_vie and (CDD.search(titre) or CDD.search(offre.get("contrat") or "")):
+        contrat = "CDD"
+        pts_poste -= 5
+        drapeaux.insert(0, "CDD")
+
     # Démarrage
     if DEMARRAGE_TARDIF.search(titre):
         pts_demarrage = 2
@@ -338,7 +356,7 @@ def analyse(offre, entreprise_info=None):
         "pays": geo.nom_pays(iso) if iso else "",
         "zone": "VIE" if est_vie and not iso else z,
         "code": geo.code_ville(offre.get("lieu", ""), iso),
-        "contrat": "VIE" if est_vie else (offre.get("contrat") or "CDI"),
+        "contrat": contrat,
         "autorisation": autorisation,
         "annees_exp": annees,
         "langues_exigees": exigees,

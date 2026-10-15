@@ -839,7 +839,9 @@
   "recherches": [
    "strategy analyst",
    "strategy consultant",
-   "chief of staff"
+   "chief of staff",
+   "stratégie",
+   "consultant stratégie"
   ]
  },
  {
@@ -853,7 +855,9 @@
   "recherches": [
    "Strategy&",
    "strategy consultant",
-   "strategy associate"
+   "strategy associate",
+   "stratégie",
+   "consultant stratégie"
   ]
  },
  {
@@ -869,7 +873,11 @@
    "VIE business",
    "VIE market",
    "strategy analyst",
-   "business development analyst"
+   "business development analyst",
+   "stratégie",
+   "chargé de mission",
+   "veille",
+   "chief of staff"
   ]
  },
  {
@@ -883,7 +891,11 @@
   "recherches": [
    "VIE strategy",
    "VIE business",
-   "strategy analyst"
+   "strategy analyst",
+   "stratégie",
+   "chargé de mission",
+   "chief of staff",
+   "market intelligence"
   ]
  },
  {
@@ -898,7 +910,9 @@
    "VIE strategy",
    "VIE business",
    "strategy analyst",
-   "market intelligence"
+   "market intelligence",
+   "stratégie",
+   "chief of staff"
   ]
  },
  {
@@ -927,7 +941,10 @@
   "niveau": 9,
   "recherches": [
    "VIE",
-   "strategy"
+   "strategy",
+   "stratégie",
+   "chief of staff",
+   "strategy analyst"
   ]
  }
 ]

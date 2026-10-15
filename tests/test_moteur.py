@@ -47,8 +47,12 @@ class Filtres(unittest.TestCase):
                   "Chargée d'études de marché", "Analyste stratégie et développement"]:
             self.assertTrue(titre_retenu(t), t)
         for t in ["Stage - Chargé de mission stratégie", "Alternance - Analyste stratégie", "Ingénieur stratégie produit",
-                  "Assistante de direction stratégie"]:
+                  "Assistante de direction stratégie", "stage 6 mois stratégie et transformation digitale",
+                  "STAGE 2027 - Veille Concurrentielle", "Confirmed FP&A Analyst", "Contrôleur de gestion stratégique"]:
             self.assertFalse(titre_retenu(t), t)
+        for t in ["Chargé de mission auprès du DG", "Analyste M&A", "Chargé d'études stratégiques",
+                  "Chief of Staff (Early-Stage Startup)", "Chargée de mission Direction Générale"]:
+            self.assertTrue(titre_retenu(t), t)
         self.assertTrue(titre_retenu("Consultant", est_conseil=True))
         self.assertFalse(titre_retenu("Consultant"))
         self.assertEqual(titre_exclu("Strategy Analyst (National)"), "réservé aux nationaux")
@@ -107,6 +111,15 @@ class Filtres(unittest.TestCase):
 
         o, r = self._offre("Strategic Finance Analyst", "New York, NY", "")
         self.assertEqual(o["famille"], "Finance stratégique")
+
+        self.assertEqual(self._offre("Analyste stratégie", "Paris, France", "Maîtrise de l'allemand indispensable.")[1],
+                         "langue exigée : Allemand")
+        o, r = self._offre("VIE - PMO Industrial Cooperation & Offsets - Abu Dhabi", "Meudon; France", "Mission de 12 mois.")
+        self.assertEqual((o["pays_iso"], o["contrat"]), ("AE", "VIE"))
+        o, r = self._offre("Chargé de mission stratégie (CDD 12 mois)", "Paris, France", "Jeune diplômée, première expérience.")
+        self.assertEqual(o["contrat"], "CDD")
+        self.assertEqual(o["drapeaux"][0], "CDD")
+        self.assertEqual(o["detail_score"]["seniorite"], 20)
 
 
 class Connecteurs(unittest.TestCase):
@@ -182,9 +195,6 @@ class PassageComplet(unittest.TestCase):
         self.assertIsNone(stats["rejets_par_raison"].get("basé en France"))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 class ListesHtml(unittest.TestCase):
     def test_iagora(self):
@@ -235,3 +245,7 @@ class FranceTravail(unittest.TestCase):
         self.assertIsNone(r)
         self.assertEqual(o["code"], "LYS")
         self.assertIn("Permis demandé", o["drapeaux"])
+
+
+if __name__ == "__main__":
+    unittest.main()

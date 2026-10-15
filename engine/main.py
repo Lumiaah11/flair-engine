@@ -1,6 +1,6 @@
 """Collecte nocturne de Flair.
 
-Lit les sources, garde les offres strat hors France qui passent la grille,
+Lit les sources, garde les offres strat (France, international, VIE) qui passent la grille,
 et écrit data/offres.json, data/nouvelles.json, data/stats.json et data/rejets.json.
 """
 import json
