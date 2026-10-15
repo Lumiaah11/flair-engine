@@ -242,3 +242,12 @@ def code_ville(lieu, iso):
     if v in CODES_VILLES:
         return CODES_VILLES[v]
     return (iso or "").upper()[:3] or "···"
+
+
+def noms_pays():
+    """Tous les noms et alias de pays connus (pour reconnaître un lieu réduit au seul pays)."""
+    noms = set()
+    for iso, (nom, alias) in PAYS.items():
+        noms.add(nom)
+        noms.update(alias)
+    return noms

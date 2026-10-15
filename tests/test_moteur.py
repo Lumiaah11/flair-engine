@@ -305,7 +305,9 @@ class Jooble(unittest.TestCase):
         reponses = [{"totalCount": 2, "jobs": [
             {"id": 11, "title": "Chargé de mission stratégie H/F", "location": "Paris, Île-de-France", "company": "Groupe Exemple",
              "link": "https://jooble.org/desc/11", "updated": "2026-10-14T00:00:00.0000000", "snippet": "Jeune diplômé d'école de commerce", "type": "CDI"},
-            {"id": 12, "title": "Commercial terrain", "location": "Paris", "link": "https://jooble.org/desc/12"}]}]
+            {"id": 12, "title": "Commercial terrain", "location": "Paris", "link": "https://jooble.org/desc/12"},
+            {"title": "Analyste stratégie", "location": "France", "company": "Groupe B", "link": "https://jooble.org/desc/13"},
+            {"title": "Strategy Analyst", "location": "Paris, TX", "company": "Groupe C", "link": "https://jooble.org/desc/14"}]}]
         appels = []
 
         def faux_post(url, corps, **kw):
@@ -315,7 +317,7 @@ class Jooble(unittest.TestCase):
         with mock.patch.dict(os.environ, {"JOOBLE_KEY": "k"}), mock.patch.object(agregateurs, "post_json", side_effect=faux_post):
             res, lues = agregateurs.jooble({"recherches": [{"lieu": "Paris", "pays": "FR", "requetes": ["stratégie"], "pages": 2}]},
                                            titre_retenu)
-        self.assertEqual((lues, len(res)), (2, 1))
+        self.assertEqual((lues, len(res)), (4, 2))  # sans identifiant, l'offre passe ; l'homonyme texan non
         self.assertIn("datecreatedfrom", appels[0])
         o, r = analyse(res[0], {"niveau": 5})
         self.assertEqual((o["zone"], o["code"], o["contrat"]), ("France", "PAR", "CDI"))

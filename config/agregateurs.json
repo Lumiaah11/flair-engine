@@ -100,16 +100,6 @@
         ]
       },
       {
-        "lieu": "Paris",
-        "hote": "fr.jooble.org",
-        "pays": "FR",
-        "requetes": [
-          "stratégie",
-          "chief of staff"
-        ],
-        "diagnostic": true
-      },
-      {
         "lieu": "Dubai, United Arab Emirates",
         "pays": "AE",
         "requetes": [
@@ -137,15 +127,6 @@
         ]
       },
       {
-        "lieu": "Doha, Qatar",
-        "pays": "QA",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
         "lieu": "Singapore",
         "pays": "SG",
         "requetes": [
@@ -155,44 +136,8 @@
         ]
       },
       {
-        "lieu": "Hong Kong",
-        "pays": "HK",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Luxembourg",
-        "pays": "LU",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
         "lieu": "Brussels, Belgium",
         "pays": "BE",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Geneva, Switzerland",
-        "pays": "CH",
-        "requetes": [
-          "strategy analyst",
-          "chief of staff",
-          "market intelligence analyst"
-        ]
-      },
-      {
-        "lieu": "Zurich, Switzerland",
-        "pays": "CH",
         "requetes": [
           "strategy analyst",
           "chief of staff",
@@ -212,7 +157,7 @@
     "jours": 7,
     "par_page": 50,
     "niveau_employeur": 5,
-    "note": "Pas de recherche aux États-Unis : déjà très couverts par les pages carrières"
+    "note": "Clé valable sur jooble.org seulement (fr.jooble.org refuse). Pas de recherche aux États-Unis, déjà très couverts ; Suisse, Luxembourg, Hong Kong et Doha retirés faute de résultats."
   },
   "listes_html": {
     "actif": true,

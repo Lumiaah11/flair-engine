@@ -92,14 +92,17 @@ def jooble(cfg, retenir):
                 if r.get("diagnostic"):
                     break
                 for it in items:
-                    if it.get("id") in vus:
+                    cle_vue = it.get("id") or it.get("link") or f"{it.get('title')}|{it.get('company')}|{it.get('location')}"
+                    if cle_vue in vus:
                         continue
-                    vus.add(it.get("id"))
+                    vus.add(cle_vue)
                     titre = html_vers_texte(it.get("title", ""))
                     lieu = it.get("location") or r["lieu"]
+                    if geo.pays_detectes(lieu) and lieu.strip().lower() in {n.lower() for n in geo.noms_pays()}:
+                        lieu = r["lieu"]  # Jooble ne donne que le pays : on garde la ville cherchée
                     detectes = geo.pays_detectes(lieu)
-                    if r.get("pays") and detectes and r["pays"] not in detectes:
-                        continue  # homonyme (Paris, TX) ou offre hors du pays visé
+                    if r.get("pays") and detectes and (r["pays"] not in detectes or (r["pays"] != "US" and "US" in detectes)):
+                        continue  # homonyme américain (Paris, TX) ou offre hors du pays visé
                     if not retenir(titre) or INTERMEDIAIRES.search(it.get("company") or "confidential"):
                         continue
                     res.append(offre("jooble", it.get("id"), it.get("company", ""), titre, lieu,
