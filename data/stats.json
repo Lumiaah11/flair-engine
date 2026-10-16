@@ -1,35 +1,34 @@
 {
- "maj": "2026-10-15T16:34:29+00:00",
+ "maj": "2026-10-16T03:46:32+00:00",
  "compteurs": {
   "sources_ok": 143,
   "sources_en_erreur": 1,
-  "titres_retenus": 324,
-  "offres_gardees": 178,
-  "nouvelles": 178,
-  "offres_lues": 23104
+  "titres_retenus": 322,
+  "offres_gardees": 180,
+  "nouvelles": 6,
+  "offres_lues": 23119
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 32,
-  "5 ans d'expérience demandés": 17,
+  "4 ans d'expérience demandés": 31,
+  "5 ans d'expérience demandés": 16,
   "8 ans d'expérience demandés": 13,
   "7 ans d'expérience demandés": 12,
-  "annonce rédigée en allemand": 9,
-  "10 ans d'expérience demandés": 8,
+  "annonce rédigée en allemand": 10,
+  "10 ans d'expérience demandés": 7,
   "conseil IT ou digital": 7,
   "langue exigée : Allemand": 5,
-  "langue exigée : Néerlandais": 5,
   "6 ans d'expérience demandés": 4,
+  "langue exigée : Néerlandais": 4,
   "12 ans d'expérience demandés": 3,
   "langue exigée : Coréen": 3,
+  "annonce rédigée en portugais": 3,
   "15 ans d'expérience demandés": 2,
   "langue exigée : Italien": 2,
   "langue exigée : Grec": 2,
   "langue exigée : Thaï": 2,
-  "annonce rédigée en portugais": 2,
   "annonce rédigée en italien": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
-  "service civique ou poste de direction": 2,
   "langue exigée : Polonais": 1,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
@@ -37,32 +36,33 @@
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
   "langue exigée : Suédois": 1,
   "langue exigée : Mandarin, Cantonais": 1,
-  "13 ans d'expérience demandés": 1
+  "13 ans d'expérience demandés": 1,
+  "service civique ou poste de direction": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 728,
+   "lues": 725,
    "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 164,
+   "lues": 163,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 649,
-   "titres_retenus": 18
+   "lues": 654,
+   "titres_retenus": 17
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 440,
+   "lues": 439,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 895,
+   "lues": 899,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -72,27 +72,27 @@
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 224,
+   "lues": 229,
    "titres_retenus": 3
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 440,
-   "titres_retenus": 0
+   "lues": 439,
+   "titres_retenus": 1
   },
   "Scale AI (greenhouse)": {
    "statut": "ok",
-   "lues": 180,
+   "lues": 179,
    "titres_retenus": 2
   },
   "Duolingo (greenhouse)": {
    "statut": "ok",
-   "lues": 60,
+   "lues": 63,
    "titres_retenus": 0
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 456,
+   "lues": 454,
    "titres_retenus": 24
   },
   "Adyen (greenhouse)": {
@@ -102,17 +102,17 @@
   },
   "Robinhood (greenhouse)": {
    "statut": "ok",
-   "lues": 152,
+   "lues": 154,
    "titres_retenus": 0
   },
   "Brex (greenhouse)": {
    "statut": "ok",
-   "lues": 261,
+   "lues": 256,
    "titres_retenus": 0
   },
   "Lyft (greenhouse)": {
    "statut": "ok",
-   "lues": 176,
+   "lues": 173,
    "titres_retenus": 0
   },
   "Pinterest (greenhouse)": {
@@ -122,7 +122,7 @@
   },
   "Dropbox (greenhouse)": {
    "statut": "ok",
-   "lues": 24,
+   "lues": 21,
    "titres_retenus": 0
   },
   "Asana (greenhouse)": {
@@ -132,52 +132,52 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 215,
+   "lues": 219,
    "titres_retenus": 1
   },
   "Twilio (greenhouse)": {
    "statut": "ok",
-   "lues": 135,
+   "lues": 137,
    "titres_retenus": 1
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 378,
+   "lues": 379,
    "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 401,
+   "lues": 402,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
    "statut": "ok",
-   "lues": 48,
+   "lues": 49,
    "titres_retenus": 1
   },
   "Reddit (greenhouse)": {
    "statut": "ok",
-   "lues": 148,
+   "lues": 149,
    "titres_retenus": 2
   },
   "Instacart (greenhouse)": {
    "statut": "ok",
-   "lues": 124,
+   "lues": 122,
    "titres_retenus": 2
   },
   "Chime (greenhouse)": {
    "statut": "ok",
-   "lues": 69,
+   "lues": 72,
    "titres_retenus": 1
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 206,
+   "lues": 211,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 312,
+   "lues": 310,
    "titres_retenus": 4
   },
   "Gusto (greenhouse)": {
@@ -187,7 +187,7 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 204,
+   "lues": 209,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -202,12 +202,12 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 260,
+   "lues": 262,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 70,
+   "lues": 69,
    "titres_retenus": 0
   },
   "N26 (greenhouse)": {
@@ -222,7 +222,7 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 203,
+   "lues": 202,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
@@ -292,12 +292,12 @@
   },
   "Spotify (lever)": {
    "statut": "ok",
-   "lues": 83,
+   "lues": 81,
    "titres_retenus": 0
   },
   "Palantir (lever)": {
    "statut": "ok",
-   "lues": 312,
+   "lues": 310,
    "titres_retenus": 0
   },
   "Mistral AI (lever)": {
@@ -322,12 +322,12 @@
   },
   "Qonto (lever)": {
    "statut": "ok",
-   "lues": 56,
+   "lues": 55,
    "titres_retenus": 0
   },
   "Alan (ashby)": {
    "statut": "ok",
-   "lues": 120,
+   "lues": 121,
    "titres_retenus": 1
   },
   "Back Market (ashby)": {
@@ -362,7 +362,7 @@
   },
   "Ramp (ashby)": {
    "statut": "ok",
-   "lues": 165,
+   "lues": 163,
    "titres_retenus": 2
   },
   "Notion (ashby)": {
@@ -372,12 +372,12 @@
   },
   "Perplexity (ashby)": {
    "statut": "ok",
-   "lues": 130,
+   "lues": 131,
    "titres_retenus": 0
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 152,
+   "lues": 153,
    "titres_retenus": 1
   },
   "Deel (ashby)": {
@@ -387,7 +387,7 @@
   },
   "Linear (ashby)": {
    "statut": "ok",
-   "lues": 30,
+   "lues": 31,
    "titres_retenus": 0
   },
   "Vercel (ashby)": {
@@ -397,7 +397,7 @@
   },
   "Synthesia (ashby)": {
    "statut": "ok",
-   "lues": 50,
+   "lues": 49,
    "titres_retenus": 1
   },
   "Pigment (lever)": {
@@ -407,12 +407,12 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 344,
+   "lues": 343,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 117,
+   "lues": 118,
    "titres_retenus": 1
   },
   "Mercury (ashby)": {
@@ -423,7 +423,7 @@
   "Sierra (ashby)": {
    "statut": "ok",
    "lues": 186,
-   "titres_retenus": 3
+   "titres_retenus": 1
   },
   "EliseAI (ashby)": {
    "statut": "ok",
@@ -442,12 +442,12 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1389,
+   "lues": 1391,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1266,
+   "lues": 1264,
    "titres_retenus": 7
   },
   "Delivery Hero (smartrecruiters)": {
@@ -457,7 +457,7 @@
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 240,
+   "lues": 242,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -467,7 +467,7 @@
   },
   "Capital One (workday)": {
    "statut": "ok",
-   "lues": 196,
+   "lues": 197,
    "titres_retenus": 3
   },
   "Mastercard (workday)": {
@@ -477,7 +477,7 @@
   },
   "Blackstone (workday)": {
    "statut": "ok",
-   "lues": 97,
+   "lues": 96,
    "titres_retenus": 3
   },
   "Salesforce (workday)": {
@@ -492,7 +492,7 @@
   },
   "NVIDIA (workday)": {
    "statut": "ok",
-   "lues": 184,
+   "lues": 185,
    "titres_retenus": 0
   },
   "Oliver Wyman (workday)": {
@@ -503,7 +503,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 248,
-   "titres_retenus": 84
+   "titres_retenus": 85
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -512,7 +512,7 @@
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 482,
+   "lues": 480,
    "titres_retenus": 2
   },
   "Thales (workday)": {
@@ -527,7 +527,7 @@
   },
   "Michelin (workday)": {
    "statut": "ok",
-   "lues": 209,
+   "lues": 208,
    "titres_retenus": 1
   },
   "Mirakl (greenhouse)": {
@@ -542,7 +542,7 @@
   },
   "Artefact (greenhouse)": {
    "statut": "ok",
-   "lues": 139,
+   "lues": 140,
    "titres_retenus": 1
   },
   "Shift Technology (greenhouse)": {
@@ -552,12 +552,12 @@
   },
   "Ivalua (greenhouse)": {
    "statut": "ok",
-   "lues": 47,
+   "lues": 48,
    "titres_retenus": 0
   },
   "Dashlane (greenhouse)": {
    "statut": "ok",
-   "lues": 15,
+   "lues": 12,
    "titres_retenus": 0
   },
   "AlixPartners (greenhouse)": {
@@ -572,7 +572,7 @@
   },
   "Swile (lever)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 32,
    "titres_retenus": 0
   },
   "Malt (lever)": {
@@ -697,7 +697,7 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 303,
+   "lues": 302,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
@@ -761,18 +761,18 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 5,
+   "titres_retenus": 6,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '\\n<br />\\nWhy Join Euro Latina Finance?<br />\\n<br />\\n*\\tGlobal and multicultural team based in three different locations across Latin America and Europe and led by its founder &amp; CEO<br />\\n *\\tGrowing company with a solid pipeline and deal flow perspective<br />\\n *\\tVast array of sectors and mandates <br />\\n *\\tOpportunity to work within a collegial culture that puts people first<br />\\n *\\tPossibility to move to different offices within the firm in the future<br />\\n<br />\\nCompany description<br />\\n '",
-     "pages lues : 2, fiches ouvertes : 5, avec entreprise : 0"
+     "fiche sans entreprise, extrait 'pecialized financing.<br />\\n<br />\\nYour concrete missions will be the following :<br />\\n * Search for information about industry and companies<br />\\n * Prepare industry overviews, sector overview and company profiles including description, shareholders, financial highlights, recent developments, etc.<br />\\n * Perform comparable analysis: trading and transaction multiples.<br />\\n * Contribute to pitch books<br />\\n * Support of execution teams: create and maintain deal information log and meeting '",
+     "pages lues : 2, fiches ouvertes : 6, avec entreprise : 0"
     ]
    }
   },
   "service_public": {
    "statut": "ok",
-   "lues": 78,
-   "titres_retenus": 5
+   "lues": 80,
+   "titres_retenus": 3
   }
  }
 }
