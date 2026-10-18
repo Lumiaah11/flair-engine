@@ -1,27 +1,31 @@
 {
- "maj": "2026-10-17T03:44:32+00:00",
+ "maj": "2026-10-18T03:44:36+00:00",
  "compteurs": {
-  "sources_ok": 142,
-  "sources_en_erreur": 2,
-  "titres_retenus": 235,
-  "offres_gardees": 188,
-  "nouvelles": 12,
-  "offres_lues": 22974
+  "sources_ok": 143,
+  "sources_en_erreur": 1,
+  "titres_retenus": 316,
+  "offres_gardees": 186,
+  "nouvelles": 4,
+  "offres_lues": 23219
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 14,
-  "8 ans d'expérience demandés": 13,
-  "5 ans d'expérience demandés": 12,
+  "4 ans d'expérience demandés": 28,
+  "5 ans d'expérience demandés": 15,
+  "8 ans d'expérience demandés": 12,
   "7 ans d'expérience demandés": 9,
   "10 ans d'expérience demandés": 7,
   "conseil IT ou digital": 7,
+  "annonce rédigée en allemand": 6,
+  "langue exigée : Allemand": 5,
+  "langue exigée : Néerlandais": 5,
   "6 ans d'expérience demandés": 4,
-  "langue exigée : Allemand": 4,
   "12 ans d'expérience demandés": 3,
   "langue exigée : Coréen": 3,
+  "annonce rédigée en portugais": 3,
   "15 ans d'expérience demandés": 2,
-  "annonce rédigée en allemand": 2,
   "langue exigée : Italien": 2,
+  "langue exigée : Grec": 2,
+  "langue exigée : Thaï": 2,
   "annonce rédigée en italien": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
@@ -29,16 +33,16 @@
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
   "langue exigée : Japonais": 1,
-  "langue exigée : Grec": 1,
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
+  "langue exigée : Suédois": 1,
+  "langue exigée : Mandarin, Cantonais": 1,
   "langue exigée : Vietnamien": 1,
-  "langue exigée : Néerlandais": 1,
   "13 ans d'expérience demandés": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 731,
+   "lues": 732,
    "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
@@ -48,8 +52,8 @@
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 656,
-   "titres_retenus": 12
+   "lues": 655,
+   "titres_retenus": 11
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
@@ -88,17 +92,17 @@
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 454,
-   "titres_retenus": 24
+   "lues": 456,
+   "titres_retenus": 25
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 250,
+   "lues": 249,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
    "statut": "ok",
-   "lues": 153,
+   "lues": 152,
    "titres_retenus": 0
   },
   "Brex (greenhouse)": {
@@ -113,12 +117,12 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 157,
+   "lues": 156,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
    "statut": "ok",
-   "lues": 20,
+   "lues": 18,
    "titres_retenus": 0
   },
   "Asana (greenhouse)": {
@@ -173,7 +177,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 318,
+   "lues": 317,
    "titres_retenus": 4
   },
   "Gusto (greenhouse)": {
@@ -353,7 +357,7 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 815,
+   "lues": 813,
    "titres_retenus": 10
   },
   "Ramp (ashby)": {
@@ -398,7 +402,7 @@
   },
   "Pigment (lever)": {
    "statut": "ok",
-   "lues": 138,
+   "lues": 140,
    "titres_retenus": 0
   },
   "Harvey (ashby)": {
@@ -438,7 +442,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1392,
+   "lues": 1394,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
@@ -469,7 +473,7 @@
   "Mastercard (workday)": {
    "statut": "ok",
    "lues": 182,
-   "titres_retenus": 4
+   "titres_retenus": 3
   },
   "Blackstone (workday)": {
    "statut": "ok",
@@ -497,17 +501,18 @@
    "titres_retenus": 24
   },
   "Accenture Strategy (workday)": {
-   "statut": "erreur",
-   "message": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "statut": "ok",
+   "lues": 248,
+   "titres_retenus": 83
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
    "lues": 300,
-   "titres_retenus": 14
+   "titres_retenus": 13
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 487,
+   "lues": 486,
    "titres_retenus": 2
   },
   "Thales (workday)": {
@@ -759,7 +764,7 @@
    "titres_retenus": 7,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t16&nbsp;Oct&nbsp;2026 (verified\\t\\t\\t17&nbsp;Oct&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
+     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t17&nbsp;Oct&nbsp;2026 (verified\\t\\t\\t18&nbsp;Oct&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
      "pages lues : 2, fiches ouvertes : 7, avec entreprise : 0"
     ]
    }
