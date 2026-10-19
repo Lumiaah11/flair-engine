@@ -1,31 +1,28 @@
 {
- "maj": "2026-10-18T03:44:36+00:00",
+ "maj": "2026-10-19T03:49:16+00:00",
  "compteurs": {
-  "sources_ok": 143,
-  "sources_en_erreur": 1,
-  "titres_retenus": 316,
-  "offres_gardees": 186,
-  "nouvelles": 4,
-  "offres_lues": 23219
+  "sources_ok": 142,
+  "sources_en_erreur": 2,
+  "titres_retenus": 281,
+  "offres_gardees": 172,
+  "nouvelles": 3,
+  "offres_lues": 23015
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 28,
-  "5 ans d'expérience demandés": 15,
+  "4 ans d'expérience demandés": 20,
+  "5 ans d'expérience demandés": 13,
   "8 ans d'expérience demandés": 12,
-  "7 ans d'expérience demandés": 9,
+  "7 ans d'expérience demandés": 8,
   "10 ans d'expérience demandés": 7,
   "conseil IT ou digital": 7,
-  "annonce rédigée en allemand": 6,
   "langue exigée : Allemand": 5,
-  "langue exigée : Néerlandais": 5,
   "6 ans d'expérience demandés": 4,
   "12 ans d'expérience demandés": 3,
   "langue exigée : Coréen": 3,
-  "annonce rédigée en portugais": 3,
+  "annonce rédigée en allemand": 3,
+  "langue exigée : Néerlandais": 3,
   "15 ans d'expérience demandés": 2,
   "langue exigée : Italien": 2,
-  "langue exigée : Grec": 2,
-  "langue exigée : Thaï": 2,
   "annonce rédigée en italien": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
@@ -33,36 +30,38 @@
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
   "langue exigée : Japonais": 1,
+  "langue exigée : Grec": 1,
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
-  "langue exigée : Suédois": 1,
   "langue exigée : Mandarin, Cantonais": 1,
+  "langue exigée : Thaï": 1,
+  "annonce rédigée en portugais": 1,
   "langue exigée : Vietnamien": 1,
   "13 ans d'expérience demandés": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 732,
+   "lues": 730,
    "titres_retenus": 10
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 173,
+   "lues": 174,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 655,
+   "lues": 656,
    "titres_retenus": 11
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 433,
+   "lues": 435,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 898,
+   "lues": 895,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -77,7 +76,7 @@
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 435,
+   "lues": 433,
    "titres_retenus": 1
   },
   "Scale AI (greenhouse)": {
@@ -92,12 +91,12 @@
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 456,
-   "titres_retenus": 25
+   "lues": 455,
+   "titres_retenus": 24
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 249,
+   "lues": 247,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
@@ -142,7 +141,7 @@
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 393,
+   "lues": 387,
    "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
@@ -157,7 +156,7 @@
   },
   "Reddit (greenhouse)": {
    "statut": "ok",
-   "lues": 146,
+   "lues": 147,
    "titres_retenus": 2
   },
   "Instacart (greenhouse)": {
@@ -172,22 +171,22 @@
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 214,
+   "lues": 212,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 317,
+   "lues": 318,
    "titres_retenus": 4
   },
   "Gusto (greenhouse)": {
    "statut": "ok",
-   "lues": 103,
+   "lues": 104,
    "titres_retenus": 0
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 210,
+   "lues": 208,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -202,7 +201,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 261,
+   "lues": 263,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -242,7 +241,7 @@
   },
   "Squarespace (greenhouse)": {
    "statut": "ok",
-   "lues": 30,
+   "lues": 29,
    "titres_retenus": 0
   },
   "SoFi (greenhouse)": {
@@ -367,17 +366,17 @@
   },
   "Notion (ashby)": {
    "statut": "ok",
-   "lues": 128,
+   "lues": 129,
    "titres_retenus": 4
   },
   "Perplexity (ashby)": {
    "statut": "ok",
-   "lues": 133,
+   "lues": 134,
    "titres_retenus": 0
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 156,
+   "lues": 154,
    "titres_retenus": 2
   },
   "Deel (ashby)": {
@@ -412,7 +411,7 @@
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 118,
+   "lues": 116,
    "titres_retenus": 1
   },
   "Mercury (ashby)": {
@@ -442,7 +441,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1394,
+   "lues": 1393,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
@@ -481,9 +480,8 @@
    "titres_retenus": 3
   },
   "Salesforce (workday)": {
-   "statut": "ok",
-   "lues": 183,
-   "titres_retenus": 2
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='salesforce.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/salesforce/External_Career_Site/jobs (Caused by ResponseError('too"
   },
   "Adobe (workday)": {
    "statut": "ok",
@@ -503,7 +501,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 248,
-   "titres_retenus": 83
+   "titres_retenus": 51
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -527,7 +525,7 @@
   },
   "Michelin (workday)": {
    "statut": "ok",
-   "lues": 205,
+   "lues": 202,
    "titres_retenus": 1
   },
   "Mirakl (greenhouse)": {
@@ -562,7 +560,7 @@
   },
   "AlixPartners (greenhouse)": {
    "statut": "ok",
-   "lues": 115,
+   "lues": 113,
    "titres_retenus": 4
   },
   "DiliTrust (lever)": {
@@ -622,7 +620,7 @@
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 141,
+   "lues": 140,
    "titres_retenus": 2
   },
   "Voodoo (ashby)": {
@@ -677,7 +675,7 @@
   },
   "Withings (workable)": {
    "statut": "ok",
-   "lues": 28,
+   "lues": 29,
    "titres_retenus": 1
   },
   "Hugging Face (workable)": {
@@ -697,7 +695,7 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 304,
+   "lues": 303,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
@@ -727,7 +725,7 @@
   },
   "Emerton (recruitee)": {
    "statut": "ok",
-   "lues": 8,
+   "lues": 7,
    "titres_retenus": 0
   },
   "Converteo (teamtailor)": {
@@ -764,14 +762,14 @@
    "titres_retenus": 7,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t17&nbsp;Oct&nbsp;2026 (verified\\t\\t\\t18&nbsp;Oct&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
+     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t17&nbsp;Oct&nbsp;2026 (verified\\t\\t\\t19&nbsp;Oct&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
      "pages lues : 2, fiches ouvertes : 7, avec entreprise : 0"
     ]
    }
   },
   "service_public": {
    "statut": "ok",
-   "lues": 79,
+   "lues": 80,
    "titres_retenus": 3
   }
  }
