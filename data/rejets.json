@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-20T03:47:20+00:00",
+ "maj": "2026-10-21T03:47:17+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -55,6 +55,14 @@
    "lieu": "US-Chicago, US-Remote, US-Seattle, US-San Francisco",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8155580",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategy & Ops, Enterprise",
+   "entreprise": "Stripe",
+   "lieu": "San Francisco; US",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8053933",
    "source": "greenhouse"
   },
   {
@@ -162,6 +170,14 @@
    "source": "greenhouse"
   },
   {
+   "titre": "DashOS, Product Strategy & Operations",
+   "entreprise": "DoorDash",
+   "lieu": "Los Angeles, CA; San Francisco, CA; New York, NY",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8301438",
+   "source": "greenhouse"
+  },
+  {
    "titre": "Senior Associate, Commerce Platform Enterprise Online Ordering - Strategy & Operations",
    "entreprise": "DoorDash",
    "lieu": "New York, NY; Denver, CO; Los Angeles, CA; Chicago, IL",
@@ -244,17 +260,17 @@
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -284,17 +300,17 @@
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Chicago, IL; Huntsville, Alabama, United States",
+   "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
    "source": "greenhouse"
   },
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
+   "lieu": "Chicago, IL; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
    "source": "greenhouse"
   },
   {
@@ -458,14 +474,6 @@
    "source": "smartrecruiters"
   },
   {
-   "titre": "Chief of Staff",
-   "entreprise": "Delivery Hero",
-   "lieu": "Singapore, SG",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155408289",
-   "source": "smartrecruiters"
-  },
-  {
    "titre": "Private Equity Investor Product Strategy, AVP",
    "entreprise": "Blackstone",
    "lieu": "Miami; United States of America",
@@ -610,118 +618,6 @@
    "source": "workday"
   },
   {
-   "titre": "Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Strategy-Consultant_R00343571",
-   "source": "workday"
-  },
-  {
-   "titre": "Consulting-Business Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Shanghai; China/Mainland",
-   "raison": "langue exigée : Mandarin, Cantonais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Shanghai/Consulting-Business-Strategy-Consultant_13648012",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Consultant - Commodity Markets",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Bangkok; Thailand",
-   "raison": "langue exigée : Thaï",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bangkok/Strategy-Consultant---Commodity-Markets_R00352972",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Consultant – Life Sciences",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Gdansk; Poland",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant--GN----Life-Sciences--LS-_R00291375",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Consultant (GN) – Pricing",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Gdansk; Poland",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant--GN----Pricing_R00291361",
-   "source": "workday"
-  },
-  {
-   "titre": "Data & AI Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Data---AI-Value-Strategy-Consultant_R00345444",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy & Consulting | Management Consultant - Industrial",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Buenos Aires; Argentina",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Management-Consultant---Industrial_R00357904-1",
-   "source": "workday"
-  },
-  {
-   "titre": "Energy Consultants in Strategy & Consulting",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Athens; Greece",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
-   "source": "workday"
-  },
-  {
-   "titre": "Enterprise AI Value Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Vienna, Borsegebaude; Austria",
-   "raison": "langue exigée : Allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vienna-Borsegebaude/Enterprise-AI-Value-Strategy-Consultant--All-genders-_R00339342",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Consultant - Energy/Oil & Gas Downstream",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Poland",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant---Energy-Oil---Gas-Downstream_R00328495",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Consultant Life Science (all genders)",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Kronberg, Campus Kronberg 1; Stuttgart; Hamburg; Munich; Berlin; Germany",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Strategy-Consultant-Life-Science--all-genders-_R00293609",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy & Consulting | Consumer Goods & Retail Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Buenos Aires; Argentina",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Buenos-Aires/Strategy---Consulting---Consumer-Goods---Retail-Consultant_R00361398",
-   "source": "workday"
-  },
-  {
-   "titre": "S&C GN - TS&T – Strategic Technology Effectiveness - Tech M&A - Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Bengaluru; India",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/S-C-GN---TS-T---Strategic-Technology-Effectiveness---Tech-M-A---Consultant_R00340129",
-   "source": "workday"
-  },
-  {
-   "titre": "Consultor(a) de Estratégia",
-   "entreprise": "Accenture Strategy",
-   "lieu": "São Paulo - São Paulo; Brazil",
-   "raison": "annonce rédigée en portugais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
-   "source": "workday"
-  },
-  {
    "titre": "Associate - Strategy & Transformation (HCMC)",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Ho Chi Minh City; Vietnam",
@@ -751,14 +647,6 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
-   "source": "workday"
-  },
-  {
-   "titre": "Senior Associate Consultant - Growth & Business Model Reinvention AWM – Milano",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Milan; Italy",
-   "raison": "annonce rédigée en italien",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Senior-Associate-Consultant---Growth---Business-Model-Reinvention-AWM---Milano_767869WD",
    "source": "workday"
   },
   {
