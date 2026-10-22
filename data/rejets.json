@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-21T03:47:17+00:00",
+ "maj": "2026-10-22T03:47:52+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -28,17 +28,17 @@
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "Dublin ; Ireland Locations",
+   "lieu": "NYC, SF, Seattle, US",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
+   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
    "source": "greenhouse"
   },
   {
    "titre": "GTM Strategy & Operations Analyst",
    "entreprise": "Stripe",
-   "lieu": "NYC, SF, Seattle, US",
+   "lieu": "Dublin ; Ireland Locations",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8201680",
+   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
    "source": "greenhouse"
   },
   {
@@ -146,7 +146,7 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Business Operations Senior Associate, Institutional",
+   "titre": "Business Operations, Senior Associate",
    "entreprise": "Coinbase",
    "lieu": "Remote - USA; US - Remote Zone 1 (Job Requisitions Only)",
    "raison": "5 ans d'expérience demandés",
@@ -260,17 +260,17 @@
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
@@ -292,17 +292,17 @@
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
+   "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
    "source": "greenhouse"
   },
   {
    "titre": "Strategic Cuisines - Korean AE (Central)",
    "entreprise": "Toast",
-   "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
+   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
    "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
    "source": "greenhouse"
   },
   {
@@ -482,6 +482,14 @@
    "source": "workday"
   },
   {
+   "titre": "Chief of Staff to the President, JAPAC",
+   "entreprise": "Salesforce",
+   "lieu": "Singapore - Singapore",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Chief-of-Staff_JR365161",
+   "source": "workday"
+  },
+  {
    "titre": "Chief of Staff, CRO",
    "entreprise": "Salesforce",
    "lieu": "Washington - Seattle Metro - Remote; United States of America",
@@ -495,6 +503,14 @@
    "lieu": "California - San Francisco; United States of America",
    "raison": "7 ans d'expérience demandés",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Chief-of-Staff--Consumer---Business-Services_JR363016",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Analyst MEA",
+   "entreprise": "NVIDIA",
+   "lieu": "UAE, Dubai; United Arab Emirates",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UAE-Dubai/Strategy-Analyst-MEA_JR2024077",
    "source": "workday"
   },
   {
@@ -618,14 +634,6 @@
    "source": "workday"
   },
   {
-   "titre": "Associate - Strategy & Transformation (HCMC)",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Ho Chi Minh City; Vietnam",
-   "raison": "langue exigée : Vietnamien",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Ho-Chi-Minh-City/Associate---Strategy---Transformation--HCMC-_747991WD",
-   "source": "workday"
-  },
-  {
    "titre": "IN_Senior Manager_FS Strategy_Financial Services _Advisory_Mumbai",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Mumbai Shivaji Park; India",
@@ -647,6 +655,14 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
+   "source": "workday"
+  },
+  {
+   "titre": "Associate - Strategy & Transformation (HCMC)",
+   "entreprise": "PwC (Strategy&)",
+   "lieu": "Ho Chi Minh City; Vietnam",
+   "raison": "langue exigée : Vietnamien",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Ho-Chi-Minh-City/Associate---Strategy---Transformation--HCMC-_747991WD",
    "source": "workday"
   },
   {
@@ -688,6 +704,14 @@
    "raison": "conseil IT ou digital",
    "url": "https://www.alixpartners.com/careers/7548133003?gh_jid=7548133003",
    "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff - CDI - Theodo France - Paris",
+   "entreprise": "Theodo",
+   "lieu": "Paris",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://jobs.lever.co/theodo/f677a767-b697-49fd-83f9-33250ca50f19",
+   "source": "lever"
   },
   {
    "titre": "Chief of Staff to the CTO - Engineering",
