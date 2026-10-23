@@ -1,6 +1,14 @@
 {
- "maj": "2026-10-22T03:47:52+00:00",
+ "maj": "2026-10-23T03:47:31+00:00",
  "rejets": [
+  {
+   "titre": "Company Strategy & Operations",
+   "entreprise": "Stripe",
+   "lieu": "US",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8070054",
+   "source": "greenhouse"
+  },
   {
    "titre": "Finance and Strategy Specialist",
    "entreprise": "Stripe",
@@ -34,14 +42,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "GTM Strategy & Operations Analyst",
-   "entreprise": "Stripe",
-   "lieu": "Dublin ; Ireland Locations",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8195483",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Product Strategy & Operations APAC",
    "entreprise": "Stripe",
    "lieu": "Singapore; Singapore Locations",
@@ -71,6 +71,14 @@
    "lieu": "San Francisco or Seattle; US",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8139711",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy, Datacenter Strategic Initiatives",
+   "entreprise": "Anthropic",
+   "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5107489008",
    "source": "greenhouse"
   },
   {
@@ -260,17 +268,17 @@
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -282,35 +290,19 @@
    "source": "greenhouse"
   },
   {
+   "titre": "Senior Associate, Strategic Finance (Growth)",
+   "entreprise": "Chime",
+   "lieu": "San Francisco, CA, USA; San Francisco, California, United States",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002",
+   "source": "greenhouse"
+  },
+  {
    "titre": "Senior Associate, Strategic Finance (International)",
    "entreprise": "Toast",
    "lieu": "Boston; Remote - USA",
    "raison": "4 ans d'expérience demandés",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
-   "lieu": "Atlanta, GA; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147836",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
-   "lieu": "Kansas City, MO; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8147838",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Cuisines - Korean AE (Central)",
-   "entreprise": "Toast",
-   "lieu": "Chicago, IL; Huntsville, Alabama, United States",
-   "raison": "langue exigée : Coréen",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8250158",
    "source": "greenhouse"
   },
   {
@@ -375,14 +367,6 @@
    "lieu": "San Francisco; Seattle; United States",
    "raison": "15 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/openai/c44a22a3-6d6f-41f3-bd54-3379034f3e59",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategic Finance, Partnerships",
-   "entreprise": "OpenAI",
-   "lieu": "San Francisco; United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/openai/b09b4216-426d-443c-9b87-23570fd9a694",
    "source": "ashby"
   },
   {
@@ -487,14 +471,6 @@
    "lieu": "Singapore - Singapore",
    "raison": "10 ans d'expérience demandés",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Chief-of-Staff_JR365161",
-   "source": "workday"
-  },
-  {
-   "titre": "Chief of Staff, CRO",
-   "entreprise": "Salesforce",
-   "lieu": "Washington - Seattle Metro - Remote; United States of America",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle-Metro---Remote/Chief-of-Staff--CRO_JR363112",
    "source": "workday"
   },
   {
@@ -658,14 +634,6 @@
    "source": "workday"
   },
   {
-   "titre": "Associate - Strategy & Transformation (HCMC)",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Ho Chi Minh City; Vietnam",
-   "raison": "langue exigée : Vietnamien",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Ho-Chi-Minh-City/Associate---Strategy---Transformation--HCMC-_747991WD",
-   "source": "workday"
-  },
-  {
    "titre": "Master Data Management Consultant",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Warszawa - Polna 11; Katowice; Wrocław; Poland",
@@ -695,6 +663,14 @@
    "lieu": "Milan",
    "raison": "langue exigée : Italien",
    "url": "https://www.alixpartners.com/careers/7548114003?gh_jid=7548114003",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "MBA SDA Bocconi Management Consultant",
+   "entreprise": "AlixPartners",
+   "lieu": "Milan",
+   "raison": "langue exigée : Italien",
+   "url": "https://www.alixpartners.com/careers/8034439003?gh_jid=8034439003",
    "source": "greenhouse"
   },
   {
