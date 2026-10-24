@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T03:47:31+00:00",
+ "maj": "2026-10-24T03:46:23+00:00",
  "rejets": [
   {
    "titre": "Company Strategy & Operations",
@@ -268,17 +268,17 @@
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Online Grocery",
    "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
@@ -386,6 +386,14 @@
    "source": "ashby"
   },
   {
+   "titre": "Strategic Finance Generalist",
+   "entreprise": "OpenAI",
+   "lieu": "San Francisco; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/openai/f93ed20a-4a1c-43b4-895f-0830cdac6737",
+   "source": "ashby"
+  },
+  {
    "titre": "Chief of Staff, Sales",
    "entreprise": "Notion",
    "lieu": "San Francisco, California; United States",
@@ -463,6 +471,14 @@
    "lieu": "Miami; United States of America",
    "raison": "6 ans d'expérience demandés",
    "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/Miami/Private-Equity-Investor-Product-Strategy--AVP_39969-2",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategic Builder",
+   "entreprise": "Salesforce",
+   "lieu": "India - Bangalore; India - Mumbai; India - Gurgaon",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Strategic-Builder_JR362385-1",
    "source": "workday"
   },
   {
@@ -610,6 +626,30 @@
    "source": "workday"
   },
   {
+   "titre": "Management Consultant - Energy, Utilities & Renewables Industries",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Oslo; Stavanger; Norway",
+   "raison": "langue exigée : Norvégien",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Oslo/Management-Consultant---Energy--Utilities---Renewables-Industries_R00366152",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant - Commodity Markets",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Bangkok; Thailand",
+   "raison": "langue exigée : Thaï",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bangkok/Strategy-Consultant---Commodity-Markets_R00352972",
+   "source": "workday"
+  },
+  {
+   "titre": "Management Consultant - Maintenance Planning & Training (Location: Papua)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Jakarta; Indonesia",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Jakarta/Management-Consultant---Maintenance-Planning---Training--Location--Papua-_R00343887",
+   "source": "workday"
+  },
+  {
    "titre": "IN_Senior Manager_FS Strategy_Financial Services _Advisory_Mumbai",
    "entreprise": "PwC (Strategy&)",
    "lieu": "Mumbai Shivaji Park; India",
@@ -618,11 +658,11 @@
    "source": "workday"
   },
   {
-   "titre": "Management Consultant in Operations Plan at  Senior Associate level",
+   "titre": "Master Data Management Consultant",
    "entreprise": "PwC (Strategy&)",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Brussels/Management-Consultant-in-Operations-Plan-at--Senior-Associate-level_765329WD",
+   "lieu": "Warszawa - Polna 11; Katowice; Wrocław; Poland",
+   "raison": "conseil IT ou digital",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Warszawa---Polna-11/Data-Governance-Specialist_679918WD",
    "source": "workday"
   },
   {
@@ -631,14 +671,6 @@
    "lieu": "Milan; Italy",
    "raison": "annonce rédigée en italien",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Strategy---Insurance-Strategy-Consultant---Associate---Milano_648558WD",
-   "source": "workday"
-  },
-  {
-   "titre": "Master Data Management Consultant",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Warszawa - Polna 11; Katowice; Wrocław; Poland",
-   "raison": "conseil IT ou digital",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Warszawa---Polna-11/Data-Governance-Specialist_679918WD",
    "source": "workday"
   },
   {
@@ -666,11 +698,11 @@
    "source": "greenhouse"
   },
   {
-   "titre": "MBA SDA Bocconi Management Consultant",
+   "titre": "Performance Improvement - Management Consultant",
    "entreprise": "AlixPartners",
-   "lieu": "Milan",
-   "raison": "langue exigée : Italien",
-   "url": "https://www.alixpartners.com/careers/8034439003?gh_jid=8034439003",
+   "lieu": "Riyadh",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://www.alixpartners.com/careers/7530352003?gh_jid=7530352003",
    "source": "greenhouse"
   },
   {
