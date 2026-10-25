@@ -1,43 +1,47 @@
 {
- "maj": "2026-10-24T03:46:23+00:00",
+ "maj": "2026-10-25T03:46:51+00:00",
  "compteurs": {
   "sources_ok": 143,
   "sources_en_erreur": 1,
-  "titres_retenus": 241,
-  "offres_gardees": 145,
-  "nouvelles": 9,
-  "offres_lues": 23224
+  "titres_retenus": 312,
+  "offres_gardees": 178,
+  "nouvelles": 43,
+  "offres_lues": 23227
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 17,
-  "5 ans d'expérience demandés": 12,
+  "4 ans d'expérience demandés": 30,
+  "5 ans d'expérience demandés": 14,
   "8 ans d'expérience demandés": 12,
-  "7 ans d'expérience demandés": 10,
+  "7 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 9,
+  "annonce rédigée en allemand": 9,
   "6 ans d'expérience demandés": 7,
   "conseil IT ou digital": 7,
-  "langue exigée : Allemand": 4,
+  "langue exigée : Allemand": 5,
+  "langue exigée : Néerlandais": 5,
   "12 ans d'expérience demandés": 3,
+  "annonce rédigée en portugais": 3,
   "15 ans d'expérience demandés": 2,
-  "annonce rédigée en allemand": 2,
   "langue exigée : Italien": 2,
+  "langue exigée : Grec": 2,
+  "langue exigée : Thaï": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
   "langue exigée : Polonais": 1,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
   "langue exigée : Japonais": 1,
-  "langue exigée : Grec": 1,
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
-  "langue exigée : Norvégien": 1,
-  "langue exigée : Thaï": 1,
+  "langue exigée : Mandarin, Chinois, Cantonais": 1,
+  "langue exigée : Suédois": 1,
+  "langue exigée : Mandarin, Cantonais": 1,
   "annonce rédigée en italien": 1,
   "13 ans d'expérience demandés": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 720,
+   "lues": 719,
    "titres_retenus": 11
   },
   "Airbnb (greenhouse)": {
@@ -47,7 +51,7 @@
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 678,
+   "lues": 682,
    "titres_retenus": 12
   },
   "Datadog (greenhouse)": {
@@ -57,7 +61,7 @@
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 895,
+   "lues": 896,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -72,7 +76,7 @@
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 453,
+   "lues": 454,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
@@ -92,7 +96,7 @@
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 249,
+   "lues": 248,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
@@ -102,7 +106,7 @@
   },
   "Brex (greenhouse)": {
    "statut": "ok",
-   "lues": 254,
+   "lues": 259,
    "titres_retenus": 0
   },
   "Lyft (greenhouse)": {
@@ -112,7 +116,7 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 161,
+   "lues": 163,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -122,8 +126,8 @@
   },
   "Asana (greenhouse)": {
    "statut": "ok",
-   "lues": 108,
-   "titres_retenus": 0
+   "lues": 109,
+   "titres_retenus": 1
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
@@ -142,7 +146,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 383,
+   "lues": 382,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -152,7 +156,7 @@
   },
   "Reddit (greenhouse)": {
    "statut": "ok",
-   "lues": 159,
+   "lues": 160,
    "titres_retenus": 2
   },
   "Instacart (greenhouse)": {
@@ -172,7 +176,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 322,
+   "lues": 321,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -197,7 +201,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 285,
+   "lues": 284,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -217,7 +221,7 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 218,
+   "lues": 217,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
@@ -237,7 +241,7 @@
   },
   "Squarespace (greenhouse)": {
    "statut": "ok",
-   "lues": 27,
+   "lues": 28,
    "titres_retenus": 0
   },
   "SoFi (greenhouse)": {
@@ -352,7 +356,7 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 796,
+   "lues": 794,
    "titres_retenus": 8
   },
   "Ramp (ashby)": {
@@ -367,12 +371,12 @@
   },
   "Perplexity (ashby)": {
    "statut": "ok",
-   "lues": 131,
+   "lues": 132,
    "titres_retenus": 1
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 161,
+   "lues": 159,
    "titres_retenus": 3
   },
   "Deel (ashby)": {
@@ -452,7 +456,7 @@
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 243,
+   "lues": 241,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -467,7 +471,7 @@
   },
   "Mastercard (workday)": {
    "statut": "ok",
-   "lues": 187,
+   "lues": 186,
    "titres_retenus": 1
   },
   "Blackstone (workday)": {
@@ -498,16 +502,16 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 248,
-   "titres_retenus": 9
+   "titres_retenus": 82
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
    "lues": 300,
-   "titres_retenus": 11
+   "titres_retenus": 10
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 483,
+   "lues": 482,
    "titres_retenus": 2
   },
   "Thales (workday)": {
@@ -702,7 +706,7 @@
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 295,
+   "lues": 294,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
@@ -756,17 +760,17 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 4,
+   "titres_retenus": 2,
    "debug": {
     "iagora": [
      "fiche sans entreprise, extrait 'kills, describe you best.<br />\\n * You work well with Microsoft Office and Power BI and can quickly learn other software.<br />\\n<br />\\nWorking with us means:<br />\\n * An agile, innovative and dynamic company where you can make an impact<br />\\n * A professional experience designed for young graduates with exciting potential for international mobility and development opportunities<br />\\n * To work in one of the most attractive industries (energy markets) that facilitate the energy transition.<br /'",
-     "pages lues : 2, fiches ouvertes : 4, avec entreprise : 0"
+     "pages lues : 2, fiches ouvertes : 2, avec entreprise : 0"
     ]
    }
   },
   "service_public": {
    "statut": "ok",
-   "lues": 77,
+   "lues": 78,
    "titres_retenus": 5
   }
  }
