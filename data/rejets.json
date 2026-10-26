@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25T03:46:51+00:00",
+ "maj": "2026-10-26T03:49:46+00:00",
  "rejets": [
   {
    "titre": "Company Strategy & Operations",
@@ -260,25 +260,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
@@ -287,6 +279,14 @@
    "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -938,11 +938,11 @@
    "source": "workday"
   },
   {
-   "titre": "IN_Senior Manager_FS Strategy_Financial Services _Advisory_Mumbai",
+   "titre": "Management Consultant in Operations Plan at  Senior Associate level",
    "entreprise": "PwC (Strategy&)",
-   "lieu": "Mumbai Shivaji Park; India",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Mumbai-Shivaji-Park/IN-Senior-Manager-FS-Strategy-Financial-Services--Advisory-Gurugram_754464WD-1",
+   "lieu": "Brussels; Belgium",
+   "raison": "langue exigée : Néerlandais",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Brussels/Management-Consultant-in-Operations-Plan-at--Senior-Associate-level_765329WD",
    "source": "workday"
   },
   {

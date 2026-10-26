@@ -1,24 +1,24 @@
 {
- "maj": "2026-10-25T03:46:51+00:00",
+ "maj": "2026-10-26T03:49:46+00:00",
  "compteurs": {
   "sources_ok": 143,
   "sources_en_erreur": 1,
   "titres_retenus": 312,
   "offres_gardees": 178,
-  "nouvelles": 43,
-  "offres_lues": 23227
+  "nouvelles": 2,
+  "offres_lues": 23228
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 30,
   "5 ans d'expérience demandés": 14,
-  "8 ans d'expérience demandés": 12,
   "7 ans d'expérience demandés": 11,
+  "8 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 9,
   "annonce rédigée en allemand": 9,
   "6 ans d'expérience demandés": 7,
   "conseil IT ou digital": 7,
+  "langue exigée : Néerlandais": 6,
   "langue exigée : Allemand": 5,
-  "langue exigée : Néerlandais": 5,
   "12 ans d'expérience demandés": 3,
   "annonce rédigée en portugais": 3,
   "15 ans d'expérience demandés": 2,
@@ -61,12 +61,12 @@
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 896,
+   "lues": 895,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
-   "lues": 138,
+   "lues": 139,
    "titres_retenus": 2
   },
   "Coinbase (greenhouse)": {
@@ -76,7 +76,7 @@
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 454,
+   "lues": 455,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
@@ -141,12 +141,12 @@
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 390,
+   "lues": 389,
    "titres_retenus": 1
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 382,
+   "lues": 381,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -161,7 +161,7 @@
   },
   "Instacart (greenhouse)": {
    "statut": "ok",
-   "lues": 113,
+   "lues": 111,
    "titres_retenus": 2
   },
   "Chime (greenhouse)": {
@@ -176,7 +176,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 321,
+   "lues": 322,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -186,7 +186,7 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 190,
+   "lues": 189,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -201,7 +201,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 284,
+   "lues": 287,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -221,7 +221,7 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 217,
+   "lues": 219,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
@@ -241,7 +241,7 @@
   },
   "Squarespace (greenhouse)": {
    "statut": "ok",
-   "lues": 28,
+   "lues": 27,
    "titres_retenus": 0
   },
   "SoFi (greenhouse)": {
@@ -266,7 +266,7 @@
   },
   "Point72 (greenhouse)": {
    "statut": "ok",
-   "lues": 211,
+   "lues": 215,
    "titres_retenus": 1
   },
   "ICONIQ (greenhouse)": {
@@ -356,7 +356,7 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 794,
+   "lues": 791,
    "titres_retenus": 8
   },
   "Ramp (ashby)": {
@@ -366,7 +366,7 @@
   },
   "Notion (ashby)": {
    "statut": "ok",
-   "lues": 140,
+   "lues": 141,
    "titres_retenus": 4
   },
   "Perplexity (ashby)": {
@@ -376,7 +376,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 159,
+   "lues": 158,
    "titres_retenus": 3
   },
   "Deel (ashby)": {
@@ -406,7 +406,7 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 358,
+   "lues": 359,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
@@ -441,17 +441,17 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1390,
+   "lues": 1389,
    "titres_retenus": 1
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1267,
+   "lues": 1268,
    "titres_retenus": 4
   },
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1242,
+   "lues": 1240,
    "titres_retenus": 4
   },
   "Ubisoft (smartrecruiters)": {
@@ -511,7 +511,7 @@
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 482,
+   "lues": 480,
    "titres_retenus": 2
   },
   "Thales (workday)": {
@@ -521,7 +521,7 @@
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 238,
+   "lues": 237,
    "titres_retenus": 1
   },
   "Michelin (workday)": {
@@ -541,7 +541,7 @@
   },
   "Artefact (greenhouse)": {
    "statut": "ok",
-   "lues": 142,
+   "lues": 143,
    "titres_retenus": 1
   },
   "Shift Technology (greenhouse)": {
@@ -706,7 +706,7 @@
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 294,
+   "lues": 296,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
