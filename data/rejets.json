@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-26T03:49:46+00:00",
+ "maj": "2026-10-27T03:48:13+00:00",
  "rejets": [
   {
    "titre": "Company Strategy & Operations",
@@ -260,25 +260,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -287,6 +279,14 @@
    "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112136",
    "source": "greenhouse"
   },
   {
@@ -482,11 +482,11 @@
    "source": "workday"
   },
   {
-   "titre": "Strategic Builder",
-   "entreprise": "Salesforce",
-   "lieu": "India - Bangalore; India - Mumbai; India - Gurgaon",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Strategic-Builder_JR362385-1",
+   "titre": "Private Wealth - Product Strategy, Analyst/Associate",
+   "entreprise": "Blackstone",
+   "lieu": "Tokyo; Japan",
+   "raison": "langue exigée : Japonais",
+   "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/Tokyo/Private-Wealth---Product-Strategy--Analyst-Associate_43236",
    "source": "workday"
   },
   {
@@ -495,14 +495,6 @@
    "lieu": "Singapore - Singapore",
    "raison": "10 ans d'expérience demandés",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Chief-of-Staff_JR365161",
-   "source": "workday"
-  },
-  {
-   "titre": "Chief of Staff, Consumer & Business Services",
-   "entreprise": "Salesforce",
-   "lieu": "California - San Francisco; United States of America",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Chief-of-Staff--Consumer---Business-Services_JR363016",
    "source": "workday"
   },
   {
@@ -770,14 +762,6 @@
    "source": "workday"
   },
   {
-   "titre": "Junior Technology Strategy & Transformation Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Amsterdam; Netherlands",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Technology-Strategy---Transformation-Consultant_R00353758",
-   "source": "workday"
-  },
-  {
    "titre": "Banco de Talentos: Analista de Estratégia (Trainee) - 2026",
    "entreprise": "Accenture Strategy",
    "lieu": "São Paulo - Sao Paulo; Minas Gerais - Belo Horizonte; Rio de Janeiro, Rio Metropolitan Center; Brazil",
@@ -927,22 +911,6 @@
    "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
    "raison": "5 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
-   "source": "workday"
-  },
-  {
-   "titre": "Technology Strategy & Transformation Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Amsterdam; Netherlands",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Technology-Strategy---Transformation-Consultant_R00353908",
-   "source": "workday"
-  },
-  {
-   "titre": "Management Consultant in Operations Plan at  Senior Associate level",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Brussels/Management-Consultant-in-Operations-Plan-at--Senior-Associate-level_765329WD",
    "source": "workday"
   },
   {
