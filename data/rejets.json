@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-27T03:48:13+00:00",
+ "maj": "2026-10-28T03:56:48+00:00",
  "rejets": [
   {
    "titre": "Company Strategy & Operations",
@@ -308,17 +308,9 @@
   {
    "titre": "Senior Associate, Strategic Finance (International)",
    "entreprise": "Toast",
-   "lieu": "Boston; Remote - USA",
+   "lieu": "Boston; San Francisco, California, United States",
    "raison": "4 ans d'expérience demandés",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategy & Operations Senior Associate",
-   "entreprise": "Faire",
-   "lieu": "San Francisco, CA; San Francisco, California, United States",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://boards.greenhouse.io/faire/jobs/8842311002?gh_jid=8842311002",
    "source": "greenhouse"
   },
   {
@@ -402,6 +394,14 @@
    "source": "ashby"
   },
   {
+   "titre": "Strategic Finance, Workloads",
+   "entreprise": "OpenAI",
+   "lieu": "San Francisco; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/openai/de0b0df5-7390-4781-9548-d8710d736909",
+   "source": "ashby"
+  },
+  {
    "titre": "Chief of Staff, Sales",
    "entreprise": "Notion",
    "lieu": "San Francisco, California; United States",
@@ -434,11 +434,51 @@
    "source": "ashby"
   },
   {
+   "titre": "Growth Strategist, Key (Deployment Strategist) - NY",
+   "entreprise": "Clay",
+   "lieu": "New York; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/claylabs/0e68a973-af22-423f-8410-e14ff4d3fef0",
+   "source": "ashby"
+  },
+  {
+   "titre": "Growth Strategist, Key (Deployment Strategist) - SF",
+   "entreprise": "Clay",
+   "lieu": "San Francisco; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/claylabs/bebc5979-5aca-48f8-b571-59f4355c3d5a",
+   "source": "ashby"
+  },
+  {
+   "titre": "Chief of Staff",
+   "entreprise": "ServiceNow",
+   "lieu": "Stockholm, SE",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000158031029",
+   "source": "smartrecruiters"
+  },
+  {
    "titre": "Mgr. Corporate Strategy",
    "entreprise": "ServiceNow",
    "lieu": "Santa Clara, California, US",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154251149",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Pflichtpraktikum im Bereich Corporate Strategy",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158003862",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "AI Strategy and Adoption Consultant",
+   "entreprise": "Bosch Group",
+   "lieu": "bangalore, IN",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157961739",
    "source": "smartrecruiters"
   },
   {
@@ -495,14 +535,6 @@
    "lieu": "Singapore - Singapore",
    "raison": "10 ans d'expérience demandés",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/Chief-of-Staff_JR365161",
-   "source": "workday"
-  },
-  {
-   "titre": "Strategy Analyst MEA",
-   "entreprise": "NVIDIA",
-   "lieu": "UAE, Dubai; United Arab Emirates",
-   "raison": "6 ans d'expérience demandés",
-   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/UAE-Dubai/Strategy-Analyst-MEA_JR2024077",
    "source": "workday"
   },
   {
@@ -631,14 +663,6 @@
    "lieu": "Bangkok; Thailand",
    "raison": "langue exigée : Thaï",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bangkok/Strategy-ATIOS-Strategy-Analyst_R00332066",
-   "source": "workday"
-  },
-  {
-   "titre": "Industry & Enterprise - Strategy Analyst",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Hong Kong; China/Hong Kong SAR",
-   "raison": "langue exigée : Mandarin, Chinois, Cantonais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Hong-Kong/Industry---Enterprise---Strategy-Analyst_R00364089-1",
    "source": "workday"
   },
   {
@@ -903,14 +927,6 @@
    "lieu": "São Paulo - São Paulo; Brazil",
    "raison": "annonce rédigée en portugais",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
-   "source": "workday"
-  },
-  {
-   "titre": "Data Strategy & Governance Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
    "source": "workday"
   },
   {
