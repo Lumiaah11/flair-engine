@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T03:58:17+00:00",
+ "maj": "2026-10-30T03:59:39+00:00",
  "rejets": [
   {
    "titre": "Company Strategy & Operations",
@@ -226,14 +226,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, CRO",
-   "entreprise": "GitLab",
-   "lieu": "Remote, United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8700245002",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Strategic Account Excecutive",
    "entreprise": "Twilio",
    "lieu": "Remote - Mexico",
@@ -306,27 +298,11 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Strategic Implementation Consultant",
-   "entreprise": "Samsara",
-   "lieu": "Remote - US; Remote - Chicago",
-   "raison": "6 ans d'expérience demandés",
-   "url": "https://www.samsara.com/company/careers/roles/8039126?gh_jid=8039126",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Chief Of Staff",
    "entreprise": "Celonis",
    "lieu": "Bangalore, India",
    "raison": "8 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/celonis/jobs/8000413003?gh_jid=8000413003",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Strategic Finance Analyst, Operations",
-   "entreprise": "SoFi",
-   "lieu": "United States; CA - San Francisco",
-   "raison": "6 ans d'expérience demandés",
-   "url": "https://sofi.com/careers/job/7976546003?gh_jid=7976546003",
    "source": "greenhouse"
   },
   {
@@ -903,6 +879,14 @@
    "lieu": "Kronberg; Hamburg, Alter Wandrahm/Dienerreihe; Dusseldorf, Kaistrasse, Corporate; Berlin, Hallesches Ufer 40; Munich, Balan Campus Building 17; Germany",
    "raison": "annonce rédigée en allemand",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Praktikum-Strategy-Consultant-Public-Sector--all-genders-_R00365910",
+   "source": "workday"
+  },
+  {
+   "titre": "Junior Strategy Consultant Banking (Graduate, all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg, Campus Kronberg 1; Hamburg, Alter Wandrahm/Dienerreihe; Bonn; Stuttgart; Dusseldorf, Kaistrasse, Corporate; Berlin; Munich, Balan Campus Building 17; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Junior-Strategy-Consultant-Banking--Graduate--all-genders-_R00366631-1",
    "source": "workday"
   },
   {
