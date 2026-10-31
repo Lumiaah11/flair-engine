@@ -1,14 +1,6 @@
 {
- "maj": "2026-10-30T03:59:39+00:00",
+ "maj": "2026-10-31T03:55:42+00:00",
  "rejets": [
-  {
-   "titre": "Company Strategy & Operations",
-   "entreprise": "Stripe",
-   "lieu": "US",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8070054",
-   "source": "greenhouse"
-  },
   {
    "titre": "Finance and Strategy Specialist",
    "entreprise": "Stripe",
@@ -55,6 +47,22 @@
    "lieu": "Singapore; Singapore Locations",
    "raison": "7 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8081423",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Startup Products Strategy & Operations, Insights & Analytics",
+   "entreprise": "Stripe",
+   "lieu": "Remote US",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8234710",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Startup Products Strategy & Operations, Product Strategy",
+   "entreprise": "Stripe",
+   "lieu": "US-Remote",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8248415",
    "source": "greenhouse"
   },
   {
@@ -244,25 +252,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
@@ -271,6 +271,14 @@
    "lieu": "United States - Remote; Remote - Canada; Remote - United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://instacart.careers/job/?gh_jid=8112136",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Online Grocery",
+   "entreprise": "Instacart",
+   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://instacart.careers/job/?gh_jid=8112138",
    "source": "greenhouse"
   },
   {
@@ -295,6 +303,14 @@
    "lieu": "Boston; San Francisco, California, United States",
    "raison": "4 ans d'expérience demandés",
    "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Strategic Implementation Consultant",
+   "entreprise": "Samsara",
+   "lieu": "Remote - US; Remote - CA",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779",
    "source": "greenhouse"
   },
   {
@@ -434,6 +450,14 @@
    "source": "smartrecruiters"
   },
   {
+   "titre": "Bosch Management Consulting Innovation: Consultant, Go-to-Market Practice (f/m/div)",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "langue exigée : Allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158735469",
+   "source": "smartrecruiters"
+  },
+  {
    "titre": "Pflichtpraktikum im Bereich Corporate Strategy",
    "entreprise": "Bosch Group",
    "lieu": "Gerlingen, BW, DE",
@@ -471,6 +495,14 @@
    "lieu": "Bietigheim-Bissingen, BW, DE",
    "raison": "annonce rédigée en allemand",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150310340",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Chief of Staff - Poland",
+   "entreprise": "Delivery Hero",
+   "lieu": "Warsaw, PL",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000158680678",
    "source": "smartrecruiters"
   },
   {
@@ -634,14 +666,6 @@
    "source": "workday"
   },
   {
-   "titre": "AI Strategy Analyst - Junior Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Amsterdam; Netherlands",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Consultant---AI-Strategy-Analyst_R00363553",
-   "source": "workday"
-  },
-  {
    "titre": "AI & Data Strategy Analyst (all genders)",
    "entreprise": "Accenture Strategy",
    "lieu": "Vienna; Austria",
@@ -778,19 +802,19 @@
    "source": "workday"
   },
   {
-   "titre": "Enterprise Strategy, Growth, and Innovation (ESGI) Analyst or Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Belen",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Belen/Strategy---CEO-Advisory-Consultant_R00331791",
-   "source": "workday"
-  },
-  {
    "titre": "Corporate Strategy Specialist",
    "entreprise": "Accenture Strategy",
    "lieu": "Bengaluru; India",
    "raison": "4 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Corporate-Strategy-Specialist_14681244-1",
+   "source": "workday"
+  },
+  {
+   "titre": "Enterprise Strategy, Growth, and Innovation (ESGI) Analyst or Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Belen",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Belen/Strategy---CEO-Advisory-Consultant_R00331791",
    "source": "workday"
   },
   {
@@ -874,19 +898,19 @@
    "source": "workday"
   },
   {
-   "titre": "Praktikum Strategy Consultant Public Sector (all genders)",
+   "titre": "Data Strategy & Governance Consultant",
    "entreprise": "Accenture Strategy",
-   "lieu": "Kronberg; Hamburg, Alter Wandrahm/Dienerreihe; Dusseldorf, Kaistrasse, Corporate; Berlin, Hallesches Ufer 40; Munich, Balan Campus Building 17; Germany",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Praktikum-Strategy-Consultant-Public-Sector--all-genders-_R00365910",
+   "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
    "source": "workday"
   },
   {
-   "titre": "Junior Strategy Consultant Banking (Graduate, all genders)",
+   "titre": "Technology Strategy & Transformation Consultant",
    "entreprise": "Accenture Strategy",
-   "lieu": "Kronberg, Campus Kronberg 1; Hamburg, Alter Wandrahm/Dienerreihe; Bonn; Stuttgart; Dusseldorf, Kaistrasse, Corporate; Berlin; Munich, Balan Campus Building 17; Germany",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Junior-Strategy-Consultant-Banking--Graduate--all-genders-_R00366631-1",
+   "lieu": "Amsterdam; Netherlands",
+   "raison": "langue exigée : Néerlandais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Technology-Strategy---Transformation-Consultant_R00353908",
    "source": "workday"
   },
   {
