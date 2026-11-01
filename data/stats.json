@@ -1,17 +1,17 @@
 {
- "maj": "2026-10-31T03:55:42+00:00",
+ "maj": "2026-11-01T04:01:39+00:00",
  "compteurs": {
   "sources_ok": 143,
   "sources_en_erreur": 1,
-  "titres_retenus": 310,
-  "offres_gardees": 180,
-  "nouvelles": 7,
-  "offres_lues": 23206
+  "titres_retenus": 307,
+  "offres_gardees": 179,
+  "nouvelles": 2,
+  "offres_lues": 23170
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 28,
+  "4 ans d'expérience demandés": 27,
   "5 ans d'expérience demandés": 16,
-  "8 ans d'expérience demandés": 13,
+  "8 ans d'expérience demandés": 12,
   "7 ans d'expérience demandés": 10,
   "10 ans d'expérience demandés": 9,
   "annonce rédigée en allemand": 9,
@@ -40,7 +40,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 746,
+   "lues": 745,
    "titres_retenus": 12
   },
   "Airbnb (greenhouse)": {
@@ -70,12 +70,12 @@
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 250,
+   "lues": 254,
    "titres_retenus": 3
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 465,
+   "lues": 464,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
@@ -90,7 +90,7 @@
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 438,
+   "lues": 439,
    "titres_retenus": 26
   },
   "Adyen (greenhouse)": {
@@ -130,7 +130,7 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 237,
+   "lues": 238,
    "titres_retenus": 0
   },
   "Twilio (greenhouse)": {
@@ -140,7 +140,7 @@
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 388,
+   "lues": 387,
    "titres_retenus": 1
   },
   "MongoDB (greenhouse)": {
@@ -170,7 +170,7 @@
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 245,
+   "lues": 244,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
@@ -200,12 +200,12 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 326,
+   "lues": 300,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 64,
+   "lues": 63,
    "titres_retenus": 0
   },
   "N26 (greenhouse)": {
@@ -270,7 +270,7 @@
   },
   "ICONIQ (greenhouse)": {
    "statut": "ok",
-   "lues": 15,
+   "lues": 16,
    "titres_retenus": 0
   },
   "NYC Economic Development Corporation (greenhouse)": {
@@ -295,7 +295,7 @@
   },
   "Palantir (lever)": {
    "statut": "ok",
-   "lues": 299,
+   "lues": 301,
    "titres_retenus": 0
   },
   "Mistral AI (lever)": {
@@ -355,12 +355,12 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 813,
-   "titres_retenus": 10
+   "lues": 810,
+   "titres_retenus": 9
   },
   "Ramp (ashby)": {
    "statut": "ok",
-   "lues": 171,
+   "lues": 172,
    "titres_retenus": 2
   },
   "Notion (ashby)": {
@@ -375,7 +375,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 149,
+   "lues": 138,
    "titres_retenus": 4
   },
   "Deel (ashby)": {
@@ -420,7 +420,7 @@
   },
   "Sierra (ashby)": {
    "statut": "ok",
-   "lues": 219,
+   "lues": 220,
    "titres_retenus": 0
   },
   "EliseAI (ashby)": {
@@ -501,12 +501,12 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 249,
-   "titres_retenus": 76
+   "titres_retenus": 74
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
    "lues": 300,
-   "titres_retenus": 8
+   "titres_retenus": 7
   },
   "Airbus (workday)": {
    "statut": "ok",
@@ -520,7 +520,7 @@
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 229,
+   "lues": 228,
    "titres_retenus": 0
   },
   "Michelin (workday)": {
@@ -620,12 +620,12 @@
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 175,
+   "lues": 176,
    "titres_retenus": 2
   },
   "Voodoo (ashby)": {
    "statut": "ok",
-   "lues": 102,
+   "lues": 103,
    "titres_retenus": 1
   },
   "Hexa (ashby)": {
@@ -695,7 +695,7 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 268,
+   "lues": 266,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
@@ -705,7 +705,7 @@
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 282,
+   "lues": 281,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
@@ -759,11 +759,11 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 5,
+   "titres_retenus": 6,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t30&nbsp;Oct&nbsp;2026 (verified\\t\\t\\t31&nbsp;Oct&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
-     "pages lues : 2, fiches ouvertes : 5, avec entreprise : 0"
+     "fiche sans entreprise, extrait 'rayline\"></div>\\n\\n\\t<div id=\"jobdesc\">\\n\\t\\t<p><b>Job Description:</b></p>\\n\\t\\t\\t\\t<p>Country Singapore City SINGAPORE <br />\\nArea<br />\\nSingapore<br />\\n Workplace location SINGAPORE-FRASERS TWR(SGP) Employer company TOTALENERGIES MARKETING ASIA-PACIFIC MIDDLE EAST Domain Logistic Type of contract VIE <br />\\nContract duration 24 Months Experience Less than 3 years <br />\\n<br />\\nContext &amp; Environment <br />\\n<br />\\nJoin TotalEnergies&#039; Marketing &amp; Services branch within our Singapore affiliate '",
+     "pages lues : 2, fiches ouvertes : 6, avec entreprise : 0"
     ]
    }
   },
