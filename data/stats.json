@@ -1,16 +1,16 @@
 {
- "maj": "2026-11-01T04:01:39+00:00",
+ "maj": "2026-11-02T04:08:41+00:00",
  "compteurs": {
-  "sources_ok": 143,
-  "sources_en_erreur": 1,
+  "sources_ok": 142,
+  "sources_en_erreur": 2,
   "titres_retenus": 307,
-  "offres_gardees": 179,
+  "offres_gardees": 180,
   "nouvelles": 2,
-  "offres_lues": 23170
+  "offres_lues": 23135
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 27,
-  "5 ans d'expérience demandés": 16,
+  "5 ans d'expérience demandés": 15,
   "8 ans d'expérience demandés": 12,
   "7 ans d'expérience demandés": 10,
   "10 ans d'expérience demandés": 9,
@@ -40,7 +40,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 745,
+   "lues": 746,
    "titres_retenus": 12
   },
   "Airbnb (greenhouse)": {
@@ -50,17 +50,17 @@
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 675,
-   "titres_retenus": 11
+   "lues": 672,
+   "titres_retenus": 10
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 397,
+   "lues": 398,
    "titres_retenus": 4
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 901,
+   "lues": 909,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -70,12 +70,12 @@
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 254,
+   "lues": 252,
    "titres_retenus": 3
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 464,
+   "lues": 467,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
@@ -85,7 +85,7 @@
   },
   "Duolingo (greenhouse)": {
    "statut": "ok",
-   "lues": 57,
+   "lues": 56,
    "titres_retenus": 0
   },
   "DoorDash (greenhouse)": {
@@ -95,7 +95,7 @@
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 238,
+   "lues": 240,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
@@ -145,7 +145,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 366,
+   "lues": 365,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -160,7 +160,7 @@
   },
   "Instacart (greenhouse)": {
    "statut": "ok",
-   "lues": 96,
+   "lues": 94,
    "titres_retenus": 2
   },
   "Chime (greenhouse)": {
@@ -170,12 +170,12 @@
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 244,
+   "lues": 240,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 328,
+   "lues": 329,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -185,7 +185,7 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 193,
+   "lues": 192,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -200,7 +200,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 300,
+   "lues": 340,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -265,7 +265,7 @@
   },
   "Point72 (greenhouse)": {
    "statut": "ok",
-   "lues": 206,
+   "lues": 205,
    "titres_retenus": 1
   },
   "ICONIQ (greenhouse)": {
@@ -290,7 +290,7 @@
   },
   "Spotify (lever)": {
    "statut": "ok",
-   "lues": 89,
+   "lues": 88,
    "titres_retenus": 0
   },
   "Palantir (lever)": {
@@ -314,9 +314,8 @@
    "titres_retenus": 0
   },
   "Aircall (lever)": {
-   "statut": "ok",
-   "lues": 77,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RuntimeError: introuvable sur Lever (US et UE)"
   },
   "Qonto (lever)": {
    "statut": "ok",
@@ -355,7 +354,7 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 810,
+   "lues": 812,
    "titres_retenus": 9
   },
   "Ramp (ashby)": {
@@ -375,7 +374,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 138,
+   "lues": 140,
    "titres_retenus": 4
   },
   "Deel (ashby)": {
@@ -405,12 +404,12 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 381,
+   "lues": 377,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 122,
+   "lues": 121,
    "titres_retenus": 1
   },
   "Mercury (ashby)": {
@@ -425,7 +424,7 @@
   },
   "EliseAI (ashby)": {
    "statut": "ok",
-   "lues": 116,
+   "lues": 115,
    "titres_retenus": 6
   },
   "Clay (ashby)": {
@@ -485,7 +484,7 @@
   },
   "Adobe (workday)": {
    "statut": "ok",
-   "lues": 160,
+   "lues": 159,
    "titres_retenus": 0
   },
   "NVIDIA (workday)": {
@@ -501,7 +500,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 249,
-   "titres_retenus": 74
+   "titres_retenus": 75
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -620,7 +619,7 @@
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 176,
+   "lues": 177,
    "titres_retenus": 2
   },
   "Voodoo (ashby)": {
@@ -695,7 +694,7 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 266,
+   "lues": 270,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
