@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-03T04:03:05+00:00",
+ "maj": "2026-11-04T04:06:11+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -87,6 +87,14 @@
    "lieu": "San Francisco or Seattle; US",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8139711",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Corporate Finance & Strategy, Strategic Transactions",
+   "entreprise": "Anthropic",
+   "lieu": "San Francisco, CA; San Francisco, California, United States",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5430263008",
    "source": "greenhouse"
   },
   {
@@ -199,6 +207,14 @@
    "lieu": "Singapore",
    "raison": "5 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8176065",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff, Lyft Urban Solutions",
+   "entreprise": "Lyft",
+   "lieu": "New York, NY; New York, New York, United States",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8927265002?gh_jid=8927265002",
    "source": "greenhouse"
   },
   {
@@ -346,7 +362,7 @@
    "source": "ashby"
   },
   {
-   "titre": "Strategic Finance, Workloads",
+   "titre": "Strategic Finance, Research",
    "entreprise": "OpenAI",
    "lieu": "San Francisco; United States",
    "raison": "8 ans d'expérience demandés",
@@ -359,6 +375,14 @@
    "lieu": "San Francisco, California; United States",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/notion/c5c69246-74db-4960-a0e0-7945be6c30ae",
+   "source": "ashby"
+  },
+  {
+   "titre": "GTM Strategy & Operations",
+   "entreprise": "Harvey",
+   "lieu": "New York; USA",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/harvey/dd56ec18-3c16-42e0-89c1-2348b25c1a98",
    "source": "ashby"
   },
   {
@@ -415,6 +439,14 @@
    "lieu": "Santa Clara, California, US",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154251149",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Pflichtpraktikum Organisationsentwicklung und Strategie im internationalen Team",
+   "entreprise": "Bosch Group",
+   "lieu": "Stuttgart, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159310869",
    "source": "smartrecruiters"
   },
   {
@@ -495,6 +527,14 @@
    "lieu": "Tokyo; Japan",
    "raison": "langue exigée : Japonais",
    "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/Tokyo/Private-Wealth---Product-Strategy--Analyst-Associate_43236",
+   "source": "workday"
+  },
+  {
+   "titre": "Business Operations Analyst",
+   "entreprise": "Salesforce",
+   "lieu": "Arizona - Phoenix; United States of America",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Arizona---Phoenix/Business-Operations-Analyst_JR366909",
    "source": "workday"
   },
   {
@@ -618,6 +658,14 @@
    "source": "workday"
   },
   {
+   "titre": "Oliver Wyman - AI Product Owner, Product Strategy - Dallas",
+   "entreprise": "Oliver Wyman",
+   "lieu": "Dallas - Main; United States of America",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Dallas---Main/Oliver-Wyman---AI-Product-Owner--Product-Strategy---Dallas_R_371635-1",
+   "source": "workday"
+  },
+  {
    "titre": "Strategy Analyst (Commodity Markets)",
    "entreprise": "Accenture Strategy",
    "lieu": "Bangkok; Thailand",
@@ -647,6 +695,14 @@
    "lieu": "Athens; Greece",
    "raison": "langue exigée : Grec",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting--Analyst-in-Energy-Industry_R00355703",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Life Science Analyst (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Hamburg; Zurich; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Strategy-Life-Science-Analyst--all-genders-_R00311127-1",
    "source": "workday"
   },
   {
@@ -786,11 +842,11 @@
    "source": "workday"
   },
   {
-   "titre": "Management Consultant - Energy, Utilities & Renewables Industries",
+   "titre": "Consulting-Business Strategy Consultant",
    "entreprise": "Accenture Strategy",
-   "lieu": "Oslo; Stavanger; Norway",
-   "raison": "langue exigée : Norvégien",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Oslo/Management-Consultant---Energy--Utilities---Renewables-Industries_R00366152",
+   "lieu": "Shanghai; China/Mainland",
+   "raison": "langue exigée : Mandarin, Cantonais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Shanghai/Consulting-Business-Strategy-Consultant_13648012",
    "source": "workday"
   },
   {
@@ -799,14 +855,6 @@
    "lieu": "Bangkok; Thailand",
    "raison": "langue exigée : Thaï",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bangkok/Strategy-Consultant---Commodity-Markets_R00352972",
-   "source": "workday"
-  },
-  {
-   "titre": "Consulting-Business Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Shanghai; China/Mainland",
-   "raison": "langue exigée : Mandarin, Cantonais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Shanghai/Consulting-Business-Strategy-Consultant_13648012",
    "source": "workday"
   },
   {
@@ -826,6 +874,46 @@
    "source": "workday"
   },
   {
+   "titre": "Data & AI Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Brussels; Belgium",
+   "raison": "langue exigée : Néerlandais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Data---AI-Value-Strategy-Consultant_R00345444",
+   "source": "workday"
+  },
+  {
+   "titre": "Enterprise AI Value Strategy Consultant",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Vienna, Borsegebaude; Austria",
+   "raison": "langue exigée : Allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vienna-Borsegebaude/Enterprise-AI-Value-Strategy-Consultant--All-genders-_R00339342",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant - Energy/Oil & Gas Downstream",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Poland",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Strategy-Consultant---Energy-Oil---Gas-Downstream_R00328495",
+   "source": "workday"
+  },
+  {
+   "titre": "Strategy Consultant Life Science (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg, Campus Kronberg 1; Stuttgart; Hamburg; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Strategy-Consultant-Life-Science--all-genders-_R00293609",
+   "source": "workday"
+  },
+  {
+   "titre": "Praktikum Strategy Consultant Public Sector (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Hamburg, Alter Wandrahm/Dienerreihe; Dusseldorf, Kaistrasse, Corporate; Berlin, Hallesches Ufer 40; Munich, Balan Campus Building 17; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Praktikum-Strategy-Consultant-Public-Sector--all-genders-_R00365910",
+   "source": "workday"
+  },
+  {
    "titre": "Consultor(a) de Estratégia",
    "entreprise": "Accenture Strategy",
    "lieu": "São Paulo - São Paulo; Brazil",
@@ -839,22 +927,6 @@
    "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
    "raison": "5 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
-   "source": "workday"
-  },
-  {
-   "titre": "Data & AI Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Data---AI-Value-Strategy-Consultant_R00345444",
-   "source": "workday"
-  },
-  {
-   "titre": "Technology Strategy & Transformation Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Amsterdam; Netherlands",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Junior-Technology-Strategy---Transformation-Consultant_R00353908",
    "source": "workday"
   },
   {
@@ -914,7 +986,7 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff to the CTO - Engineering",
+   "titre": "Chief of Staff Tech - Engineering",
    "entreprise": "Pennylane",
    "lieu": "Paris; France",
    "raison": "7 ans d'expérience demandés",
