@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T04:06:11+00:00",
+ "maj": "2026-11-05T04:06:35+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -252,17 +252,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -311,6 +311,14 @@
    "lieu": "Remote - US; Remote - CA",
    "raison": "6 ans d'expérience demandés",
    "url": "https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Business Strategy Associate - Lending",
+   "entreprise": "N26",
+   "lieu": "Berlin, Barcelona; Berlin, Berlin, Germany",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://n26.com/en-eu/careers/positions/8345862?gh_jid=8345862",
    "source": "greenhouse"
   },
   {
@@ -490,11 +498,11 @@
    "source": "smartrecruiters"
   },
   {
-   "titre": "PreMaster Programm - Gap Year - Strategy und Produktmanagement-Shopfloor Solutions",
+   "titre": "Praktikum Strategischer Einkauf",
    "entreprise": "Bosch Group",
-   "lieu": "Bietigheim-Bissingen, BW, DE",
+   "lieu": "Leinfelden-Echterdingen, BW, DE",
    "raison": "annonce rédigée en allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150310340",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159591390",
    "source": "smartrecruiters"
   },
   {
@@ -535,14 +543,6 @@
    "lieu": "Arizona - Phoenix; United States of America",
    "raison": "5 ans d'expérience demandés",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Arizona---Phoenix/Business-Operations-Analyst_JR366909",
-   "source": "workday"
-  },
-  {
-   "titre": "Chief of Staff, Consumer & Business Services",
-   "entreprise": "Salesforce",
-   "lieu": "California - San Francisco; United States of America",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Chief-of-Staff--Consumer---Business-Services_JR363016",
    "source": "workday"
   },
   {
@@ -658,11 +658,11 @@
    "source": "workday"
   },
   {
-   "titre": "Oliver Wyman - AI Product Owner, Product Strategy - Dallas",
+   "titre": "Oliver Wyman - AI Product Owner, Product Strategy - Chicago/Dallas",
    "entreprise": "Oliver Wyman",
-   "lieu": "Dallas - Main; United States of America",
+   "lieu": "Chicago - 155 Wacker; Dallas - Main; United States of America",
    "raison": "4 ans d'expérience demandés",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Dallas---Main/Oliver-Wyman---AI-Product-Owner--Product-Strategy---Dallas_R_371635-1",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Chicago---155-Wacker/Oliver-Wyman---AI-Product-Owner--Product-Strategy---Dallas_R_371635-1",
    "source": "workday"
   },
   {
@@ -679,6 +679,14 @@
    "lieu": "Vienna; Austria",
    "raison": "annonce rédigée en allemand",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vienna/AI---Data-Strategy-Analyst--all-genders-_R00326541",
+   "source": "workday"
+  },
+  {
+   "titre": "Supply Chain Strategy Consulting Analyst (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Vienna; Austria",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vienna/Supply-Chain-Strategy-Consulting-Analyst--all-genders-_R00350041",
    "source": "workday"
   },
   {
@@ -826,6 +834,14 @@
    "source": "workday"
   },
   {
+   "titre": "Energy Consultants in Strategy & Consulting",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Athens; Greece",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
+   "source": "workday"
+  },
+  {
    "titre": "Strategy Consultant",
    "entreprise": "Accenture Strategy",
    "lieu": "Brussels; Belgium",
@@ -834,11 +850,11 @@
    "source": "workday"
   },
   {
-   "titre": "Energy Consultants in Strategy & Consulting",
+   "titre": "IMU Strategy Consultant",
    "entreprise": "Accenture Strategy",
-   "lieu": "Athens; Greece",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
+   "lieu": "Mumbai; India",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mumbai/IMU-Strategy-Consultant_R00368945",
    "source": "workday"
   },
   {
@@ -906,14 +922,6 @@
    "source": "workday"
   },
   {
-   "titre": "Praktikum Strategy Consultant Public Sector (all genders)",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Kronberg; Hamburg, Alter Wandrahm/Dienerreihe; Dusseldorf, Kaistrasse, Corporate; Berlin, Hallesches Ufer 40; Munich, Balan Campus Building 17; Germany",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Praktikum-Strategy-Consultant-Public-Sector--all-genders-_R00365910",
-   "source": "workday"
-  },
-  {
    "titre": "Consultor(a) de Estratégia",
    "entreprise": "Accenture Strategy",
    "lieu": "São Paulo - São Paulo; Brazil",
@@ -927,6 +935,14 @@
    "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
    "raison": "5 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
+   "source": "workday"
+  },
+  {
+   "titre": "Advisory Senior Associate Consultant - Growth & Business Model Reinvention - Milano ADV",
+   "entreprise": "PwC (Strategy&)",
+   "lieu": "Milan; Italy",
+   "raison": "annonce rédigée en italien",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Business-Model-Reinvention-Consultant---Milano_742896WD-2",
    "source": "workday"
   },
   {
