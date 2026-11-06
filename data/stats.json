@@ -1,23 +1,23 @@
 {
- "maj": "2026-11-05T04:06:35+00:00",
+ "maj": "2026-11-06T04:04:38+00:00",
  "compteurs": {
   "sources_ok": 141,
   "sources_en_erreur": 3,
-  "titres_retenus": 318,
+  "titres_retenus": 319,
   "offres_gardees": 185,
   "nouvelles": 8,
-  "offres_lues": 23152
+  "offres_lues": 23200
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 30,
+  "4 ans d'expérience demandés": 31,
   "5 ans d'expérience demandés": 16,
-  "8 ans d'expérience demandés": 12,
-  "annonce rédigée en allemand": 12,
-  "7 ans d'expérience demandés": 10,
+  "8 ans d'expérience demandés": 13,
+  "annonce rédigée en allemand": 13,
+  "7 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 9,
-  "langue exigée : Allemand": 6,
   "conseil IT ou digital": 6,
   "6 ans d'expérience demandés": 5,
+  "langue exigée : Allemand": 5,
   "12 ans d'expérience demandés": 3,
   "annonce rédigée en portugais": 3,
   "langue exigée : Japonais": 2,
@@ -40,32 +40,32 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 760,
+   "lues": 768,
    "titres_retenus": 12
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 207,
+   "lues": 200,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 682,
-   "titres_retenus": 11
+   "lues": 676,
+   "titres_retenus": 13
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 396,
+   "lues": 401,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 926,
+   "lues": 923,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
-   "lues": 145,
+   "lues": 143,
    "titres_retenus": 1
   },
   "Coinbase (greenhouse)": {
@@ -75,52 +75,52 @@
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 464,
+   "lues": 462,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
    "statut": "ok",
-   "lues": 165,
+   "lues": 167,
    "titres_retenus": 2
   },
   "Duolingo (greenhouse)": {
    "statut": "ok",
-   "lues": 55,
+   "lues": 57,
    "titres_retenus": 0
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 440,
+   "lues": 438,
    "titres_retenus": 27
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 246,
+   "lues": 252,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
    "statut": "ok",
-   "lues": 154,
+   "lues": 153,
    "titres_retenus": 0
   },
   "Brex (greenhouse)": {
    "statut": "ok",
-   "lues": 271,
+   "lues": 272,
    "titres_retenus": 0
   },
   "Lyft (greenhouse)": {
    "statut": "ok",
-   "lues": 178,
+   "lues": 168,
    "titres_retenus": 1
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 168,
+   "lues": 166,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 33,
    "titres_retenus": 0
   },
   "Asana (greenhouse)": {
@@ -130,27 +130,27 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 244,
+   "lues": 249,
    "titres_retenus": 0
   },
   "Twilio (greenhouse)": {
    "statut": "ok",
-   "lues": 129,
+   "lues": 121,
    "titres_retenus": 1
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 390,
-   "titres_retenus": 1
+   "lues": 383,
+   "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 361,
+   "lues": 368,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
    "statut": "ok",
-   "lues": 27,
+   "lues": 26,
    "titres_retenus": 1
   },
   "Reddit (greenhouse)": {
@@ -160,22 +160,22 @@
   },
   "Instacart (greenhouse)": {
    "statut": "ok",
-   "lues": 88,
+   "lues": 91,
    "titres_retenus": 2
   },
   "Chime (greenhouse)": {
    "statut": "ok",
-   "lues": 74,
+   "lues": 73,
    "titres_retenus": 2
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 234,
+   "lues": 235,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 341,
+   "lues": 332,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -185,12 +185,12 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 190,
+   "lues": 191,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
    "statut": "ok",
-   "lues": 66,
+   "lues": 65,
    "titres_retenus": 1
   },
   "Airtable (greenhouse)": {
@@ -200,18 +200,18 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 312,
+   "lues": 305,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 57,
+   "lues": 59,
    "titres_retenus": 0
   },
   "N26 (greenhouse)": {
    "statut": "ok",
-   "lues": 36,
-   "titres_retenus": 1
+   "lues": 34,
+   "titres_retenus": 2
   },
   "GetYourGuide (greenhouse)": {
    "statut": "ok",
@@ -220,17 +220,17 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 232,
+   "lues": 233,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
    "statut": "ok",
-   "lues": 16,
+   "lues": 13,
    "titres_retenus": 0
   },
   "Contentsquare (lever)": {
    "statut": "ok",
-   "lues": 26,
+   "lues": 29,
    "titres_retenus": 0
   },
   "Contentful (greenhouse)": {
@@ -240,7 +240,7 @@
   },
   "Squarespace (greenhouse)": {
    "statut": "ok",
-   "lues": 23,
+   "lues": 21,
    "titres_retenus": 0
   },
   "SoFi (greenhouse)": {
@@ -250,7 +250,7 @@
   },
   "Bridgewater Associates (greenhouse)": {
    "statut": "ok",
-   "lues": 22,
+   "lues": 21,
    "titres_retenus": 1
   },
   "General Atlantic (greenhouse)": {
@@ -260,17 +260,17 @@
   },
   "Andreessen Horowitz (greenhouse)": {
    "statut": "ok",
-   "lues": 19,
+   "lues": 20,
    "titres_retenus": 0
   },
   "Point72 (greenhouse)": {
    "statut": "ok",
-   "lues": 197,
+   "lues": 195,
    "titres_retenus": 1
   },
   "ICONIQ (greenhouse)": {
    "statut": "ok",
-   "lues": 16,
+   "lues": 15,
    "titres_retenus": 0
   },
   "NYC Economic Development Corporation (greenhouse)": {
@@ -280,7 +280,7 @@
   },
   "Prophet (greenhouse)": {
    "statut": "ok",
-   "lues": 17,
+   "lues": 16,
    "titres_retenus": 2
   },
   "ClearView Healthcare Partners (greenhouse)": {
@@ -290,7 +290,7 @@
   },
   "Spotify (lever)": {
    "statut": "ok",
-   "lues": 86,
+   "lues": 87,
    "titres_retenus": 0
   },
   "Palantir (lever)": {
@@ -304,7 +304,7 @@
   },
   "Zoox (lever)": {
    "statut": "ok",
-   "lues": 229,
+   "lues": 238,
    "titres_retenus": 0
   },
   "Doctolib (ashby)": {
@@ -328,12 +328,12 @@
   },
   "Back Market (ashby)": {
    "statut": "ok",
-   "lues": 33,
+   "lues": 34,
    "titres_retenus": 0
   },
   "Ledger (ashby)": {
    "statut": "ok",
-   "lues": 13,
+   "lues": 14,
    "titres_retenus": 0
   },
   "BlaBlaCar (lever)": {
@@ -353,27 +353,27 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 811,
+   "lues": 822,
    "titres_retenus": 7
   },
   "Ramp (ashby)": {
    "statut": "ok",
-   "lues": 171,
+   "lues": 170,
    "titres_retenus": 2
   },
   "Notion (ashby)": {
    "statut": "ok",
-   "lues": 148,
+   "lues": 150,
    "titres_retenus": 4
   },
   "Perplexity (ashby)": {
    "statut": "ok",
-   "lues": 139,
+   "lues": 137,
    "titres_retenus": 1
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 145,
+   "lues": 141,
    "titres_retenus": 3
   },
   "Deel (ashby)": {
@@ -393,22 +393,22 @@
   },
   "Synthesia (ashby)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 32,
    "titres_retenus": 0
   },
   "Pigment (lever)": {
    "statut": "ok",
-   "lues": 129,
+   "lues": 127,
    "titres_retenus": 0
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 367,
+   "lues": 362,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 118,
+   "lues": 119,
    "titres_retenus": 1
   },
   "Mercury (ashby)": {
@@ -418,7 +418,7 @@
   },
   "Sierra (ashby)": {
    "statut": "ok",
-   "lues": 218,
+   "lues": 216,
    "titres_retenus": 0
   },
   "EliseAI (ashby)": {
@@ -429,7 +429,7 @@
   "Clay (ashby)": {
    "statut": "ok",
    "lues": 63,
-   "titres_retenus": 9
+   "titres_retenus": 8
   },
   "Visa (smartrecruiters)": {
    "statut": "ok",
@@ -438,7 +438,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1414,
+   "lues": 1411,
    "titres_retenus": 2
   },
   "Bosch (smartrecruiters)": {
@@ -448,12 +448,12 @@
   },
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1238,
-   "titres_retenus": 5
+   "lues": 1239,
+   "titres_retenus": 6
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 203,
+   "lues": 202,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -463,27 +463,27 @@
   },
   "Capital One (workday)": {
    "statut": "ok",
-   "lues": 193,
+   "lues": 192,
    "titres_retenus": 3
   },
   "Mastercard (workday)": {
    "statut": "ok",
-   "lues": 184,
-   "titres_retenus": 2
+   "lues": 183,
+   "titres_retenus": 1
   },
   "Blackstone (workday)": {
    "statut": "ok",
-   "lues": 83,
+   "lues": 80,
    "titres_retenus": 3
   },
   "Salesforce (workday)": {
    "statut": "ok",
-   "lues": 183,
-   "titres_retenus": 1
+   "lues": 185,
+   "titres_retenus": 2
   },
   "Adobe (workday)": {
    "statut": "ok",
-   "lues": 158,
+   "lues": 159,
    "titres_retenus": 0
   },
   "NVIDIA (workday)": {
@@ -499,7 +499,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 248,
-   "titres_retenus": 80
+   "titres_retenus": 79
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -508,8 +508,8 @@
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 488,
-   "titres_retenus": 1
+   "lues": 529,
+   "titres_retenus": 0
   },
   "Thales (workday)": {
    "statut": "ok",
@@ -518,7 +518,7 @@
   },
   "Sanofi (workday)": {
    "statut": "ok",
-   "lues": 229,
+   "lues": 228,
    "titres_retenus": 0
   },
   "Michelin (workday)": {
@@ -528,7 +528,7 @@
   },
   "Mirakl (greenhouse)": {
    "statut": "ok",
-   "lues": 27,
+   "lues": 26,
    "titres_retenus": 0
   },
   "Algolia (greenhouse)": {
@@ -538,7 +538,7 @@
   },
   "Artefact (greenhouse)": {
    "statut": "ok",
-   "lues": 146,
+   "lues": 145,
    "titres_retenus": 1
   },
   "Shift Technology (greenhouse)": {
@@ -553,17 +553,17 @@
   },
   "Dashlane (greenhouse)": {
    "statut": "ok",
-   "lues": 13,
+   "lues": 15,
    "titres_retenus": 0
   },
   "AlixPartners (greenhouse)": {
    "statut": "ok",
-   "lues": 124,
+   "lues": 126,
    "titres_retenus": 3
   },
   "DiliTrust (lever)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 35,
    "titres_retenus": 0
   },
   "Swile (lever)": {
@@ -573,12 +573,12 @@
   },
   "Malt (lever)": {
    "statut": "ok",
-   "lues": 28,
+   "lues": 29,
    "titres_retenus": 0
   },
   "360Learning (lever)": {
    "statut": "ok",
-   "lues": 45,
+   "lues": 46,
    "titres_retenus": 0
   },
   "Brevo (lever)": {
@@ -603,7 +603,7 @@
   },
   "Heetch (lever)": {
    "statut": "ok",
-   "lues": 22,
+   "lues": 23,
    "titres_retenus": 1
   },
   "Didomi (lever)": {
@@ -613,32 +613,32 @@
   },
   "Theodo (lever)": {
    "statut": "ok",
-   "lues": 132,
+   "lues": 130,
    "titres_retenus": 0
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 191,
+   "lues": 205,
    "titres_retenus": 3
   },
   "Voodoo (ashby)": {
    "statut": "ok",
-   "lues": 102,
+   "lues": 101,
    "titres_retenus": 1
   },
   "Hexa (ashby)": {
    "statut": "ok",
-   "lues": 26,
+   "lues": 25,
    "titres_retenus": 0
   },
   "H Company (ashby)": {
    "statut": "ok",
-   "lues": 34,
+   "lues": 35,
    "titres_retenus": 1
   },
   "Dust (ashby)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 33,
    "titres_retenus": 0
   },
   "Photoroom (ashby)": {
@@ -668,7 +668,7 @@
   },
   "Exotec (workable)": {
    "statut": "ok",
-   "lues": 84,
+   "lues": 87,
    "titres_retenus": 0
   },
   "Withings (workable)": {
@@ -693,17 +693,17 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 270,
+   "lues": 272,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
    "statut": "ok",
-   "lues": 873,
+   "lues": 872,
    "titres_retenus": 8
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 280,
+   "lues": 286,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
@@ -713,7 +713,7 @@
   },
   "Believe (smartrecruiters)": {
    "statut": "ok",
-   "lues": 26,
+   "lues": 27,
    "titres_retenus": 0
   },
   "LVMH (smartrecruiters)": {
@@ -728,7 +728,7 @@
   },
   "Converteo (teamtailor)": {
    "statut": "ok",
-   "lues": 26,
+   "lues": 27,
    "titres_retenus": 1
   },
   "Indefi (teamtailor)": {
@@ -757,18 +757,18 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 2,
+   "titres_retenus": 5,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t04&nbsp;Nov&nbsp;2026 (verified\\t\\t\\t05&nbsp;Nov&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
-     "pages lues : 2, fiches ouvertes : 2, avec entreprise : 0"
+     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t05&nbsp;Nov&nbsp;2026 (verified\\t\\t\\t06&nbsp;Nov&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
+     "pages lues : 2, fiches ouvertes : 5, avec entreprise : 0"
     ]
    }
   },
   "service_public": {
    "statut": "ok",
-   "lues": 79,
-   "titres_retenus": 15
+   "lues": 78,
+   "titres_retenus": 13
   }
  }
 }

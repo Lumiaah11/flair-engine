@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-05T04:06:35+00:00",
+ "maj": "2026-11-06T04:04:38+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -28,7 +28,7 @@
   {
    "titre": "Finance & Strategy Specialist",
    "entreprise": "Stripe",
-   "lieu": "United States; Canada Locations",
+   "lieu": "United States; US-Remote",
    "raison": "5 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8287914",
    "source": "greenhouse"
@@ -119,6 +119,22 @@
    "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390956008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Product Finance & Strategy, Claude Platform, Forecasting & Rhythms",
+   "entreprise": "Anthropic",
+   "lieu": "San Francisco, CA; San Francisco, California, United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358096008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Public Policy, Strategic Advisory",
+   "entreprise": "Anthropic",
+   "lieu": "San Francisco, CA; Washington, DC; Washington, District of Columbia, United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473110008",
    "source": "greenhouse"
   },
   {
@@ -316,9 +332,17 @@
   {
    "titre": "Business Strategy Associate - Lending",
    "entreprise": "N26",
-   "lieu": "Berlin, Barcelona; Berlin, Berlin, Germany",
+   "lieu": "Berlin; Berlin, Berlin, Germany",
    "raison": "4 ans d'expérience demandés",
    "url": "https://n26.com/en-eu/careers/positions/8345862?gh_jid=8345862",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Business Strategy Associate - Lending",
+   "entreprise": "N26",
+   "lieu": "Barcelona; Berlin, Berlin, Germany",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://n26.com/en-eu/careers/positions/8355016?gh_jid=8355016",
    "source": "greenhouse"
   },
   {
@@ -522,6 +546,14 @@
    "source": "smartrecruiters"
   },
   {
+   "titre": "Specialist, Strategic Account Management",
+   "entreprise": "Delivery Hero",
+   "lieu": "Dhaka, BD",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000113890666",
+   "source": "smartrecruiters"
+  },
+  {
    "titre": "Private Equity Investor Product Strategy, AVP",
    "entreprise": "Blackstone",
    "lieu": "Miami; United States of America",
@@ -538,11 +570,11 @@
    "source": "workday"
   },
   {
-   "titre": "Business Operations Analyst",
+   "titre": "Solutions Builder (Strategic Builder)",
    "entreprise": "Salesforce",
-   "lieu": "Arizona - Phoenix; United States of America",
+   "lieu": "India - Bangalore; India - Mumbai; India - Gurgaon",
    "raison": "5 ans d'expérience demandés",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Arizona---Phoenix/Business-Operations-Analyst_JR366909",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Bangalore/Strategic-Builder_JR362385-1",
    "source": "workday"
   },
   {
@@ -730,6 +762,14 @@
    "source": "workday"
   },
   {
+   "titre": "Junior Strategy Consultant Chemicals & Natural Resources ( all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg; Stuttgart; Hamburg; Dusseldorf; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg/Junior-Strategy-Consultant-Chemicals---Natural-Resources---all-genders-_R00329842-1",
+   "source": "workday"
+  },
+  {
    "titre": "Junior Strategy Consultant Insurance  (all genders)",
    "entreprise": "Accenture Strategy",
    "lieu": "Kronberg; Hamburg; Dusseldorf; Munich; Berlin; Germany",
@@ -834,19 +874,19 @@
    "source": "workday"
   },
   {
-   "titre": "Energy Consultants in Strategy & Consulting",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Athens; Greece",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
-   "source": "workday"
-  },
-  {
    "titre": "Strategy Consultant",
    "entreprise": "Accenture Strategy",
    "lieu": "Brussels; Belgium",
    "raison": "langue exigée : Néerlandais",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Strategy-Consultant_R00343571",
+   "source": "workday"
+  },
+  {
+   "titre": "Energy Consultants in Strategy & Consulting",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Athens; Greece",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Athens/Strategy---Consulting-Analysts---Consultants-in-Energy-Industry_R00279792",
    "source": "workday"
   },
   {
@@ -895,14 +935,6 @@
    "lieu": "Brussels; Belgium",
    "raison": "langue exigée : Néerlandais",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Data---AI-Value-Strategy-Consultant_R00345444",
-   "source": "workday"
-  },
-  {
-   "titre": "Enterprise AI Value Strategy Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Vienna, Borsegebaude; Austria",
-   "raison": "langue exigée : Allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vienna-Borsegebaude/Enterprise-AI-Value-Strategy-Consultant--All-genders-_R00339342",
    "source": "workday"
   },
   {
@@ -967,14 +999,6 @@
    "lieu": "Neuilly-sur-Seine; France",
    "raison": "15 ans d'expérience demandés",
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Neuilly-sur-Seine/Consultant-Stratgie---Transformation-des-SI---Paris---Sophia-Antipolis---Toulouse---CDI---H-F_669231WD-1",
-   "source": "workday"
-  },
-  {
-   "titre": "Chief of Staff",
-   "entreprise": "Airbus",
-   "lieu": "Kinston, NC; United States of America",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Kinston-NC/Chief-of-Staff_JR10433384",
    "source": "workday"
   },
   {
