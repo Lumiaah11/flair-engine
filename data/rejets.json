@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T04:04:38+00:00",
+ "maj": "2026-11-07T04:00:31+00:00",
  "rejets": [
   {
    "titre": "Finance and Strategy Specialist",
@@ -326,7 +326,7 @@
    "entreprise": "Samsara",
    "lieu": "Remote - US; Remote - CA",
    "raison": "6 ans d'expérience demandés",
-   "url": "https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779",
+   "url": "https://www.samsara.com/company/careers/roles/8359860?gh_jid=8359860",
    "source": "greenhouse"
   },
   {
@@ -399,6 +399,14 @@
    "lieu": "San Francisco; United States",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/openai/de0b0df5-7390-4781-9548-d8710d736909",
+   "source": "ashby"
+  },
+  {
+   "titre": "GTM Strategy & Planning",
+   "entreprise": "OpenAI",
+   "lieu": "New York City; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/openai/41408133-b45f-4c7b-a0df-c050f16d92de",
    "source": "ashby"
   },
   {
@@ -674,6 +682,14 @@
    "source": "workday"
   },
   {
+   "titre": "OLIVER WYMAN – DATA & ANALYTICS - ANALYST- GREECE",
+   "entreprise": "Oliver Wyman",
+   "lieu": "Athens - Othonos; Greece",
+   "raison": "conseil IT ou digital",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/OLIVER-WYMAN---DATA---ANALYTICS---ANALYST-SENIOR-ANALYST--GREECE_R_364447-1",
+   "source": "workday"
+  },
+  {
    "titre": "Oliver Wyman – Data & Analytics - Analyst - Italy",
    "entreprise": "Oliver Wyman",
    "lieu": "Milan - Broletto; Italy",
@@ -858,14 +874,6 @@
    "source": "workday"
   },
   {
-   "titre": "Enterprise Strategy, Growth, and Innovation (ESGI) Analyst or Consultant",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Belen",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Belen/Strategy---CEO-Advisory-Consultant_R00331791",
-   "source": "workday"
-  },
-  {
    "titre": "Corporate Strategy Specialist",
    "entreprise": "Accenture Strategy",
    "lieu": "Bengaluru; India",
@@ -874,11 +882,11 @@
    "source": "workday"
   },
   {
-   "titre": "Strategy Consultant",
+   "titre": "Enterprise Strategy, Growth, and Innovation (ESGI) Analyst or Consultant",
    "entreprise": "Accenture Strategy",
-   "lieu": "Brussels; Belgium",
-   "raison": "langue exigée : Néerlandais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Brussels/Strategy-Consultant_R00343571",
+   "lieu": "Belen",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Belen/Strategy---CEO-Advisory-Consultant_R00331791",
    "source": "workday"
   },
   {
@@ -954,19 +962,19 @@
    "source": "workday"
   },
   {
-   "titre": "Consultor(a) de Estratégia",
-   "entreprise": "Accenture Strategy",
-   "lieu": "São Paulo - São Paulo; Brazil",
-   "raison": "annonce rédigée en portugais",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
-   "source": "workday"
-  },
-  {
    "titre": "Data Strategy & Governance Consultant",
    "entreprise": "Accenture Strategy",
    "lieu": "Kuala Lumpur, Exchange 106; Malaysia",
    "raison": "5 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kuala-Lumpur-Exchange-106/S-C-GN---TS-T---Data---Analytics----Consultant_R00338090",
+   "source": "workday"
+  },
+  {
+   "titre": "Consultor(a) de Estratégia",
+   "entreprise": "Accenture Strategy",
+   "lieu": "São Paulo - São Paulo; Brazil",
+   "raison": "annonce rédigée en portugais",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
    "source": "workday"
   },
   {
