@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-07T04:00:31+00:00",
+ "maj": "2026-11-08T04:03:52+00:00",
  "compteurs": {
   "sources_ok": 141,
   "sources_en_erreur": 3,
-  "titres_retenus": 316,
-  "offres_gardees": 180,
-  "nouvelles": 6,
-  "offres_lues": 23152
+  "titres_retenus": 318,
+  "offres_gardees": 182,
+  "nouvelles": 4,
+  "offres_lues": 23151
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 31,
@@ -40,7 +40,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 765,
+   "lues": 766,
    "titres_retenus": 12
   },
   "Airbnb (greenhouse)": {
@@ -50,22 +50,22 @@
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 678,
+   "lues": 675,
    "titres_retenus": 12
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 399,
+   "lues": 401,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 923,
+   "lues": 922,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
-   "lues": 144,
+   "lues": 145,
    "titres_retenus": 1
   },
   "Coinbase (greenhouse)": {
@@ -145,7 +145,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 375,
+   "lues": 374,
    "titres_retenus": 2
   },
   "Discord (greenhouse)": {
@@ -170,7 +170,7 @@
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 223,
+   "lues": 222,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
@@ -200,7 +200,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 315,
+   "lues": 316,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -309,7 +309,7 @@
   },
   "Doctolib (ashby)": {
    "statut": "ok",
-   "lues": 150,
+   "lues": 152,
    "titres_retenus": 0
   },
   "Aircall (lever)": {
@@ -353,12 +353,12 @@
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 820,
+   "lues": 818,
    "titres_retenus": 8
   },
   "Ramp (ashby)": {
    "statut": "ok",
-   "lues": 171,
+   "lues": 169,
    "titres_retenus": 2
   },
   "Notion (ashby)": {
@@ -369,7 +369,7 @@
   "Perplexity (ashby)": {
    "statut": "ok",
    "lues": 137,
-   "titres_retenus": 1
+   "titres_retenus": 0
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
@@ -403,7 +403,7 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 371,
+   "lues": 370,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
@@ -499,7 +499,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 246,
-   "titres_retenus": 76
+   "titres_retenus": 77
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -508,7 +508,7 @@
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 529,
+   "lues": 530,
    "titres_retenus": 0
   },
   "Thales (workday)": {
@@ -523,7 +523,7 @@
   },
   "Michelin (workday)": {
    "statut": "ok",
-   "lues": 204,
+   "lues": 206,
    "titres_retenus": 1
   },
   "Mirakl (greenhouse)": {
@@ -757,11 +757,11 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 5,
+   "titres_retenus": 7,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t06&nbsp;Nov&nbsp;2026 (verified\\t\\t\\t07&nbsp;Nov&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
-     "pages lues : 2, fiches ouvertes : 5, avec entreprise : 0"
+     "fiche sans entreprise, extrait 'onal to gain exposure to global supply chain operations, vendor management, cross-functional governance, and sustainability/compliance-driven digital transformation within a leading global healthcare company.<br />\\n<br />\\nWhat we offer:<br />\\n<br />\\n- An international assignment in Barcelona within a global healthcare leader.<br />\\n - Hands-on experience in project coordination, governance management, and business case development.<br />\\n - Direct collaboration with cross-functional teams (HSE, '",
+     "pages lues : 2, fiches ouvertes : 7, avec entreprise : 0"
     ]
    }
   },
