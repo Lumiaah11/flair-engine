@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-08T04:03:52+00:00",
+ "maj": "2026-11-09T04:10:00+00:00",
  "compteurs": {
-  "sources_ok": 141,
-  "sources_en_erreur": 3,
-  "titres_retenus": 318,
-  "offres_gardees": 182,
-  "nouvelles": 4,
-  "offres_lues": 23151
+  "sources_ok": 139,
+  "sources_en_erreur": 5,
+  "titres_retenus": 311,
+  "offres_gardees": 181,
+  "nouvelles": 0,
+  "offres_lues": 22714
  },
  "rejets_par_raison": {
   "4 ans d'expérience demandés": 31,
@@ -15,12 +15,11 @@
   "annonce rédigée en allemand": 13,
   "7 ans d'expérience demandés": 11,
   "10 ans d'expérience demandés": 9,
-  "conseil IT ou digital": 7,
-  "6 ans d'expérience demandés": 5,
+  "conseil IT ou digital": 6,
   "langue exigée : Allemand": 5,
+  "6 ans d'expérience demandés": 4,
   "12 ans d'expérience demandés": 3,
   "annonce rédigée en portugais": 3,
-  "langue exigée : Japonais": 2,
   "langue exigée : Italien": 2,
   "langue exigée : Grec": 2,
   "langue exigée : Thaï": 2,
@@ -30,6 +29,7 @@
   "langue exigée : Polonais": 1,
   "langue exigée : Roumain": 1,
   "langue exigée : Mandarin, Chinois": 1,
+  "langue exigée : Japonais": 1,
   "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
   "langue exigée : Suédois": 1,
   "langue exigée : Mandarin, Cantonais": 1,
@@ -40,7 +40,7 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 766,
+   "lues": 768,
    "titres_retenus": 12
   },
   "Airbnb (greenhouse)": {
@@ -50,27 +50,27 @@
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 675,
+   "lues": 676,
    "titres_retenus": 12
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 401,
+   "lues": 402,
    "titres_retenus": 3
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 922,
+   "lues": 921,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
-   "lues": 145,
+   "lues": 144,
    "titres_retenus": 1
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 284,
+   "lues": 283,
    "titres_retenus": 3
   },
   "Cloudflare (greenhouse)": {
@@ -95,7 +95,7 @@
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 255,
+   "lues": 253,
    "titres_retenus": 1
   },
   "Robinhood (greenhouse)": {
@@ -110,7 +110,7 @@
   },
   "Lyft (greenhouse)": {
    "statut": "ok",
-   "lues": 167,
+   "lues": 166,
    "titres_retenus": 1
   },
   "Pinterest (greenhouse)": {
@@ -135,7 +135,7 @@
   },
   "Twilio (greenhouse)": {
    "statut": "ok",
-   "lues": 128,
+   "lues": 129,
    "titres_retenus": 1
   },
   "Okta (greenhouse)": {
@@ -175,7 +175,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 332,
+   "lues": 333,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -200,7 +200,7 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 316,
+   "lues": 315,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
@@ -309,7 +309,7 @@
   },
   "Doctolib (ashby)": {
    "statut": "ok",
-   "lues": 152,
+   "lues": 153,
    "titres_retenus": 0
   },
   "Aircall (lever)": {
@@ -348,12 +348,12 @@
   },
   "Coins.ph (lever)": {
    "statut": "ok",
-   "lues": 83,
+   "lues": 84,
    "titres_retenus": 0
   },
   "OpenAI (ashby)": {
    "statut": "ok",
-   "lues": 818,
+   "lues": 814,
    "titres_retenus": 8
   },
   "Ramp (ashby)": {
@@ -373,7 +373,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 139,
+   "lues": 136,
    "titres_retenus": 3
   },
   "Deel (ashby)": {
@@ -403,7 +403,7 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 370,
+   "lues": 373,
    "titres_retenus": 2
   },
   "Cohere (ashby)": {
@@ -443,7 +443,7 @@
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1266,
+   "lues": 1264,
    "titres_retenus": 9
   },
   "Delivery Hero (smartrecruiters)": {
@@ -472,9 +472,8 @@
    "titres_retenus": 1
   },
   "Blackstone (workday)": {
-   "statut": "ok",
-   "lues": 84,
-   "titres_retenus": 3
+   "statut": "erreur",
+   "message": "HTTPError: 401 Client Error: Unauthorized for url: https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs"
   },
   "Salesforce (workday)": {
    "statut": "ok",
@@ -499,7 +498,7 @@
   "Accenture Strategy (workday)": {
    "statut": "ok",
    "lues": 246,
-   "titres_retenus": 77
+   "titres_retenus": 76
   },
   "PwC (Strategy&) (workday)": {
    "statut": "ok",
@@ -508,7 +507,7 @@
   },
   "Airbus (workday)": {
    "statut": "ok",
-   "lues": 530,
+   "lues": 492,
    "titres_retenus": 0
   },
   "Thales (workday)": {
@@ -523,7 +522,7 @@
   },
   "Michelin (workday)": {
    "statut": "ok",
-   "lues": 206,
+   "lues": 196,
    "titres_retenus": 1
   },
   "Mirakl (greenhouse)": {
@@ -633,7 +632,7 @@
   },
   "H Company (ashby)": {
    "statut": "ok",
-   "lues": 35,
+   "lues": 33,
    "titres_retenus": 1
   },
   "Dust (ashby)": {
@@ -698,7 +697,7 @@
   },
   "Devoteam (smartrecruiters)": {
    "statut": "ok",
-   "lues": 876,
+   "lues": 878,
    "titres_retenus": 8
   },
   "Coface (smartrecruiters)": {
@@ -744,9 +743,8 @@
    "statut": "désactivé"
   },
   "themuse": {
-   "statut": "ok",
-   "lues": 300,
-   "titres_retenus": 3
+   "statut": "erreur",
+   "message": "HTTPError: 404 Client Error: Not Found for url: https://www.themuse.com/api/public/jobs?page=0&descending=true&category=Business+Operations&level=Entry+Level&level=Mid+Level"
   },
   "adzuna": {
    "statut": "désactivé"
