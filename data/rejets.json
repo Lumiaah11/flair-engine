@@ -1,14 +1,6 @@
 {
- "maj": "2026-11-11T04:08:45+00:00",
+ "maj": "2026-11-12T04:07:41+00:00",
  "rejets": [
-  {
-   "titre": "Finance and Strategy Specialist",
-   "entreprise": "Stripe",
-   "lieu": "Bengaluru; India Locations",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=7597613",
-   "source": "greenhouse"
-  },
   {
    "titre": "Finance & Strategy Analyst",
    "entreprise": "Stripe",
@@ -218,14 +210,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Strategic Pricing Analyst",
-   "entreprise": "Adyen",
-   "lieu": "Singapore",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8176065",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Chief of Staff, Lyft Urban Solutions",
    "entreprise": "Lyft",
    "lieu": "New York, NY; New York, New York, United States",
@@ -338,7 +322,7 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Strategy & Operations, Support",
+   "titre": "Strategy & Operations Programs, Support",
    "entreprise": "OpenAI",
    "lieu": "San Francisco; United States",
    "raison": "5 ans d'expérience demandés",
@@ -418,22 +402,6 @@
    "source": "ashby"
   },
   {
-   "titre": "Strategic Finance",
-   "entreprise": "Clay",
-   "lieu": "New York; United States",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/claylabs/6c65bbb9-8205-400c-b971-cd91897b6d8f",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategic Finance - FP&A",
-   "entreprise": "Clay",
-   "lieu": "New York; United States",
-   "raison": "5 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/claylabs/11523b92-635e-4865-8ed0-59ef4c91bd53",
-   "source": "ashby"
-  },
-  {
    "titre": "Chief of Staff",
    "entreprise": "ServiceNow",
    "lieu": "Stockholm, SE",
@@ -447,6 +415,22 @@
    "lieu": "Santa Clara, California, US",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154251149",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Pflichtpraktikum in der Unternehmensstrategie",
+   "entreprise": "Bosch Group",
+   "lieu": "Stuttgart, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161102281",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR, Business und Strategy",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161072160",
    "source": "smartrecruiters"
   },
   {
@@ -495,14 +479,6 @@
    "lieu": "Suzhou, Jiangsu, CN",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155658549",
-   "source": "smartrecruiters"
-  },
-  {
-   "titre": "Junior Managers Program (Trainee) - Starte deine Leadership Journey im Bereich HR, Business und Strategy",
-   "entreprise": "Bosch Group",
-   "lieu": "Gerlingen, BW, DE",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153184710",
    "source": "smartrecruiters"
   },
   {
@@ -922,6 +898,14 @@
    "source": "workday"
   },
   {
+   "titre": "Industrial Strategy Consultant (all genders)",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Kronberg, Campus Kronberg 1; Stuttgart; Hamburg; Munich; Berlin; Germany",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Industrial-Strategy-Consultant--all-genders-_R00328726",
+   "source": "workday"
+  },
+  {
    "titre": "Strategy Consultant - Energy/Oil & Gas Downstream",
    "entreprise": "Accenture Strategy",
    "lieu": "Warsaw; Lodz; Krakow; Wroclaw, Dominikanski Center; Poland",
@@ -946,27 +930,11 @@
    "source": "workday"
   },
   {
-   "titre": "Industrial Strategy Consultant (all genders)",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Kronberg, Campus Kronberg 1; Stuttgart; Hamburg; Munich; Berlin; Germany",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Kronberg-Campus-Kronberg-1/Industrial-Strategy-Consultant--all-genders-_R00328726",
-   "source": "workday"
-  },
-  {
    "titre": "Consultor(a) de Estratégia",
    "entreprise": "Accenture Strategy",
    "lieu": "São Paulo - São Paulo; Brazil",
    "raison": "annonce rédigée en portugais",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/So-Paulo---So-Paulo/Accenture-Strategy---Consultores-e-Gerentes-de-Estratgia_R00313363",
-   "source": "workday"
-  },
-  {
-   "titre": "Advisory Senior Associate Consultant - Growth & Business Model Reinvention - Milano ADV",
-   "entreprise": "PwC (Strategy&)",
-   "lieu": "Milan; Italy",
-   "raison": "annonce rédigée en italien",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Milan/Business-Model-Reinvention-Consultant---Milano_742896WD-2",
    "source": "workday"
   },
   {
