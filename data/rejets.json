@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T04:07:41+00:00",
+ "maj": "2026-11-13T04:07:21+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Analyst",
@@ -79,14 +79,6 @@
    "lieu": "San Francisco or Seattle; US",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8139711",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Corporate Finance & Strategy, Strategic Transactions",
-   "entreprise": "Anthropic",
-   "lieu": "San Francisco, CA; San Francisco, California, United States",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5430263008",
    "source": "greenhouse"
   },
   {
@@ -194,14 +186,6 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Senior Associate, Commerce Platform Enterprise Online Ordering - Strategy & Operations",
-   "entreprise": "DoorDash",
-   "lieu": "New York, NY; Denver, CO; Los Angeles, CA; Chicago, IL",
-   "raison": "langue exigée : Polonais",
-   "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7654723",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Senior Associate - Strategy & Operations - Insurance",
    "entreprise": "DoorDash",
    "lieu": "San Francisco, CA; Seattle, WA; Los Angeles, CA; Chicago, IL; Boston, MA; New York, NY",
@@ -244,33 +228,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Global Sales",
-   "entreprise": "Reddit",
    "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "United States - Remote; Remote - Canada; Remote - United States",
+   "titre": "Chief of Staff, Global Sales",
+   "entreprise": "Reddit",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112136",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Chief of Staff, Online Grocery",
-   "entreprise": "Instacart",
-   "lieu": "Canada - Remote (ON, AB, BC, or NS Only); Remote - Canada; Remote - United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://instacart.careers/job/?gh_jid=8112138",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -327,14 +295,6 @@
    "lieu": "San Francisco; United States",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/openai/9747412d-a23d-48ba-bddd-ad1247c360f5",
-   "source": "ashby"
-  },
-  {
-   "titre": "Strategic Finance, Emerging B2B Products",
-   "entreprise": "OpenAI",
-   "lieu": "San Francisco; United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/openai/d96ba2bd-5804-4043-b43c-0c5ed3b7d305",
    "source": "ashby"
   },
   {
@@ -402,6 +362,14 @@
    "source": "ashby"
   },
   {
+   "titre": "GTM Strategy & Ops EMEA (London)",
+   "entreprise": "Clay",
+   "lieu": "London; United Kingdom",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/claylabs/2a4fb582-dd2a-476c-ae9d-542710640218",
+   "source": "ashby"
+  },
+  {
    "titre": "Chief of Staff",
    "entreprise": "ServiceNow",
    "lieu": "Stockholm, SE",
@@ -415,6 +383,14 @@
    "lieu": "Santa Clara, California, US",
    "raison": "5 ans d'expérience demandés",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154251149",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Bosch Management Consulting Innovation: Consultant, Go-to-Market Practice (f/m/div)",
+   "entreprise": "Bosch Group",
+   "lieu": "Gerlingen, BW, DE",
+   "raison": "langue exigée : Allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161292784",
    "source": "smartrecruiters"
   },
   {
@@ -450,14 +426,6 @@
    "source": "smartrecruiters"
   },
   {
-   "titre": "Bosch Management Consulting Innovation: Consultant, Go-to-Market Practice (f/m/div)",
-   "entreprise": "Bosch Group",
-   "lieu": "Gerlingen, BW, DE",
-   "raison": "langue exigée : Allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158735469",
-   "source": "smartrecruiters"
-  },
-  {
    "titre": "Pflichtpraktikum im Bereich Corporate Strategy",
    "entreprise": "Bosch Group",
    "lieu": "Gerlingen, BW, DE",
@@ -482,11 +450,35 @@
    "source": "smartrecruiters"
   },
   {
+   "titre": "Praktikum im strategischen Key Account Management - Akku Allianzen und Private Label",
+   "entreprise": "Bosch Group",
+   "lieu": "Leinfelden-Echterdingen, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161286319",
+   "source": "smartrecruiters"
+  },
+  {
    "titre": "Praktikum Strategischer Einkauf",
    "entreprise": "Bosch Group",
    "lieu": "Leinfelden-Echterdingen, BW, DE",
    "raison": "annonce rédigée en allemand",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159591390",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Praktikum im Strategischen Einkauf",
+   "entreprise": "Bosch Group",
+   "lieu": "München, BY, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161303612",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Praktikum im Strategischen Einkauf",
+   "entreprise": "Bosch Group",
+   "lieu": "Stuttgart, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161274259",
    "source": "smartrecruiters"
   },
   {
@@ -527,14 +519,6 @@
    "lieu": "Miami; United States of America",
    "raison": "6 ans d'expérience demandés",
    "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Careers/job/Miami/Private-Equity-Investor-Product-Strategy--AVP_39969-2",
-   "source": "workday"
-  },
-  {
-   "titre": "Oliver Wyman - Consultant - Shanghai",
-   "entreprise": "Oliver Wyman",
-   "lieu": "Shanghai - Changle; China",
-   "raison": "langue exigée : Mandarin, Chinois",
-   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Shanghai---Changle/Oliver-Wyman---Consultant---Shanghai_R_348338",
    "source": "workday"
   },
   {
@@ -818,19 +802,19 @@
    "source": "workday"
   },
   {
-   "titre": "Corporate Strategy Specialist",
-   "entreprise": "Accenture Strategy",
-   "lieu": "Bengaluru; India",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Corporate-Strategy-Specialist_14681244-1",
-   "source": "workday"
-  },
-  {
    "titre": "Enterprise Strategy, Growth, and Innovation (ESGI) Analyst or Consultant",
    "entreprise": "Accenture Strategy",
    "lieu": "Belen",
    "raison": "5 ans d'expérience demandés",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Belen/Strategy---CEO-Advisory-Consultant_R00331791",
+   "source": "workday"
+  },
+  {
+   "titre": "Corporate Strategy Specialist",
+   "entreprise": "Accenture Strategy",
+   "lieu": "Bengaluru; India",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Bengaluru/Corporate-Strategy-Specialist_14681244-1",
    "source": "workday"
   },
   {
