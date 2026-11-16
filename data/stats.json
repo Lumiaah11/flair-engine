@@ -1,56 +1,44 @@
 {
- "maj": "2026-11-15T04:04:57+00:00",
+ "maj": "2026-11-16T11:24:18+00:00",
  "compteurs": {
-  "sources_ok": 140,
-  "sources_en_erreur": 4,
-  "titres_retenus": 300,
-  "offres_gardees": 184,
-  "nouvelles": 3,
-  "offres_lues": 22870
+  "sources_ok": 127,
+  "sources_en_erreur": 17,
+  "titres_retenus": 172,
+  "offres_gardees": 175,
+  "nouvelles": 1,
+  "offres_lues": 19815
  },
  "rejets_par_raison": {
-  "4 ans d'expérience demandés": 28,
-  "annonce rédigée en allemand": 20,
   "8 ans d'expérience demandés": 13,
-  "5 ans d'expérience demandés": 11,
+  "4 ans d'expérience demandés": 11,
+  "5 ans d'expérience demandés": 9,
+  "annonce rédigée en allemand": 9,
   "10 ans d'expérience demandés": 8,
   "7 ans d'expérience demandés": 6,
-  "conseil IT ou digital": 6,
-  "6 ans d'expérience demandés": 5,
-  "langue exigée : Allemand": 5,
   "12 ans d'expérience demandés": 3,
-  "annonce rédigée en portugais": 3,
-  "langue exigée : Italien": 2,
-  "langue exigée : Grec": 2,
-  "langue exigée : Thaï": 2,
+  "6 ans d'expérience demandés": 3,
+  "langue exigée : Allemand": 2,
+  "conseil IT ou digital": 2,
   "langue exigée : Mandarin": 2,
   "langue exigée : Arabe": 2,
   "langue exigée : Roumain": 1,
-  "langue exigée : Polonais": 1,
-  "langue exigée : Japonais": 1,
-  "langue exigée : Suédois, Danois, Norvégien, Finnois": 1,
-  "langue exigée : Suédois": 1,
-  "langue exigée : Portugais": 1,
-  "langue exigée : Mandarin, Cantonais": 1,
-  "langue exigée : Néerlandais": 1,
-  "annonce rédigée en italien": 1,
-  "15 ans d'expérience demandés": 1,
+  "langue exigée : Italien": 1,
   "13 ans d'expérience demandés": 1
  },
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 785,
+   "lues": 786,
    "titres_retenus": 9
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 214,
+   "lues": 209,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 669,
+   "lues": 661,
    "titres_retenus": 12
   },
   "Datadog (greenhouse)": {
@@ -60,7 +48,7 @@
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 896,
+   "lues": 893,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -70,12 +58,12 @@
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 265,
+   "lues": 262,
    "titres_retenus": 2
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 479,
+   "lues": 473,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
@@ -90,12 +78,12 @@
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 428,
+   "lues": 425,
    "titres_retenus": 22
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 246,
+   "lues": 244,
    "titres_retenus": 0
   },
   "Robinhood (greenhouse)": {
@@ -115,7 +103,7 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 163,
+   "lues": 161,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -125,27 +113,27 @@
   },
   "Asana (greenhouse)": {
    "statut": "ok",
-   "lues": 109,
+   "lues": 108,
    "titres_retenus": 1
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 251,
+   "lues": 254,
    "titres_retenus": 0
   },
   "Twilio (greenhouse)": {
    "statut": "ok",
-   "lues": 114,
+   "lues": 113,
    "titres_retenus": 1
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 362,
+   "lues": 363,
    "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 390,
+   "lues": 395,
    "titres_retenus": 0
   },
   "Discord (greenhouse)": {
@@ -175,7 +163,7 @@
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 355,
+   "lues": 353,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
@@ -185,7 +173,7 @@
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 204,
+   "lues": 205,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -200,12 +188,12 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 319,
+   "lues": 317,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 57,
+   "lues": 59,
    "titres_retenus": 1
   },
   "N26 (greenhouse)": {
@@ -225,12 +213,12 @@
   },
   "Dataiku (greenhouse)": {
    "statut": "ok",
-   "lues": 14,
+   "lues": 13,
    "titres_retenus": 0
   },
   "Contentsquare (lever)": {
    "statut": "ok",
-   "lues": 28,
+   "lues": 27,
    "titres_retenus": 0
   },
   "Contentful (greenhouse)": {
@@ -265,7 +253,7 @@
   },
   "Point72 (greenhouse)": {
    "statut": "ok",
-   "lues": 200,
+   "lues": 197,
    "titres_retenus": 1
   },
   "ICONIQ (greenhouse)": {
@@ -323,12 +311,12 @@
   },
   "Alan (ashby)": {
    "statut": "ok",
-   "lues": 138,
+   "lues": 137,
    "titres_retenus": 0
   },
   "Back Market (ashby)": {
    "statut": "ok",
-   "lues": 32,
+   "lues": 31,
    "titres_retenus": 0
   },
   "Ledger (ashby)": {
@@ -358,7 +346,7 @@
   },
   "Ramp (ashby)": {
    "statut": "ok",
-   "lues": 180,
+   "lues": 179,
    "titres_retenus": 3
   },
   "Notion (ashby)": {
@@ -368,12 +356,12 @@
   },
   "Perplexity (ashby)": {
    "statut": "ok",
-   "lues": 141,
+   "lues": 143,
    "titres_retenus": 0
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 128,
+   "lues": 124,
    "titres_retenus": 2
   },
   "Deel (ashby)": {
@@ -398,7 +386,7 @@
   },
   "Pigment (lever)": {
    "statut": "ok",
-   "lues": 126,
+   "lues": 125,
    "titres_retenus": 0
   },
   "Harvey (ashby)": {
@@ -408,7 +396,7 @@
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 121,
+   "lues": 122,
    "titres_retenus": 1
   },
   "Mercury (ashby)": {
@@ -418,13 +406,13 @@
   },
   "Sierra (ashby)": {
    "statut": "ok",
-   "lues": 198,
+   "lues": 197,
    "titres_retenus": 0
   },
   "EliseAI (ashby)": {
    "statut": "ok",
-   "lues": 110,
-   "titres_retenus": 7
+   "lues": 111,
+   "titres_retenus": 8
   },
   "Clay (ashby)": {
    "statut": "ok",
@@ -438,7 +426,7 @@
   },
   "ServiceNow (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1424,
+   "lues": 1419,
    "titres_retenus": 2
   },
   "Bosch (smartrecruiters)": {
@@ -448,12 +436,12 @@
   },
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1230,
+   "lues": 1233,
    "titres_retenus": 8
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 182,
+   "lues": 183,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -462,69 +450,56 @@
    "titres_retenus": 0
   },
   "Capital One (workday)": {
-   "statut": "ok",
-   "lues": 190,
-   "titres_retenus": 2
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='capitalone.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/capitalone/Capital_One/jobs (Caused by ResponseError('too many 429"
   },
   "Mastercard (workday)": {
-   "statut": "ok",
-   "lues": 183,
-   "titres_retenus": 2
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='mastercard.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mastercard/CorporateCareers/jobs (Caused by ResponseError('too many"
   },
   "Blackstone (workday)": {
-   "statut": "ok",
-   "lues": 131,
-   "titres_retenus": 2
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='blackstone.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/blackstone/Blackstone_Careers/jobs (Caused by ResponseError('too ma"
   },
   "Salesforce (workday)": {
-   "statut": "ok",
-   "lues": 185,
-   "titres_retenus": 1
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='salesforce.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/salesforce/External_Career_Site/jobs (Caused by ResponseError('too"
   },
   "Adobe (workday)": {
-   "statut": "ok",
-   "lues": 150,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/adobe/external_experienced/jobs (Caused by ResponseError('too many 429 e"
   },
   "NVIDIA (workday)": {
-   "statut": "ok",
-   "lues": 183,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs (Caused by ResponseError('too many"
   },
   "Oliver Wyman (workday)": {
-   "statut": "ok",
-   "lues": 180,
-   "titres_retenus": 23
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='mmc.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/mmc/MMC/jobs (Caused by ResponseError('too many 429 error responses'))"
   },
   "Accenture Strategy (workday)": {
-   "statut": "ok",
-   "lues": 247,
-   "titres_retenus": 84
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='accenture.wd103.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/accenture/AccentureCareers/jobs (Caused by ResponseError('too many"
   },
   "PwC (Strategy&) (workday)": {
-   "statut": "ok",
-   "lues": 300,
-   "titres_retenus": 12
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='pwc.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pwc/Global_Experienced_Careers/jobs (Caused by ResponseError('too many 429"
   },
   "Airbus (workday)": {
-   "statut": "ok",
-   "lues": 490,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='ag.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ag/Airbus/jobs (Caused by ResponseError('too many 429 error responses'))"
   },
   "Thales (workday)": {
-   "statut": "ok",
-   "lues": 363,
-   "titres_retenus": 2
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='thales.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/thales/Careers/jobs (Caused by ResponseError('too many 429 error respon"
   },
   "Sanofi (workday)": {
-   "statut": "ok",
-   "lues": 236,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='sanofi.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/sanofi/SanofiCareers/jobs (Caused by ResponseError('too many 429 error "
   },
   "Michelin (workday)": {
-   "statut": "ok",
-   "lues": 192,
-   "titres_retenus": 1
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='michelinhr.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/michelinhr/Michelin/jobs (Caused by ResponseError('too many 429 err"
   },
   "Mirakl (greenhouse)": {
    "statut": "ok",
@@ -563,7 +538,7 @@
   },
   "DiliTrust (lever)": {
    "statut": "ok",
-   "lues": 35,
+   "lues": 36,
    "titres_retenus": 0
   },
   "Swile (lever)": {
@@ -573,7 +548,7 @@
   },
   "Malt (lever)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 27,
    "titres_retenus": 0
   },
   "360Learning (lever)": {
@@ -588,7 +563,7 @@
   },
   "Agicap (lever)": {
    "statut": "ok",
-   "lues": 20,
+   "lues": 21,
    "titres_retenus": 0
   },
   "Younited (lever)": {
@@ -598,12 +573,12 @@
   },
   "Vestiaire Collective (lever)": {
    "statut": "ok",
-   "lues": 16,
+   "lues": 13,
    "titres_retenus": 0
   },
   "Heetch (lever)": {
    "statut": "ok",
-   "lues": 25,
+   "lues": 26,
    "titres_retenus": 1
   },
   "Didomi (lever)": {
@@ -613,17 +588,17 @@
   },
   "Theodo (lever)": {
    "statut": "ok",
-   "lues": 128,
+   "lues": 124,
    "titres_retenus": 0
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 202,
+   "lues": 204,
    "titres_retenus": 2
   },
   "Voodoo (ashby)": {
    "statut": "ok",
-   "lues": 102,
+   "lues": 103,
    "titres_retenus": 1
   },
   "Hexa (ashby)": {
@@ -638,7 +613,7 @@
   },
   "Dust (ashby)": {
    "statut": "ok",
-   "lues": 35,
+   "lues": 34,
    "titres_retenus": 0
   },
   "Photoroom (ashby)": {
@@ -648,7 +623,7 @@
   },
   "Nabla (ashby)": {
    "statut": "ok",
-   "lues": 9,
+   "lues": 8,
    "titres_retenus": 0
   },
   "Owkin (ashby)": {
@@ -668,12 +643,12 @@
   },
   "Exotec (workable)": {
    "statut": "ok",
-   "lues": 93,
+   "lues": 94,
    "titres_retenus": 0
   },
   "Withings (workable)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 32,
    "titres_retenus": 0
   },
   "Hugging Face (workable)": {
@@ -693,12 +668,12 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 231,
+   "lues": 233,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
    "statut": "ok",
-   "lues": 892,
+   "lues": 902,
    "titres_retenus": 8
   },
   "Coface (smartrecruiters)": {
@@ -713,7 +688,7 @@
   },
   "Believe (smartrecruiters)": {
    "statut": "ok",
-   "lues": 33,
+   "lues": 37,
    "titres_retenus": 0
   },
   "LVMH (smartrecruiters)": {
@@ -759,7 +734,7 @@
    "titres_retenus": 7,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t13&nbsp;Nov&nbsp;2026 (verified\\t\\t\\t15&nbsp;Nov&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
+     "fiche sans entreprise, extrait '({});</script>\\n</div>\\n\\t<div class=\"grayline tablet-up\"></div>\\n\\t\\n\\t<table class=\"jobspecs\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\">\\n\\t<tr>\\n\\t<th scope=\"row\" class=\"spec\">Source:</th>\\n\\t<td class=\"desc\">Company website</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Posted&nbsp;on:</th>\\n\\t<td class=\"desc\">\\n\\t\\t11&nbsp;Nov&nbsp;2026 (verified\\t\\t\\t16&nbsp;Nov&nbsp;2026)\\t</td>\\n</tr>\\n\\n<tr>\\n\\t<th scope=\"row\" class=\"spec\">Type of offer:</th>\\n\\t<td class=\"desc\">V.I.E. (French international internship)</td>\\n</tr>\\n'",
      "pages lues : 2, fiches ouvertes : 7, avec entreprise : 0"
     ]
    }
