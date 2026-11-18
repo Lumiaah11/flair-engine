@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-17T11:55:40+00:00",
+ "maj": "2026-11-18T11:46:21+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Analyst",
@@ -63,6 +63,14 @@
    "lieu": "San Francisco or Seattle; US",
    "raison": "12 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8139711",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Compute Capacity Strategy & Operations",
+   "entreprise": "Anthropic",
+   "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5485582008",
    "source": "greenhouse"
   },
   {
@@ -282,6 +290,14 @@
    "source": "ashby"
   },
   {
+   "titre": "HRBP, Strategy, Finance, and People",
+   "entreprise": "OpenAI",
+   "lieu": "San Francisco; New York City; United States",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/openai/c95b87cf-c00d-48b7-a357-aa4f7baa2467",
+   "source": "ashby"
+  },
+  {
    "titre": "GTM Strategy & Operations, Professional Services",
    "entreprise": "OpenAI",
    "lieu": "San Francisco; United States",
@@ -338,6 +354,14 @@
    "source": "ashby"
   },
   {
+   "titre": "GTM Strategy & Operations, EMEA",
+   "entreprise": "Harvey",
+   "lieu": "London; United Kingdom",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/harvey/0eeba998-e84a-4f37-a8f5-2ddd7399bd50",
+   "source": "ashby"
+  },
+  {
    "titre": "Chief of Staff",
    "entreprise": "Cohere",
    "lieu": "Toronto; Montreal; Canada",
@@ -370,6 +394,22 @@
    "source": "smartrecruiters"
   },
   {
+   "titre": "Pflichtpraktikum in der Unternehmensstrategie",
+   "entreprise": "Bosch Group",
+   "lieu": "Stuttgart, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162242480",
+   "source": "smartrecruiters"
+  },
+  {
+   "titre": "Pflichtpraktikum im Bereich International Human Resources und HR Strategy",
+   "entreprise": "Bosch Group",
+   "lieu": "Abstatt, BW, DE",
+   "raison": "annonce rédigée en allemand",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162073989",
+   "source": "smartrecruiters"
+  },
+  {
    "titre": "Bosch Management Consulting Innovation: Consultant, Go-to-Market Practice (f/m/div)",
    "entreprise": "Bosch Group",
    "lieu": "Gerlingen, BW, DE",
@@ -383,14 +423,6 @@
    "lieu": "Gerlingen, BW, DE",
    "raison": "annonce rédigée en allemand",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161504278",
-   "source": "smartrecruiters"
-  },
-  {
-   "titre": "Pflichtpraktikum in der Unternehmensstrategie",
-   "entreprise": "Bosch Group",
-   "lieu": "Stuttgart, BW, DE",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161102281",
    "source": "smartrecruiters"
   },
   {
@@ -454,7 +486,7 @@
    "entreprise": "Bosch Group",
    "lieu": "München, BY, DE",
    "raison": "annonce rédigée en allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161303612",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162271389",
    "source": "smartrecruiters"
   },
   {
