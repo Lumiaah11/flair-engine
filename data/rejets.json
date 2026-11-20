@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T11:43:19+00:00",
+ "maj": "2026-11-20T11:43:42+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Analyst",
@@ -10,17 +10,9 @@
    "source": "greenhouse"
   },
   {
-   "titre": "Finance & Strategy, Corporate Finance Analyst",
-   "entreprise": "Stripe",
-   "lieu": "New York, NY; US-PERM",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8249865",
-   "source": "greenhouse"
-  },
-  {
    "titre": "Finance & Strategy Specialist",
    "entreprise": "Stripe",
-   "lieu": "United States; US-Remote",
+   "lieu": "United States; US",
    "raison": "5 ans d'expérience demandés",
    "url": "https://stripe.com/jobs/search?gh_jid=8287914",
    "source": "greenhouse"
@@ -282,7 +274,7 @@
    "source": "ashby"
   },
   {
-   "titre": "GTM Strategy & Operations, Professional Services",
+   "titre": "Forward Deployment Strategy and Operations",
    "entreprise": "OpenAI",
    "lieu": "San Francisco; United States",
    "raison": "8 ans d'expérience demandés",
@@ -536,6 +528,14 @@
    "raison": "6 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/voodoo/045d86cf-73ec-4188-9e16-b611f71e5642",
    "source": "ashby"
+  },
+  {
+   "titre": "Milan - Junior Consultant (full-time)",
+   "entreprise": "Advancy",
+   "lieu": "Milan, Lombardia, Italy",
+   "raison": "langue exigée : Italien",
+   "url": "https://advancy.recruitee.com/o/milan-junior-consultant-full-time",
+   "source": "recruitee"
   },
   {
    "titre": "Shanghai - Junior Consultant",
