@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20T11:43:42+00:00",
+ "maj": "2026-11-21T11:06:42+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Analyst",
@@ -68,9 +68,25 @@
   {
    "titre": "Finance & Strategy, Deal Strategy",
    "entreprise": "Anthropic",
+   "lieu": "Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437933008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy, Deal Strategy",
+   "entreprise": "Anthropic",
    "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy, Deal Strategy",
+   "entreprise": "Anthropic",
+   "lieu": "London, UK; Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433843008",
    "source": "greenhouse"
   },
   {
@@ -79,22 +95,6 @@
    "lieu": "Seoul, South Korea",
    "raison": "10 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079133008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "GTM Strategy & Operations - AMER Enterprise Tech",
-   "entreprise": "Anthropic",
-   "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
-   "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390956008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Product Finance & Strategy, Claude Platform, Forecasting & Rhythms",
-   "entreprise": "Anthropic",
-   "lieu": "San Francisco, CA; San Francisco, California, United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358096008",
    "source": "greenhouse"
   },
   {
@@ -196,17 +196,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -223,14 +223,6 @@
    "lieu": "San Francisco, CA, USA; San Francisco, California, United States",
    "raison": "6 ans d'expérience demandés",
    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Senior Associate, Strategic Finance (International)",
-   "entreprise": "Toast",
-   "lieu": "Boston; San Francisco, California, United States",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
    "source": "greenhouse"
   },
   {
@@ -303,14 +295,6 @@
    "lieu": "San Francisco; United States",
    "raison": "8 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/openai/de0b0df5-7390-4781-9548-d8710d736909",
-   "source": "ashby"
-  },
-  {
-   "titre": "GTM Strategy & Planning",
-   "entreprise": "OpenAI",
-   "lieu": "New York City; United States",
-   "raison": "8 ans d'expérience demandés",
-   "url": "https://jobs.ashbyhq.com/openai/41408133-b45f-4c7b-a0df-c050f16d92de",
    "source": "ashby"
   },
   {
