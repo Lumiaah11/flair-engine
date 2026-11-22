@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21T11:06:42+00:00",
+ "maj": "2026-11-22T11:28:18+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Analyst",
@@ -68,6 +68,14 @@
   {
    "titre": "Finance & Strategy, Deal Strategy",
    "entreprise": "Anthropic",
+   "lieu": "London, UK; Dublin, IE",
+   "raison": "7 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433843008",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Finance & Strategy, Deal Strategy",
+   "entreprise": "Anthropic",
    "lieu": "Dublin, IE",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437933008",
@@ -79,14 +87,6 @@
    "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
    "raison": "7 ans d'expérience demandés",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008",
-   "source": "greenhouse"
-  },
-  {
-   "titre": "Finance & Strategy, Deal Strategy",
-   "entreprise": "Anthropic",
-   "lieu": "London, UK; Dublin, IE",
-   "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433843008",
    "source": "greenhouse"
   },
   {
@@ -196,17 +196,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
