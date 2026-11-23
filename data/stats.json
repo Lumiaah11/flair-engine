@@ -1,18 +1,18 @@
 {
- "maj": "2026-11-22T11:28:18+00:00",
+ "maj": "2026-11-23T12:49:24+00:00",
  "compteurs": {
   "sources_ok": 127,
   "sources_en_erreur": 17,
-  "titres_retenus": 169,
-  "offres_gardees": 165,
+  "titres_retenus": 166,
+  "offres_gardees": 163,
   "nouvelles": 0,
-  "offres_lues": 19722
+  "offres_lues": 19694
  },
  "rejets_par_raison": {
   "8 ans d'expérience demandés": 12,
-  "annonce rédigée en allemand": 10,
   "5 ans d'expérience demandés": 9,
   "7 ans d'expérience demandés": 9,
+  "annonce rédigée en allemand": 9,
   "4 ans d'expérience demandés": 8,
   "10 ans d'expérience demandés": 7,
   "6 ans d'expérience demandés": 4,
@@ -28,27 +28,27 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 777,
+   "lues": 776,
    "titres_retenus": 7
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
-   "lues": 202,
+   "lues": 200,
    "titres_retenus": 0
   },
   "Anthropic (greenhouse)": {
    "statut": "ok",
-   "lues": 635,
+   "lues": 634,
    "titres_retenus": 12
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 382,
+   "lues": 386,
    "titres_retenus": 1
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 895,
+   "lues": 891,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
@@ -58,17 +58,17 @@
   },
   "Coinbase (greenhouse)": {
    "statut": "ok",
-   "lues": 252,
+   "lues": 251,
    "titres_retenus": 3
   },
   "Cloudflare (greenhouse)": {
    "statut": "ok",
-   "lues": 504,
+   "lues": 501,
    "titres_retenus": 2
   },
   "Scale AI (greenhouse)": {
    "statut": "ok",
-   "lues": 166,
+   "lues": 162,
    "titres_retenus": 1
   },
   "Duolingo (greenhouse)": {
@@ -83,7 +83,7 @@
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 243,
+   "lues": 237,
    "titres_retenus": 0
   },
   "Robinhood (greenhouse)": {
@@ -93,7 +93,7 @@
   },
   "Brex (greenhouse)": {
    "statut": "ok",
-   "lues": 249,
+   "lues": 248,
    "titres_retenus": 0
   },
   "Lyft (greenhouse)": {
@@ -103,7 +103,7 @@
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 174,
+   "lues": 173,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -133,7 +133,7 @@
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 417,
+   "lues": 418,
    "titres_retenus": 0
   },
   "Discord (greenhouse)": {
@@ -158,22 +158,22 @@
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 222,
+   "lues": 219,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 325,
+   "lues": 324,
    "titres_retenus": 0
   },
   "Gusto (greenhouse)": {
    "statut": "ok",
-   "lues": 82,
+   "lues": 84,
    "titres_retenus": 0
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 212,
+   "lues": 210,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
@@ -193,12 +193,12 @@
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 59,
-   "titres_retenus": 1
+   "lues": 53,
+   "titres_retenus": 0
   },
   "N26 (greenhouse)": {
    "statut": "ok",
-   "lues": 23,
+   "lues": 25,
    "titres_retenus": 0
   },
   "GetYourGuide (greenhouse)": {
@@ -208,17 +208,17 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 265,
+   "lues": 264,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
    "statut": "ok",
-   "lues": 13,
+   "lues": 15,
    "titres_retenus": 0
   },
   "Contentsquare (lever)": {
    "statut": "ok",
-   "lues": 25,
+   "lues": 27,
    "titres_retenus": 0
   },
   "Contentful (greenhouse)": {
@@ -297,7 +297,7 @@
   },
   "Doctolib (ashby)": {
    "statut": "ok",
-   "lues": 154,
+   "lues": 148,
    "titres_retenus": 0
   },
   "Aircall (lever)": {
@@ -316,7 +316,7 @@
   },
   "Back Market (ashby)": {
    "statut": "ok",
-   "lues": 32,
+   "lues": 30,
    "titres_retenus": 0
   },
   "Ledger (ashby)": {
@@ -361,7 +361,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 122,
+   "lues": 123,
    "titres_retenus": 2
   },
   "Deel (ashby)": {
@@ -391,12 +391,12 @@
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 390,
+   "lues": 393,
    "titres_retenus": 3
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 124,
+   "lues": 123,
    "titres_retenus": 0
   },
   "Mercury (ashby)": {
@@ -431,17 +431,17 @@
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1266,
-   "titres_retenus": 16
+   "lues": 1267,
+   "titres_retenus": 15
   },
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1208,
+   "lues": 1214,
    "titres_retenus": 6
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 149,
+   "lues": 145,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -503,7 +503,7 @@
   },
   "Mirakl (greenhouse)": {
    "statut": "ok",
-   "lues": 21,
+   "lues": 19,
    "titres_retenus": 0
   },
   "Algolia (greenhouse)": {
@@ -513,7 +513,7 @@
   },
   "Artefact (greenhouse)": {
    "statut": "ok",
-   "lues": 150,
+   "lues": 148,
    "titres_retenus": 1
   },
   "Shift Technology (greenhouse)": {
@@ -548,7 +548,7 @@
   },
   "Malt (lever)": {
    "statut": "ok",
-   "lues": 32,
+   "lues": 34,
    "titres_retenus": 0
   },
   "360Learning (lever)": {
@@ -558,7 +558,7 @@
   },
   "Brevo (lever)": {
    "statut": "ok",
-   "lues": 23,
+   "lues": 24,
    "titres_retenus": 0
   },
   "Agicap (lever)": {
@@ -578,7 +578,7 @@
   },
   "Heetch (lever)": {
    "statut": "ok",
-   "lues": 26,
+   "lues": 31,
    "titres_retenus": 1
   },
   "Didomi (lever)": {
@@ -593,7 +593,7 @@
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 203,
+   "lues": 205,
    "titres_retenus": 2
   },
   "Voodoo (ashby)": {
@@ -603,7 +603,7 @@
   },
   "Hexa (ashby)": {
    "statut": "ok",
-   "lues": 24,
+   "lues": 23,
    "titres_retenus": 0
   },
   "H Company (ashby)": {
@@ -623,7 +623,7 @@
   },
   "Nabla (ashby)": {
    "statut": "ok",
-   "lues": 8,
+   "lues": 7,
    "titres_retenus": 0
   },
   "Owkin (ashby)": {
@@ -643,7 +643,7 @@
   },
   "Exotec (workable)": {
    "statut": "ok",
-   "lues": 88,
+   "lues": 87,
    "titres_retenus": 0
   },
   "Withings (workable)": {
@@ -668,17 +668,17 @@
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 203,
+   "lues": 208,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
    "statut": "ok",
-   "lues": 924,
+   "lues": 919,
    "titres_retenus": 8
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 292,
+   "lues": 294,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
@@ -688,8 +688,8 @@
   },
   "Believe (smartrecruiters)": {
    "statut": "ok",
-   "lues": 39,
-   "titres_retenus": 1
+   "lues": 32,
+   "titres_retenus": 0
   },
   "LVMH (smartrecruiters)": {
    "statut": "ok",
