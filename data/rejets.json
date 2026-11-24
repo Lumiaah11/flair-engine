@@ -1,14 +1,6 @@
 {
- "maj": "2026-11-23T12:49:24+00:00",
+ "maj": "2026-11-24T13:46:32+00:00",
  "rejets": [
-  {
-   "titre": "Finance & Strategy Analyst",
-   "entreprise": "Stripe",
-   "lieu": "SF, SEA, CHI, NYC; US",
-   "raison": "4 ans d'expérience demandés",
-   "url": "https://stripe.com/jobs/search?gh_jid=8231575",
-   "source": "greenhouse"
-  },
   {
    "titre": "Finance & Strategy Specialist",
    "entreprise": "Stripe",
@@ -298,6 +290,14 @@
    "source": "ashby"
   },
   {
+   "titre": "GTM Strategy & Operations, Enterprise",
+   "entreprise": "OpenAI",
+   "lieu": "New York City; United States",
+   "raison": "8 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/openai/490c443e-d555-4fd0-a5c8-d754f6ba6d23",
+   "source": "ashby"
+  },
+  {
    "titre": "Chief of Staff, Sales",
    "entreprise": "Notion",
    "lieu": "San Francisco, California; United States",
@@ -383,14 +383,6 @@
    "lieu": "Bietigheim-Bissingen, BW, DE",
    "raison": "annonce rédigée en allemand",
    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160565439",
-   "source": "smartrecruiters"
-  },
-  {
-   "titre": "Pflichtpraktikum Organisationsentwicklung und Strategie im internationalen Team",
-   "entreprise": "Bosch Group",
-   "lieu": "Stuttgart, BW, DE",
-   "raison": "annonce rédigée en allemand",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159310869",
    "source": "smartrecruiters"
   },
   {
