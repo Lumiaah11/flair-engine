@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24T13:46:32+00:00",
+ "maj": "2026-11-25T12:58:55+00:00",
  "rejets": [
   {
    "titre": "Finance & Strategy Specialist",
@@ -60,17 +60,17 @@
   {
    "titre": "Finance & Strategy, Deal Strategy",
    "entreprise": "Anthropic",
-   "lieu": "Dublin, IE",
+   "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437933008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008",
    "source": "greenhouse"
   },
   {
    "titre": "Finance & Strategy, Deal Strategy",
    "entreprise": "Anthropic",
-   "lieu": "San Francisco, CA | New York City, NY; San Francisco, California, United States",
+   "lieu": "Dublin, IE",
    "raison": "7 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437933008",
    "source": "greenhouse"
   },
   {
@@ -188,17 +188,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
@@ -480,6 +480,14 @@
    "raison": "conseil IT ou digital",
    "url": "https://www.alixpartners.com/careers/7548133003?gh_jid=7548133003",
    "source": "greenhouse"
+  },
+  {
+   "titre": "Chief of Staff - CDI - Theodo Data & AI - Paris",
+   "entreprise": "Theodo",
+   "lieu": "Paris",
+   "raison": "6 ans d'expérience demandés",
+   "url": "https://jobs.lever.co/theodo/18c78a6b-00cd-48eb-a7f4-0d46212cf073",
+   "source": "lever"
   },
   {
    "titre": "Chief of Staff Tech - Engineering",
