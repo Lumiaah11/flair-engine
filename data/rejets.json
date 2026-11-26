@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-25T12:58:55+00:00",
+ "maj": "2026-11-26T12:38:45+00:00",
  "rejets": [
+  {
+   "titre": "Finance & Strategy Analyst",
+   "entreprise": "Stripe",
+   "lieu": "SEA, SF, NYC, CHI; US",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://stripe.com/jobs/search?gh_jid=8397987",
+   "source": "greenhouse"
+  },
   {
    "titre": "Finance & Strategy Specialist",
    "entreprise": "Stripe",
@@ -188,17 +196,17 @@
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
    "source": "greenhouse"
   },
   {
    "titre": "Chief of Staff, Global Sales",
    "entreprise": "Reddit",
-   "lieu": "New York City, NY; London, England, United Kingdom; New York, NY, United States",
+   "lieu": "London, United Kingdom; London, England, United Kingdom; New York, NY, United States",
    "raison": "10 ans d'expérience demandés",
-   "url": "https://job-boards.greenhouse.io/reddit/jobs/8187521",
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8249259",
    "source": "greenhouse"
   },
   {
@@ -215,6 +223,14 @@
    "lieu": "San Francisco, CA, USA; San Francisco, California, United States",
    "raison": "6 ans d'expérience demandés",
    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002",
+   "source": "greenhouse"
+  },
+  {
+   "titre": "Senior Associate, Strategic Finance (International)",
+   "entreprise": "Toast",
+   "lieu": "Boston, MA Or New York, NY ; San Francisco, California, United States",
+   "raison": "4 ans d'expérience demandés",
+   "url": "https://careers.toasttab.com/jobs?gh_jid=8122630",
    "source": "greenhouse"
   },
   {
@@ -317,7 +333,7 @@
    "titre": "GTM Strategy & Operations, EMEA",
    "entreprise": "Harvey",
    "lieu": "London; United Kingdom",
-   "raison": "7 ans d'expérience demandés",
+   "raison": "6 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/harvey/0eeba998-e84a-4f37-a8f5-2ddd7399bd50",
    "source": "ashby"
   },
@@ -458,6 +474,14 @@
    "source": "smartrecruiters"
   },
   {
+   "titre": "AI Strategy & Transformation",
+   "entreprise": "Artefact",
+   "lieu": "9th arrondissement of Paris, 75009, Paris, France",
+   "raison": "10 ans d'expérience demandés",
+   "url": "https://job-boards.greenhouse.io/artefact/jobs/8785138002",
+   "source": "greenhouse"
+  },
+  {
    "titre": "Manufacturing & Operations - Management Consultant",
    "entreprise": "AlixPartners",
    "lieu": "Milan",
@@ -495,6 +519,14 @@
    "lieu": "Paris; France",
    "raison": "7 ans d'expérience demandés",
    "url": "https://jobs.ashbyhq.com/pennylane/bd676d1a-78c7-4928-bae9-a33de00bae6a",
+   "source": "ashby"
+  },
+  {
+   "titre": "Strategy & Operations Analyst",
+   "entreprise": "Pennylane",
+   "lieu": "Paris; France",
+   "raison": "5 ans d'expérience demandés",
+   "url": "https://jobs.ashbyhq.com/pennylane/22ed6f0a-53de-4e98-87f7-200bd17a7a45",
    "source": "ashby"
   },
   {
