@@ -1,12 +1,12 @@
 {
- "maj": "2026-11-27T12:25:44+00:00",
+ "maj": "2026-11-28T11:50:14+00:00",
  "compteurs": {
-  "sources_ok": 128,
-  "sources_en_erreur": 16,
+  "sources_ok": 127,
+  "sources_en_erreur": 17,
   "titres_retenus": 166,
-  "offres_gardees": 164,
+  "offres_gardees": 166,
   "nouvelles": 5,
-  "offres_lues": 19802
+  "offres_lues": 19619
  },
  "rejets_par_raison": {
   "8 ans d'expérience demandés": 13,
@@ -28,8 +28,8 @@
  "sources": {
   "Stripe (greenhouse)": {
    "statut": "ok",
-   "lues": 766,
-   "titres_retenus": 7
+   "lues": 771,
+   "titres_retenus": 9
   },
   "Airbnb (greenhouse)": {
    "statut": "ok",
@@ -43,17 +43,17 @@
   },
   "Datadog (greenhouse)": {
    "statut": "ok",
-   "lues": 391,
+   "lues": 392,
    "titres_retenus": 1
   },
   "Databricks (greenhouse)": {
    "statut": "ok",
-   "lues": 881,
+   "lues": 888,
    "titres_retenus": 1
   },
   "Figma (greenhouse)": {
    "statut": "ok",
-   "lues": 141,
+   "lues": 140,
    "titres_retenus": 1
   },
   "Coinbase (greenhouse)": {
@@ -78,17 +78,17 @@
   },
   "DoorDash (greenhouse)": {
    "statut": "ok",
-   "lues": 402,
+   "lues": 401,
    "titres_retenus": 19
   },
   "Adyen (greenhouse)": {
    "statut": "ok",
-   "lues": 232,
+   "lues": 233,
    "titres_retenus": 0
   },
   "Robinhood (greenhouse)": {
    "statut": "ok",
-   "lues": 161,
+   "lues": 162,
    "titres_retenus": 0
   },
   "Brex (greenhouse)": {
@@ -98,12 +98,12 @@
   },
   "Lyft (greenhouse)": {
    "statut": "ok",
-   "lues": 144,
+   "lues": 143,
    "titres_retenus": 0
   },
   "Pinterest (greenhouse)": {
    "statut": "ok",
-   "lues": 166,
+   "lues": 165,
    "titres_retenus": 1
   },
   "Dropbox (greenhouse)": {
@@ -118,7 +118,7 @@
   },
   "GitLab (greenhouse)": {
    "statut": "ok",
-   "lues": 243,
+   "lues": 244,
    "titres_retenus": 0
   },
   "Twilio (greenhouse)": {
@@ -128,12 +128,12 @@
   },
   "Okta (greenhouse)": {
    "statut": "ok",
-   "lues": 362,
+   "lues": 360,
    "titres_retenus": 0
   },
   "MongoDB (greenhouse)": {
    "statut": "ok",
-   "lues": 427,
+   "lues": 424,
    "titres_retenus": 0
   },
   "Discord (greenhouse)": {
@@ -153,32 +153,32 @@
   },
   "Chime (greenhouse)": {
    "statut": "ok",
-   "lues": 77,
+   "lues": 76,
    "titres_retenus": 2
   },
   "Affirm (greenhouse)": {
    "statut": "ok",
-   "lues": 216,
+   "lues": 218,
    "titres_retenus": 0
   },
   "Toast (greenhouse)": {
    "statut": "ok",
-   "lues": 300,
+   "lues": 298,
    "titres_retenus": 1
   },
   "Gusto (greenhouse)": {
    "statut": "ok",
-   "lues": 86,
+   "lues": 85,
    "titres_retenus": 0
   },
   "Flexport (greenhouse)": {
    "statut": "ok",
-   "lues": 211,
+   "lues": 209,
    "titres_retenus": 1
   },
   "Faire (greenhouse)": {
    "statut": "ok",
-   "lues": 73,
+   "lues": 71,
    "titres_retenus": 1
   },
   "Airtable (greenhouse)": {
@@ -188,12 +188,12 @@
   },
   "Samsara (greenhouse)": {
    "statut": "ok",
-   "lues": 294,
+   "lues": 296,
    "titres_retenus": 1
   },
   "Monzo (greenhouse)": {
    "statut": "ok",
-   "lues": 58,
+   "lues": 56,
    "titres_retenus": 0
   },
   "N26 (greenhouse)": {
@@ -208,7 +208,7 @@
   },
   "Celonis (greenhouse)": {
    "statut": "ok",
-   "lues": 258,
+   "lues": 256,
    "titres_retenus": 1
   },
   "Dataiku (greenhouse)": {
@@ -233,7 +233,7 @@
   },
   "SoFi (greenhouse)": {
    "statut": "ok",
-   "lues": 58,
+   "lues": 57,
    "titres_retenus": 0
   },
   "Bridgewater Associates (greenhouse)": {
@@ -278,7 +278,7 @@
   },
   "Spotify (lever)": {
    "statut": "ok",
-   "lues": 97,
+   "lues": 98,
    "titres_retenus": 0
   },
   "Palantir (lever)": {
@@ -297,7 +297,7 @@
   },
   "Doctolib (ashby)": {
    "statut": "ok",
-   "lues": 148,
+   "lues": 147,
    "titres_retenus": 0
   },
   "Aircall (lever)": {
@@ -361,7 +361,7 @@
   },
   "ElevenLabs (ashby)": {
    "statut": "ok",
-   "lues": 108,
+   "lues": 109,
    "titres_retenus": 2
   },
   "Deel (ashby)": {
@@ -386,17 +386,17 @@
   },
   "Pigment (lever)": {
    "statut": "ok",
-   "lues": 130,
+   "lues": 128,
    "titres_retenus": 0
   },
   "Harvey (ashby)": {
    "statut": "ok",
-   "lues": 389,
+   "lues": 387,
    "titres_retenus": 3
   },
   "Cohere (ashby)": {
    "statut": "ok",
-   "lues": 123,
+   "lues": 121,
    "titres_retenus": 0
   },
   "Mercury (ashby)": {
@@ -411,7 +411,7 @@
   },
   "EliseAI (ashby)": {
    "statut": "ok",
-   "lues": 106,
+   "lues": 107,
    "titres_retenus": 7
   },
   "Clay (ashby)": {
@@ -431,17 +431,17 @@
   },
   "Bosch (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1275,
+   "lues": 1276,
    "titres_retenus": 14
   },
   "Delivery Hero (smartrecruiters)": {
    "statut": "ok",
-   "lues": 1212,
+   "lues": 1213,
    "titres_retenus": 5
   },
   "Ubisoft (smartrecruiters)": {
    "statut": "ok",
-   "lues": 142,
+   "lues": 140,
    "titres_retenus": 0
   },
   "OneTrack.AI (workable)": {
@@ -466,9 +466,8 @@
    "message": "RetryError: HTTPSConnectionPool(host='salesforce.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/salesforce/External_Career_Site/jobs (Caused by ResponseError('too"
   },
   "Adobe (workday)": {
-   "statut": "ok",
-   "lues": 152,
-   "titres_retenus": 0
+   "statut": "erreur",
+   "message": "RetryError: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/adobe/external_experienced/jobs (Caused by ResponseError('too many 429 e"
   },
   "NVIDIA (workday)": {
    "statut": "erreur",
@@ -504,7 +503,7 @@
   },
   "Mirakl (greenhouse)": {
    "statut": "ok",
-   "lues": 21,
+   "lues": 20,
    "titres_retenus": 0
   },
   "Algolia (greenhouse)": {
@@ -514,7 +513,7 @@
   },
   "Artefact (greenhouse)": {
    "statut": "ok",
-   "lues": 88,
+   "lues": 89,
    "titres_retenus": 3
   },
   "Shift Technology (greenhouse)": {
@@ -549,7 +548,7 @@
   },
   "Malt (lever)": {
    "statut": "ok",
-   "lues": 31,
+   "lues": 32,
    "titres_retenus": 0
   },
   "360Learning (lever)": {
@@ -559,7 +558,7 @@
   },
   "Brevo (lever)": {
    "statut": "ok",
-   "lues": 20,
+   "lues": 19,
    "titres_retenus": 0
   },
   "Agicap (lever)": {
@@ -574,7 +573,7 @@
   },
   "Vestiaire Collective (lever)": {
    "statut": "ok",
-   "lues": 12,
+   "lues": 11,
    "titres_retenus": 0
   },
   "Heetch (lever)": {
@@ -594,12 +593,12 @@
   },
   "Pennylane (ashby)": {
    "statut": "ok",
-   "lues": 207,
+   "lues": 206,
    "titres_retenus": 3
   },
   "Voodoo (ashby)": {
    "statut": "ok",
-   "lues": 105,
+   "lues": 106,
    "titres_retenus": 1
   },
   "Hexa (ashby)": {
@@ -614,7 +613,7 @@
   },
   "Dust (ashby)": {
    "statut": "ok",
-   "lues": 36,
+   "lues": 35,
    "titres_retenus": 0
   },
   "Photoroom (ashby)": {
@@ -624,7 +623,7 @@
   },
   "Nabla (ashby)": {
    "statut": "ok",
-   "lues": 8,
+   "lues": 11,
    "titres_retenus": 0
   },
   "Owkin (ashby)": {
@@ -644,7 +643,7 @@
   },
   "Exotec (workable)": {
    "statut": "ok",
-   "lues": 87,
+   "lues": 83,
    "titres_retenus": 0
   },
   "Withings (workable)": {
@@ -664,12 +663,12 @@
   },
   "Julhiet Sterwen (recruitee)": {
    "statut": "ok",
-   "lues": 11,
+   "lues": 13,
    "titres_retenus": 2
   },
   "Accor (smartrecruiters)": {
    "statut": "ok",
-   "lues": 212,
+   "lues": 193,
    "titres_retenus": 0
   },
   "Devoteam (smartrecruiters)": {
@@ -679,7 +678,7 @@
   },
   "Coface (smartrecruiters)": {
    "statut": "ok",
-   "lues": 279,
+   "lues": 276,
    "titres_retenus": 0
   },
   "Saint-Gobain (smartrecruiters)": {
@@ -704,8 +703,8 @@
   },
   "Converteo (teamtailor)": {
    "statut": "ok",
-   "lues": 21,
-   "titres_retenus": 1
+   "lues": 19,
+   "titres_retenus": 0
   },
   "Indefi (teamtailor)": {
    "statut": "ok",
@@ -732,18 +731,18 @@
   "listes_html": {
    "statut": "ok",
    "lues": 50,
-   "titres_retenus": 1,
+   "titres_retenus": 2,
    "debug": {
     "iagora": [
-     "fiche sans entreprise, extrait 'n building the Future of Finance by identifying, developing, and scaling AI use cases that drive operational excellence across North America. The person will also be responsible for ensuring that the company’s financial systems and processes comply with relevant laws and regulations and plays a critical role in maintaining the integrity and legal compliance of the financial operations. They will ensure the full lifecycle of projects by following the Airbus project management methodology and will'",
-     "pages lues : 2, fiches ouvertes : 1, avec entreprise : 0"
+     "fiche sans entreprise, extrait 'the socio-economic development of regions with large-scale decarbonization—all in pursuit of the imperative to achieve carbon neutrality by 2050. By joining Egis, you become part of a high-performing company that has tripled its revenue over the past five years, reaching €2.4 billion in 2025. The Group’s ambition and its trajectory of hyper-growth are set to drive revenue beyond €4 billion by 2029. Description du poste As part of the VIE program, the position supports the ANZ Commercial Director'",
+     "pages lues : 2, fiches ouvertes : 2, avec entreprise : 0"
     ]
    }
   },
   "service_public": {
    "statut": "ok",
    "lues": 79,
-   "titres_retenus": 10
+   "titres_retenus": 8
   }
  }
 }
